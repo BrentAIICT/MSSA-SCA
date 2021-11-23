@@ -2,11 +2,11 @@
 
 ## Class Schedule
 
-[Your Class Schedule](https://github.com/BrentAIICT/GitWalkthrough/blob/main/ClassSchedule.md)
+[Your Class Schedule](https://github.com/BrentAIICT/MSSA-SCA/blob/main/ClassSchedule.md#mssa-sca-course-schdule)
 
 ## GitHub Lab
 
-[GitHub Lab instruction](https://github.com/BrentAIICT/GitWalkthrough/blob/main/GettingStartedGitHub.md)
+[GitHub Lab instruction](https://github.com/BrentAIICT/MSSA-SCA/blob/main/GettingStartedGitHub.md#setup-your-own-github-site)
 
 ## Skilpipe (Microsoft Course Manuals)
 
