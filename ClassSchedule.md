@@ -2,7 +2,7 @@
 
 Date|Day|Week|Course|Title|Modules|Labs|Instructor
 ---|---|---|---|---|---|---|---
-29Nov|Mon|1|Custom/Learn|Technical Foundations|1|[Labs](https://github.com/BrentAIICT/GitWalkthrough/blob/main/README.md)|Brent Denny
+29Nov|Mon|1|Custom/Learn|Technical Foundations|1|[Labs](https://github.com/BrentAIICT/MSSA-SCA/blob/main/README.md)|Brent Denny
 30Nov|Tue|1|Custom/Learn|Windows Server Administrator Fundamentals|1|Labs|Brent Denny
 1Dec|Wed|1|AZ-040|[Automating Administration with Windows PowerShell](https://skillpipe.com)|1, 3|[Labs](https://ddls.learnondemand.net/)|Brent Denny
 2Dec|Thu|1|AZ-040|[Automating Administration with Windows PowerShell](https://skillpipe.com)|3, 4|[Labs](https://ddls.learnondemand.net/)|Brent Denny
