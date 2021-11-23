@@ -123,7 +123,9 @@ https://www.github.com
 
 **Well done, your repository is created**
 ---
-
+---
+<br>
+<br>
 # Lets Explore the Repository
 
 ## Lets look around your new Repo (common name for repository)
