@@ -120,9 +120,9 @@ https://www.github.com
 - Click "Create Repository"
 
 ![GitHub Signup page](Pics/git19.jpg)
----
 
 **Well done, your repository is created**
+---
 
 # Lets Explore the Repository
 
