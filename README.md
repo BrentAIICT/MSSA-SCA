@@ -32,28 +32,29 @@ https://www.github.com
 ---
 
 
-### 4. Enter a Username
-- Type a username on this screen (Something no one else has chosen)
+### 5. Choose No 
+- Type n to the question about receiving promotional material
 
 ![GitHub Signup page](Pics/git06.jpg)
 ---
 
-### 3. Enter a password
-- Type a password on this screen
+### 6. Verify Account
+- Click "start puzzle" to verify you are not a robot
 
 ![GitHub Signup page](Pics/git07.jpg)
 ---
 
 
-### 4. Enter a Username
-- Type a username on this screen (Something no one else has chosen)
+### 7. Complete Puzzle
+- Choose the picture that satisfies the puzzle
+- You may need to do this several times
 
 ![GitHub Signup page](Pics/git08.jpg)
 ---
 
 
-### 4. Enter a Username
-- Type a username on this screen (Something no one else has chosen)
+### 4. Create Account
+- Click "Create Account" to finish the sign up process
 
 ![GitHub Signup page](Pics/git09.jpg)
 ---
