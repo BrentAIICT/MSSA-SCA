@@ -51,5 +51,5 @@
 ---
 ---
 
-[Next Lab - Install and configure Local Git Repo](InstallLocalGit.md)
+[Next Lab - Install and configure Local Git Repo](InstallLocalGit.md#installing-and-configuring-git-on-your-local-computer)
 
