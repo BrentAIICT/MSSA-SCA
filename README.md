@@ -93,7 +93,8 @@ https://www.github.com
 
 ### 14. Dashboard Appears
 - This is the inital dashboard
-- If you wish to, you can click "Read the guide"
+- "Read the guide" is the documentation for GitHub, so read this later if you wish
+- Do nothing on this screen yet
 
 ![GitHub Signup page](Pics/git16.jpg)
 ---
@@ -127,10 +128,45 @@ https://www.github.com
 
 ## Lets look around your new Repo (common name for repository)
 
-### 18. Lets look around
-- Type the name of your first repository (Make sure the name is available)
-- Make sure it is set to public
-- Click "Add a README file"
+### 1. Inspect the Branches
+- Click on "main"
+- ensure it shows only the main branch
 
 ![GitHub Signup page](Pics/git20.jpg)
+---
+
+### 2. Clone information under "Code"
+- Click on "Code"
+- Under the clone section you will see a URL "https://githuib.com/....."
+- This is the URL we will use later, for cloning the Repo to our local PC
+
+![GitHub Signup page](Pics/git21.jpg)
+
+### 2. 
+- Click on "Code"
+- Under the clone section you will see a URL "https://githuib.com/....."
+- This is the URL we will use later, for cloning the Repo to our local PC
+
+![GitHub Signup page](Pics/git22.jpg)
+
+### 2. 
+- Click on "Code"
+- Under the clone section you will see a URL "https://githuib.com/....."
+- This is the URL we will use later, for cloning the Repo to our local PC
+
+![GitHub Signup page](Pics/git23.jpg)
+
+### 2. 
+- Click on "Code"
+- Under the clone section you will see a URL "https://githuib.com/....."
+- This is the URL we will use later, for cloning the Repo to our local PC
+
+![GitHub Signup page](Pics/git24.jpg)
+
+### 2. 
+- Click on "Code"
+- Under the clone section you will see a URL "https://githuib.com/....."
+- This is the URL we will use later, for cloning the Repo to our local PC
+
+![GitHub Signup page](Pics/git25.jpg)
 ---
