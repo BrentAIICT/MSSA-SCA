@@ -8,7 +8,7 @@
 https://www.github.com
 ```
 - Click on the Sign Up link
-- 
+
 ![GitHub Signup page](Pics/git01.jpg)
 ---
 
