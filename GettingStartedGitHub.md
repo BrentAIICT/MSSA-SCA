@@ -105,7 +105,7 @@ https://www.github.com
 ![GitHub Signup page](Pics/git17.jpg)
 ---
 
-### 16. Configure the Repository
+### 16. Configure and Create the Repository
 - Type the name of your first repository (Make sure the name is available)
 - Make sure it is set to public
 - Click "Add a README file"
@@ -113,19 +113,11 @@ https://www.github.com
 
 ![GitHub Signup page](Pics/git18.jpg)
 ---
-
-### 17. Configure the Repository
-- Type the name of your first repository (Make sure the name is available)
-- Make sure it is set to public
-- Click "Add a README file"
-- Click "Create Repository"
-
-![GitHub Signup page](Pics/git19.jpg)
-
+<br>
+<br>
 **Well done, your repository is created**
 ---
 ---
-<br>
-<br>
+
 
 [Next Lab - Exlore Repo](ExploreRepo.md)
