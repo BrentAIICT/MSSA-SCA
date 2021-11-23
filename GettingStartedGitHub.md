@@ -109,6 +109,7 @@ https://www.github.com
 - Type the name of your first repository (Make sure the name is available)
 - Make sure it is set to public
 - Click "Add a README file"
+- Click "Create Repository"
 
 ![GitHub Signup page](Pics/git18.jpg)
 ---
