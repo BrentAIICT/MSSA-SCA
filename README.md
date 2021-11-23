@@ -53,7 +53,7 @@ https://www.github.com
 ---
 
 
-### 4. Create Account
+### 8. Create Account
 - Click "Create Account" to finish the sign up process
 
 ![GitHub Signup page](Pics/git09.jpg)
