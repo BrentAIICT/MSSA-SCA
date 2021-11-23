@@ -12,21 +12,48 @@ https://www.github.com
 ![GitHub Signup page](Pics/git01.jpg)
 ---
 
-### 2. Enter email address
+### 2. Enter your email address
 - Type your email address on this screen
 
 ![GitHub Signup page](Pics/git03.jpg)
 ---
 
-### 3. Enter password
+### 3. Enter a password
 - Type a password on this screen
 
 ![GitHub Signup page](Pics/git04.jpg)
 ---
 
 
-### 4. Enter UserID
-- Type a userID on this screen
+### 4. Enter a Username
+- Type a username on this screen (Something no one else has chosen)
 
 ![GitHub Signup page](Pics/git05.jpg)
+---
+
+
+### 4. Enter a Username
+- Type a username on this screen (Something no one else has chosen)
+
+![GitHub Signup page](Pics/git06.jpg)
+---
+
+### 3. Enter a password
+- Type a password on this screen
+
+![GitHub Signup page](Pics/git07.jpg)
+---
+
+
+### 4. Enter a Username
+- Type a username on this screen (Something no one else has chosen)
+
+![GitHub Signup page](Pics/git08.jpg)
+---
+
+
+### 4. Enter a Username
+- Type a username on this screen (Something no one else has chosen)
+
+![GitHub Signup page](Pics/git09.jpg)
 ---
