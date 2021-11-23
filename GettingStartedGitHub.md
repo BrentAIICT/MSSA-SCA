@@ -113,9 +113,12 @@ https://www.github.com
 
 ![GitHub Signup page](Pics/git18.jpg)
 ---
+
 <br>
 <br>
+
 **Well done, your repository is created**
+
 ---
 ---
 
