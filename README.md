@@ -91,8 +91,46 @@ https://www.github.com
 
 ![GitHub Signup page](Pics/git15.jpg)
 
-### 13. Dashboard Appears
+### 14. Dashboard Appears
 - This is the inital dashboard
+- If you wish to, you can click "Read the guide"
 
 ![GitHub Signup page](Pics/git16.jpg)
+---
+
+### 15. Create Your First Repository
+- Click "Create repository"
+
+![GitHub Signup page](Pics/git17.jpg)
+---
+
+### 16. Configure the Repository
+- Type the name of your first repository (Make sure the name is available)
+- Make sure it is set to public
+- Click "Add a README file"
+
+![GitHub Signup page](Pics/git18.jpg)
+---
+
+### 17. Configure the Repository
+- Type the name of your first repository (Make sure the name is available)
+- Make sure it is set to public
+- Click "Add a README file"
+- Click "Create Repository"
+
+![GitHub Signup page](Pics/git19.jpg)
+---
+
+**Well done, your repository is created**
+
+# Lets Explore the Repository
+
+## Lets look around your new Repo (common name for repository)
+
+### 18. Lets look around
+- Type the name of your first repository (Make sure the name is available)
+- Make sure it is set to public
+- Click "Add a README file"
+
+![GitHub Signup page](Pics/git20.jpg)
 ---
