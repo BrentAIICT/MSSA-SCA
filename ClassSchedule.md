@@ -22,7 +22,7 @@ Date|Day|Week|Course|Title|Modules|Instructor
 24-Dec|Fri|4||Holidays: Dec 24 2021 to Jan 9, 2022||
 10-Jan|Mon|5|20-741|[Networking with Windows Server 2016](https://skillpipe.com)|1|Brent Denny
 11-Jan|Tue|5|20-741|[Networking with Windows Server 2016](https://skillpipe.com)|2,3|Brent Denny
-12-Jan|Wed|5|20-741|[Networking with Windows Server 2016](https://skillpipe.com)3,4|Brent Denny
+12-Jan|Wed|5|20-741|[Networking with Windows Server 2016](https://skillpipe.com)|3,4|Brent Denny
 13-Jan|Thu|5|20-741|[Networking with Windows Server 2016](https://skillpipe.com)|4|Brent Denny
 14-Jan|Fri|5|MSSA ProDev|MSSA Professional Development||MS Career Development Mngr.
 17-Jan|Mon|6|20-741|[Networking with Windows Server 2016](https://skillpipe.com)|5,6|Brent Denny
