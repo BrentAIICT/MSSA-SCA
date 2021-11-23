@@ -19,7 +19,7 @@ Date|Day|Week|Course|Title|Modules|Instructor
 21-Dec|Tue|4|20-740|Installation, Storage and Compute with Windows Server 2016|12|Brent Denny
 22-Dec|Wed|4|AZ-040|Automating Administration with Windows PowerShell|5|Brent Denny
 23-Dec|Thu|4|AZ-040|Automating Administration with Windows PowerShell|6|Brent Denny
-24-Dec|Fri|4|Holidays: Dec 24 2021 to Jan 9, 2022|||
+24-Dec|Fri|4||Holidays: Dec 24 2021 to Jan 9, 2022||
 10-Jan|Mon|5|20-741|Networking with Windows Server 2016|1|Brent Denny
 11-Jan|Tue|5|20-741|Networking with Windows Server 2016|2,3|Brent Denny
 12-Jan|Wed|5|20-741|Networking with Windows Server 2016|3,4|Brent Denny
@@ -32,7 +32,7 @@ Date|Day|Week|Course|Title|Modules|Instructor
 21-Jan|Fri|6|MSSA ProDev|MSSA Professional Development||MS Career Development Mngr.
 24-Jan|Mon|7|AZ-040|Automating Administration with Windows PowerShell|7|Brent Denny
 25-Jan|Tue|7|AZ-040|Automating Administration with Windows PowerShell|8|Brent Denny
-26-Jan|Wed|7|Holiday-Australia Day |||
+26-Jan|Wed|7||Holiday-Australia Day||
 27-Jan|Thu|7|20-742|Identity with Windows Server 2016|1|Brent Denny
 28-Jan|Fri|7|MSSA ProDev|MSSA Professional Development||MS Career Development Mngr.
 31-Jan|Mon|8|20-742|Identity with Windows Server 2016|2|Brent Denny
