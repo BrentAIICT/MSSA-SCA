@@ -52,9 +52,44 @@ https://www.github.com
 ![GitHub Signup page](Pics/git08.jpg)
 ---
 
-
 ### 8. Create Account
 - Click "Create Account" to finish the sign up process
 
 ![GitHub Signup page](Pics/git09.jpg)
+---
+
+### 9. Enter Code
+- Check your email
+- Find the email from Github and make note of the code that they sent you
+- Enter the code in this screen
+
+![GitHub Signup page](Pics/git10.jpg)
+---
+
+### 10. Choose how you will use GitHub
+- Choose "Just Me" from the top section 
+- Choose "Student" from the bottom section
+
+![GitHub Signup page](Pics/git12.jpg)
+---
+
+### 11. Select None of the Features 
+- Just click Continue without selecting any features
+
+![GitHub Signup page](Pics/git13.jpg)
+---
+
+### 12. Choose the Free option
+- Click "Continue for free" option
+
+![GitHub Signup page](Pics/git14.jpg)
+---
+
+### 13. Wait for the Dashboard
+- A message will display Initializing your dashboard...
+- Wait a few seconds and it the show the dashboard
+
+![GitHub Signup page](Pics/git15.jpg)
+
+![GitHub Signup page](Pics/git16.jpg)
 ---
