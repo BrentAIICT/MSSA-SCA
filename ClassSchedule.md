@@ -2,7 +2,7 @@ Date|Day|Week|Course|Title|Modules|Instructor
 ---|---|---|---|---|---|---
 29-Nov|Mon|1|Custom/Learn|Technical Foundations|1|Brent Denny
 30-Nov|Tue|1|Custom/Learn|Windows Server Administrator Fundamentals|1|Brent Denny
-1-Dec|Wed|1|AZ-040|Automating Administration with Windows PowerShell|1, 3|Brent Denny
+1-Dec|Wed|1|AZ-040|[Automating Administration with Windows PowerShell](https://skillpipe.com)|1, 3|Brent Denny
 2-Dec|Thu|1|AZ-040|Automating Administration with Windows PowerShell|3, 4|Brent Denny
 3-Dec|Fri|1|MSSA ProDev|MSSA Professional Development||MS Career Development Mngr.
 6-Dec|Mon|2|20-740|Installation, Storage and Compute with Windows Server 2016|1|Brent Denny
