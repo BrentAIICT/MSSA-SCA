@@ -123,4 +123,4 @@ https://www.github.com
 ---
 
 
-[Next Lab - Explore your Repo](ExploreRepo.md)
+[Next Lab - Explore your Repo](ExploreRepo.md#lets-explore-the-repository)
