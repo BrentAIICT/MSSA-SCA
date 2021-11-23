@@ -33,7 +33,7 @@ https://www.github.com
 
 
 ### 5. Choose No 
-- Type n to the question about receiving promotional material
+- Type n to the question about receiving product updates
 
 ![GitHub Signup page](Pics/git06.jpg)
 ---
