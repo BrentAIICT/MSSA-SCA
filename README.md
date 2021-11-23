@@ -91,5 +91,8 @@ https://www.github.com
 
 ![GitHub Signup page](Pics/git15.jpg)
 
+### 13. Dashboard Appears
+- This is the inital dashboard
+
 ![GitHub Signup page](Pics/git16.jpg)
 ---
