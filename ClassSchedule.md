@@ -1,3 +1,5 @@
+# MSSA SCA Course Schdule
+
 Date|Day|Week|Course|Title|Modules|Labs|Instructor
 ---|---|---|---|---|---|---|---
 29Nov|Mon|1|Custom/Learn|Technical Foundations|1|[Labs](https://github.com/BrentAIICT/GitWalkthrough/blob/main/README.md)|Brent Denny
