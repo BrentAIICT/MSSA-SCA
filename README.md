@@ -6,4 +6,4 @@
 ```
 https://www.github.com
 ```
-![GitHub Signup page](./pics/git01.jpg)
+![GitHub Signup page](Pics/git01.jpg)
