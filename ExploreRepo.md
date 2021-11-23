@@ -44,6 +44,11 @@
 - etc
 
 ![GitHub Signup page](Pics/git25.jpg)
+
+<br>
+<br>
 ---
 ---
-[](https://github.com/BrentAIICT/MSSA-SCA/blob/main/InstallLocalGit.md)
+
+[Next Lab - Install and configure Local Git Repo](InstallLocalGit.md)
+
