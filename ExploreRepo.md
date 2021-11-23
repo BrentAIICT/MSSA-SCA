@@ -46,4 +46,4 @@
 ![GitHub Signup page](Pics/git25.jpg)
 ---
 ---
-
+[](https://github.com/BrentAIICT/MSSA-SCA/blob/main/InstallLocalGit.md)
