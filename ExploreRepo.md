@@ -1,6 +1,8 @@
 # Lets Explore the Repository
 
-## Lets look around your new Repo (common name for repository)
+## Lets look around your new "Repo" (this is a common name for repository)
+
+***We are not making changes to the Repo in this section***
 
 ### 1. Inspect the Branches
 - Click on "main"
