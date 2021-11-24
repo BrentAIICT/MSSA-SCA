@@ -4,6 +4,13 @@
 
 ***We are not making changes to the Repo in this section***
 
+### Before we start
+- Take note of the GitHub URL in the top of the web browser
+- Make sure you record this for later use
+- Example: My GitHub site is https://github.com/BrentAIICT
+
+![GitHub Signup page](Pics/git19b.jpg)
+
 ### 1. Inspect the Branches
 - Click on "main"
 - ensure it shows only the main branch
