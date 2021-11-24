@@ -93,6 +93,7 @@
 - Wait a few seconds and it the show the dashboard
 
 ![GitHub Signup page](Pics/git15.jpg)
+---
 
 ### 14. Dashboard Appears
 - This is the inital dashboard
