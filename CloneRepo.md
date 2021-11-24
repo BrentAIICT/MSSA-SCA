@@ -63,5 +63,6 @@
 
 ### 10. Make sure the Repo was cloned successfully
 - From the PowerShell window type: dir
+- If you see a README.md file you have been successful
 
 ![GitHub Signup page](Pics/clone10.jpg)
