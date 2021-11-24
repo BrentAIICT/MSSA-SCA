@@ -10,11 +10,11 @@
 
 ## GitHub Lab
 
-[GitHub Lab - Getting Started with GitHub](GettingStartedGitHub.md#setup-your-own-github-site)<br>
-[GitHub Lab - Exploring the Repository](ExploreRepo.md#lets-explore-the-repository)<br>
-[GitHub Lab - Installing Git](InstallLocalGit.md#installing-and-configuring-git-on-your-local-computer)<br>
-[GitHub Lab - Cloning a GitHub Repo](CloneRepo.md#clone-a-github-repo)<br>
-[GitHub Lab - Managing the Repositories](ManagingGitRepo.md#managing-a-local-git-repo)
+[GitHub Lab 1 - Getting Started with GitHub](GettingStartedGitHub.md#setup-your-own-github-site)<br>
+[GitHub Lab 2 - Exploring the Repository](ExploreRepo.md#lets-explore-the-repository)<br>
+[GitHub Lab 3 - Installing Git](InstallLocalGit.md#installing-and-configuring-git-on-your-local-computer)<br>
+[GitHub Lab 4 - Cloning a GitHub Repo](CloneRepo.md#clone-a-github-repo)<br>
+[GitHub Lab 5 - Managing the Repositories](ManagingGitRepo.md#managing-a-local-git-repo)
 
 ## Skilpipe (Microsoft Course Manuals)
 
