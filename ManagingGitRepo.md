@@ -84,7 +84,7 @@
 
 ### 11. Git Need Permission to push to GitHub
 - GitHub requires Git to show it has permission to push
-- This screen will appear asking to Sign in
+- This screen will appear asking Git to Sign in
 - Click on "Token" 
 - Leave this window open, you will need to enter a token here later
 
