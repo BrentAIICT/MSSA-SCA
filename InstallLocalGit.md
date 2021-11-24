@@ -87,6 +87,7 @@
 - Click **Next**
 
 ![GitHub Signup page](Pics/lgit12.jpg)
+---
 
 ### 13. Name of Initial Branch
 - Choose the **Override** option
@@ -129,6 +130,7 @@
 - Click **Next**
 
 ![GitHub Signup page](Pics/lgit18.jpg)
+---
 
 ### 19. Default Behaviour of git pull
 - Ensure your install looks like this
@@ -156,7 +158,7 @@
 - Click **Next**
 
 ![GitHub Signup page](Pics/lgit22.jpg)
-
+---
 
 ### 23. Installing
 - Wait for the Install to complete
@@ -169,7 +171,7 @@
 - Click **Finish**
 
 ![GitHub Signup page](Pics/lgit24.jpg)
-
+---
 
 ### 25. Locate the Git Repo
 - Right click **Start** menu and type **PowerShell**
@@ -177,19 +179,21 @@
 - In the PowerShell window type **cd ~\documents\githone\YourRepoName**
 
 ![GitHub Signup page](Pics/lgit25.jpg)
+---
 
 ### 26. User Configuration - Git
 - In the PowerShell window type **git config --global user.name "Your name"**
 - Hit the **ENTER** key
 
 ![GitHub Signup page](Pics/lgit26.jpg)
-
+---
 
 ### 27. Email configuration - Git
 - In the PowerShell window type **git config --global user.email "Your email address"**
 - Hit the **ENTER** key
 
 ![GitHub Signup page](Pics/lgit27.jpg)
+---
 
 ### 28. Check the Configuartion
 - In the PowerShell window type **git config --list**
@@ -197,7 +201,7 @@
 - Make sure your name and email are set correctly
 
 ![GitHub Signup page](Pics/lgit28.jpg)
-
+---
 
 
 <br>
