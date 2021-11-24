@@ -179,14 +179,14 @@
 ![GitHub Signup page](Pics/lgit25.jpg)
 
 ### 26. User Configuration - Git
-- In the PowerShell window type **git config --global user.name "Brent Denny"**
+- In the PowerShell window type **git config --global user.name "Your name"**
 - Hit the **ENTER** key
 
 ![GitHub Signup page](Pics/lgit26.jpg)
 
 
 ### 27. Email configuration - Git
-- In the PowerShell window type **git config --global user.email "brent.denny@aiict.edu.au"**
+- In the PowerShell window type **git config --global user.email "Your email address"**
 - Hit the **ENTER** key
 
 ![GitHub Signup page](Pics/lgit27.jpg)
