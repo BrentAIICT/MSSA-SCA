@@ -1,5 +1,9 @@
 # MSSA SCA Landing Page
 
+## AIICT Study Spot
+
+[Study Spot Portal](https://www.studyspot.com.au/my/)
+
 ## Class Schedule
 
 [Your Class Schedule](https://github.com/BrentAIICT/MSSA-SCA/blob/main/ClassSchedule.md#mssa-sca-course-schdule)
@@ -19,7 +23,3 @@
 ## LearnOnDemand (Microsoft Virtual Labs)
 
 [Microsoft Labs](https://ddls.learnondemand.net)
-
-## AIICT Study Spot
-
-[Study Spot Portal](https://www.studyspot.com.au/my/)
