@@ -191,7 +191,7 @@ git push --all
 ## What is the benefit of Git and GitHub
 - Git and GitHub 
   - Allows us to **reverse commits** and return to previous versions of the file
-  - Allows **multiple people to work on a project** at rhe same time
+  - Allows **multiple people to work on a project** at the same time
   - Allows us to **create branches** from the main branch
     - Changes to a branch do not affect the main branch
     - Once approved the alternate branch code can be merged back into the main branch
