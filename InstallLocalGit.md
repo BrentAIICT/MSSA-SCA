@@ -45,41 +45,112 @@ https://git-scm.com/downloads
 ### 6. 
 - 
 
-![GitHub Signup page](Pics/git07.jpg)
+![GitHub Signup page](Pics/lgit06.jpg)
 ---
 
 
 ### 7. 
 - 
 
-![GitHub Signup page](Pics/git08.jpg)
+![GitHub Signup page](Pics/lgit07.jpg)
 ---
 
 ### 8. 
 - 
 
-![GitHub Signup page](Pics/git09.jpg)
+![GitHub Signup page](Pics/lgit08.jpg)
 ---
 
 ### 9. 
 - 
 
-![GitHub Signup page](Pics/git10.jpg)
+![GitHub Signup page](Pics/lgit09.jpg)
 ---
 
 ### 10. 
 - 
 
-![GitHub Signup page](Pics/git12.jpg)
+![GitHub Signup page](Pics/lgit10.jpg)
 ---
 
 ### 11. 
 - 
 
-![GitHub Signup page](Pics/git13.jpg)
+![GitHub Signup page](Pics/lgit11.jpg)
 ---
 
 ### 12. 
 - 
 
-![GitHub Signup page](Pics/git14.jpg)
+![GitHub Signup page](Pics/lgit12.jpg)
+
+### 13. 
+- 
+
+![GitHub Signup page](Pics/lgit13.jpg)
+---
+
+### 14. 
+- 
+
+![GitHub Signup page](Pics/lgit14.jpg)
+---
+
+### 15. 
+- 
+
+![GitHub Signup page](Pics/lgit15.jpg)
+---
+
+### 16. 
+- 
+
+![GitHub Signup page](Pics/lgit16.jpg)
+---
+
+### 17. 
+- 
+
+![GitHub Signup page](Pics/lgit17.jpg)
+---
+
+### 18. 
+- 
+
+![GitHub Signup page](Pics/lgit18.jpg)
+
+### 19. 
+- 
+
+![GitHub Signup page](Pics/lgit19.jpg)
+---
+
+### 20. 
+- 
+
+![GitHub Signup page](Pics/lgit20.jpg)
+---
+
+### 21. 
+- 
+
+![GitHub Signup page](Pics/lgit21.jpg)
+---
+
+### 22. 
+- 
+
+![GitHub Signup page](Pics/lgit22.jpg)
+
+
+### 23. 
+- 
+
+![GitHub Signup page](Pics/lgit23.jpg)
+---
+
+### 24. 
+- 
+
+![GitHub Signup page](Pics/lgit24.jpg)
+
