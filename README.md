@@ -10,9 +10,9 @@
 
 ## GitHub Lab
 
-[GitHub Lab instruction - Lab 1](https://github.com/BrentAIICT/MSSA-SCA/blob/main/GettingStartedGitHub.md#setup-your-own-github-site)
-[GitHub Lab instruction - Lab 2](https://github.com/BrentAIICT/MSSA-SCA/blob/main/ExploreRepo.md#lets-explore-the-repository)
-[GitHub Lab instruction - Lab 3](https://github.com/BrentAIICT/MSSA-SCA/blob/main/InstallLocalGit.md#installing-and-configuring-git-on-your-local-computer)
+[GitHub Lab instruction - Lab 1](https://github.com/BrentAIICT/MSSA-SCA/blob/main/GettingStartedGitHub.md#setup-your-own-github-site)<br>
+[GitHub Lab instruction - Lab 2](https://github.com/BrentAIICT/MSSA-SCA/blob/main/ExploreRepo.md#lets-explore-the-repository)<br>
+[GitHub Lab instruction - Lab 3](https://github.com/BrentAIICT/MSSA-SCA/blob/main/InstallLocalGit.md#installing-and-configuring-git-on-your-local-computer)<br>
 
 ## Skilpipe (Microsoft Course Manuals)
 
