@@ -42,115 +42,134 @@ https://git-scm.com/downloads
 ![GitHub Signup page](Pics/lgit05.jpg)
 ---
 
-### 6. 
-- 
+### 6. License Agreement
+- You can read the agreement if you wish
+- Click "Next"
 
 ![GitHub Signup page](Pics/lgit06.jpg)
 ---
 
-
-### 7. 
-- 
+### 7. Destination Location
+- If you wish to change the install loication you can do so here
+- Click "Next"
 
 ![GitHub Signup page](Pics/lgit07.jpg)
 ---
 
-### 8. 
-- 
+### 8. Folder Exists (This may not show on your install)
+- If this shows up on your install
+- Click "Yes"
 
 ![GitHub Signup page](Pics/lgit08.jpg)
 ---
 
-### 9. 
-- 
+### 9. Component Selection
+- Make sure your window looks like this one
+- Click "Next"
 
 ![GitHub Signup page](Pics/lgit09.jpg)
 ---
 
-### 10. 
-- 
+### 10. Start Menu Folder
+- Do not change anything here
+- Click "Next"
 
 ![GitHub Signup page](Pics/lgit10.jpg)
 ---
 
-### 11. 
-- 
+### 11. Choose default editor
+- If you do not have VSCode installed Click "Next"
+- if you do have VSCode installed proceed to the next instruction
 
 ![GitHub Signup page](Pics/lgit11.jpg)
 ---
 
-### 12. 
-- 
+### 12. Optional (VSCode Editor)
+- If you did have VSCode installed
+- Change your install setup to look like this 
+- Click "Next"
 
 ![GitHub Signup page](Pics/lgit12.jpg)
 
-### 13. 
-- 
+### 13. Name of Initial Branch
+- Choose the Override option
+- Ensure the branch name is Main
+- Click "Next"  
 
 ![GitHub Signup page](Pics/lgit13.jpg)
 ---
 
-### 14. 
-- 
+### 14. Adjusting the PATH 
+- Ensure your install looks like this
+- Click "Next"
 
 ![GitHub Signup page](Pics/lgit14.jpg)
 ---
 
-### 15. 
-- 
+### 15. Choosing SSH
+- Ensure your install looks like this
+- Click "Next"
 
 ![GitHub Signup page](Pics/lgit15.jpg)
 ---
 
-### 16. 
-- 
+### 16. Choosing HTTPS
+- Change the settings to looks like this
+- Click "Next"
 
 ![GitHub Signup page](Pics/lgit16.jpg)
 ---
 
-### 17. 
-- 
+### 17. Congiuring Line Endings
+- Ensure your install looks like this
+- Click "Next"
 
 ![GitHub Signup page](Pics/lgit17.jpg)
 ---
 
-### 18. 
-- 
+### 18. Configuring the Terminal
+- Change the settings to looks like this
+- Click "Next"
 
 ![GitHub Signup page](Pics/lgit18.jpg)
 
-### 19. 
-- 
+### 19. Default Behaviour of git pull
+- Ensure your install looks like this
+- Click "Next"
 
 ![GitHub Signup page](Pics/lgit19.jpg)
 ---
 
-### 20. 
-- 
+### 20. Credential Manager
+- Ensure your install looks like this
+- Click "Next"
 
 ![GitHub Signup page](Pics/lgit20.jpg)
 ---
 
-### 21. 
-- 
+### 21. Extra options
+- Ensure your install looks like this
+- Click "Next"
 
 ![GitHub Signup page](Pics/lgit21.jpg)
 ---
 
-### 22. 
-- 
+### 22. Experimental options
+- Ensure your install looks like this
+- Click "Next"
 
 ![GitHub Signup page](Pics/lgit22.jpg)
 
 
-### 23. 
-- 
+### 23. Installing
+- Wait for the Install to complete
 
 ![GitHub Signup page](Pics/lgit23.jpg)
 ---
 
-### 24. 
-- 
+### 24. Finish the Install
+- Change the settings to looks like this
+- Click "Next"
 
 ![GitHub Signup page](Pics/lgit24.jpg)
 
