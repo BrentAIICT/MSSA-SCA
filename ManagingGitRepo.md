@@ -181,11 +181,11 @@ git add .
 git commit -m "A description of the change"
 git push --all
 ```
-- Firstly this pulls down any changes made to GitHub that you do not currently have
-- Then you make changes
-- The add command allows git to track the changes, it add the changes to a staging area
-- The commit command takes the changes in the staging area and make a permanent snapshot of the repo
-- These committed changes are then be pushed up to GitHub with the push command
+- Firstly this pulls down any changes made to GitHub that you do not currently have in your local Git Repo
+- Then you make changes to the files in the repo directory
+- The git add command allows git to track the changes, it add the changes to a staging area
+- The git commit command takes the changes in the staging area and make a permanent snapshot of the repo
+- These committed changes are then be pushed up to GitHub with the git push command
 --- 
 
 ## What is the benefit of Git and GitHub
