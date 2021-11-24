@@ -193,7 +193,7 @@ git push --all
   - Allows us to **reverse commits** and return to previous versions of the file
   - Allows **multiple people to work on a project** at the same time
   - Allows us to **create branches** from the main branch
-    - Changes to a branch do not affect the main branch
+    - Changes to an alternative branch do not affect the main branch
     - Once approved the alternate branch code can be merged back into the main branch
     - This is an advanced topic, Your trainer can show you more about this if you wish
   - Allows us to write code and keep it in an **online repo**
