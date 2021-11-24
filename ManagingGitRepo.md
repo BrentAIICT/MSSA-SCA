@@ -74,79 +74,93 @@
 ---
 
 
-### 10. Tell Git to commit any new file changes
+### 10. Tell Git to Push all the changes up to GitHub
 - From the PowerShell windows type: git push --all
 - Hit the ENTER key
 
 ![GitHub Signup page](Pics/mng10.jpg)
 ---
 
-### 11. Check the Status of Git again
-- From the PowerShell windows type: git status
-- Hit the ENTER key
-- This report tells us two things
-  - Our local Git repo is up to date with the changes
-  - The GitHub copy of our repo is now out of date, meaning we need to push the changes back to GitHub
+### 11. Git Need Permission to push to GitHub
+- GitHub requires Git to show it has permission to push
+- This screen will appear asking to Sign in
+- Click on "Token" 
+- Leave this window open, you will need to enter a token here later
 
 ![GitHub Signup page](Pics/mng11.jpg)
 ---
 
-### 12. 
-- 
+### 12. Open Settings in GitHub
+- Go to your GitHub site
+- Click on the icon in the top right that links to your account
+- Click on "Settings"
 
 ![GitHub Signup page](Pics/mng12.jpg)
 ---
 
 ### 13. 
-- 
+- Once the settings window appears
+- click "Developer Settings"
 
 ![GitHub Signup page](Pics/mng13.jpg)
 ---
 
-### 14. 
-- 
+### 14. Personal Token
+- Click on "Personal access token"
+- Click on "Generate new token"
 
 ![GitHub Signup page](Pics/mng14.jpg)
 ---
 
-### 15. 
-- 
+### 15. Token Details
+- Give you token a name
+- You can change the Expiration if you wish
+- Tick all of the scopes to give you full access
 
 ![GitHub Signup page](Pics/mng15.jpg)
 ---
 
-### 16. 
-- 
+### 16. Generate Token
+- Scroll to the bottom of the scopes
+- Click "Generate Token" button
 
 ![GitHub Signup page](Pics/mng16.jpg)
 ---
 
-### 17. 
-- 
+### 17. Copy The Token
+- Use the two boxes icon to copy the token
 
 ![GitHub Signup page](Pics/mng17.jpg)
 ---
 
-### 18. 
-- 
+### 18. Complete Sign in
+- Got back to the Sign in window *from step 11*
+- Paste in the token 
+- Click "Sign In" button
 
 ![GitHub Signup page](Pics/mng18.jpg)
 ---
 
-### 19. 
-- 
+### 19. Push Process Completes
+- Go bask to the PowerShell window
+- Wait until the push process completes
 
 ![GitHub Signup page](Pics/mng19.jpg)
 ---
 
-### 20. 
-- 
+### 20. Check the status again
+- In the PowerShell window type: git status
+- This now shows that the local repo is now in sync with the GitHub Repo
 
 ![GitHub Signup page](Pics/mng20.jpg)
 ---
 
-### 21. 
-- 
+### 21. Check GitHub
+- Go to the GitHub web site 
+- You may have to refresh the web browser
+- If the push was successful you will now see two files
+  - README.md 
+  - FirstFile.txt
 
 ![GitHub Signup page](Pics/mng21.jpg)
 ---
