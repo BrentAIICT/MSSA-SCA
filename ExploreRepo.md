@@ -24,7 +24,7 @@
 
 ![GitHub Signup page](Pics/git22.jpg)
 
-### 4. Issues That Others hHave Raised
+### 4. Issues That Others Have Raised
 - Click on "Issues" Menu Item
 - This section is where we can record problems or suggestions for feature improvements
 - You could add an issue by clicking the green button "New Issue" 
