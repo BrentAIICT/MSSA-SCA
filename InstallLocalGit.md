@@ -173,4 +173,13 @@ https://git-scm.com/downloads
 
 ![GitHub Signup page](Pics/lgit24.jpg)
 
-https://github.com/BrentAIICT/MSSA-SCA/blob/main/CloneRepo.md#clone-a-github-repo
+<br>
+<br>
+
+**Well done, Git is installed**
+
+---
+---
+
+
+[Next Lab - Clone your Repo](https://github.com/BrentAIICT/MSSA-SCA/blob/main/CloneRepo.md#clone-a-github-repo)
