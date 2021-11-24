@@ -165,3 +165,15 @@
 
 ![GitHub Signup page](Pics/mng21.jpg)
 ---
+
+### From Here On
+- Because all of the setup and permissions are now in place
+- Whenever you make chnages to the Repo
+- You ONLY need to do the following
+
+``` 
+git add .
+git commit -m "A description of the change"
+git push --all
+```
+
