@@ -67,3 +67,4 @@
 
 ![GitHub Signup page](Pics/clone10.jpg)
 
+https://github.com/BrentAIICT/MSSA-SCA/blob/main/ManagingGitRepo.md#managing-a-local-git-repo
