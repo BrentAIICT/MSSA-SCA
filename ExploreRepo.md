@@ -13,6 +13,7 @@
 - Make sure you record your GitHub site and Repository names for later
 
 ![GitHub Signup page](Pics/git19b.jpg)
+---
 
 ### 1. Inspect the Branches
 - Click on **main**
@@ -27,12 +28,14 @@
 - This is the URL we will use later, for cloning the Repo to our local PC
 
 ![GitHub Signup page](Pics/git21.jpg)
+---
 
 ### 3. Find the Files in the Repo
 - Click on **<>Code** Menu Item (Top Left)
 - This shows you the files that are stored in this repo
 
 ![GitHub Signup page](Pics/git22.jpg)
+---
 
 ### 4. Issues That Others Have Raised
 - Click on **Issues** Menu Item
@@ -40,6 +43,7 @@
 - You could add an issue by clicking the green button **New Issue** 
 
 ![GitHub Signup page](Pics/git23.jpg)
+---
 
 ### 5. Check for Pull Requests
 - Click on **Pull Requests** Menu Item
@@ -47,6 +51,7 @@
 - This allows the changes made in this repository to be checked and merged into the main branch
 
 ![GitHub Signup page](Pics/git24.jpg)
+---
 
 ### 6. Reports on How the Repo is Used
 - Click on **Insights** Menu Item
@@ -56,6 +61,7 @@
 - And many other aspects
 
 ![GitHub Signup page](Pics/git25.jpg)
+---
 
 <br>
 <br>
