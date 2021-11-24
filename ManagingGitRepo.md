@@ -43,7 +43,7 @@
 ---
 
 ### 6. Tell Git to track any new file changes
-- From the PowerShell window type: **git add . **
+- From the PowerShell window type: **git add \.**
 - Hit the **ENTER** key
 
 ![GitHub Signup page](Pics/mng06.jpg)
