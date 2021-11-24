@@ -7,7 +7,9 @@
 ### Before we start
 - Take note of the GitHub URL in the top of the web browser
 - Make sure you record this for later use
-- Example: My GitHub site is https://github.com/BrentAIICT
+- Example: 
+  - My GitHub site is https://github.com/BrentAIICT
+  - My Repo name is FirstRepo
 
 ![GitHub Signup page](Pics/git19b.jpg)
 
