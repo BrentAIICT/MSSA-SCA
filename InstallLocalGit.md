@@ -173,6 +173,7 @@
 
 ### 25. Locate the Git Repo
 - Right click **Start** menu and type **PowerShell**
+- Click **Windows PowerShell**
 - In the PowerShell window type **cd ~\documents\githone\YourRepoName
 
 ![GitHub Signup page](Pics/lgit25.jpg)
