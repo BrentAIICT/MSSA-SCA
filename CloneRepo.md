@@ -52,3 +52,16 @@
 - In the PowerShell window type: git clone "URL *copied from step 7*" 
 
 ![GitHub Signup page](Pics/clone08.jpg)
+
+### 9. Clone your GitHub Repo on your own PC
+- In the PowerShell window type: cd *YourRepoName*
+- Example: 
+  - My Repo is called FirstRepo
+  - So I would type cd FirstRepo 
+
+![GitHub Signup page](Pics/clone09.jpg)
+
+### 10. Make sure the Repo was cloned successfully
+- From the PowerShell window type: dir
+
+![GitHub Signup page](Pics/clone10.jpg)
