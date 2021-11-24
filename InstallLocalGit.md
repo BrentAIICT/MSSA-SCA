@@ -194,6 +194,7 @@
 ### 28. Check the Configuartion
 - In the PowerShell window type **git config --list**
 - Hit the **ENTER** key
+- Make sure your name and email are set correctly
 
 ![GitHub Signup page](Pics/lgit28.jpg)
 
