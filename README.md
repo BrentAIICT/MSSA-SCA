@@ -19,3 +19,7 @@
 ## LearnOnDemand (Microsoft Virtual Labs)
 
 [Microsoft Labs](https://ddls.learnondemand.net)
+
+## AIICT Study Spot
+
+[Study Spot Portal](https://www.studyspot.com.au/my/)
