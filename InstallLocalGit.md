@@ -36,10 +36,10 @@ https://git-scm.com/downloads
 ---
 
 
-### 5. 
-- 
+### 5. If needed, answer yes to the User Account Control
+- Click on "Yes" if the User Account Control window appears
 
-![GitHub Signup page](Pics/git06.jpg)
+![GitHub Signup page](Pics/lgit05.jpg)
 ---
 
 ### 6. 
