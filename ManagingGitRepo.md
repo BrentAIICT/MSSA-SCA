@@ -85,7 +85,7 @@
 ### 11. Git Need Permission to push to GitHub
 - GitHub requires Git to show it has permission to push
 - This screen will appear asking Git to Sign in
-- Click on **Token**
+- Click **Token**
 - Leave this window open, you will need to enter a token here later
 
 ![GitHub Signup page](Pics/mng11.jpg)
@@ -93,7 +93,7 @@
 
 ### 12. Open Settings in GitHub
 - Go to your GitHub site
-- Click on the **icon** in the top right that links to your account
+- Click the **icon** in the top right that links to your account
 - Click **Settings**
 
 ![GitHub Signup page](Pics/mng12.jpg)
@@ -107,8 +107,8 @@
 ---
 
 ### 14. Personal Token
-- Click on **Personal access token**
-- Click on **Generate new token**
+- Click **Personal access token**
+- Click **Generate new token**
 
 ![GitHub Signup page](Pics/mng14.jpg)
 ---
