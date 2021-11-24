@@ -57,7 +57,7 @@
 - In the PowerShell window type: cd *YourRepoName*
 - Example: 
   - My Repo is called FirstRepo
-  - So I would type cd FirstRepo 
+  - So I would type: **cd FirstRepo** 
 
 ![GitHub Signup page](Pics/clone09.jpg)
 
