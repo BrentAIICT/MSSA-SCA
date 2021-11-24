@@ -47,19 +47,8 @@
 
 ![GitHub Signup page](Pics/clone07.jpg)
 
+### 8. Clone your GitHub Repo on your own PC
+- Go back to the PowerShell window you left open *from step 3*
+- In the PowerShell window type: git clone "URL *copied from step 7*" 
 
-- Click on "Code" (The Green Button)
-- Under the clone section you will see a URL "https://githuib.com/....."
-- This is the URL we will use later, for cloning the Repo to our local PC
-
-![GitHub Signup page](Pics/git21.jpg)
-
-
-
-
-### 4. Go to your githome folder
-- From the PowerShell windows type: 
-- Hit the ENTER key
-
-![GitHub Signup page](Pics/git03.jpg)
----
+![GitHub Signup page](Pics/clone08.jpg)
