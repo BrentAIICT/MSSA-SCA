@@ -43,7 +43,7 @@
 - Under this section you will see inforamtion regarding what is happening to the repo 
 - Here we can track pull requests and issues under Pulse
 - We can see the merged branches under Network
-- etc
+- And many other aspects
 
 ![GitHub Signup page](Pics/git25.jpg)
 
