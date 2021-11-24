@@ -94,7 +94,7 @@
 ### 12. Open Settings in GitHub
 - Go to your GitHub site
 - Click on the icon in the top right that links to your account
-- Click on "Settings"
+- Click "Settings"
 
 ![GitHub Signup page](Pics/mng12.jpg)
 ---
