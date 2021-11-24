@@ -181,4 +181,21 @@ git add .
 git commit -m "A description of the change"
 git push --all
 ```
+- Firstly this pulls down any changes made to GitHub that you do not currently have
+- Then you make changes
+- The add command allows git to track the changes, it add the changes to a staging area
+- The commit command takes the changes in the staging area and make a permanent snapshot of the repo
+- This commit can then be pushed up to GitHub
 
+## What is the benefit of Git and GitHub
+- Git and GitHub 
+  - Allows us to reverse commits and return to previous versions of the file
+  - Allows multiple people to work on a project at rhe same time
+  - Allows us to create branches from the main branch
+    - Changes to a branch do not affect the main branch
+    - Once approved the alternate branch code can be merged back into the main branch
+    - This is an advanced topic, Your trainer can show you more about this if you wish
+  - Allows us to write code and keep it in an online repo
+    - This can be useful 
+      - When you are heading for job interviews
+      - Collaborating with others on GitHub       
