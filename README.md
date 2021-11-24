@@ -6,14 +6,15 @@
 
 ## Class Schedule
 
-[Your Class Schedule](https://github.com/BrentAIICT/MSSA-SCA/blob/main/ClassSchedule.md#mssa-sca-course-schdule)
+[Your Class Schedule](ClassSchedule.md#mssa-sca-course-schdule)
 
 ## GitHub Lab
 
-[GitHub Lab - Getting Started with GitHub](https://github.com/BrentAIICT/MSSA-SCA/blob/main/GettingStartedGitHub.md#setup-your-own-github-site)<br>
-[GitHub Lab - Exploring the Repository](https://github.com/BrentAIICT/MSSA-SCA/blob/main/ExploreRepo.md#lets-explore-the-repository)<br>
-[GitHub Lab - Installing Git](https://github.com/BrentAIICT/MSSA-SCA/blob/main/InstallLocalGit.md#installing-and-configuring-git-on-your-local-computer)<br>
-[GitHub Lab - Cloning a GitHub Repo](https://github.com/BrentAIICT/MSSA-SCA/blob/main/CloneRepo.md#clone-a-github-repo)<br>
+[GitHub Lab - Getting Started with GitHub](GettingStartedGitHub.md#setup-your-own-github-site)<br>
+[GitHub Lab - Exploring the Repository](ExploreRepo.md#lets-explore-the-repository)<br>
+[GitHub Lab - Installing Git](InstallLocalGit.md#installing-and-configuring-git-on-your-local-computer)<br>
+[GitHub Lab - Cloning a GitHub Repo](CloneRepo.md#clone-a-github-repo)<br>
+[GitHub Lab - Cloning a GitHub Repo](ManagingGitRepo.md#managing-a-local-git-repo)
 
 ## Skilpipe (Microsoft Course Manuals)
 
