@@ -14,7 +14,7 @@
 [GitHub Lab - Exploring the Repository](ExploreRepo.md#lets-explore-the-repository)<br>
 [GitHub Lab - Installing Git](InstallLocalGit.md#installing-and-configuring-git-on-your-local-computer)<br>
 [GitHub Lab - Cloning a GitHub Repo](CloneRepo.md#clone-a-github-repo)<br>
-[GitHub Lab - Cloning a GitHub Repo](ManagingGitRepo.md#managing-a-local-git-repo)
+[GitHub Lab - Managing the Repositories](ManagingGitRepo.md#managing-a-local-git-repo)
 
 ## Skilpipe (Microsoft Course Manuals)
 
