@@ -14,12 +14,14 @@ https://www.github.com
 
 ### 2. Enter your email address
 - Type your email address on this screen
+- Click "Continue"
 
 ![GitHub Signup page](Pics/git03.jpg)
 ---
 
 ### 3. Enter a password
 - Type a password on this screen
+- Click "Continue"
 
 ![GitHub Signup page](Pics/git04.jpg)
 ---
@@ -27,6 +29,7 @@ https://www.github.com
 
 ### 4. Enter a Username
 - Type a username on this screen (Something no one else has chosen)
+- Click "Continue"
 
 ![GitHub Signup page](Pics/git05.jpg)
 ---
@@ -34,6 +37,7 @@ https://www.github.com
 
 ### 5. Choose No 
 - Type n to the question about receiving product updates
+- Click "Continue"
 
 ![GitHub Signup page](Pics/git06.jpg)
 ---
@@ -59,9 +63,9 @@ https://www.github.com
 ---
 
 ### 9. Enter Code
-- Check your email
-- Find the email from Github and make note of the code that they sent you
-- Enter the code in this screen
+- Check your email inbox (This is the email that you used to sign up for GitHub)
+- Find the email that was sent from Github and make note of the code that they sent you
+- Back in the GitHub web site, enter the code in the following screen
 
 ![GitHub Signup page](Pics/git10.jpg)
 ---
