@@ -7,6 +7,7 @@
 - Click **Windows Powershell**
 
 ![GitHub Signup page](Pics/clone01.jpg)
+---
 
 ### 2. Go to your Git Home folder in your Documents folder
 - From the PowerShell window type: **cd ~\Documents**
@@ -73,7 +74,6 @@
 
 ![GitHub Signup page](Pics/mng09.jpg)
 ---
-
 
 ### 10. Tell Git to Push all the changes up to GitHub
 - From the PowerShell window type: **git push --all**
@@ -185,7 +185,8 @@ git push --all
 - Then you make changes
 - The add command allows git to track the changes, it add the changes to a staging area
 - The commit command takes the changes in the staging area and make a permanent snapshot of the repo
-- This commit can then be pushed up to GitHub
+- These committed changes are then be pushed up to GitHub with the push command
+--- 
 
 ## What is the benefit of Git and GitHub
 - Git and GitHub 
