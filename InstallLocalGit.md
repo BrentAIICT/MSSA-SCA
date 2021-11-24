@@ -169,7 +169,7 @@ https://git-scm.com/downloads
 
 ### 24. Finish the Install
 - Change the settings to looks like this
-- Click "Next"
+- Click "Finish"
 
 ![GitHub Signup page](Pics/lgit24.jpg)
 
