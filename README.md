@@ -22,4 +22,4 @@
 
 ## LearnOnDemand (Microsoft Virtual Labs)
 
-[Microsoft Labs](https://ddls.learnondemand.net)
+[Microsoft Labs](https://ddls.learnondemand.net target="_blank") 
