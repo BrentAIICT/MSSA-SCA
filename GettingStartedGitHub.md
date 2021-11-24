@@ -3,10 +3,7 @@
 ## Create Github Site 
 
 ### 1. Sign up
-- Open a web browser and enter the following (do not use Internet Explorer) 
-```
-https://www.github.com
-```
+- Open a web browser (Chrome preferred) and go to  [https://www.github.com](https://www.github.com) *(do not use Internet Explorer)* 
 - Click on the Sign Up link
 
 ![GitHub Signup page](Pics/git01.jpg)
