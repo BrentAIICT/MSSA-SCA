@@ -21,6 +21,7 @@ https://www.github.com
 
 ### 3. Enter a password
 - Type a password on this screen
+- IMPORTANT! Please remember the Email Address and Password as you will use them throughout the course
 - Click "Continue"
 
 ![GitHub Signup page](Pics/git04.jpg)
