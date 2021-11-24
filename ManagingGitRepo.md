@@ -37,6 +37,7 @@
 - From the PowerShell windows type: git status
 - Hit the ENTER key
 - This report tells us that the Git repo has an untracked file
+- *The name of the file is in red and difficult to read here*
 
 ![GitHub Signup page](Pics/mng05.jpg)
 ---
