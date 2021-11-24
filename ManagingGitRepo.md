@@ -65,7 +65,7 @@
 ---
 
 ### 9. Check the Status of Git again
-- From the PowerShell windows type: git status
+- From the PowerShell window type: git status
 - Hit the ENTER key
 - This report tells us two things
   - Our local Git repo is up to date with the changes
