@@ -76,7 +76,7 @@
 
 
 ### 10. Tell Git to Push all the changes up to GitHub
-- From the PowerShell windows type: git push --all
+- From the PowerShell window type: git push --all
 - Hit the ENTER key
 
 ![GitHub Signup page](Pics/mng10.jpg)
