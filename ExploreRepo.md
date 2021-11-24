@@ -6,10 +6,11 @@
 
 ### Before we start
 - Take note of the GitHub URL in the top of the web browser
-- Make sure you record this for later use
+  - This consists of the GitHub Site name and the Repository name 
 - Example: 
-  - My GitHub site is https://github.com/BrentAIICT
-  - My Repo name is FirstRepo
+  - My GitHub site is **https://github.com/BrentAIICT**
+  - My Repo name is **FirstRepo**
+- Make sure you record your GitHub site name for later
 
 ![GitHub Signup page](Pics/git19b.jpg)
 
