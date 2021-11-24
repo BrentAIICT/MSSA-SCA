@@ -11,7 +11,7 @@
 ### 2. Go to your Git Home folder in your Documents folder
 - From the PowerShell windows type: cd ~\Documents
 - Hit the ENTER key
-- Now type: cd .\githome\*NameOfYourRepo*
+- Now type: cd .\githome\\*NameOfYourRepo*
 - Hit the ENTER key
 
 ![GitHub Signup page](Pics/mng02.jpg)
