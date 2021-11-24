@@ -13,25 +13,26 @@ https://git-scm.com/downloads
 ![GitHub Signup page](Pics/lgit01.jpg)
 ---
 
-### 2. Run the Downloaded Git File
-- Open File Explorer and locate your download directory
-- Run the downloaded Git installer file
+### 2. Wait for the installer file to download
+- On the bottom left of the chrome browser you will see the stratus of the download
 
-
-![GitHub Signup page](Pics/git03.jpg)
+![GitHub Signup page](Pics/lgit02.jpg)
 ---
 
-### 3. 
-- 
+### 3. Start File Explorer
+- right click the start menu 
+- click "File Explorer"
 
-![GitHub Signup page](Pics/git04.jpg)
+![GitHub Signup page](Pics/lgit03.jpg)
 ---
 
 
-### 4. 
-- 
+### 4. Run the Git installer file
+- Within the File Explorer program go to the Downloads folder
+- locate the Git-#.##.#-64bit.exe file (# represents a number)
+- Right click on this file and choose "Open"
 
-![GitHub Signup page](Pics/git05.jpg)
+![GitHub Signup page](Pics/lgit04.jpg)
 ---
 
 
