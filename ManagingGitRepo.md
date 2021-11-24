@@ -90,3 +90,63 @@
 
 ![GitHub Signup page](Pics/mng11.jpg)
 ---
+
+### 12. 
+- 
+
+![GitHub Signup page](Pics/mng12.jpg)
+---
+
+### 13. 
+- 
+
+![GitHub Signup page](Pics/mng13.jpg)
+---
+
+### 14. 
+- 
+
+![GitHub Signup page](Pics/mng14.jpg)
+---
+
+### 15. 
+- 
+
+![GitHub Signup page](Pics/mng15.jpg)
+---
+
+### 16. 
+- 
+
+![GitHub Signup page](Pics/mng16.jpg)
+---
+
+### 17. 
+- 
+
+![GitHub Signup page](Pics/mng17.jpg)
+---
+
+### 18. 
+- 
+
+![GitHub Signup page](Pics/mng18.jpg)
+---
+
+### 19. 
+- 
+
+![GitHub Signup page](Pics/mng19.jpg)
+---
+
+### 20. 
+- 
+
+![GitHub Signup page](Pics/mng20.jpg)
+---
+
+### 21. 
+- 
+
+![GitHub Signup page](Pics/mng21.jpg)
+---
