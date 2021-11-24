@@ -173,3 +173,4 @@ https://git-scm.com/downloads
 
 ![GitHub Signup page](Pics/lgit24.jpg)
 
+https://github.com/BrentAIICT/MSSA-SCA/blob/main/CloneRepo.md#clone-a-github-repo
