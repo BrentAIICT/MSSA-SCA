@@ -9,7 +9,7 @@
 ![GitHub Signup page](Pics/clone01.jpg)
 
 ### 2. Go to your Git Home folder in your Documents folder
-- From the PowerShell windows type: cd ~\Documents
+- From the PowerShell window type: cd ~\Documents
 - Hit the ENTER key
 - Now type: cd .\githome\\*NameOfYourRepo* (*make sure you put your own repo name here*)
 - Hit the ENTER key
@@ -18,7 +18,7 @@
 ---
 
 ### 3. Check the Status of Git
-- From the PowerShell windows type: git status
+- From the PowerShell window type: git status
 - Hit the ENTER key
 - This report tells us that the Git repo has no changes to sync
 
@@ -26,7 +26,7 @@
 ---
 
 ### 4. Create a new file
-- From the PowerShell windows type: **New-Item -Path . -Name FirstFile.txt -Value "The first line"**
+- From the PowerShell window type: **New-Item -Path . -Name FirstFile.txt -Value "The first line"**
 - Hit the ENTER key
 - This report tells us that the Git repo has no changes to sync
 
@@ -34,7 +34,7 @@
 ---
 
 ### 5. Check the Status of Git again
-- From the PowerShell windows type: git status
+- From the PowerShell window type: git status
 - Hit the ENTER key
 - This report tells us that the Git repo has an untracked file
 - *The name of the file is in red and difficult to read here*
@@ -43,14 +43,14 @@
 ---
 
 ### 6. Tell Git to track any new file changes
-- From the PowerShell windows type: git add .
+- From the PowerShell window type: git add .
 - Hit the ENTER key
 
 ![GitHub Signup page](Pics/mng06.jpg)
 ---
 
 ### 7. Check the Status of Git again
-- From the PowerShell windows type: git status
+- From the PowerShell window type: git status
 - Hit the ENTER key
 - This report tells us that the Git repo has files that need to be committed
 
@@ -58,7 +58,7 @@
 ---
 
 ### 8. Tell Git to commit any new file changes
-- From the PowerShell windows type: git commit -m "New file added to repo"
+- From the PowerShell window type: git commit -m "New file added to repo"
 - Hit the ENTER key
 
 ![GitHub Signup page](Pics/mng08.jpg)
