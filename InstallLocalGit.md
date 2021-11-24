@@ -195,7 +195,7 @@
 - In the PowerShell window type **git config --list**
 - Hit the **ENTER** key
 
-![GitHub Signup page](Pics/lgit27.jpg)
+![GitHub Signup page](Pics/lgit28.jpg)
 
 
 
