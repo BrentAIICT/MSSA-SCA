@@ -170,8 +170,13 @@
 - Because all of the setup and permissions are now in place
 - Whenever you make changes to the Repo
 - You ONLY need to do the following to add commit and push the new changes
+- Here is the Git workflow:
 
 ``` 
+git pull --all
+
+Make your changes that are needed
+
 git add .
 git commit -m "A description of the change"
 git push --all
