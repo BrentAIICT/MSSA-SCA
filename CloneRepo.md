@@ -14,7 +14,7 @@
 - Now type: mkdir .\githome
 - Hit the ENTER key
 
-![GitHub Signup page](Pics/git02.jpg)
+![GitHub Signup page](Pics/clone02.jpg)
 ---
 
 ### 3. Go to your githome folder
@@ -22,7 +22,7 @@
 - Hit the ENTER key
 - Leave the PowerShell window open as we will come back to it soon
 
-![GitHub Signup page](Pics/git03.jpg)
+![GitHub Signup page](Pics/clone03.jpg)
 ---
 
 ### 4. Go to your Git Hub site
