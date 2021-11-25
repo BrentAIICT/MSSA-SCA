@@ -45,9 +45,11 @@
 ### Git Commit workflows
 - git fetch
 - git status
-- git pull (if this is required)
+- git pull 
+  - (if this is required)
 - Changes you need to make are done now!
-- git add .  or git add *filename*
+- git add .  
+  - or git add *filename*
 - git commit -m "Message to store with the commit, these will be handy if they are descriptive"
 - git push
   - This workflow is very useful especially when you are working with a cloned repository
