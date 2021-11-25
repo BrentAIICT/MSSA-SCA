@@ -10,6 +10,7 @@
 
 ## GitHub Lab
 
+[PDF Overview](PDFs/Git%20commands.pdf)<br>
 [GitHub Lab 1 - Getting Started with GitHub](GettingStartedGitHub.md#setup-your-own-github-site)<br>
 [GitHub Lab 2 - Exploring the Repository](ExploreRepo.md#lets-explore-the-repository)<br>
 [GitHub Lab 3 - Installing Git](InstallLocalGit.md#installing-and-configuring-git-on-your-local-computer)<br>
