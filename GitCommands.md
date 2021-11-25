@@ -47,7 +47,7 @@
 - git status
 - git pull 
   - (if this is required)
-- Changes you need to make are done now!
+- *Changes you need to make are done now!*
 - git add .  
   - or git add *filename*
 - git commit -m "Message to store with the commit, these will be handy if they are descriptive"
