@@ -23,8 +23,8 @@
 
 - git init *DirectoryName*
 - git clone *GitHubURL*
-  - Init creates a new local Repository that is not linked to another repository
-  - Clone can create a clone of a *local* or a *GitHub repository* on your PC
+  - **Init** creates a new local Repository that is not linked to another repository
+  - **Clone** can create a clone of a *local* or a *GitHub repository* on your PC
   - Examples:
     - git init newfolder
     - git clone https://github.com/jowndoe/website.git
@@ -33,9 +33,9 @@
 - git status
 - git log
 - git show
-  - Status shows the state of the repository
-  - Log shows a history of commits
-  - Show displays a history of changes
+  - **Status** shows the state of the repository
+  - **Log** shows a history of commits
+  - **Show** displays a history of changes
   - Examples:
     - git status 
     - git log --graph 
@@ -57,14 +57,14 @@
 <br>
 
 - This workflow is very useful especially when you are working with a cloned repository
-- Fetch looks at the remote repository to collect metadata (but no file download)
-- Status can then tell us if there are any changes to be pulled to our local repo, before you make any changes
+- **Fetch** looks at the remote repository to collect metadata (but no file download)
+- **Status** can then tell us if there are any changes to be pulled to our local repo, before you make any changes
   - ***If we fail to do this our changes will be out of step with the remote branch and we will not be able to push our changes***
-- Pull will only be used here if there has been changes made to the remote branch that we should sync to our local branch
+- **Pull** will only be used here if there has been changes made to the remote branch that we should sync to our local branch
 - *Make any changes to the files in the Repo directory or sub directories*
-- Add takes that changes and new files that have happened within the Repo directory and stages them ready for commiting
-- Commit takes all of the changes in the staging area and creates a shapshot of the repository
-- Push takes the commited changes and syncs them with the remote repository
+- **Add** takes that changes and new files that have happened within the Repo directory and stages them ready for commiting
+- **Commit** takes all of the changes in the staging area and creates a shapshot of the repository
+- **Push** takes the commited changes and syncs them with the remote repository
 
 ## More Advanced Commands
 
@@ -72,9 +72,9 @@
 - git branch
 - git checkout
 - git merge
-  - Branch can list of create branches
-  - Checkout will change your current working branch to another
-  - Merge will take a branch and merge it into the current branch
+  - **Branch** can list of create branches
+  - **Checkout** will change your current working branch to another
+  - **Merge** will take a branch and merge it into the current branch
   - Examples:
     - git branch --list
     - git branch *BranchName*
