@@ -200,3 +200,9 @@ git push --all
     - This can be useful 
       - When you are heading for **job interviews**
       - **Collaborating** with others on GitHub       
+
+---
+<br>
+<br>
+
+[Some Git Commands](https://github.com/BrentAIICT/MSSA-SCA/blob/main/GitCommands.md#git-commands)
