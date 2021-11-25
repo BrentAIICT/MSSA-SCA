@@ -53,15 +53,16 @@
 - git commit -m "Message to store with the commit"
   - These one line messages will be handy, if they are descriptive, when looking at the commit history
 - git push
-  - This workflow is very useful especially when you are working with a cloned repository
-  - Fetch looks at the remote repository to collect metadata (but no file download)
-  - Status can then tell us if there are nay chnages to be pulled to our local repo before we make any changes
-    - If we fail to do this our changes will be out of step with the remote branch and we will not be able to push our changes
-  - Pull will only be used here if there has been changes made to the remote branch that we should sync to our local branch
-  - \[Make any changes to the files in the Repo directory or sub directories]
-  - Add takes that changes and new files that have happened within the Repo directory and stages them ready for commiting
-  - Commit takes all of the changes in the staging area and creates a shapshot of the repository
-  - Push takes the commited changes and syncs them with the remote repository
+<br>
+- This workflow is very useful especially when you are working with a cloned repository
+- Fetch looks at the remote repository to collect metadata (but no file download)
+- Status can then tell us if there are nay chnages to be pulled to our local repo before we make any changes
+  - If we fail to do this our changes will be out of step with the remote branch and we will not be able to push our changes
+- Pull will only be used here if there has been changes made to the remote branch that we should sync to our local branch
+- *Make any changes to the files in the Repo directory or sub directories*
+- Add takes that changes and new files that have happened within the Repo directory and stages them ready for commiting
+- Commit takes all of the changes in the staging area and creates a shapshot of the repository
+- Push takes the commited changes and syncs them with the remote repository
 
 ## More Advanced Commands
 
