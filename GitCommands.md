@@ -50,7 +50,7 @@
 - *Changes you need to make are done now!*
 - git add .  
   - or git add *filename*
-- git commit -m "Message to store with the commit
+- git commit -m "Message to store with the commit"
   - These one line messages will be handy, if they are descriptive, when looking at the commit history
 - git push
   - This workflow is very useful especially when you are working with a cloned repository
