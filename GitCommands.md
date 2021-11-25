@@ -58,8 +58,8 @@
 
 - This workflow is very useful especially when you are working with a cloned repository
 - Fetch looks at the remote repository to collect metadata (but no file download)
-- Status can then tell us if there are nay chnages to be pulled to our local repo before we make any changes
-  - If we fail to do this our changes will be out of step with the remote branch and we will not be able to push our changes
+- Status can then tell us if there are any changes to be pulled to our local repo, before you make any changes
+  - ***If we fail to do this our changes will be out of step with the remote branch and we will not be able to push our changes***
 - Pull will only be used here if there has been changes made to the remote branch that we should sync to our local branch
 - *Make any changes to the files in the Repo directory or sub directories*
 - Add takes that changes and new files that have happened within the Repo directory and stages them ready for commiting
