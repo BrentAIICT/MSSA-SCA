@@ -7,7 +7,7 @@
 - Click on the **Download for Windows** link
 - *Save the file if you are prompted to do so*
 
-![GitHub Signup page](Pics/lgit01.jpg)
+![GitHub Signup page](../Pics/lgit01.jpg)
 ---
 
 ### 2. Wait for the installer file to download
