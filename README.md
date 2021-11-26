@@ -1,12 +1,9 @@
 # MSSA SCA Landing Page
 
-### AIICT Study Spot
+### Class Information
 
-[Study Spot Portal](https://www.studyspot.com.au/my/)
-
-### Class Schedule
-
-[Your Class Schedule](ClassSchedule.md#mssa-sca-course-schdule)
+[AIICT Study Spot Portal](https://www.studyspot.com.au/my/)<br>
+[Daily Class Schedule](ClassSchedule.md#mssa-sca-course-schdule)
 
 ### GitHub Lab
 
@@ -16,13 +13,10 @@
 [GitHub Lab 4 - Cloning a GitHub Repo](CloneRepo.md#clone-a-github-repo)<br>
 [GitHub Lab 5 - Managing the Repositories](ManagingGitRepo.md#managing-a-local-git-repo)<br>
 
-### Skilpipe (Microsoft Course Manuals)
+### Classroom Resources
 
-[Microsoft Course Manuals](https://skillpipe.com)
-
-### LearnOnDemand (Microsoft Virtual Labs)
-
-[Microsoft Labs](https://ddls.learnondemand.net/) 
+[Microsoft Course Manuals (SkillPipe)](https://skillpipe.com)<br>
+[Microsoft Labs (LearnOnDemand)](https://ddls.learnondemand.net/) 
 
 ### Teams Meeting
 
