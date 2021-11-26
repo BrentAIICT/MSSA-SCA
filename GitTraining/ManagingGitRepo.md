@@ -205,4 +205,4 @@ git push --all
 <br>
 <br>
 
-[Some Git Commands](https://github.com/BrentAIICT/MSSA-SCA/blob/main/GitCommands.md#git-commands)
+[Some Git Commands](GitCommands.md#git-commands)
