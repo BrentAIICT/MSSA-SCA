@@ -7,11 +7,11 @@
 
 ### GitHub Lab
 
-[GitHub Lab 1 - Getting Started with GitHub](GettingStartedGitHub.md#setup-your-own-github-site)<br>
-[GitHub Lab 2 - Exploring the Repository](ExploreRepo.md#lets-explore-the-repository)<br>
-[GitHub Lab 3 - Installing Git](InstallLocalGit.md#installing-and-configuring-git-on-your-local-computer)<br>
-[GitHub Lab 4 - Cloning a GitHub Repo](CloneRepo.md#clone-a-github-repo)<br>
-[GitHub Lab 5 - Managing the Repositories](ManagingGitRepo.md#managing-a-local-git-repo)<br>
+[GitHub Lab 1 - Getting Started with GitHub](GitTraining/GettingStartedGitHub.md#setup-your-own-github-site)<br>
+[GitHub Lab 2 - Exploring the Repository](GitTraining/ExploreRepo.md#lets-explore-the-repository)<br>
+[GitHub Lab 3 - Installing Git](GitTraining/InstallLocalGit.md#installing-and-configuring-git-on-your-local-computer)<br>
+[GitHub Lab 4 - Cloning a GitHub Repo](GitTraining/CloneRepo.md#clone-a-github-repo)<br>
+[GitHub Lab 5 - Managing the Repositories](GitTraining/ManagingGitRepo.md#managing-a-local-git-repo)<br>
 
 ### Classroom Resources
 
