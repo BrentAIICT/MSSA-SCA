@@ -213,4 +213,4 @@
 ---
 
 
-[Next Lab - Clone your Repo](https://github.com/BrentAIICT/MSSA-SCA/blob/main/CloneRepo.md#clone-a-github-repo)
+[Next Lab - Clone your Repo](CloneRepo.md#clone-a-github-repo)
