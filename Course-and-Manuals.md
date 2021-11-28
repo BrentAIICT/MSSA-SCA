@@ -1,12 +1,9 @@
-# Azure Course Student Account Setup
+# Course Setup
 
 ## Requirements
 
 * Modern Browser
 * Skillpipe Courseware Code
-* Azure Pass Code
-
-_Note: Use a private or incongnito browser window if you have issues with accounts being cached._ 
 
 ## Record your login details for access to course resources in a table like this
 
@@ -16,7 +13,6 @@ Skillpipe|<img width=200/>|<img width=200/>
 LearnOnDemand||
 
 - Use something like this table to record the credentials you will be building in the next few setup steps.
-- Because there are so many different resources you will use in the Azure courses its important to record these credentials
 
 ## Courseware
 
