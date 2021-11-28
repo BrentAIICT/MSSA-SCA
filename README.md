@@ -4,6 +4,7 @@
 
 [AIICT Study Spot Portal](https://www.studyspot.com.au/my/)<br>
 [Daily Class Schedule](ClassSchedule.md#mssa-sca-course-schdule)
+[Course Intro](MSSA-SCA-Intro.md#getting-started-with-your-mssa-sca-course)
 
 ### GitHub Lab
 
