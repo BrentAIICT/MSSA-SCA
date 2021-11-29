@@ -26,7 +26,7 @@ LearnOnDemand||
   - Click ```Register```
 - if **YES:**
   - Login using your email address and password
-- Now that you have registered or logged in Add your new book:
+- Now that you have registered or logged in add your new book:
   - Click ```MENU```
   - Click ```Add Course```
   - Type in your skillpipe license key
