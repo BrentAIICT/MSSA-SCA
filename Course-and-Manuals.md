@@ -19,10 +19,10 @@ LearnOnDemand||
 1. Go to [Skillpipe.com](https://skillpipe.com/).
 2. Have you already joined skillpipe before 
 5. if NO:
-  - Click Join now below the sign in button
+  - Click ```Join``` now below the sign in button
   - Enter your name, email and password or your choice **(When registering, your own personal email address is preferred, try to avoid work email addresses)**
-  - Tick to agree to the terms and conditions
-  - Click Register
+  - ``Tick``` to agree to the terms and conditions
+  - Click ```Register```
 1. if YES
   - Login using your email address and password
 
