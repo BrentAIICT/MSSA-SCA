@@ -18,7 +18,7 @@
 
 [Microsoft Course Manuals (SkillPipe)](https://skillpipe.com)<br>
 [Microsoft Labs (LearnOnDemand)](https://ddls.learnondemand.net/) 
-[How to setup Labs and Manuals]()
+[How to setup Labs and Manuals](Course-and-Manuals.md#course-setup)
 
 ### Teams Meeting
 
