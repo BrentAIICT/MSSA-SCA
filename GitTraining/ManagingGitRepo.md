@@ -19,6 +19,7 @@
 ---
 
 ### 3. Check the Status of Git
+- Always do a **git fetch** before running getting ready to make changes
 - From the PowerShell window type: **git status**
 - Hit the **ENTER** key
 - This report tells us that the Git repo has no changes to sync
