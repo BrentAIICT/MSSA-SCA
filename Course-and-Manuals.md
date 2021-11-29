@@ -4,6 +4,7 @@
 
 * Modern Browser
 * Skillpipe Courseware Code
+* LearnOnDemand Training Key Code **(Check with your trainer about this)**
 
 ## Record your login details for access to course resources in a table like this
 
