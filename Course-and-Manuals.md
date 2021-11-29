@@ -19,14 +19,24 @@ LearnOnDemand||
 
 1. Go to [Skillpipe.com](https://skillpipe.com/).
 2. Have you already joined skillpipe before 
-5. if NO:
+5. if **NO:**
   - Click ```Join now``` below the sign in button
   - Enter your name, email and password or your choice **(When registering, your own personal email address is preferred, try to avoid work email addresses)**
   - ``Tick``` to agree to the terms and conditions
   - Click ```Register```
-1. if YES
+1. if **YES:**
   - Login using your email address and password
+1. Now that you have registered or logged in Add your new book:
+  - Click ```MENU```
+  - Click ```Add Course```
+  - Type in your skillpipe license key
+  - Click ```Redeem License Key```
+  - Click ```Menu```
+  - Click ```Bookshelf```
 
+### Congatualtions you have added your skillpipe manual
+
+---
 
 ## Learn on Demand Labs  (Optional - Ask instructor if this is needed)
 
