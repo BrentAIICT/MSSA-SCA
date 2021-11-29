@@ -75,6 +75,37 @@
 ![GitHub Signup page](../Pics/clone10.jpg)
 ---
 
+### 11. Locate the Git Repo
+- Right click **Start** menu and type **PowerShell**
+- Click **Windows PowerShell**
+- In the PowerShell window type **cd ~\documents\githone\YourRepoName**
+
+![GitHub Signup page](../Pics/lgit25.jpg)
+---
+
+### 12. User Configuration - Git
+- In the PowerShell window type **git config --global user.name "Your name"**
+- Hit the **ENTER** key
+
+![GitHub Signup page](../Pics/lgit26.jpg)
+---
+
+### 13. Email configuration - Git
+- In the PowerShell window type **git config --global user.email "Your email address"**
+- Hit the **ENTER** key
+
+![GitHub Signup page](../Pics/lgit27.jpg)
+---
+
+### 14. Check the Configuartion
+- In the PowerShell window type **git config --list**
+- Hit the **ENTER** key
+- Make sure your name and email are set correctly
+
+![GitHub Signup page](../Pics/lgit28.jpg)
+---
+
+
 <br>
 <br>
 
