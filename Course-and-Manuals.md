@@ -16,9 +16,16 @@ LearnOnDemand||
 
 ## Courseware
 
-1. Go to [Skillpipe](https://skillpipe.com/).
-1. Register (if you do not have an account) or login to your account (if you already have an account). **(When registering, your own personal email address is preferred, try to avoid work email addresses)**
-3. Select `Add a Course` and use the **skillpipe code** (given to you by a DDLS email or in some cases from the instructor) and then press `Redeem License Key`.
+1. Go to [Skillpipe.com](https://skillpipe.com/).
+2. Have you already joined skillpipe before 
+5. if NO:
+  6. Click Join now below the sign in button
+  7. Enter your name, email and password or your choice **(When registering, your own personal email address is preferred, try to avoid work email addresses)**
+  8. Tick to agree to the terms and conditions
+  9. Click Register
+1. if YES
+  2. Login using your email address and password
+
 
 ## Learn on Demand Labs  (Optional - Ask instructor if this is needed)
 
