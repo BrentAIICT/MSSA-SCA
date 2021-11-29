@@ -19,14 +19,14 @@ LearnOnDemand||
 
 1. Go to [Skillpipe.com](https://skillpipe.com/).
 2. Have previously registered yourself in skillpipe before 
-3. if **NO:**
+- if **NO:**
   - Click ```Join now``` below the sign in button
   - Enter your name, email and password or your choice **(When registering, your own personal email address is preferred, try to avoid work email addresses)**
   - ```Tick``` to agree to the terms and conditions
   - Click ```Register```
-3. if **YES:**
+- if **YES:**
   - Login using your email address and password
-4. Now that you have registered or logged in Add your new book:
+- Now that you have registered or logged in Add your new book:
   - Click ```MENU```
   - Click ```Add Course```
   - Type in your skillpipe license key
@@ -44,17 +44,17 @@ LearnOnDemand||
 
 1. Go to [Learn On Demand](https://ddls.learnondemand.net)
 1. Is this the **first time** you have used ddls.learnondemand.net
-2. if **YES:**
+- if **YES:**
   - Click `Register with Training Key`  
   - Use the LearnOnDemand key you received in an email from DDLS staff or from your trainer
   - Fill in your registration details **(When registering, your own personal email address is preferred)**
   - Make sure you remember your Login ID that will be chosen for you
-1. If **NO:**
+- If **NO:**
   - Click ```Sign In```
   - Use your existing Login ID and password
   - Click ```Redeem Training Key```
   - Enter the LearnOnDemand key you received in an email from DDLS staff or from your trainer
-1. **Once you have redeemed your code**
+- **Once you have redeemed your code**
   - Click on ```My Training```
   - Click the ```your course name```
   - ***Click on ```View Agreement``` and then choose ```Agree``` *** 
