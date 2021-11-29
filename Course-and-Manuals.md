@@ -18,7 +18,7 @@ LearnOnDemand||
 ## Courseware
 
 1. Go to [Skillpipe.com](https://skillpipe.com/).
-2. Have you already joined skillpipe before 
+2. Have previously registered yourself in skillpipe before 
 5. if **NO:**
   - Click ```Join now``` below the sign in button
   - Enter your name, email and password or your choice **(When registering, your own personal email address is preferred, try to avoid work email addresses)**
@@ -42,22 +42,22 @@ LearnOnDemand||
 
 ***A learn On Demand key would have been given to you either by email or from the instructor***
 
-- Go to [Learn On Demand](https://ddls.learnondemand.net)
-- If this is the **first time** you have used ddls.learnondemand.net
+1. Go to [Learn On Demand](https://ddls.learnondemand.net)
+1. Is this the **first time** you have used ddls.learnondemand.net
+2. if **YES:**
   - Click `Register with Training Key`  
   - Use the LearnOnDemand key you received in an email from DDLS staff or from your trainer
   - Fill in your registration details **(When registering, your own personal email address is preferred)**
-  - You will be asked to create your own Login ID. ***(Do not forget this as it is needed to access the VMs)***
-- If you **already have have an account** with ddls.learnondemand.net already
-  - Click `Sign In`
-  - Use your existing username and password
-  - Click `Redeem Training Key`
+  - Make sure you remember your Login ID that will be chosen for you
+1. If **NO:**
+  - Click ```Sign In```
+  - Use your existing Login ID and password
+  - Click ```Redeem Training Key```
   - Enter the LearnOnDemand key you received in an email from DDLS staff or from your trainer
-
-- **Once you have redeemed your code**
-  - Click on My Training
-  - Click the *course name*
-  - ***Click on ```View Agreement``` and then choose Agree*** 
+1. **Once you have redeemed your code**
+  - Click on ```My Training```
+  - Click the ```your course name```
+  - ***Click on ```View Agreement``` and then choose ```Agree``` *** 
     - Otherwise **you will not** be able to launch the lab machines
   - In the Activities section, you will find your labs
 
