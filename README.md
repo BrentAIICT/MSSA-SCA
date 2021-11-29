@@ -4,7 +4,7 @@
 
 [AIICT Study Spot Portal](https://www.studyspot.com.au/my/)<br>
 [Daily Class Schedule](ClassSchedule.md#mssa-sca-course-schdule)<br>
-[Course Intro](MSSA-SCA-Intro.md#getting-started-with-your-mssa-sca-course)
+[Course Intro](MSSA-SCA-Intro.md#getting-started-with-your-mssa-sca-course)<br>
 
 ### GitHub Lab
 
@@ -17,8 +17,8 @@
 ### Classroom Resources
 
 [Microsoft Course Manuals (SkillPipe)](https://skillpipe.com)<br>
-[Microsoft Labs (LearnOnDemand)](https://ddls.learnondemand.net/) 
-[Register for SkillPipe Manuals and LearnOnDemand Labs](Course-and-Manuals.md#course-setup)
+[Microsoft Labs (LearnOnDemand)](https://ddls.learnondemand.net/)<br> 
+[Register for SkillPipe Manuals and LearnOnDemand Labs](Course-and-Manuals.md#course-setup)<br>
 
 ### Teams Meeting
 
