@@ -61,6 +61,10 @@ LearnOnDemand||
     - Otherwise **you will not** be able to launch the lab machines
   - In the Activities section, you will find your labs
 
+### Congatualtions you have registered for your labs
+
+---
+
 ## Bookmarks (optional)
 
 Add the following bookmarks to your browser:
