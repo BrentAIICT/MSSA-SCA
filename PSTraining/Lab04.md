@@ -4,7 +4,7 @@ lab:
     module: 'Module 4: Using PSProviders and PSDrives'
 ---
 
-<!-- <details><summary>Click to see the answer</summary><Strong> REPLACEME </Strong></details> -->
+<!-- <details><summary>Click to see the answer</summary><Strong> ``` REPLACEME ```</Strong></details> -->
 
 # Lab: Using PSProviders and PSDrives with PowerShell
 
@@ -54,20 +54,20 @@ The main tasks for this exercise are as follows:
 ### Task 1: Create a new folder on a remote computer
 
 1. On **LON-CL1**, open Windows PowerShell as an administrator.
-1. Review the complete help for the **New-Item** cmdlet. Notice the *–Name* and *–ItemType* parameters, and then review the example commands. <details><summary>Click to see the answer</summary><Strong> Get-Help New-Item -ShowWindow </Strong></details>
-1. Use **New-Item** to create a new folder (directory) named **ScriptShare** on **\\\LON-SVR1\C$**.<details><summary>Click to see the answer</summary><Strong> New-Item -Path \\Lon-Svr1\C$\ -Name ScriptShare -ItemType Directory </Strong></details>
+1. Review the complete help for the **New-Item** cmdlet. Notice the *–Name* and *–ItemType* parameters, and then review the example commands. <details><summary>Click to see the answer</summary><Strong> ```Get-Help New-Item -ShowWindow ```</Strong></details>
+1. Use **New-Item** to create a new folder (directory) named **ScriptShare** on **\\\LON-SVR1\C$**.<details><summary>Click to see the answer</summary><Strong> ```New-Item -Path \\Lon-Svr1\C$\ -Name ScriptShare -ItemType Directory ```</Strong></details>
 
 ### Task 2: Create a new PSDrive mapping to the remote file folder
 
-1. In the Windows PowerShell console, review the complete help for the **New-PSDrive** command.<details><summary>Click to see the answer</summary><Strong> Get-Help New-PSDrive -ShowWindow </Strong></details>
-1. Create a new PSDrive named **ScriptShare**, which is mapped to **\\\LON-SVR1\C$\ScriptShare**.<details><summary>Click to see the answer</summary><Strong> New-PSDrive -Name ScriptShare -Root \\Lon-Svr1\c$\ScriptShare -PSProvider FileSystem </Strong></details>
+1. In the Windows PowerShell console, review the complete help for the **New-PSDrive** command.<details><summary>Click to see the answer</summary><Strong> ```Get-Help New-PSDrive -ShowWindow ```</Strong></details>
+1. Create a new PSDrive named **ScriptShare**, which is mapped to **\\\LON-SVR1\C$\ScriptShare**.<details><summary>Click to see the answer</summary><Strong> ```New-PSDrive -Name ScriptShare -Root \\Lon-Svr1\c$\ScriptShare -PSProvider FileSystem ```</Strong></details>
 
 ### Task 3: Create a file on the mapped drive
 
-1. In the Windows PowerShell console, review the complete help for the **Set-Location** cmdlet.<details><summary>Click to see the answer</summary><Strong> Get-Help Set-Location -ShowWindow </Strong></details>
-1. Set the current working folder location to the mapped drive **ScriptShare**.<details><summary>Click to see the answer</summary><Strong> Set-Location ScriptShare: </Strong></details>
-1. In the **ScriptShare** drive, use the **New-Item** cmdlet to create a text file named **script.txt**.<details><summary>Click to see the answer</summary><Strong> New-Item script.txt </Strong></details>
-1. List the items in the **ScriptShare** drive and confirm that it contains the **script.txt** file.<details><summary>Click to see the answer</summary><Strong> Get-ChildItem </Strong></details>
+1. In the Windows PowerShell console, review the complete help for the **Set-Location** cmdlet.<details><summary>Click to see the answer</summary><Strong> ```Get-Help Set-Location -ShowWindow``` </Strong></details>
+1. Set the current working folder location to the mapped drive **ScriptShare**.<details><summary>Click to see the answer</summary><Strong> ```Set-Location ScriptShare: ```</Strong></details>
+1. In the **ScriptShare** drive, use the **New-Item** cmdlet to create a text file named **script.txt**.<details><summary>Click to see the answer</summary><Strong> ```New-Item script.txt ```</Strong></details>
+1. List the items in the **ScriptShare** drive and confirm that it contains the **script.txt** file.<details><summary>Click to see the answer</summary><Strong> ```Get-ChildItem ```</Strong></details>
 
 ## Exercise 2: Creating a registry key for your future scripts
 
@@ -82,18 +82,18 @@ The main tasks for this exercise are as follows:
 
 ### Task 1: Create the registry key to store script configurations
 
-1. In the **Windows PowerShell** console, enter a command to verify that the registry key **HKEY_CURRENT_USER\Software** does not have a subkey named **Scripts**.<details><summary>Click to see the answer</summary><Strong> Get-ChildItem -Path HKCU:\Software </Strong></details>
-1. In the console, run a command to create a registry key named **Scripts** in **HKEY_CURRENT_USER\Software**.<details><summary>Click to see the answer</summary><Strong> New-Item -Path HKCU:\Software -Name Scripts </Strong></details>
+1. In the **Windows PowerShell** console, enter a command to verify that the registry key **HKEY_CURRENT_USER\Software** does not have a subkey named **Scripts**.<details><summary>Click to see the answer</summary><Strong> ```Get-ChildItem -Path HKCU:\Software ```</Strong></details>
+1. In the console, run a command to create a registry key named **Scripts** in **HKEY_CURRENT_USER\Software**.<details><summary>Click to see the answer</summary><Strong> ```New-Item -Path HKCU:\Software -Name Scripts ```</Strong></details>
 
 ### Task 2: Create a new registry setting to store the name of the PSDrive
 
-1. In the **Windows PowerShell** console, run a command to set the current working location to the path of the registry key that you created.<details><summary>Click to see the answer</summary><Strong> Set-Location HKCU:\Software\Scripts </Strong></details>
+1. In the **Windows PowerShell** console, run a command to set the current working location to the path of the registry key that you created.<details><summary>Click to see the answer</summary><Strong>``` Set-Location HKCU:\Software\Scripts ```</Strong></details>
 1. Create a registry value to store the PSDrive name with the following configuration:
 
    - Name: **PSDriveName**
-   - Value: **ScriptShare** <details><summary>Click to see the answer</summary><Strong> New-ItemProperty -Path HKCU:\Software\Scripts -Name "PSDriveName" -Value "ScriptShare" </Strong></details>
+   - Value: **ScriptShare** <details><summary>Click to see the answer</summary><Strong> ```New-ItemProperty -Path HKCU:\Software\Scripts -Name "PSDriveName" -Value "ScriptShare" ```</Strong></details>
 
-1. Verify that you can retrieve the **PSDriveName** setting from the **HKey_Current_User\Software\Scripts** key.<details><summary>Click to see the answer</summary><Strong> Get-ItemProperty . -Name PSDriveName </Strong></details>
+1. Verify that you can retrieve the **PSDriveName** setting from the **HKey_Current_User\Software\Scripts** key.<details><summary>Click to see the answer</summary><Strong> ```Get-ItemProperty . -Name PSDriveName ```</Strong></details>
 
 ## Exercise 3: Creating a new Active Directory group
 
@@ -106,15 +106,15 @@ The main tasks for this exercise are as follows:
 
 ### Task 1: Create a PSDrive that maps to the Users container in AD DS
 
-1. In the **Windows PowerShell** console, load the **ActiveDirectory** module.<details><summary>Click to see the answer</summary><Strong> Import-Module ActiveDirectory </Strong></details>
+1. In the **Windows PowerShell** console, load the **ActiveDirectory** module.<details><summary>Click to see the answer</summary><Strong> ```Import-Module ActiveDirectory ```</Strong></details>
 1. Use the **New-PSDrive** cmdlet to create a new PSDrive with the following settings:
 
    - Name: **AdatumUsers**
    - Root: **CN=Users,DC=Adatum,DC=com**
-   - PSProvider: **ActiveDirectory** <details><summary>Click to see the answer</summary><Strong> New-PSDrive -Name AdatumUsers -Root "CN=Users,DC=Adatum,DC=com" -PSProvider ActiveDirectory </Strong></details>
-1. Set the current working location to the new PSDrive.<details><summary>Click to see the answer</summary><Strong> Set-Location AdatumUsers: </Strong></details>
+   - PSProvider: **ActiveDirectory** <details><summary>Click to see the answer</summary><Strong> ```New-PSDrive -Name AdatumUsers -Root "CN=Users,DC=Adatum,DC=com" -PSProvider ActiveDirectory``` </Strong></details>
+1. Set the current working location to the new PSDrive.<details><summary>Click to see the answer</summary><Strong> ```Set-Location AdatumUsers:``` </Strong></details>
 
 ### Task 2: Create the London Developers group
 
-1. In the **Windows PowerShell** console, use the **New-Item** cmdlet to create a group named **London Developers** in the **AdatumUsers** PSDrive.<details><summary>Click to see the answer</summary><Strong> New-Item -ItemType group -Path . -Name "CN=London Developers" </Strong></details>
-1. Use the **Get-ChildItem** cmdlet to verify that the new group was created.<details><summary>Click to see the answer</summary><Strong> Get-ChildItem </Strong></details>
+1. In the **Windows PowerShell** console, use the **New-Item** cmdlet to create a group named **London Developers** in the **AdatumUsers** PSDrive.<details><summary>Click to see the answer</summary><Strong>``` New-Item -ItemType group -Path . -Name "CN=London Developers" ```</Strong></details>
+1. Use the **Get-ChildItem** cmdlet to verify that the new group was created.<details><summary>Click to see the answer</summary><Strong> ```Get-ChildItem ```</Strong></details>
