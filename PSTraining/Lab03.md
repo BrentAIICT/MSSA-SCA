@@ -59,7 +59,7 @@ The main tasks for this exercise are:
 ### Task 1: Display the current day of the year
 
 1. On **LON-CL1**, start Windows PowerShell with administrative credentials.
-2. Using a keyword such as **date**, find a command that can display the current date. <details><summary>Click to see the answer</summary><Strong> Get-Command \*date\* </Strong></details>
+2. Using a keyword such as **date**, find a command that can display the current date. <details><summary>Click to see the answer</summary><Strong> ```Get-Command \*date\*  ```</Strong></details>
 4. Display the members of the object produced by the command that you found in the previous step. <details><summary>Click to see the answer</summary><Strong> Get-Date | Get-Member </Strong></details>
 5. Display only the day of the year. <details><summary>Click to see the answer</summary><Strong> Get-Date | Select-Object -Property DayOfYear </Strong></details>
 6. Display the results of the previous command on a single line.<details><summary>Click to see the answer</summary><Strong> Get-Date | Select-Object -Property DayOfYear | Format-List </Strong></details>
