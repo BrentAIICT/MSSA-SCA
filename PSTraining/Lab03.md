@@ -69,7 +69,7 @@ The main tasks for this exercise are:
 1. Using a keyword such as **hotfix**, find a command that can display a list of the installed hotfixes.<details><summary>Click to see the answer</summary><Strong> ```Get-Command *hotfix*  ```</Strong></details>
 1. Display the members of the object produced by the command that you found in the previous step.<details><summary>Click to see the answer</summary><Strong> ```Get-Hotfix | Get-Member  ```</Strong></details>
 1. Display a list of the installed hotfixes. Display only the installation date, hotfix ID number, and name of the user who installed the hotfix.<details><summary>Click to see the answer</summary><Strong> ```Get-Hotfix | Select-Object -Property HotFixID,InstalledOn,InstalledBy ```</Strong></details>
-1. Display a list of the installed hotfixes. Display only the hotfix ID, the number of days since the hotfix was installed, and the name of the user who installed the hotfix.<details><summary>Click to see the answer</summary><Strong> ```Get-Hotfix | Select-Object -Property HotFixID,@{n='HotFixAge';e={(New-TimeSpan -Start $PSItem.InstalledOn).Days}},InstalledBy ```</Strong></details>
+1. Display a list of the installed hotfixes. Display only the hotfix ID, the number of days since the hotfix was installed, and the name of the user who installed the hotfix.<details><summary>Click to see the answer</summary><Strong> ```Get-Hotfix | Select-Object -Property HotFixID,@{n='HotFixAge';e={(New-TimeSpan -Start $_.InstalledOn).Days}},InstalledBy ```</Strong></details>
 
 ### Task 3: Display a list of available scopes from the DHCP server
 
@@ -138,15 +138,15 @@ The main tasks for this exercise are:
 
 1. Display a directory listing of all the items on the **CERT** drive. Include subfolders in the list.<details><summary>Click to see the answer</summary><Strong> ```Get-ChildItem -Path CERT: -Recurse``` </Strong></details>
 1. Display the list again and display the name and issuer for only the certificates that don't have a private key. Display the results in one column.<details><summary>Click to see the answer</summary><Strong>```Get-ChildItem -Path CERT: -Recurse | Get-Member ```</Strong></details>
-3. Display the list again and display only the current certificates. Those certificates have a **NotBefore** date that's before today and a **NotAfter** date that's after today. Include the **NotBefore** and **NotAfter** properties in the results and display the results in a format that allows you to easily compare dates. Also, make sure that no data is truncated.<details><summary>Click to see the answer</summary><Strong> ```Get-ChildItem -Path CERT: -Recurse | Where-Object { $PSItem.HasPrivateKey -eq $False } | Select-Object -Property FriendlyName,Issuer | Format-Table ```</Strong></details>
+3. Display the list again and display only the current certificates. Those certificates have a **NotBefore** date that's before today and a **NotAfter** date that's after today. Include the **NotBefore** and **NotAfter** properties in the results and display the results in a format that allows you to easily compare dates. Also, make sure that no data is truncated.<details><summary>Click to see the answer</summary><Strong> ```Get-ChildItem -Path CERT: -Recurse | Where-Object { $_.HasPrivateKey -eq $False } | Select-Object -Property FriendlyName,Issuer | Format-Table ```</Strong></details>
 
 ### Task 4: Create a report that displays the disk volumes that are running low on space
 
 1. Display a list of the disk volumes.<details><summary>Click to see the answer</summary><Strong> ```Get-Volume ```</Strong></details>
 2. Display the members of the object produced by the previous command.<details><summary>Click to see the answer</summary><Strong> ```Get-Volume | Get-Member```</Strong></details>
-3. Display a list in one column of the volumes that have more than zero bytes of free space.<details><summary>Click to see the answer</summary><Strong> ```Get-Volume | Where-Object { $PSItem.SizeRemaining -gt 0 } | Format-List ```</Strong></details>
-4. Display a list of the volumes that have less than 99 percent free space and more than zero bytes of free space. Display only the drive letter and disk size, in megabytes (MB).<details><summary>Click to see the answer</summary><Strong> ```Get-Volume | Where-Object { $PSItem.SizeRemaining -gt 0 -and $PSItem.SizeRemaining / $PSItem.Size -lt .99 }| Select-Object DriveLetter, @{n='Size';e={'{0:N2}' -f ($PSItem.Size/1MB)}} ```</Strong></details>
-5. Display a list of the volumes that have less than 10 percent free space and more than zero bytes of free space. This command might produce no results if no volumes on your computer meet the criteria.<details><summary>Click to see the answer</summary><Strong> ```Get-Volume | Where-Object { $PSItem.SizeRemaining -gt 0 -and $PSItem.SizeRemaining / $PSItem.Size -lt .1 } ```</Strong></details>
+3. Display a list in one column of the volumes that have more than zero bytes of free space.<details><summary>Click to see the answer</summary><Strong> ```Get-Volume | Where-Object { $_.SizeRemaining -gt 0 } | Format-List ```</Strong></details>
+4. Display a list of the volumes that have less than 99 percent free space and more than zero bytes of free space. Display only the drive letter and disk size, in megabytes (MB).<details><summary>Click to see the answer</summary><Strong> ```Get-Volume | Where-Object { $_.SizeRemaining -gt 0 -and $_.SizeRemaining / $_.Size -lt .99 }| Select-Object DriveLetter, @{n='Size';e={'{0:N2}' -f ($_.Size/1MB)}} ```</Strong></details>
+5. Display a list of the volumes that have less than 10 percent free space and more than zero bytes of free space. This command might produce no results if no volumes on your computer meet the criteria.<details><summary>Click to see the answer</summary><Strong> ```Get-Volume | Where-Object { $_.SizeRemaining -gt 0 -and $_.SizeRemaining / $_.Size -lt .1 } ```</Strong></details>
 
    > **Note:** This command might not produce any output on your lab computer if the computer has more than 10 percent free space on each of its volumes.
 
@@ -154,7 +154,7 @@ The main tasks for this exercise are:
 
 1. Display a list of all the Control Panel items.<details><summary>Click to see the answer</summary><Strong> ```Get-ControlPanelItem``` </Strong></details>
 1. Display the names and descriptions, sorted by name, of the Control Panel items in the **System and Security** category.<details><summary>Click to see the answer</summary><Strong> ```Get-ControlPanelItem -Category 'System and Security' | Sort-Object Name ```</Strong></details>
-1. Display the same list, excluding any Control Panel items that exist in more than one category. Make sure the command performance is optimized.<details><summary>Click to see the answer</summary><Strong> ```Get-ControlPanelItem -Category 'System and Security' | Where-Object  {$PSItem.Category -like '*System and Security*'} | Sort-Object Name ```</Strong></details>
+1. Display the same list, excluding any Control Panel items that exist in more than one category. Make sure the command performance is optimized.<details><summary>Click to see the answer</summary><Strong> ```Get-ControlPanelItem -Category 'System and Security' | Where-Object  {$_.Category -like '*System and Security*'} | Sort-Object Name ```</Strong></details>
 
 ### Exercise 2 results
 
@@ -183,7 +183,7 @@ The main tasks for this exercise are:
 1. Using a keyword such as **random**, find a command that produces random numbers.<details><summary>Click to see the answer</summary><Strong>```Get-Command *random* ``` </Strong></details>
 1. Review the help for the command.<details><summary>Click to see the answer</summary><Strong> ```Get-Help Get-Random -ShowWindow ``` </Strong></details>
 1. Run **1..100** to put 100 numeric objects into the pipeline.<details><summary>Click to see the answer</summary><Strong> ```1..100 | ForEach-Object { Get-Random }``` </Strong></details>
-3. Run the command again. For each numeric object, produce a random number that uses the numeric object as the seed.<details><summary>Click to see the answer</summary><Strong> ```1..100 | ForEach-Object { Get-Random -SetSeed $PSItem } ```</Strong></details>
+3. Run the command again. For each numeric object, produce a random number that uses the numeric object as the seed.<details><summary>Click to see the answer</summary><Strong> ```1..100 | ForEach-Object { Get-Random -SetSeed $_ } ```</Strong></details>
 
 ### Exercise 3 results
 
@@ -204,18 +204,18 @@ The main tasks for this exercise are:
 
 1. Sign in to the **LON-CL1** as **Adatum\\Administrator** with the password **Pa55w.rd**.
 1. Start **Windows PowerShell** as an administrator.
-1. Display the name, department, and city for all the users in the IT department who are located in London, in alphabetical order by name.<details><summary>Click to see the answer</summary><Strong> ```Get-ADUser -Filter * -Properties Department,City | Where-Object {$PSItem.Department -eq ‘IT’ -and $PSItem.City -eq ‘London’} | Select-Object -Property Name,Department,City | Sort-Object Name ``` </Strong></details>
-1. Set the **Office** location for all the users to **LON-A/1000**.<details><summary>Click to see the answer</summary><Strong> ```Get-ADUser -Filter * -Properties Department,City | Where {$PSItem.Department -eq ‘IT’ -and $PSItem.City -eq ‘London’} | Set-ADUser -Office ‘LON-A/1000’  ```</Strong></details>
-1. Display the list of users again, including the office assignment for each user.<details><summary>Click to see the answer</summary><Strong> ```Get-ADUser -Filter * -Properties Department,City,Office | Where-Object {$PSItem.Department -eq ‘IT’ -and $PSItem.City -eq ‘London’} | Select-Object -Property Name,Department,City,Office | Sort-Object Name ``` </Strong></details>
+1. Display the name, department, and city for all the users in the IT department who are located in London, in alphabetical order by name.<details><summary>Click to see the answer</summary><Strong> ```Get-ADUser -Filter * -Properties Department,City | Where-Object {$_.Department -eq ‘IT’ -and $_.City -eq ‘London’} | Select-Object -Property Name,Department,City | Sort-Object Name ``` </Strong></details>
+1. Set the **Office** location for all the users to **LON-A/1000**.<details><summary>Click to see the answer</summary><Strong> ```Get-ADUser -Filter * -Properties Department,City | Where {$_.Department -eq ‘IT’ -and $_.City -eq ‘London’} | Set-ADUser -Office ‘LON-A/1000’  ```</Strong></details>
+1. Display the list of users again, including the office assignment for each user.<details><summary>Click to see the answer</summary><Strong> ```Get-ADUser -Filter * -Properties Department,City,Office | Where-Object {$_.Department -eq ‘IT’ -and $_.City -eq ‘London’} | Select-Object -Property Name,Department,City,Office | Sort-Object Name ``` </Strong></details>
 
 ### Task 2: Produce an HTML report that lists the Active Directory users in the IT department
 
 1. Review the help for **ConvertTo-Html**.<details><summary>Click to see the answer</summary><Strong> ```Get-Help ConvertTo-Html -ShowWindow ``` </Strong></details>
-1. Display the same list again, and then convert the list to an HTML page. Store the HTML data in **E:\\UserReport.html**. Have the word **Users** display before the list of users.<details><summary>Click to see the answer</summary><Strong> ```Get-ADUser -Filter * -Properties Department,City,Office | Where-Object {$PSItem.Department -eq 'IT' -and $PSItem.City -eq 'London'} | Sort-Object Name | Select-Object -Property Name,Department,City,Office | ConvertTo-Html -Property Name,Department,City -PreContent Users | Out-File E:\UserReport.html```  </Strong></details>
+1. Display the same list again, and then convert the list to an HTML page. Store the HTML data in **E:\\UserReport.html**. Have the word **Users** display before the list of users.<details><summary>Click to see the answer</summary><Strong> ```Get-ADUser -Filter * -Properties Department,City,Office | Where-Object {$_.Department -eq 'IT' -and $_.City -eq 'London'} | Sort-Object Name | Select-Object -Property Name,Department,City,Office | ConvertTo-Html -Property Name,Department,City -PreContent Users | Out-File E:\UserReport.html```  </Strong></details>
 7. Use Internet Explorer to review **UserReport.html**.
-8. Display the same list again, and then convert it to XML.<details><summary>Click to see the answer</summary><Strong> ```Get-ADUser -Filter * -Properties Department,City,Office |  Where-Object {$PSItem.Department -eq 'IT' -and $PSItem.City -eq 'London'} | Sort-Object Name | Select-Object -Property Name,Department,City,Office | Export-Clixml E:\UserReport.xml```  </Strong></details>
+8. Display the same list again, and then convert it to XML.<details><summary>Click to see the answer</summary><Strong> ```Get-ADUser -Filter * -Properties Department,City,Office |  Where-Object {$_.Department -eq 'IT' -and $_.City -eq 'London'} | Sort-Object Name | Select-Object -Property Name,Department,City,Office | Export-Clixml E:\UserReport.xml```  </Strong></details>
 13. Use Internet Explorer to review **UserReport.xml**.
-14. Display a list of all the properties of all the Active Directory users in a comma-separated value (CSV) file.<details><summary>Click to see the answer</summary><Strong> ```Get-ADUser -Filter * -Properties Department,City,Office | Where-Object {$PSItem.Department -eq 'IT' -and $PSItem.City -eq 'London'} | Sort-Object Name | Select-Object -Property Name,Department,City,Office | Export-Csv E:\UserReport.csv ``` </Strong></details>
+14. Display a list of all the properties of all the Active Directory users in a comma-separated value (CSV) file.<details><summary>Click to see the answer</summary><Strong> ```Get-ADUser -Filter * -Properties Department,City,Office | Where-Object {$_.Department -eq 'IT' -and $_.City -eq 'London'} | Sort-Object Name | Select-Object -Property Name,Department,City,Office | Export-Csv E:\UserReport.csv ``` </Strong></details>
 19. Open the CSV file in Notepad.
 20. Open the CSV file in Microsoft Excel.
 
