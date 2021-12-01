@@ -91,8 +91,7 @@ The main tasks for this exercise are as follows:
 1. Create a registry value to store the PSDrive name with the following configuration:
 
    - Name: **PSDriveName**
-   - Value: **ScriptShare**
-<details><summary>Click to see the answer</summary><Strong> New-ItemProperty -Path HKCU:\Software\Scripts -Name "PSDriveName" -Value "ScriptShare" </Strong></details>
+   - Value: **ScriptShare** <details><summary>Click to see the answer</summary><Strong> New-ItemProperty -Path HKCU:\Software\Scripts -Name "PSDriveName" -Value "ScriptShare" </Strong></details>
 
 1. Verify that you can retrieve the **PSDriveName** setting from the **HKey_Current_User\Software\Scripts** key.<details><summary>Click to see the answer</summary><Strong> Get-ItemProperty . -Name PSDriveName </Strong></details>
 
@@ -112,8 +111,7 @@ The main tasks for this exercise are as follows:
 
    - Name: **AdatumUsers**
    - Root: **CN=Users,DC=Adatum,DC=com**
-   - PSProvider: **ActiveDirectory**
-<details><summary>Click to see the answer</summary><Strong> New-PSDrive -Name AdatumUsers -Root "CN=Users,DC=Adatum,DC=com" -PSProvider ActiveDirectory </Strong></details>
+   - PSProvider: **ActiveDirectory** <details><summary>Click to see the answer</summary><Strong> New-PSDrive -Name AdatumUsers -Root "CN=Users,DC=Adatum,DC=com" -PSProvider ActiveDirectory </Strong></details>
 1. Set the current working location to the new PSDrive.<details><summary>Click to see the answer</summary><Strong> Set-Location AdatumUsers: </Strong></details>
 
 ### Task 2: Create the London Developers group
