@@ -14,6 +14,9 @@
 [GitHub Lab 4 - Cloning a GitHub Repo](GitTraining/CloneRepo.md#clone-a-github-repo)<br>
 [GitHub Lab 5 - Managing the Repositories](GitTraining/ManagingGitRepo.md#managing-a-local-git-repo)<br>
 
+### PowerShell Training
+[PowerShell Training Rewitten](PSTraining)
+
 ### Classroom Resources
 
 [Microsoft Course Manuals (SkillPipe)](https://skillpipe.com)<br>
