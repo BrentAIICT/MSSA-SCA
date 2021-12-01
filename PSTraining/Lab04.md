@@ -1,10 +1,10 @@
-<!-- <details><summary>Click to see the answer</summary><Strong> REPLACEME </Strong></details> -->
-
 ---
 lab:
     title: 'Lab: Using PSProviders and PSDrives with PowerShell'
     module: 'Module 4: Using PSProviders and PSDrives'
 ---
+
+<!-- <details><summary>Click to see the answer</summary><Strong> REPLACEME </Strong></details> -->
 
 # Lab: Using PSProviders and PSDrives with PowerShell
 
