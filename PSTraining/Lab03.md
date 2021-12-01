@@ -4,6 +4,8 @@ lab:
     module: 'Module 3: Working with the Windows PowerShell pipeline'
 ---
 
+<!-- <details><summary>Click to see the answer</summary><Strong> REPLACEME </Strong></details> -->
+
 # Lab: Using PowerShell pipeline
 
 ## Scenario
