@@ -80,7 +80,7 @@ The main tasks for this exercise are:
 
 ### Task 4: Display a sorted list of enabled Windows Firewall rules
 
-1. Using a keyword such as **rule**, find a command that can display the firewall rules.<details><summary>Click to see the answer</summary><Strong>   ```Get-Command \*rule\*```  </Strong></details>
+1. Using a keyword such as **rule**, find a command that can display the firewall rules.<details><summary>Click to see the answer</summary><Strong>   ```Get-Command *rule*```  </Strong></details>
 1. Display a list of the firewall rules.<details><summary>Click to see the answer</summary><Strong>  ``` Get-NetFirewallRule ``` </Strong></details>
 1. Review the help for the command that displays the firewall rules.<details><summary>Click to see the answer</summary><Strong>  ``` Get-Help Get-NetFirewallRule -ShowWindow ```</Strong></details>
 1. Display a list of the firewall rules that are enabled.<details><summary>Click to see the answer</summary><Strong>  ``` Get-NetFirewallRule -Enabled True ```</Strong></details>
