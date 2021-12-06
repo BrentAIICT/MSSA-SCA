@@ -1,4 +1,4 @@
-[Go back to Landing Page](../MSSA-SCA#mssa-sca-landing-page)
+[Go back to Landing Page](#mssa-sca-landing-page)
 
 # MSSA SCA Course Schdule
 
