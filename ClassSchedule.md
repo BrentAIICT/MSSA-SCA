@@ -79,8 +79,8 @@ Date|Day|Week|Course|Title|Modules|Labs|Instructor
 25Mar|Fri|15|MSSA ProDev|MSSA Professional Development|||MS Career Development
 28Mar|Mon|16|AZ-104|[Azure Administration](https://skillpipe.com)|8|[Labs](https://ddls.learnondemand.net/)|Brent Denny
 29Mar|Tue|16|Custom|Azure Challenge - Azure Infrastructure Fundamentals|n/a|[Labs](https://ddls.learnondemand.net/)|Brent Denny
-30Mar|Wed|16|AZ-104|[Azure Administration](https://skillpipe.com)|9, 10, 11|[Labs](https://ddls.learnondemand.net/)|Brent Denny
-31Mar|Thu|16|AZ-104|[Azure Administration](https://skillpipe.com)|9, 10, 11|[Labs](https://ddls.learnondemand.net/)|Brent Denny
+30Mar|Wed|16|AZ-104|[Azure Administration](https://skillpipe.com)|9, 10|[Labs](https://ddls.learnondemand.net/)|Brent Denny
+31Mar|Thu|16|AZ-104|[Azure Administration](https://skillpipe.com)|10, 11|[Labs](https://ddls.learnondemand.net/)|Brent Denny
 1Apr|Fri|16|MSSA ProDev|MSSA Professional Development|||MS Career Development
 4Apr|Mon|17|WS-050T00|[Migrating Application Workloads to Azure](https://skillpipe.com)|1, 2|[Labs](https://ddls.learnondemand.net/)|Chris Duffy
 5Apr|Tue|17|WS-050T00|[Migrating Application Workloads to Azure](https://skillpipe.com)|3, 4|[Labs](https://ddls.learnondemand.net/)|Chris Duffy
