@@ -10,14 +10,14 @@ Date|Day|Week|Course|Title|Modules|Labs|Instructor
 6Dec|Mon|2|AZ-040/20-740|[Installation, Storage and Compute with Windows Server 2016](https://skillpipe.com)|4, 1|[Labs](https://ddls.learnondemand.net/)|Brent Denny
 7Dec|Tue|2|20-740|[Installation, Storage and Compute with Windows Server 2016](https://skillpipe.com)|2,3|[Labs](https://ddls.learnondemand.net/)|Brent Denny
 8Dec|Wed|2|20-740|[Installation, Storage and Compute with Windows Server 2016](https://skillpipe.com)|4|[Labs](https://ddls.learnondemand.net/)|Brent Denny
-9Dec|Thu|2|20-740|[Installation, Storage and Compute with Windows Server 2016](https://skillpipe.com)|5|[Labs](https://ddls.learnondemand.net/)|Brent Denny
+9Dec|Thu|2|20-740|[Installation, Storage and Compute with Windows Server 2016](https://skillpipe.com)|5,6|[Labs](https://ddls.learnondemand.net/)|Brent Denny
 10Dec|Fri|2|MSSA ProDev|MSSA Professional Development|||Kirsty McConville
-13Dec|Mon|3|20-740|[Installation, Storage and Compute with Windows Server 2016](https://skillpipe.com)|6|[Labs](https://ddls.learnondemand.net/)|Brent Denny
-14Dec|Tue|3|20-740|[Installation, Storage and Compute with Windows Server 2016](https://skillpipe.com)|7|[Labs](https://ddls.learnondemand.net/)|Brent Denny
-15Dec|Wed|3|20-740|[Installation, Storage and Compute with Windows Server 2016](https://skillpipe.com)|8|[Labs](https://ddls.learnondemand.net/)|Brent Denny
-16Dec|Thu|3|20-740|[Installation, Storage and Compute with Windows Server 2016](https://skillpipe.com)|9|[Labs](https://ddls.learnondemand.net/)|Brent Denny
+13Dec|Mon|3|20-740|[Installation, Storage and Compute with Windows Server 2016](https://skillpipe.com)|7|[Labs](https://ddls.learnondemand.net/)|Brent Denny
+14Dec|Tue|3|20-740|[Installation, Storage and Compute with Windows Server 2016](https://skillpipe.com)|8|[Labs](https://ddls.learnondemand.net/)|Brent Denny
+15Dec|Wed|3|20-740|[Installation, Storage and Compute with Windows Server 2016](https://skillpipe.com)|9|[Labs](https://ddls.learnondemand.net/)|Brent Denny
+16Dec|Thu|3|20-740|[Installation, Storage and Compute with Windows Server 2016](https://skillpipe.com)|10|[Labs](https://ddls.learnondemand.net/)|Brent Denny
 17Dec|Fri|3|MSSA ProDev|MSSA Professional Development|||Kirsty McConville
-20Dec|Mon|4|20-740|[Installation, Storage and Compute with Windows Server 2016](https://skillpipe.com)|10, 11|[Labs](https://ddls.learnondemand.net/)|Brent Denny
+20Dec|Mon|4|20-740|[Installation, Storage and Compute with Windows Server 2016](https://skillpipe.com)|11|[Labs](https://ddls.learnondemand.net/)|Brent Denny
 21Dec|Tue|4|20-740|[Installation, Storage and Compute with Windows Server 2016](https://skillpipe.com)|12|[Labs](https://ddls.learnondemand.net/)|Brent Denny
 22Dec|Wed|4|AZ-040|[Automating Administration with Windows PowerShell](https://skillpipe.com)|5|[Labs](https://ddls.learnondemand.net/)|Brent Denny
 23Dec|Thu|4|AZ-040|[Automating Administration with Windows PowerShell](https://skillpipe.com)|6|[Labs](https://ddls.learnondemand.net/)|Brent Denny
