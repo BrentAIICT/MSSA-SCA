@@ -51,7 +51,7 @@ docker images
 docker run -dit -p 80:80 mcr.microsoft.com/windows/servercore/iis
 ```
 
-> *Recoed the first six characters of the running container, called the container ID*
+> *Record the first six characters of the running container, called the container ID*
 
 ## Check the container is running
 
@@ -61,7 +61,7 @@ docker ps
 
 ## Find the IP to access the container
 
-> when typing this command remember to replace ContinerID with the 6 characters recorded earlier
+> when typing this next command remember to replace ContinerID with the 6 characters recorded earlier
 ```
 docker inspect -f "{{ .NetworkSettings.Networks.nat.IPAddress }}" ContainerID
 ```
@@ -71,11 +71,11 @@ docker inspect -f "{{ .NetworkSettings.Networks.nat.IPAddress }}" ContainerID
 ## Access the IIS web site on the container
 
 > Open a web browser and type the ipaddress of the container into the address bar <br>
-> The blue colored web site should appear
+> The blue geeting default IIS web site should appear
 
 ## Stop the container and try accessing the web site again
 
-> when typing this command remember to replace ContinerID with the 6 characters recorded earlier
+> when typing this next command remember to replace ContinerID with the 6 characters recorded earlier
 ```
 Docker stop ContainerID
 ```
