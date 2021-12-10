@@ -79,7 +79,7 @@ docker inspect -f "{{ .NetworkSettings.Networks.nat.IPAddress }}" ContainerID
 ## Access the IIS web site on the container
 
 > Open a web browser and type the ipaddress of the container into the address bar <br>
-> The blue geeting default IIS web site should appear
+> The default IIS web site should appear
 
 ## Stop the container and try accessing the web site again
 
