@@ -1,5 +1,5 @@
 # Prep Windows for containers
-
+## Set the TLS version to be 1.2
 ```
 # Set the TLS version used by the PowerShell client to TLS 1.2.
 [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.SecurityProtocolType]::Tls12;
