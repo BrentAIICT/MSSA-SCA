@@ -54,5 +54,5 @@ docker ps
 ## Find the IP to access the container
 
 ```
-docker inspect -f "{{ .NetworkSettings.Networks.nat.IPAddress }}" *\<Container ID\>*
+docker inspect -f "{{ .NetworkSettings.Networks.nat.IPAddress }}" *Container ID*
 ```
