@@ -25,11 +25,19 @@ Restart-Computer -Force
 
 # Run your first Windows container
 
+## Set the TLS version to be 1.2
+```
+# Set the TLS version used by the PowerShell client to TLS 1.2.
+[System.Net.ServicePointManager]::SecurityProtocol = [System.Net.SecurityProtocolType]::Tls12;
+```
+
+
 ## Download and install the base image
 
 ```
 docker pull mcr.microsoft.com/windows/servercore/iis
 ```
+> This will probably take 10 minutes to finish
 
 ## Querying your local docker image repository
 
@@ -43,7 +51,7 @@ docker images
 docker run -dit -p 80:80 mcr.microsoft.com/windows/servercore/iis
 ```
 
-> *Take note of the first six characters of the running container, called the container ID*
+> *Recoed the first six characters of the running container, called the container ID*
 
 ## Check the container is running
 
@@ -53,6 +61,7 @@ docker ps
 
 ## Find the IP to access the container
 
+> when typing this command remember to replace ContinerID with the 6 characters recorded earlier
 ```
 docker inspect -f "{{ .NetworkSettings.Networks.nat.IPAddress }}" ContainerID
 ```
@@ -66,6 +75,7 @@ docker inspect -f "{{ .NetworkSettings.Networks.nat.IPAddress }}" ContainerID
 
 ## Stop the container and try accessing the web site again
 
+> when typing this command remember to replace ContinerID with the 6 characters recorded earlier
 ```
 Docker stop ContainerID
 ```
