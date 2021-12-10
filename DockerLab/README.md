@@ -70,7 +70,7 @@ docker inspect -f "{{ .NetworkSettings.Networks.nat.IPAddress }}" ContainerID
 
 ## Access the IIS web site on the container
 
-> Open a web browser and type the ipaddress of the container into the address bar 
+> Open a web browser and type the ipaddress of the container into the address bar <br>
 > The blue colored web site should appear
 
 ## Stop the container and try accessing the web site again
@@ -80,5 +80,5 @@ docker inspect -f "{{ .NetworkSettings.Networks.nat.IPAddress }}" ContainerID
 Docker stop ContainerID
 ```
 
-> Open a web browser and type the ipaddress of the container into the address bar 
+> Open a web browser and type the ipaddress of the container into the address bar <br>
 > The browser will fail to locate the web site now
