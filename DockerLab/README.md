@@ -1,6 +1,6 @@
 # Prep Windows for containers
 - Run all of the following commands from the PowerShell Console
-- Answer y to and prompts to proceed for any of these steps
+- Answer "y" to and prompts to proceed for any of these steps
 <br>
 <!--
 This lab was written with help from these sites
