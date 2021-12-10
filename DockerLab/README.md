@@ -54,5 +54,21 @@ docker ps
 ## Find the IP to access the container
 
 ```
-docker inspect -f "{{ .NetworkSettings.Networks.nat.IPAddress }}" *Container ID*
+docker inspect -f "{{ .NetworkSettings.Networks.nat.IPAddress }}" ContainerID
 ```
+
+>*Take note of the IP Address of the container*
+
+## Access the IIS web site on the container
+
+> Open a web browser and type the ipaddress of the container into the address bar 
+> The blue colored web site should appear
+
+## Stop the container and try accessing the web site again
+
+```
+Docker stop ContainerID
+```
+
+> Open a web browser and type the ipaddress of the container into the address bar 
+> The browser will fail to locate the web site now
