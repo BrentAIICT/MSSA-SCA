@@ -1,4 +1,12 @@
 # Prep Windows for containers
+
+<!--
+This lab was written with help from these sites
+https://docs.microsoft.com/en-us/virtualization/windowscontainers/quick-start/set-up-environment?tabs=Windows-Server
+https://docs.microsoft.com/en-us/virtualization/windowscontainers/quick-start/run-your-first-container
+https://hub.docker.com/_/microsoft-windows-servercore-iis
+-->
+
 ## Set the TLS version to be 1.2
 ```
 # Set the TLS version used by the PowerShell client to TLS 1.2.
