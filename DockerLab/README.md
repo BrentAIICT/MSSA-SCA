@@ -43,6 +43,16 @@ docker images
 docker run -dit -p 80:80 mcr.microsoft.com/windows/servercore/iis
 ```
 
-> *Take note of the first six characters of the running container*
+> *Take note of the first six characters of the running container, called the container ID*
 
+## Check the container is running
 
+```
+docker ps
+```
+
+## Find the IP to access the container
+
+```
+docker inspect -f "{{ .NetworkSettings.Networks.nat.IPAddress }}" *\<Container ID\>*
+```
