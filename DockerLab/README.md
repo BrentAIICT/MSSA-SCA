@@ -86,12 +86,15 @@ docker inspect -f "{{ .NetworkSettings.Networks.nat.IPAddress }}" ContainerID
 > Open a web browser and type the ipaddress of the container into the address bar <br>
 > The default IIS web site should appear
 
-## Stop the container and try accessing the web site again
+## Stop the container 
 
 > when typing this next command remember to replace ContinerID with the 6 characters recorded earlier
 ```
 Docker stop ContainerID
 ```
+
+## Try accessing the web site again
+
 - This should no longer work as we have stopped the container from running
 > Open a web browser and type the ipaddress of the container into the address bar <br>
-> The browser will fail to locate the web site now
+> The browser will **fail** to locate the web site now
