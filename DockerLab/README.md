@@ -98,3 +98,5 @@ Docker stop ContainerID
 - This should no longer work as we have stopped the container from running
 > Open a web browser and type the ipaddress of the container into the address bar <br>
 > The browser will **fail** to locate the web site now
+
+## Congratulations you have successfully deployed a container!
