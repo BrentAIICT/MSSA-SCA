@@ -21,7 +21,7 @@ Date|Day|Week|Course|Title|Modules|Labs|Instructor
 21Dec|Tue|4|20-740|[Introduction to Networking](https://skillpipe.com)||[Labs](https://ddls.learnondemand.net/)|Brent Denny
 22Dec|Wed|4|AZ-040|[Automating Administration with Windows PowerShell](https://skillpipe.com)|5|[Labs](https://ddls.learnondemand.net/)|Brent Denny
 23Dec|Thu|4|AZ-040|[Automating Administration with Windows PowerShell](https://skillpipe.com)|6|[Labs](https://ddls.learnondemand.net/)|Brent Denny
-24Dec|Fri|4||Holidays: Dec 24 2021 to Jan 9, 2022|||
+24Dec|Fri|4|---|Holidays: Dec 24 2021 to Jan 9, 2022|---|---|
 10Jan|Mon|5|20-741|[Networking with Windows Server 2016](https://skillpipe.com)|1|[Labs](https://ddls.learnondemand.net/)|Brent Denny
 11Jan|Tue|5|20-741|[Networking with Windows Server 2016](https://skillpipe.com)|2,3|[Labs](https://ddls.learnondemand.net/)|Brent Denny
 12Jan|Wed|5|20-741|[Networking with Windows Server 2016](https://skillpipe.com)|3,4|[Labs](https://ddls.learnondemand.net/)|Brent Denny
