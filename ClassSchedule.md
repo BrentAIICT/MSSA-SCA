@@ -21,7 +21,7 @@ Date|Day|Week|Course|Title|Modules|Labs|Instructor
 21Dec|Tue|4|20-740|[Introduction to Networking](https://skillpipe.com)||[Labs](https://ddls.learnondemand.net/)|Brent Denny
 22Dec|Wed|4|AZ-040|[Automating Administration with Windows PowerShell](https://skillpipe.com)|5|[Labs](https://ddls.learnondemand.net/)|Brent Denny
 23Dec|Thu|4|AZ-040|[Automating Administration with Windows PowerShell](https://skillpipe.com)|6|[Labs](https://ddls.learnondemand.net/)|Brent Denny
-24Dec|Fri|4|---|Holidays: Dec 24 2021 to Jan 9, 2022|---|---|
+24Dec|Fri|4|---|Holidays: Dec 24 2021 to Jan 9, 2022|---|---|---
 10Jan|Mon|5|20-741|[Networking with Windows Server 2016](https://skillpipe.com)|1|[Labs](https://ddls.learnondemand.net/)|Brent Denny
 11Jan|Tue|5|20-741|[Networking with Windows Server 2016](https://skillpipe.com)|2,3|[Labs](https://ddls.learnondemand.net/)|Brent Denny
 12Jan|Wed|5|20-741|[Networking with Windows Server 2016](https://skillpipe.com)|3,4|[Labs](https://ddls.learnondemand.net/)|Brent Denny
@@ -34,7 +34,7 @@ Date|Day|Week|Course|Title|Modules|Labs|Instructor
 21Jan|Fri|6|MSSA ProDev|MSSA Professional Development|||Kirsty McConville
 24Jan|Mon|7|AZ-040|[Automating Administration with Windows PowerShell](https://skillpipe.com)|7|[Labs](https://ddls.learnondemand.net/)|Brent Denny
 25Jan|Tue|7|AZ-040|[Automating Administration with Windows PowerShell](https://skillpipe.com)|8|[Labs](https://ddls.learnondemand.net/)|Brent Denny
-26Jan|Wed|7||Holiday-Australia Day|||
+26Jan|Wed|7|---|Holiday-Australia Day|--|---|---
 27Jan|Thu|7|20-742|[Identity with Windows Server 2016](https://skillpipe.com)|1|[Labs](https://ddls.learnondemand.net/)|Brent Denny
 28Jan|Fri|7|MSSA ProDev|MSSA Professional Development|||Kirsty McConville
 31Jan|Mon|8|20-742|[Identity with Windows Server 2016](https://skillpipe.com)|2|[Labs](https://ddls.learnondemand.net/)|Brent Denny
@@ -86,4 +86,4 @@ Date|Day|Week|Course|Title|Modules|Labs|Instructor
 5Apr|Tue|17|WS-050T00|[Migrating Application Workloads to Azure](https://skillpipe.com)|3, 4|[Labs](https://ddls.learnondemand.net/)|Chris Duffy
 6Apr|Wed|17|Cloud Workshop|LOB Migration - WDS and Lab|n/a|[Labs](https://ddls.learnondemand.net/)|Chris Duffy
 7Apr|Thu|17|n/a|Wrap Up - Q&A|||Brent Denny
-8Apr|Fri|17|Graduation||||
+8Apr|Fri|17|Graduation|---|---|---|---
