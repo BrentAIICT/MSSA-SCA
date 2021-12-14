@@ -85,5 +85,5 @@ Date|Day|Week|Course|Title|Modules|Labs|Instructor
 4Apr|Mon|17|WS-050T00|[Migrating Application Workloads to Azure](https://skillpipe.com)|1, 2|[Labs](https://ddls.learnondemand.net/)|Chris Duffy
 5Apr|Tue|17|WS-050T00|[Migrating Application Workloads to Azure](https://skillpipe.com)|3, 4|[Labs](https://ddls.learnondemand.net/)|Chris Duffy
 6Apr|Wed|17|Cloud Workshop|LOB Migration - WDS and Lab|n/a|[Labs](https://ddls.learnondemand.net/)|Chris Duffy
-7Apr|Thu|17|n/a|Wrap Up - Q&A|||Brent Denny
+7Apr|Thu|17|n/a|Wrap Up - Q&A|---|---|Brent Denny
 8Apr|Fri|17|Graduation|---|---|---|---
