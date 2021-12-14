@@ -13,12 +13,12 @@ Date|Day|Week|Course|Title|Modules|Labs|Instructor
 9Dec|Thu|2|20-740|[Installation, Storage and Compute with Windows Server 2016](https://skillpipe.com)|5,6|[Labs](https://ddls.learnondemand.net/)|Brent Denny
 10Dec|Fri|2|MSSA ProDev|MSSA Professional Development|||Kirsty McConville
 13Dec|Mon|3|20-740|[Installation, Storage and Compute with Windows Server 2016](https://skillpipe.com)|7,8|[Labs](https://ddls.learnondemand.net/)|Brent Denny
-14Dec|Tue|3|20-740|[Installation, Storage and Compute with Windows Server 2016](https://skillpipe.com)|8|[Labs](https://ddls.learnondemand.net/)|Brent Denny
-15Dec|Wed|3|20-740|[Installation, Storage and Compute with Windows Server 2016](https://skillpipe.com)|9|[Labs](https://ddls.learnondemand.net/)|Brent Denny
-16Dec|Thu|3|20-740|[Installation, Storage and Compute with Windows Server 2016](https://skillpipe.com)|10|[Labs](https://ddls.learnondemand.net/)|Brent Denny
+14Dec|Tue|3|20-740|[Installation, Storage and Compute with Windows Server 2016](https://skillpipe.com)|8,9|[Labs](https://ddls.learnondemand.net/)|Brent Denny
+15Dec|Wed|3|20-740|[Installation, Storage and Compute with Windows Server 2016](https://skillpipe.com)|9, 10|[Labs](https://ddls.learnondemand.net/)|Brent Denny
+16Dec|Thu|3|20-740|[Installation, Storage and Compute with Windows Server 2016](https://skillpipe.com)|11|[Labs](https://ddls.learnondemand.net/)|Brent Denny
 17Dec|Fri|3|MSSA ProDev|MSSA Professional Development|||Kirsty McConville
-20Dec|Mon|4|20-740|[Installation, Storage and Compute with Windows Server 2016](https://skillpipe.com)|11|[Labs](https://ddls.learnondemand.net/)|Brent Denny
-21Dec|Tue|4|20-740|[Installation, Storage and Compute with Windows Server 2016](https://skillpipe.com)|12|[Labs](https://ddls.learnondemand.net/)|Brent Denny
+20Dec|Mon|4|20-740|[Installation, Storage and Compute with Windows Server 2016](https://skillpipe.com)|12|[Labs](https://ddls.learnondemand.net/)|Brent Denny
+21Dec|Tue|4|20-740|[Introduction to Networking](https://skillpipe.com)||[Labs](https://ddls.learnondemand.net/)|Brent Denny
 22Dec|Wed|4|AZ-040|[Automating Administration with Windows PowerShell](https://skillpipe.com)|5|[Labs](https://ddls.learnondemand.net/)|Brent Denny
 23Dec|Thu|4|AZ-040|[Automating Administration with Windows PowerShell](https://skillpipe.com)|6|[Labs](https://ddls.learnondemand.net/)|Brent Denny
 24Dec|Fri|4||Holidays: Dec 24 2021 to Jan 9, 2022|||
