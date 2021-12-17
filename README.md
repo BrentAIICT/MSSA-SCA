@@ -19,7 +19,7 @@
 [Docker Lab](DockerLab#readme)
 
 ### Networking Introduction
-[Introduction to Networking]()
+[Introduction to Networking](NetworkingIntro/Network%20Intro%20MSSA.pdf)
 
 ### Classroom Resources
 
