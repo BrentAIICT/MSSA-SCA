@@ -1,4 +1,4 @@
 # Introduction to Networking
 
-## IP Address and Subnet Masks
+## The PDF that is in this section contains the material for the training session
 
