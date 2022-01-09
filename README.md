@@ -15,7 +15,7 @@
 [GitHub Lab 5 - Managing the Repositories](GitTraining/ManagingGitRepo.md#managing-a-local-git-repo)<br>
 
 ### PowerShell Training
-[PowerShell Training Rewitten](PowerShellTraining)<br>
+[PowerShell Labs Rewitten](PowerShellTraining)<br>
 [Docker Lab](DockerLab#readme)<br>
 [How Pipelines Work](PowerShellTraining/How%20PS%20Pipelines%20work.pdf)
 
