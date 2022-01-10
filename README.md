@@ -20,7 +20,7 @@
 [How Pipelines Work](PowerShellTraining/How%20PS%20Pipelines%20work.pdf)
 
 ### Networking Introduction
-[Introduction to Networking](NetworkingIntro/Network%20Intro%20MSSA.pdf)
+[Introduction to Networking](NetworkingIntro/Network%20Intro%20MSSA.pdf)<br>
 [Subnet Quiz](NetworkingIntro/SubnettingQuiz.md)
 
 ### Classroom Resources
