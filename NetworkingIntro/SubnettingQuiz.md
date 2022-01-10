@@ -54,7 +54,7 @@
 
 ## Network Information
 - Current IP address 193.1.2.0/24
-- Subnets required showing city and hosts required
+- Subnets needed showing city and hosts required
   - London 100
   - Sydney 29
   - Auckland 10
