@@ -21,7 +21,8 @@
 
 ### Networking Introduction
 [Introduction to Networking](NetworkingIntro/Network%20Intro%20MSSA.pdf)<br>
-[Subnet Quiz](NetworkingIntro/SubnettingQuiz.md)
+[Subnet Quiz](NetworkingIntro/SubnettingQuiz.md)<br>
+[DNS Intro](DNS/DNS%20Intro.pdf)<br>
 
 ### Classroom Resources
 
