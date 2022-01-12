@@ -68,3 +68,36 @@
 - Show 
   - Network address and CIDR mask for each network
 
+# Quiz 5
+
+## Network Information
+- Current IP address 131.107.0.0/16
+- Subnets required:  110
+- Hosts per subnet: 280
+
+## Please create for the client:
+- Display the first five subnets ranges showing the following for each subnet:
+  - Subnet address
+  - Usable addresses
+  - Broadcast address
+
+# Quiz 6
+
+## Network Information
+- Class C addresses 
+  - 193.1.15.0/24
+  - 193.1.16.0/24
+  - 193.1.17.0/24
+  - 193.1.18.0/24
+  - 193.1.19.0/24
+  - 193.1.20.0/24
+  - 193.1.21.0/24
+  - 193.1.22.0/24
+  - 193.1.23.0/24
+  - 193.1.24.0/24
+  - 193.1.25.0/24
+- Subnets required:  1 
+- Hosts per subnet: 280
+## Please create for the company:
+- From the class C networks provided
+- Create a supernet range that will allow 280 clients to be on one subnet
