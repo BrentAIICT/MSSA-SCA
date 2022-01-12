@@ -85,19 +85,32 @@
 
 ## Network Information
 - Class C addresses 
-  - 193.1.15.0/24
-  - 193.1.16.0/24
-  - 193.1.17.0/24
-  - 193.1.18.0/24
-  - 193.1.19.0/24
-  - 193.1.20.0/24
-  - 193.1.21.0/24
-  - 193.1.22.0/24
-  - 193.1.23.0/24
-  - 193.1.24.0/24
-  - 193.1.25.0/24
+  - 192.10.15.0/24
+  - 192.10.16.0/24
+  - 192.10.17.0/24
+  - 192.10.18.0/24
+  - 192.10.19.0/24
+  - 192.10.20.0/24
+  - 192.10.21.0/24
+  - 192.10.22.0/24
+  - 192.10.23.0/24
+  - 192.10.24.0/24
+  - 192.10.25.0/24
 - Subnets required:  1 
 - Hosts per subnet: 280
 ## Please create for the company:
 - From the class C networks provided
 - Create a supernet range that will allow 280 clients to be on one subnet
+
+# Quiz 7
+
+## Network Information
+- Current IP address 222.0.0.0/24
+- Subnets required:  30
+- Hosts per subnet: 6
+
+## Please create for the client:
+- Display the six subnets ranges showing the following for each subnet:
+  - Subnet address
+  - Usable addresses
+  - Broadcast address
