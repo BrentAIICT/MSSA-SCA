@@ -29,6 +29,7 @@
 [Microsoft Course Manuals (SkillPipe)](https://skillpipe.com)<br>
 [Microsoft Labs (LearnOnDemand)](https://ddls.learnondemand.net/)<br> 
 [Register for SkillPipe Manuals and LearnOnDemand Labs](Course-and-Manuals.md#course-setup)<br>
+[SSL primer](https://github.com/brentd09/Documents/blob/main/Encryption)<br>
 
 ### Teams Meeting
 
