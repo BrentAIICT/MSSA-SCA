@@ -16,7 +16,11 @@
 <details><summary>Click for hint</summary><Strong> 
 
 ``` 
-HINT
+How many bits are required for the subnets required?
+How many bits are required for the hosts/subnets
+Create the new subnet mask
+Workout your subnet ranges; 
+  remember first address in the subnet is Subnet address and the last address is the Broadcast address   
 ```
 </Strong></details> 
 <details><summary>Click to see the answer</summary><Strong> 
