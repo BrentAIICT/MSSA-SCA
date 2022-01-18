@@ -13,18 +13,18 @@
   - Usable addresses
   - Broadcast address
 
-    <details><summary>Click for hint</summary><Strong> 
+<details><summary>Click for hint</summary><Strong> 
 
-    ``` 
-    HINT
-    ```
-    </Strong></details> 
-    <details><summary>Click to see the answer</summary><Strong> 
-    
-    ```
-    ANSWER
-    ```
-    </Strong></details> 
+``` 
+HINT
+```
+</Strong></details> 
+<details><summary>Click to see the answer</summary><Strong> 
+   
+```
+ANSWER
+```
+</Strong></details> 
 
 
 # Quiz 2
@@ -49,6 +49,19 @@
 - From the class C networks provided
 - Create a supernet range that will allow 2000 clients to be on one subnet
 
+<details><summary>Click for hint</summary><Strong> 
+
+``` 
+HINT
+```
+</Strong></details> 
+<details><summary>Click to see the answer</summary><Strong> 
+   
+```
+ANSWER
+```
+</Strong></details> 
+
 # Quiz 3
 
 ## Network Information
@@ -62,6 +75,18 @@
   - Usable addresses
   - Broadcast address
 
+<details><summary>Click for hint</summary><Strong> 
+
+``` 
+HINT
+```
+</Strong></details> 
+<details><summary>Click to see the answer</summary><Strong> 
+   
+```
+ANSWER
+```
+</Strong></details> 
 
 # Quiz 4 (Very difficult)
 
@@ -81,6 +106,19 @@
 - Show 
   - Network address and CIDR mask for each network
 
+<details><summary>Click for hint</summary><Strong> 
+
+``` 
+HINT
+```
+</Strong></details> 
+<details><summary>Click to see the answer</summary><Strong> 
+   
+```
+ANSWER
+```
+</Strong></details> 
+
 # Quiz 5
 
 ## Network Information
@@ -93,6 +131,19 @@
   - Subnet address
   - Usable addresses
   - Broadcast address
+
+<details><summary>Click for hint</summary><Strong> 
+
+``` 
+HINT
+```
+</Strong></details> 
+<details><summary>Click to see the answer</summary><Strong> 
+   
+```
+ANSWER
+```
+</Strong></details> 
 
 # Quiz 6
 
@@ -114,6 +165,19 @@
 ## Please create for the company:
 - From the class C networks provided
 - Create a supernet range that will allow 280 clients to be on one subnet
+
+<details><summary>Click for hint</summary><Strong> 
+
+``` 
+HINT
+```
+</Strong></details> 
+<details><summary>Click to see the answer</summary><Strong> 
+   
+```
+ANSWER
+```
+</Strong></details> 
 
 # Quiz 7
 
