@@ -62,13 +62,20 @@ Mask SubnetID    FirstValidIP LastValidIP BroadcastIP HostsPerSubnet Subnet Tota
 <details><summary>Click for hint</summary><Strong> 
 
 ``` 
-HINT
+Determine how many host bits would be required to make a single subnet of 2000 hosts
+You need to reduce the /24 mask so that multiple networks can be supernetted as on subnet
+The number of bit you are subtracting will also tell you haw many /24 networks you need
+Remember that the bits you are subtracting must:
+  start with 0's in the first network and 
+  end in 1's in the last network
 ```
 </Strong></details> 
 <details><summary>Click to see the answer</summary><Strong> 
    
 ```
-ANSWER
+193.1.16.0/21 
+  
+  Which combines these 8 subnets 192.1.16.0 -> 192.1.23.0
 ```
 </Strong></details> 
 
