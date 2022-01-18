@@ -13,6 +13,19 @@
   - Usable addresses
   - Broadcast address
 
+    <details><summary>Click for hint</summary><Strong> 
+
+    ``` 
+    HINT
+    ```
+    </Strong></details> 
+    <details><summary>Click to see the answer</summary><Strong> 
+    
+    ```
+    ANSWER
+    ```
+    </Strong></details> 
+
 
 # Quiz 2
 
