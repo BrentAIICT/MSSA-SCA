@@ -22,7 +22,13 @@ HINT
 <details><summary>Click to see the answer</summary><Strong> 
    
 ```
-ANSWER
+Mask SubnetID    FirstValidIP LastValidIP BroadcastIP HostsPerSubnet Subnet TotalSubnets
+---- --------    ------------ ----------- ----------- -------------- ------ ------------
+  26 193.1.2.0   193.1.2.1    193.1.2.62  193.1.2.63              62      1            4
+  26 193.1.2.64  193.1.2.65   193.1.2.126 193.1.2.127             62      2            4
+  26 193.1.2.128 193.1.2.129  193.1.2.190 193.1.2.191             62      3            4
+  26 193.1.2.192 193.1.2.193  193.1.2.254 193.1.2.255             62      4            4
+
 ```
 </Strong></details> 
 
