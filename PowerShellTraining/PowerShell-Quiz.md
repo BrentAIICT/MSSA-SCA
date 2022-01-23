@@ -19,6 +19,7 @@
 
 ### Q1.1 Create a function that takes a string as a parameter and reverses the case, upper case changed to lower case and lower case changed to upper case
 
+
     <details><summary>Click for hint</summary><Strong> 
 
     ``` 
@@ -40,7 +41,8 @@
 
     ```
     </Strong></details> 
-    
+
+
 ### Q1.2 Create a function that takes two strings and compares the first character of the first word with the last character of the second word if they are the same return $true in not return $false
 
     <details><summary>Click for hint</summary><Strong> 
