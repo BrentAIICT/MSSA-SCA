@@ -40,6 +40,7 @@
       }
       return $RevCaseString
     }
+    ReverseCase -InitialString "tHISiSAsTRING"
 
     ```
     </Strong></details> 
