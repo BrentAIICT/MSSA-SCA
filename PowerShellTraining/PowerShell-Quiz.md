@@ -46,18 +46,27 @@
     </Strong></details> 
 
 
-- Q1.2 Create a function that takes two strings and compares the first character of the first word with the last character of the second word if they are the same return $true in not return $false
+- Q1.2 Create a function that takes two strings in an array and compares the first character of the first word with the last character of the second word if they are the same return $true in not return $false
 
     <details><summary>Click for hint</summary><Strong> 
 
     ``` 
-    HINT
+    Consider:
+    - How to get the first and last characters of two words
+    - How to compare string values
     ```
     </Strong></details> 
     <details><summary>Click to see the answer</summary><Strong> 
     
     ```
-    ANSWER
+    function CompareFirstLast {
+      param ([string[]]$TwoWords)
+      if ($TwoWords[0][0] -eq $TwoWords[1][-1]) {$Result = $true}
+      else {$Result = $false}
+      return $Result
+    }
+
+    CompareFirstLast -TwoWords bill,lob
     ```
     </Strong></details> 
     
