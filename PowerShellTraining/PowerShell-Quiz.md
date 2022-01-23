@@ -96,7 +96,7 @@
       return "Consonants = $Consonants, Vowels = $Vowels"
     }
 
-    ConsonantsVowels -Word "Thisisaword"
+    ConsonantsVowels -Word "Thisisastring"
     ```
     </Strong></details> 
     
