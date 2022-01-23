@@ -113,7 +113,14 @@
     <details><summary>Click to see the answer</summary><Strong> 
     
     ```
-    ANSWER
+    function AgeInDays {
+      Param ([datetime]$DateOfBirth)
+      $Now = Get-Date
+      $Age = $Now - $DateOfBirth
+      return $Age.Days
+    }
+
+    AgeInDays -DateOfBirth "5 sep 1990"
     ```
     </Strong></details> 
 
