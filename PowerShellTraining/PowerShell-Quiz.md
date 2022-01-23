@@ -23,7 +23,9 @@
     <details><summary>Click for hint</summary><Strong> 
 
     ``` 
-    Look for methods that will be able to help ou get waht ou are looking for
+    Think about the following:
+    - How do I test each character for upper or lower case
+    - How do I invert the current case of each character
     ```
     </Strong></details> 
     <details><summary>Click to see the answer</summary><Strong> 
