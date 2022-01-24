@@ -182,5 +182,26 @@
     ```
     </Strong></details> 
     
+## 5 Using .Net Classes
 
+- Q5.1 Using the .Net class WebClient and the URL of http://www.mieliestronk.com/wordlist.html download the list of words to a file called e:\words.txt
 
+    <details><summary>Click for hint</summary><Strong> 
+
+    ``` 
+    Think about:
+    - How do we instantiate a .Net WebClient Object in PowerShell
+    - What method in the object will help us achieve the desired outcome
+    ```
+    </Strong></details> 
+    <details><summary>Click to see the answer</summary><Strong> 
+    
+    ```
+    function Get-WebFile {
+      Param ([string]$URL = 'http://www.mieliestronk.com/corncob_lowercase.txt')
+      $WebClient = [System.Net.WebClient]::DownloadFile($URL,'E:\words.txt')
+    }
+
+    Get-WebFile
+    ```
+    </Strong></details> 
