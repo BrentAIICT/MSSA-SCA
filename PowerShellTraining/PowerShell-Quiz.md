@@ -26,6 +26,7 @@
     Think about the following:
     - How do I test each character for upper or lower case
     - How do I invert the current case of each character
+    - Make sure you enter a string that has upper and lower case to test the function fully
     ```
     </Strong></details> 
     <details><summary>Click to see the answer</summary><Strong> 
