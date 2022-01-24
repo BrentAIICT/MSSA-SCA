@@ -18,6 +18,7 @@
 [PowerShell Labs Rewitten](PowerShellTraining)<br>
 [Docker Lab](DockerLab#readme)<br>
 [How Pipelines Work](PowerShellTraining/Practical%20PowerShell%20Pipelines%20using%20cars.pdf)
+[PowerShell Scripting Quiz](PowerShellTraining/PowerShell-Quiz.md)
 
 ### Networking Introduction
 [Introduction to Networking](NetworkingIntro/Network%20Intro%20MSSA.pdf)<br>
