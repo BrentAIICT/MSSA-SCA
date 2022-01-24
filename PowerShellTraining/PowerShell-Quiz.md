@@ -127,7 +127,7 @@
     ```
     </Strong></details> 
     
-    - Q3.2 Create a function that takes a word as a parameter and returns the count of vowels and the count of consonants
+- Q3.2 Create a function that takes a word as a parameter and returns the count of vowels and the count of consonants
 
     <details><summary>Click for hint</summary><Strong> 
 
