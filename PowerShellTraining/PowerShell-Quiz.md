@@ -71,35 +71,7 @@
     ```
     </Strong></details> 
     
-- Q1.3 Create a function that takes a word as a parameter and returns the count of vowels and the count of consonants
 
-    <details><summary>Click for hint</summary><Strong> 
-
-    ``` 
-    Consider:
-    - How to test if each character is a vowel or a consonant 
-    - How to count how many of each exist in the string
-    ```
-    </Strong></details> 
-    <details><summary>Click to see the answer</summary><Strong> 
-    
-    ```
-    function ConsonantsVowels {
-      Param ([string]$Word)
-      $Consonants = 0
-      $Vowels = 0
-      $ConList = 'b','c','d','f','g','h','j','k','l','m','n','p','q','r','s','t','v','w','x','y','z'
-      $VowList = 'a','e','i','o','u'
-      $Word.ToCharArray() | ForEach-Object {
-        if ($_ -in $VowList) {$Vowels++}
-        elseif ($_ -in $ConList) {$Consonants++} 
-      }
-      return "Consonants = $Consonants, Vowels = $Vowels"
-    }
-
-    ConsonantsVowels -Word "Thisisastring"
-    ```
-    </Strong></details> 
     
 ## 2 Testing the use of Properties
 
@@ -152,6 +124,36 @@
     }
 
     Get-Smallest -IntArray 45,3,22,12,1,455
+    ```
+    </Strong></details> 
+    
+    - Q3.2 Create a function that takes a word as a parameter and returns the count of vowels and the count of consonants
+
+    <details><summary>Click for hint</summary><Strong> 
+
+    ``` 
+    Consider:
+    - How to test if each character is a vowel or a consonant 
+    - How to count how many of each exist in the string
+    ```
+    </Strong></details> 
+    <details><summary>Click to see the answer</summary><Strong> 
+    
+    ```
+    function ConsonantsVowels {
+      Param ([string]$Word)
+      $Consonants = 0
+      $Vowels = 0
+      $ConList = 'b','c','d','f','g','h','j','k','l','m','n','p','q','r','s','t','v','w','x','y','z'
+      $VowList = 'a','e','i','o','u'
+      $Word.ToCharArray() | ForEach-Object {
+        if ($_ -in $VowList) {$Vowels++}
+        elseif ($_ -in $ConList) {$Consonants++} 
+      }
+      return "Consonants = $Consonants, Vowels = $Vowels"
+    }
+
+    ConsonantsVowels -Word "Thisisastring"
     ```
     </Strong></details> 
 
