@@ -107,7 +107,11 @@
     <details><summary>Click for hint</summary><Strong> 
 
     ``` 
-    HINT
+    Create a function that:
+    - takes your date of bith as a parameter
+    - convert the date string into a [datetime] object
+    - calculate your age
+    - convert age into days
     ```
     </Strong></details> 
     <details><summary>Click to see the answer</summary><Strong> 
@@ -132,59 +136,50 @@
     <details><summary>Click for hint</summary><Strong> 
 
     ``` 
-    HINT
+    Think about
+    - the easiest ways to find the two smallest values in the array
+    - return the value of the two smallest numbers added together
     ```
     </Strong></details> 
     <details><summary>Click to see the answer</summary><Strong> 
     
     ```
-    ANSWER
+    function Get-Smallest {
+      Param ([int[]]$IntArray)
+      $SortedArray = $IntArray | Sort-Object 
+      return ($SortedArray[0] + $SortedArray[1])
+    }
+
+    Get-Smallest -IntArray 45,3,22,12,1,455
     ```
     </Strong></details> 
 
-## 4 Testing math 
+## 4 Testing Maniplulation of objects
 
-- Q4.1 Write a function that takes a string like this "12/144" and simplify it to is smallest values. eg 12/144 => 1/12
+- Q4.1 Write a function that lists all of the processes and shows the following: Name, ID, VirtualMemory for all processes that start with a letter given via a parameter
 
     <details><summary>Click for hint</summary><Strong> 
 
     ``` 
-    HINT
+    Think about:
+    - what command filters the objects via a condition/test
+    - what command restricts which properties will be displayed 
     ```
     </Strong></details> 
     <details><summary>Click to see the answer</summary><Strong> 
     
     ```
-    ANSWER
+    function Get-Proc {
+      Param ([string]$StartingLetter = 'w')
+      $Processes = Get-Process | 
+        Where-Object {$_.Name -like "$StartingLetter*"}  |
+        Select-Object -Property Name,Id,VirtualMemorySize
+      return ($Processes)
+    }
+
+    Get-Proc -StartingLetter w    
     ```
     </Strong></details> 
     
-- Q4.2 Write a function that creates a list of prime numbers up to a limit where the limit is entered as a parameter
 
-    <details><summary>Click for hint</summary><Strong> 
 
-    ``` 
-    HINT
-    ```
-    </Strong></details> 
-    <details><summary>Click to see the answer</summary><Strong> 
-    
-    ```
-    ANSWER
-    ```
-    </Strong></details> 
-    
-- Q4.3 Write a function that takes an integer as a parameter and then calculate all of the prime numbers this can be divided into. Use the primes from the previous question to factor the parameter value 
-
-    <details><summary>Click for hint</summary><Strong> 
-
-    ``` 
-    HINT
-    ```
-    </Strong></details> 
-    <details><summary>Click to see the answer</summary><Strong> 
-    
-    ```
-    ANSWER
-    ```
-    </Strong></details> 
