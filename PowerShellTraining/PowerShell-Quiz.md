@@ -120,7 +120,7 @@
     function Get-Smallest {
       Param ([int[]]$IntArray)
       $SortedArray = $IntArray | Sort-Object 
-      return ($SortedArray[0] + $SortedArray[1])
+      return ($SortedArray[0] + $SortedArray[-1])
     }
 
     Get-Smallest -IntArray 45,3,22,12,1,455
