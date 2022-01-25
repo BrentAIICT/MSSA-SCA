@@ -110,8 +110,8 @@
 
     ``` 
     Think about
-    - the easiest ways to find the two smallest values in the array
-    - return the value of the two smallest numbers added together
+    - the easiest ways to find the smallest and larest values in the array
+    - return the value of the two numbers added together
     ```
     </Strong></details> 
     <details><summary>Click to see the answer</summary><Strong> 
