@@ -110,7 +110,7 @@
 
     ``` 
     Think about
-    - the easiest ways to find the smallest and larest values in the array
+    - the easiest ways to find the smallest and largest values in the array
     - return the value of the two numbers added together
     ```
     </Strong></details> 
