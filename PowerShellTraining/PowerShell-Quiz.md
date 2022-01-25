@@ -186,7 +186,7 @@
     
 ## 5 Using .Net Classes
 
-- Q5.1 Using the .Net class WebClient and the URL of http://www.mieliestronk.com/wordlist.html download the list of words to a file called e:\words.txt
+- Q5.1 Using the .Net class WebClient and the URL of http://www.mieliestronk.com/wordlist.html/corncob_lowercase.txt download the list of words to a file called e:\words.txt
 
     <details><summary>Click for hint</summary><Strong> 
 
