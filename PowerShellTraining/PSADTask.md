@@ -1,3 +1,18 @@
+# Complete the following before starting this project
+
+- Launch the PowerShell lab virtual mahines (AZ-040)
+- Logon to LON-CL1 as the ADATUM\Administrator
+  - From LON-CL1 
+    - Launch PowerShell 7 (pwsh.exe)
+    - Run the following command 
+    ```
+    Install-Module GitHubToolsBD -Force
+    ```
+    - Run this command
+    ```
+    Get-FilesFromRepo -GitHubUserName brentaiict -Repository MSSA-SCA -PathInRepo PowerShellTraining -FilesToRetrive NewHires.csv -Destination E:\ 
+    ```
+
 # Use following brief to complete this task via PowerShell
 
 - Task to complete  
