@@ -10,7 +10,7 @@
     ```
     - Run this command
     ```
-    Get-FilesFromRepo -GitHubUserName brentaiict -Repository MSSA-SCA -PathInRepo PowerShellTraining -FilesToRetrive NewHires.csv -Destination E:\ 
+    Get-FilesFromRepo -GitHubUserName brentaiict -Repository MSSA-SCA -PathInRepo PowerShellTraining -FilesToRetrieve NewHires.csv -Destination E:\ 
     ```
 
 # Use following brief to complete this task via PowerShell
