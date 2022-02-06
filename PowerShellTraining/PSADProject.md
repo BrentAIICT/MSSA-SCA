@@ -17,10 +17,11 @@
 
 - Task to complete  
   - Create a PowerShell function
-    - only use Parameters to ask for information from the person running the function
+    - only use Parameters for information input, the function must run without interruption 
     - use a parameter for the CSV file, 
       - make sure the parameter has a default value for the path to the "e:\NewHires.csv" file 
-  - Write the function to achieve the following:
+
+- Write the function to achieve the following:
    
 ## What must the PowerShell function achieve
 
