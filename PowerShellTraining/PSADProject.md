@@ -36,7 +36,7 @@
       - Have all of the AD properties added as per the NewHires.csv file
       - Have the AD property called "SamAccountName" created comprising of the First letter of the FirstName and the LastName combined, all in lowercase
         - for example "FirstName = Ben, LastName =  Smith", 
-        - you will need to create an AD property called, **"SamAccountName"** that have the value **"bsmith"**    
+        - you will need to use an AD property called, **"SamAccountName"** that have the value **"bsmith"**    
       - Have the AD Property called "Name" created which consists of "FirstName LastName"
         - for example "FirstName = Ben, LastName =  Smith", 
-        - you will need to create an AD property called, **"Name"** that have the value **"Ben Smith"**     
+        - you will need to use an AD property called, **"Name"** that have the value **"Ben Smith"**     
