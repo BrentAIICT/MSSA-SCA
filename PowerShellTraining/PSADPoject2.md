@@ -1,5 +1,31 @@
 # AD User Recovery
-Recover deleted user from Domain controller Recycle-Bin
+## Recover deleted user from Domain controller Recycle-Bin
+
+- Turn on the AD Recycle Bin
+- Run this from LON-CL1
+  ```
+  Invoke-Command -ComputerNAme LON-DC1 -ScriptBlock {
+    $RecycleBin = Get-ADOptionalFeature 'Recycle Bin Feature'
+    if ($RecycleBin.EnabledScopes.Count -eq 0) {
+      Enable-ADOptionalFeature 'Recycle Bin Feature' -Scope ForestOrConfigurationSet -Target adatum.com -confirm:$false
+    }
+  }  
+  ```
+## Delete random users
+
+- Run this script to delete some random users from Active Directory
+- Run this from LON-CL1
+  ```
+  Invoke-Command -ComputerNAme LON-DC1 -ScriptBlock {  
+    Get-ADUser -Filter * -Properties Department | Where-Object {$_.Department -in @('Sales','Mareting','Managers')} | Get-Random -Count 10 | Remove-ADUser -Force
+  }  
+  ```
+- 10 Random users have now been deleted
+
+## List Deleted users
+
+
+## Recover a deleted user
 
 Probable outcome
 Your script do a search for the user in dsa.msc and it should be back without any info loss. This script is very handy and I wish to have it rather than doing with GUI.
