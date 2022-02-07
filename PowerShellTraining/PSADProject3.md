@@ -20,7 +20,12 @@
 ## Create groups and group memberships
 - Run this from LON-CL1
   ```
-  New-ADGroup -Name G_S_Sales -P  
+  New-ADGroup -Name 'G_S_Sales' -GroupScope Global -Path 'OU=Sales,DC=adatum,DC=com' -PassThru | Add-ADGroupMember -Members 'Evan'
+  New-ADGroup -Name 'DL_S_ReadDB' -GroupScope Global -Path 'OU=Sales,DC=adatum,DC=com' -PassThru | Add-ADGroupMember -Members 'G_S_Sales'
+  New-ADGroup -Name 'DL_S_WriteReports' -GroupScope Global -Path 'OU=Sales,DC=adatum,DC=com'  -PassThru | Add-ADGroupMember -Members 'G_S_Sales'    
+  New-ADGroup -Name 'DL_S_PrintToColorPrinter' -GroupScope Global -Path 'OU=Sales,DC=adatum,DC=com' -PassThru | Add-ADGroupMember -Members 'G_S_Sales'  
+  New-ADGroup -Name 'DL_S_ReadReports' -GroupScope Global -Path 'OU=Sales,DC=adatum,DC=com' -PassThru | Add-ADGroupMember -Members 'G_S_Sales'
+
   ```
 
 <br>
@@ -32,10 +37,11 @@
 # AD Group Membership Project
 ## Given a user identity, list all related groups
 
-- Groups can be members of other groups so therfore
+- Groups can be members of other groups so therfore:
   - Find all of the groups that the user is a member of
-  - For each of these groups find all the groups they are members of as well
+  - For each of these groups, find all the groups they are members of , and so on and so on!
   - Display the Name and Scope of each group
+  - Find the associated groups to the user **"Evan"**
 
 
 ## HINTS
