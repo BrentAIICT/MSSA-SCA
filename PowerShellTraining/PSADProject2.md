@@ -1,3 +1,20 @@
+
+<!--
+    <details><summary>Click for hint</summary><Strong> 
+
+    ``` 
+    HINT
+    ```
+    </Strong></details> 
+    <details><summary>Click to see the answer</summary><Strong> 
+    
+    ```
+    ANSWER
+    ```
+
+    </Strong></details> 
+-->
+
 ## To Prepare for this Project run the following:
 
 ## Turn on the AD Recycle Bin
@@ -42,4 +59,11 @@ Get-ADObject -LDAPFilter:"(msDS-LastKnownRDN=*)" -IncludeDeletedObjects | Where-
 Restore-ADObject 
 ```
 
+<details><summary>Click to see the answer</summary><Strong> 
+    
+```
+ANSWER
+```
+
+</Strong></details> 
 
