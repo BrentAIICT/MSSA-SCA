@@ -71,7 +71,7 @@ function Restore-DeletedADObject {
   $ADObjectsChosen | Restore-ADObject -confirm:$false # This restores the chosen object
   # this finds the restored objects in AD  
   $RestoredObjects = Get-ADObject -Filter * | Where-Object {$_.ObjectGuid -in $ADObjectsChosen.ObjectGuid}  
-  return $RestoredObjects   # Show the restored objects on the screen
+  return $RestoredObjects   # Show the restored objects on the screen (this is the optional requirement)
 }
     
 ```
