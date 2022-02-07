@@ -37,11 +37,12 @@
 # AD Group Membership Project
 ## Given a user identity, list all related groups
 
-- Groups can be members of other groups so therfore:
-  - Find all of the groups that the user is a member of
-  - For each of these groups, find all the groups they are members of , and repeat this until finished
-  - Display the Name and Scope of each group
-  - Find the associated groups to the user **"Evan"**
+- Groups can be members of other groups (Nested Groups), so therfore:
+  - Find all of the groups that the **user is a member of**
+  - For **each of these groups**, **find all the groups they are members of** , and **repeat this** until you have found all of the nested groups.
+  - **Display the Name and Scope** of each group
+
+- Find the associated groups to the user **"Evan"**
 
 
 ## HINTS
