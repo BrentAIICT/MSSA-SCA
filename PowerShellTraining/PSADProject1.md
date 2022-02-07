@@ -36,6 +36,12 @@
     - use a parameter for the CSV file, 
       - make sure the parameter has a default value for the path to the "e:\NewHires.csv" file 
     - Save the function as a module in an autoloading directory ($env:PSModulePath will list the correct directories to choose from) 
+    - Execute the new PowerShell command you have created
+    - Test the results by running this command:
+    
+    ```
+    Get-ADGroupMember -Identity Contractors
+    ```
 
 - Write the function to achieve the following:
    
