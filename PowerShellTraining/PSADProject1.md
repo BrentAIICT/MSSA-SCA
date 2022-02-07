@@ -102,7 +102,7 @@ function Add-NewUser {
       StreetAddress=$User.streetaddress
     }
     New-ADUser @Parameters # Creating the new user
-    $NewUser = Get-ADUser -Identity $Name
+    $NewUser = Get-ADUser -Identity $SamAccountName
     Add-ADGroupMember -Identity $User.department -Members $NewUser  # Adding the new user to the relevant group
   }
 }
