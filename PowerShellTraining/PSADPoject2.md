@@ -15,12 +15,14 @@
 - Run this from LON-CL1
   ```
   Invoke-Command -ComputerName LON-DC1 -ScriptBlock {  
-    Get-ADUser -Filter * -Properties Department | Where-Object {$_.Department -in @('Sales','Mareting','Managers')} | Get-Random -Count 10 | Remove-ADUser -Force
+    Get-ADUser -Filter * -Properties Department | Where-Object {$_.Department -in @('Sales','Mareting','Managers')} | Get-Random -Count 10 | Remove-ADUser -Confirm:$false
   }  
   ```
-- 10 Random users have now been deleted
-
+- 10 Random users have now been deleted 
+<br>
+<br>
 ---
+<br>
 
 # AD User Recovery Project
 ## Recover deleted user from Domain controller Recycle-Bin
