@@ -35,6 +35,7 @@
     - only use Parameters for information input, the function must run without interruption 
     - use a parameter for the CSV file, 
       - make sure the parameter has a default value for the path to the "e:\NewHires.csv" file 
+    - Save the function as a module in an autoloading directory ($env:PSModulePath will list the correct directories to choose from) 
 
 - Write the function to achieve the following:
    
@@ -54,49 +55,55 @@
         - you will need to use an AD property called, **"SamAccountName"** that have the value **"bsmith"**    
       - Have the AD Property called "Name" created which consists of "FirstName LastName"
         - for example "FirstName = Ben, LastName =  Smith", 
-        - you will need to use an AD property called, **"Name"** that have the value **"Ben Smith"**     
+        - you will need to use an AD property called, **"Name"** that have the value **"Ben Smith"**   
+ 
 
 <br>
 
 <details><summary>Click to see the answer</summary><Strong>  
 
 ```
-$Users = Import-Csv -Path E:\NewHires.csv
-$DepartmentNames = $Users.Department | Select-Object -Unique # Get an array of all of the Departments that are needed
-$CurrentOUNames = (Get-ADOrganizationalUnit -Filter *).Name # Get an array of OU names
-$CurrentGroupNames = (Get-ADGroup -Filter *).Name # Get an array of Group names
-foreach ($DepartmentName in $DepartmentNames) { # Checking to see if the OUs and Groups are already created
-  if ($DepartmentName -notin $CurrentOUNames) {
-    New-ADOrganizationalUnit -Name $DepartmentName -Path 'dc=adatum,dc=com'
-  }
-  if ($DepartmentName -notin $CurrentGroupNames) {
-    New-ADGroup -GroupScope Global -Name $DepartmentName -Path "ou=$DepartmentName,dc=adatum,dc=com"
-  }
-}
+function Add-NewUser {
+  [cmdletBinding()]
+  Param($CSVFilePath = 'E:\NewHires.csv')
 
-foreach ($User in $Users) {
-  # Creating all of the information needed to create the user
-  $Name = $User.firstname + ' ' + $User.lastname
-  $OU = 'OU=' + $User.department + ',DC=adatum,DC=com'
-  $secPwd = $User.password | ConvertTo-SecureString -AsPlainText -Force
-  $SamAccountName = $User.firstname[0] + $User.lastname
-  
-  $Parameters = @{ # Splatting the paramaters for New-ADUser, instead of listing parameters on one line after the command
-    Name=$Name
-    Path=$OU
-    GivenName=$User.firstname
-    Surname=$User.lastname
-    AccountPassword=$secPwd 
-    Department=$User.department 
-    Office=$User.officename 
-    UserPrincipalName=$user.upn 
-    MobilePhone=$User.mobilephone 
-    City=$User.city 
-    StreetAddress=$User.streetaddress
+  $Users = Import-Csv -Path $CSVFilePath
+  $DepartmentNames = $Users.Department | Select-Object -Unique # Get an array of all of the Departments that are needed
+  $CurrentOUNames = (Get-ADOrganizationalUnit -Filter *).Name # Get an array of OU names
+  $CurrentGroupNames = (Get-ADGroup -Filter *).Name # Get an array of Group names
+  foreach ($DepartmentName in $DepartmentNames) { # Checking to see if the OUs and Groups are already created
+    if ($DepartmentName -notin $CurrentOUNames) {
+      New-ADOrganizationalUnit -Name $DepartmentName -Path 'dc=adatum,dc=com'
+    }
+    if ($DepartmentName -notin $CurrentGroupNames) {
+      New-ADGroup -GroupScope Global -Name $DepartmentName -Path "ou=$DepartmentName,dc=adatum,dc=com"
+    }
   }
-  New-ADUser @Parameters # Creating the new user
-  $NewUser = Get-ADUser -Identity $Name
-  Add-ADGroupMember -Identity $User.department -Members $NewUser  # Adding the new user to the relevant group
+  
+  foreach ($User in $Users) {
+    # Creating all of the information needed to create the user
+    $Name = $User.firstname + ' ' + $User.lastname
+    $OU = 'OU=' + $User.department + ',DC=adatum,DC=com'
+    $secPwd = $User.password | ConvertTo-SecureString -AsPlainText -Force
+    $SamAccountName = $User.firstname[0] + $User.lastname
+    
+    $Parameters = @{ # Splatting the paramaters for New-ADUser, instead of listing parameters on one line after the command
+      Name=$Name
+      Path=$OU
+      GivenName=$User.firstname
+      Surname=$User.lastname
+      AccountPassword=$secPwd 
+      Department=$User.department 
+      Office=$User.officename 
+      UserPrincipalName=$user.upn 
+      MobilePhone=$User.mobilephone 
+      City=$User.city 
+      StreetAddress=$User.streetaddress
+    }
+    New-ADUser @Parameters # Creating the new user
+    $NewUser = Get-ADUser -Identity $Name
+    Add-ADGroupMember -Identity $User.department -Members $NewUser  # Adding the new user to the relevant group
+  }
 }
 ```
     
