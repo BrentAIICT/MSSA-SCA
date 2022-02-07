@@ -29,11 +29,13 @@
   - Lists all deleted object using the Out-Gridview
   - Allows someone to choose which user to restore
 
-HINTS
-
+## HINTS
 ```
-Get-ADObject -LDAPFilter:"(msDS-LastKnownRDN=*)" -IncludeDeletedObjects | Where-Object {$_.Deleted -eq $true} # Finds deleted objects
-Restore-ADObject # Restores a deleted object 
+# This command finds deleted objects
+Get-ADObject -LDAPFilter:"(msDS-LastKnownRDN=*)" -IncludeDeletedObjects | Where-Object {$_.Deleted -eq $true}
+
+# This command restores a deleted object 
+Restore-ADObject 
 ```
 
 
