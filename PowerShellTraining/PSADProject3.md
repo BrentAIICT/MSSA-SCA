@@ -39,7 +39,7 @@
 
 - Groups can be members of other groups so therfore:
   - Find all of the groups that the user is a member of
-  - For each of these groups, find all the groups they are members of , and so on and so on!
+  - For each of these groups, find all the groups they are members of , and repeat this until finished
   - Display the Name and Scope of each group
   - Find the associated groups to the user **"Evan"**
 
