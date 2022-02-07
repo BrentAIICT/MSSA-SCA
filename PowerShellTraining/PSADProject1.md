@@ -92,6 +92,7 @@ function Add-NewUser {
       Path=$OU
       GivenName=$User.firstname
       Surname=$User.lastname
+      SamAccountName=$SamAccountName
       AccountPassword=$secPwd 
       Department=$User.department 
       Office=$User.officename 
