@@ -57,8 +57,7 @@
         - you will need to use an AD property called, **"Name"** that have the value **"Ben Smith"**     
 
 <br>
-    <details><summary>Click to see the answer</summary><Strong> 
-    
+<details><summary>Click to see the answer</summary><Strong>  
 ```
 $Users = Import-Csv -Path E:\NewHires.csv
 $DepartmentNames = $Users.Department | Select-Object -Unique # Get an array of all of the Departments that are needed
@@ -98,5 +97,5 @@ foreach ($User in $Users) {
   Add-ADGroupMember -Identity $User.department -Members $NewUser  # Adding the new user to the relevant group
 }
 ```
-    </Strong></details> 
+</Strong></details> 
   
