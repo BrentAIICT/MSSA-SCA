@@ -56,10 +56,47 @@
         - for example "FirstName = Ben, LastName =  Smith", 
         - you will need to use an AD property called, **"Name"** that have the value **"Ben Smith"**     
 
+<br>
     <details><summary>Click to see the answer</summary><Strong> 
     
     ```
-    ANSWER
+$Users = Import-Csv -Path E:\NewHires.csv
+$DepartmentNames = $Users.Department | Select-Object -Unique # Get an array of all of the Departments that are needed
+$CurrentOUNames = (Get-ADOrganizationalUnit -Filter *).Name # Get an array of OU names
+$CurrentGroupNames = (Get-ADGroup -Filter *).Name # Get an array of Group names
+foreach ($DepartmentName in $DepartmentNames) { # Checking to see if the OUs and Groups are already created
+  if ($DepartmentName -notin $CurrentOUNames) {
+    New-ADOrganizationalUnit -Name $DepartmentName -Path 'dc=adatum,dc=com'
+  }
+  if ($DepartmentName -notin $CurrentGroupNames) {
+    New-ADGroup -GroupScope Global -Name $DepartmentName -Path "ou=$DepartmentName,dc=adatum,dc=com"
+  }
+}
+
+foreach ($User in $Users) {
+  # Creating all of the information needed to create the user
+  $Name = $User.firstname + ' ' + $User.lastname
+  $OU = 'OU=' + $User.department + ',DC=adatum,DC=com'
+  $secPwd = $User.password | ConvertTo-SecureString -AsPlainText -Force
+  $SamAccountName = $User.firstname[0] + $User.lastname
+  
+  $Parameters = @{ # Splatting the paramaters for New-ADUser, instead of listing parameters on one line after the command
+    Name=$Name
+    Path=$OU
+    GivenName=$User.firstname
+    Surname=$User.lastname
+    AccountPassword=$secPwd 
+    Department=$User.department 
+    Office=$User.officename 
+    UserPrincipalName=$user.upn 
+    MobilePhone=$User.mobilephone 
+    City=$User.city 
+    StreetAddress=$User.streetaddress
+  }
+  New-ADUser @Parameters # Creating the new user
+  $NewUser = Get-ADUser -Identity $Name
+  Add-ADGroupMember -Identity $User.department -Members $NewUser  # Adding the new user to the relevant group
+}
     ```
     </Strong></details> 
   
