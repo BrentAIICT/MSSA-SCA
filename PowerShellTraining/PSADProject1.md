@@ -124,4 +124,4 @@ function Add-NewUser {
     
 </Strong></details> 
   
-[Try the next Project]()
+[Try the next Project](PowerShellTraining/PSADProject2.md)
