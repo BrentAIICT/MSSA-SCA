@@ -1,3 +1,18 @@
+<!--
+    <details><summary>Click for hint</summary><Strong> 
+
+    ``` 
+    HINT
+    ```
+    </Strong></details> 
+    <details><summary>Click to see the answer</summary><Strong> 
+    
+    ```
+    ANSWER
+    ```
+    </Strong></details> 
+-->
+
 # Complete the following before starting this project
 
 - Launch the PowerShell lab virtual mahines (AZ-040)
@@ -40,3 +55,11 @@
       - Have the AD Property called "Name" created which consists of "FirstName LastName"
         - for example "FirstName = Ben, LastName =  Smith", 
         - you will need to use an AD property called, **"Name"** that have the value **"Ben Smith"**     
+
+    <details><summary>Click to see the answer</summary><Strong> 
+    
+    ```
+    ANSWER
+    ```
+    </Strong></details> 
+  
