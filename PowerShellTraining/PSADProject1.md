@@ -31,7 +31,7 @@
 # Use following brief to complete this task via PowerShell
 
 - Task to complete  
-  - Create a PowerShell function
+  - Create a PowerShell function within **PowerShell ISE**
     - only use Parameters for information input, the function must run without interruption 
     - use a parameter for the CSV file, 
       - make sure the parameter has a default value for the path to the "e:\NewHires.csv" file 
