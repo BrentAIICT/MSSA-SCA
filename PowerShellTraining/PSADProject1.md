@@ -85,7 +85,7 @@ function Add-NewUser {
     $Name = $User.firstname + ' ' + $User.lastname
     $OU = 'OU=' + $User.department + ',DC=adatum,DC=com'
     $secPwd = $User.password | ConvertTo-SecureString -AsPlainText -Force
-    $SamAccountName = $User.firstname[0] + $User.lastname
+    $SamAccountName = $User.firstname.SubString(0,1) + $User.lastname
     
     $Parameters = @{ # Splatting the paramaters for New-ADUser, instead of listing parameters on one line after the command
       Name=$Name
