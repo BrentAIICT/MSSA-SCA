@@ -50,6 +50,7 @@
   - Lists all deleted object using the Out-Gridview
   - Allows someone to choose which user to restore
   - Restore the chosen user
+  - (Optionally) Show the restored AD object on screen to prove restoration was successful 
 
 ## HINTS
 ```
@@ -63,7 +64,14 @@ Restore-ADObject
 <details><summary>Click to see the answer</summary><Strong> 
     
 ```
-ANSWER
+function Restore-DeletedADObject {
+  $DeletedObjects = Get-ADObject -LDAPFilter:"(msDS-LastKnownRDN=*)" -IncludeDeletedObjects | Where-Object {$_.Deleted -eq $true}
+  $ADObjectsChosen = $DeletedObjects | Out-GridView -OutputMode Multiple 
+  $ADObjectsChosen | Restore-ADObject -confirm:$false
+  $RestoredObjects = Get-ADObject -Filter * | Where-Object {$_.ObjectGuid -in $ADObjectsChosen.ObjectGuid}  
+  return $RestoredObjects   
+}
+    
 ```
 
 </Strong></details> 
