@@ -59,6 +59,9 @@ Get-ADObject -LDAPFilter:"(msDS-LastKnownRDN=*)" -IncludeDeletedObjects | Where-
 
 # This command restores a deleted object 
 Restore-ADObject 
+
+# This command can help produce a menu of choices
+Out-Gridview
 ```
 
 <details><summary>Click to see the answer</summary><Strong> 
