@@ -49,6 +49,7 @@
 - Write a function that does the following
   - Lists all deleted object using the Out-Gridview
   - Allows someone to choose which user to restore
+  - Restore the chosen user
 
 ## HINTS
 ```
