@@ -23,7 +23,7 @@
   New-ADGroup -Name 'LonSales' -GroupScope Global -Path 'OU=Sales,DC=adatum,DC=com' -PassThru | Add-ADGroupMember -Members 'Evan'
   New-ADGroup -Name 'ReadDB' -GroupScope Global -Path 'OU=Sales,DC=adatum,DC=com' -PassThru | Add-ADGroupMember -Members 'G_S_Sales'
   New-ADGroup -Name 'WriteReports' -GroupScope Global -Path 'OU=Sales,DC=adatum,DC=com'  -PassThru | Add-ADGroupMember -Members 'G_S_Sales'    
-  New-ADGroup -Name 'PrintColorPrinter' -GroupScope Global -Path 'OU=Sales,DC=adatum,DC=com' -PassThru | Add-ADGroupMember -Members 'G_S_Sales'  
+  New-ADGroup -Name 'PrintColorPtr' -GroupScope Global -Path 'OU=Sales,DC=adatum,DC=com' -PassThru | Add-ADGroupMember -Members 'G_S_Sales'  
   New-ADGroup -Name 'ReadReports' -GroupScope Global -Path 'OU=Sales,DC=adatum,DC=com' -PassThru | Add-ADGroupMember -Members 'G_S_Sales'
 
   ```
