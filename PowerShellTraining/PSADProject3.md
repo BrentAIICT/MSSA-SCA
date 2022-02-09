@@ -20,11 +20,11 @@
 ## Create groups and group memberships
 - Run this from LON-CL1
   ```
-  New-ADGroup -Name 'G_S_Sales' -GroupScope Global -Path 'OU=Sales,DC=adatum,DC=com' -PassThru | Add-ADGroupMember -Members 'Evan'
-  New-ADGroup -Name 'DL_S_ReadDB' -GroupScope Global -Path 'OU=Sales,DC=adatum,DC=com' -PassThru | Add-ADGroupMember -Members 'G_S_Sales'
-  New-ADGroup -Name 'DL_S_WriteReports' -GroupScope Global -Path 'OU=Sales,DC=adatum,DC=com'  -PassThru | Add-ADGroupMember -Members 'G_S_Sales'    
-  New-ADGroup -Name 'DL_S_PrintToColorPrinter' -GroupScope Global -Path 'OU=Sales,DC=adatum,DC=com' -PassThru | Add-ADGroupMember -Members 'G_S_Sales'  
-  New-ADGroup -Name 'DL_S_ReadReports' -GroupScope Global -Path 'OU=Sales,DC=adatum,DC=com' -PassThru | Add-ADGroupMember -Members 'G_S_Sales'
+  New-ADGroup -Name 'LonSales' -GroupScope Global -Path 'OU=Sales,DC=adatum,DC=com' -PassThru | Add-ADGroupMember -Members 'Evan'
+  New-ADGroup -Name 'ReadDB' -GroupScope Global -Path 'OU=Sales,DC=adatum,DC=com' -PassThru | Add-ADGroupMember -Members 'G_S_Sales'
+  New-ADGroup -Name 'WriteReports' -GroupScope Global -Path 'OU=Sales,DC=adatum,DC=com'  -PassThru | Add-ADGroupMember -Members 'G_S_Sales'    
+  New-ADGroup -Name 'PrintColorPrinter' -GroupScope Global -Path 'OU=Sales,DC=adatum,DC=com' -PassThru | Add-ADGroupMember -Members 'G_S_Sales'  
+  New-ADGroup -Name 'ReadReports' -GroupScope Global -Path 'OU=Sales,DC=adatum,DC=com' -PassThru | Add-ADGroupMember -Members 'G_S_Sales'
 
   ```
 
