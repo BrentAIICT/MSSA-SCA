@@ -21,7 +21,7 @@
 - Run this from LON-CL1
   ```
   New-ADGroup -Name 'LonSales' -GroupScope Global -Path 'OU=Sales,DC=adatum,DC=com' -PassThru | Add-ADGroupMember -Members 'Evan'
-  New-ADGroup -Name 'ReadDB' -GroupScope Global -Path 'OU=Sales,DC=adatum,DC=com' -PassThru | Add-ADGroupMember -Members LonSales'
+  New-ADGroup -Name 'ReadDB' -GroupScope Global -Path 'OU=Sales,DC=adatum,DC=com' -PassThru | Add-ADGroupMember -Members 'LonSales'
   New-ADGroup -Name 'WriteReports' -GroupScope Global -Path 'OU=Sales,DC=adatum,DC=com'  -PassThru | Add-ADGroupMember -Members 'LonSales'    
   New-ADGroup -Name 'PrintColorPtr' -GroupScope Global -Path 'OU=Sales,DC=adatum,DC=com' -PassThru | Add-ADGroupMember -Members 'LonSales'  
   New-ADGroup -Name 'ReadReports' -GroupScope Global -Path 'OU=Sales,DC=adatum,DC=com' -PassThru | Add-ADGroupMember -Members 'LonSales'
