@@ -47,9 +47,9 @@
 ## Recover deleted user from Domain controller Recycle-Bin
 
 - Write a function that does the following
-  - Lists all deleted object using the Out-Gridview
-  - Allows someone to choose which user to restore
-  - Restore the chosen user
+  - Lists all deleted object using Out-Gridview
+  - Allows someone to choose which user/s to restore
+  - Restore the chosen user/s
   - (Optionally) Show the restored AD object on screen to prove restoration was successful 
 
 ## HINTS
