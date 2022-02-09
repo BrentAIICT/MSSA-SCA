@@ -93,8 +93,11 @@ function Add-NewUser {
       New-ADGroup -GroupScope Global -Name $DepartmentName -Path "ou=$DepartmentName,dc=adatum,dc=com"
     }
   }
-  
+  $UserTotalCount $Users.Count
+  $CurrentUserCount = 0  
   foreach ($User in $Users) {
+    $CurrentUserCount++
+    Write-Progress -Activity "Creating Users: $($User.Name)" -PercentComplete ($CurrentUserCount/$UserTotalCount*100) -CurrentOperation "Creating User: $($User.Name)"
     # Creating all of the information needed to create the user
     $Name = $User.firstname + ' ' + $User.lastname
     $OU = 'OU=' + $User.department + ',DC=adatum,DC=com'
