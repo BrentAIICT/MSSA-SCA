@@ -67,12 +67,12 @@
 - Create a PowerShell function within **PowerShell ISE**
   - use a parameter for the SamAccountName of the user, 
     - make sure the parameter has a default value of "Jasper"
-  - Save the function in the same module you created for Prject 1 
+  - Save the function in the same module you created for Project 1 
   - Test the new PowerShell command you have created
 
 # Test the results by running your function:
    
-- Find the associated groups for the user **"Jasper"** and then **"Ada"**
+- Run your new function with the SamAccountName of **"Jasper"** and then **"Ada"**
 
 
 ## What must the PowerShell function achieve
