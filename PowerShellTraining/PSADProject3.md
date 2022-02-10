@@ -85,7 +85,8 @@
 
 ## HINTS
 ```
-# This command lists all groups an AD object is a  member of
+# You will need this command for the project, it lists all of the groups that an AD object is a member of
+
 Get-ADPrincipalGroupMembership 
 
 ```
