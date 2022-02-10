@@ -20,7 +20,7 @@
 [Docker Lab](DockerLab#readme)<br>
 [How Pipelines Work](PowerShellTraining/Practical%20PowerShell%20Pipelines%20using%20cars.pdf)<br>
 [Basic PowerShell Scripting Quiz](PowerShellTraining/PowerShell-Quiz.md#powershell-quiz)<br>
-[PowerShell Active Directory Projects](PowerShellTraining/PSADProject1.md)<br>
+[Advanced PowerShell Active Directory Projects](PowerShellTraining/PSADProject1.md)<br>
 
 ### Networking Introduction
 [Introduction to Networking](NetworkingIntro/Network%20Intro%20MSSA.pdf)<br>
