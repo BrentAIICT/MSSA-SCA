@@ -19,7 +19,7 @@
 
 ## Complete the following before starting this project
 
-## Create groups and group memberships for this project
+- Create groups and group memberships for this project
 - Run this from LON-CL1
   ```
   # Create OU
