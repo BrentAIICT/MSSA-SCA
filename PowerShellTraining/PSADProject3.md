@@ -20,6 +20,9 @@
 ## Create groups and group memberships
 - Run this from LON-CL1
   ```
+  # Create OU
+  New-ADOrganizationalUnit -Name AdatumGroups -Path 'DC=adatum,DC=com'
+  
   # Global groups
   New-ADGroup -Name SalesAdmin -GroupScope Global  -Path 'ou=AdatumGroups,dc=adatum,dc=com'
   New-ADGroup -Name MktgAdmin -GroupScope Global  -Path 'ou=AdatumGroups,dc=adatum,dc=com'
