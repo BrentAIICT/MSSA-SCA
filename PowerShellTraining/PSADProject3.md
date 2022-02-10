@@ -77,7 +77,7 @@
 
 ## What must the PowerShell function achieve
 
-- Given a user's SamAccountName, list all their related groups (immediate and nested groups)
+- Given a user's SamAccountName, list all their related groups (immediate and nested groups)<br>
   *Nested Groups are groups placed inside other groups* 
   - Find all of the groups that the **user is a member of**
   - For **each of these groups**, **find all the groups they are members of** , and **repeat this** until you have found all of the nested groups.
