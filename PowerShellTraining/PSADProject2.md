@@ -50,7 +50,7 @@
 
 - Write a function that does the following:
   - Lists all deleted object using Out-Gridview
-  - Allows someone to choose which user/s to restore
+  - Allows someone to choose which deleted user/s are to be restored
   - Restore the chosen user/s
   - Show the restored AD object on screen to prove restoration was successful 
   - Add this function to the previous module from Project 1
