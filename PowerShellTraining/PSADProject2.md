@@ -48,8 +48,7 @@
 
 - Create a PowerShell function within **PowerShell ISE**
   - do not use parameters for this function 
-  - use Out-Griview to list the relevant AD object 
-  - Use a parameter of Out-GridView to allow one or more object to be selected from the GridView window
+  - use Out-Griview to list the deleted AD users and have the ability to selct one or more deleted user
   - Save the function in the module you created in Project 1
 
 # Test the results by running your function:
