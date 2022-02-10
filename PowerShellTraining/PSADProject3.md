@@ -15,13 +15,13 @@
     </Strong></details> 
 -->
 
-## To Prepare for this Project run the following:
+# Complete the following before starting this project
 
-## Create groups and group memberships
+## Create groups and group memberships for this project
 - Run this from LON-CL1
   ```
   # Create OU
-  New-ADOrganizationalUnit -Name AdatumGroups -Path 'DC=adatum,DC=com'
+  New-ADOrganizationalUnit -Name AdatumGroups -Path 'DC=adatum,DC=com' -ErrorAction SilentlyContinue
   
   # Global groups
   New-ADGroup -Name SalesAdmin -GroupScope Global  -Path 'ou=AdatumGroups,dc=adatum,dc=com'
@@ -62,15 +62,26 @@
 
 <br>
 
-# AD Group Membership Project
-## Given a user identity, list all related groups
+# Use following brief to complete this project via PowerShell
 
-- Groups can be members of other groups (Nested Groups), so therfore:
-  - Find all of the groups that a **user is a member of**
-  - For **each of these groups**, **find all the groups they are members of** , and **repeat this** until you have found all of the nested groups.
-  - **Display the Name and Scope** of each group
+- Create a PowerShell function within **PowerShell ISE**
+  - use a parameter for the SamAccountName of the user, 
+    - make sure the parameter has a default value of "Jasper"
+  - Save the function in the same module you created for Prject 1 
+  - Test the new PowerShell command you have created
 
+# Test the results by running your function:
+   
 - Find the associated groups for the user **"Jasper"** and then **"Ada"**
+
+
+## What must the PowerShell function achieve
+
+- Given a user's SamAccountName, list all their related groups (immediate and nested groups)
+  - *Nested Groups are groups placed inside other groups* 
+    - Find all of the groups that the **user is a member of**
+    - For **each of these groups**, **find all the groups they are members of** , and **repeat this** until you have found all of the nested groups.
+    - **Display the Name and Scope** of each group on screen
 
 ## HINTS
 ```
