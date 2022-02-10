@@ -102,7 +102,11 @@ function Find-AssociatedGroupMembership {
     Param($ADObject)
     $Groups = Get-ADPrincipalGroupMembership -Identity $ADObject
     foreach ($Group in $Groups) {
-      $Group | Select-Object -Property Name,GroupScope
+      [PSCustomObject][Ordered]@{
+        ObjectInGroup = $ADObject.SamAccountName
+        Group = $Group.SamAccountName
+        GroupScope = $Group.GroupScope
+      }
       Get-MemberOf -ADObject $Group
     }
   }
