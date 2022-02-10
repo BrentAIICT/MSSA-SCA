@@ -15,7 +15,9 @@
     </Strong></details> 
 -->
 
-# Complete the following before starting this project
+# Find all direct and indirect groups an AD user is a member of  
+
+## Complete the following before starting this project
 
 ## Create groups and group memberships for this project
 - Run this from LON-CL1
