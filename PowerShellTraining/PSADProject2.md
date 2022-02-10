@@ -46,8 +46,20 @@
 
 # Use following brief to complete this project via PowerShell
 
-## Recover deleted user from Domain Controller Recycle-Bin
+- Create a PowerShell function within **PowerShell ISE**
+  - do not use parameters for this function 
+  - use Out-Griview to list the relevant AD object 
+  - Use a parameter of Out-GridView to allow one or more object to be selected from the GridView window
+  - Save the function in the module you created in Project 1
 
+# Test the results by running your function:
+   
+ - Run your function and select one or more users from the GridView windows
+ - Make sure the user/s have been restored   
+
+## What must the PowerShell function achieve
+
+- Recover deleted user from Domain Controller Recycle-Bin
 - Write a function that does the following:
   - Lists all deleted object using Out-Gridview
   - Allows someone to choose which deleted user/s are to be restored
