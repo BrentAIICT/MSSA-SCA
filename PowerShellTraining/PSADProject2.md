@@ -46,7 +46,7 @@
 
 # Use following brief to complete this project via PowerShell
 
-## Recover deleted user from Domain controller Recycle-Bin
+## Recover deleted user from Domain Controller Recycle-Bin
 
 - Write a function that does the following:
   - Lists all deleted object using Out-Gridview
