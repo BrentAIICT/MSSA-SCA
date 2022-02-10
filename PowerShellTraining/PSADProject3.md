@@ -72,7 +72,7 @@
   - Save the function in the same module you created for Project 1 
   - Test the new PowerShell command you have created
 
-# Test the results by running your function:
+## Test the results by running your function:
    
 - Run your new function with the SamAccountName of **"Jasper"** and then **"Ada"**
 
