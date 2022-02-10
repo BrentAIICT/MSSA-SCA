@@ -20,6 +20,7 @@
 - Logon to LON-CL1 as the ADATUM\Administrator
   - From LON-CL1 
     - Launch PowerShell 7 (pwsh.exe)
+      - *If you wish to run this from ISE you will get prompted to install a new version of NuGet*
     - Run the following command 
     ```
     Install-Module GitHubToolsBD -Force
