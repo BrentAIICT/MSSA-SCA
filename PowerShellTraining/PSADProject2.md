@@ -44,7 +44,7 @@
 
 <br>
 
-# Use following brief to complete this task via PowerShell
+# Use following brief to complete this project via PowerShell
 
 ## Recover deleted user from Domain controller Recycle-Bin
 
