@@ -67,8 +67,7 @@
   - For **each of these groups**, **find all the groups they are members of** , and **repeat this** until you have found all of the nested groups.
   - **Display the Name and Scope** of each group
 
-- Find the associated groups for the user **"Jasper"**
-
+- Find the associated groups for the user **"Jasper"** and then **"Ada"**
 
 ## HINTS
 ```
