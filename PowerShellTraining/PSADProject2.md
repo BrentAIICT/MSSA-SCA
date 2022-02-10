@@ -15,7 +15,7 @@
     </Strong></details> 
 -->
 
-## To Prepare for this Project run the following:
+# Complete the following before starting this project
 
 ## Turn on the AD Recycle Bin
 - Run this from LON-CL1
@@ -27,8 +27,9 @@
     }
   }  
   ```
-## Delete random users
-- Run this script to delete some random users from Active Directory
+  
+## Delete 10 random users
+- Run this script to delete 10 random users from Active Directory
 - Run this from LON-CL1
   ```
   Invoke-Command -ComputerName LON-DC1 -ScriptBlock {  
@@ -43,16 +44,18 @@
 
 <br>
 
-# AD User Recovery Project
+# Use following brief to complete this task via PowerShell
+
 ## Recover deleted user from Domain controller Recycle-Bin
 
-- Write a function that does the following
+- Write a function that does the following:
   - Lists all deleted object using Out-Gridview
   - Allows someone to choose which user/s to restore
   - Restore the chosen user/s
-  - (Optionally) Show the restored AD object on screen to prove restoration was successful 
+  - Show the restored AD object on screen to prove restoration was successful 
+  - Add this function to the previous module from Project 1
 
-## HINTS
+## HINTS (You will need these commands to complete your task)
 ```
 # This command finds deleted objects
 Get-ADObject -LDAPFilter:"(msDS-LastKnownRDN=*)" -IncludeDeletedObjects | Where-Object {$_.Deleted -eq $true}
