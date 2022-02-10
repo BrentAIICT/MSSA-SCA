@@ -15,7 +15,7 @@
     </Strong></details> 
 -->
 
-#  Find all of the Active Directory Groups that a user is directly or indirectly a member of
+#  Restore an accidently deleted AD user account from the recycle bin 
 
 ## Complete the following before starting this project
 
