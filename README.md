@@ -18,7 +18,7 @@
 [Sample Administration How-To-Guides](https://docs.microsoft.com/en-us/powershell/scripting/samples/sample-scripts-for-administration?view=powershell-7.2)<br>
 [PowerShell Labs Rewitten](PowerShellTraining)<br>
 [Docker Lab](DockerLab#readme)<br>
-[How Pipelines Work](PowerShellTraining/Practical%20PowerShell%20Pipelines%20using%20cars.pdf)<br>
+[PowerShell Objects/Properties & Pipelines](PowerShellTraining/Practical%20PowerShell%20Pipelines%20using%20cars.pdf)<br>
 [Basic PowerShell Scripting Quiz](PowerShellTraining/PowerShell-Quiz.md#powershell-quiz)<br>
 [Advanced PowerShell Active Directory Projects](PowerShellTraining/PSADProject1.md)<br>
 
