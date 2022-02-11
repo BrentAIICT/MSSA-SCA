@@ -98,6 +98,30 @@ Get-ADPrincipalGroupMembership
 ```
 function Find-AssociatedGroupMembership {
   Param ($SamAccountName)
+  function MemberOf {
+    Param($ADObject)
+    $Groups = Get-ADPrincipalGroupMembership -Identity $ADObject
+    foreach ($Group in $Groups) {
+      $Group | Select-Object -Property Name,GroupScope
+      MemberOf -ADObject $Group
+    }
+  }
+  $ADAccount = Get-ADUser -Identity $SamAccountName
+  MemberOf -ADObject $ADAccount
+} 
+    
+```
+
+</Strong></details> 
+
+<br>
+<br>
+
+<details><summary>Click to see an advanced answer</summary><Strong> 
+    
+```
+function Find-AssociatedGroupMembership {
+  Param ($SamAccountName)
   function Get-MemberOf {
     Param($ADObject)
     $Groups = Get-ADPrincipalGroupMembership -Identity $ADObject
