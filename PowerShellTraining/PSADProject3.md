@@ -92,6 +92,7 @@
 Get-ADPrincipalGroupMembership 
 
 ```
+### This solution provides the basic answer
 
 <details><summary>Click to see the answer</summary><Strong> 
     
@@ -115,6 +116,8 @@ function Find-AssociatedGroupMembership {
 </Strong></details> 
 
 <br>
+
+### This solution provides a better answer
 
 <details><summary>Click to see an advanced answer</summary><Strong> 
     
