@@ -126,18 +126,23 @@ function Find-AssociatedGroupMembership {
   Param ($SamAccountName)
   function Get-MemberOf {
     Param($ADObject)
+    $Level++
     $Groups = Get-ADPrincipalGroupMembership -Identity $ADObject
     foreach ($Group in $Groups) {
       [PSCustomObject][Ordered]@{
         ObjectInGroup = $ADObject.SamAccountName
         Group = $Group.SamAccountName
         GroupScope = $Group.GroupScope
+        Level = $Level
       }
       Get-MemberOf -ADObject $Group
     }
   }
+  $Level = 0
+  [System.Collections.ArrayList]$GroupMemberships = @()
   $ADAccount = Get-ADUser -Identity $SamAccountName
-  Get-MemberOf -ADObject $ADAccount
+  $GroupInfo = Get-MemberOf -ADObject $ADAccount
+  return $GroupInfo | Sort-Object -Property Level,ObjectInGroup,Group
 } 
     
 ```
