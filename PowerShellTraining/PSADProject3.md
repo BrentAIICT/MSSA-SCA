@@ -115,7 +115,6 @@ function Find-AssociatedGroupMembership {
 </Strong></details> 
 
 <br>
-<br>
 
 <details><summary>Click to see an advanced answer</summary><Strong> 
     
