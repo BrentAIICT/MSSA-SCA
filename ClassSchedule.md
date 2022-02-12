@@ -42,7 +42,7 @@ Date|Day|Week|Course|Title|Modules|Labs|Instructor
 2Feb|Wed|8|20-742|[Identity with Windows Server 2016](https://skillpipe.com)|4, 5|[Labs](https://ddls.learnondemand.net/)|Brent Denny
 3Feb|Thu|8|20-742|[Identity with Windows Server 2016](https://skillpipe.com)|5, 6|[Labs](https://ddls.learnondemand.net/)|Brent Denny
 4Feb|Fri|8|MSSA ProDev|MSSA Professional Development|---|---|Kirsty McConville
-7Feb|Mon|9|Q&A/MSSA ProDev|MSSA Professional Development|---|---|Kirsty McConville
+7Feb|Mon|9|MSSA ProDev|MSSA Professional Development|---|---|Kirsty McConville
 8Feb|Tue|9|MSSA ProDev|MSSA Professional Development|---|---|Kirsty McConville
 9Feb|Wed|9|MSSA ProDev|MSSA Professional Development|---|---|Kirsty McConville
 10Feb|Thu|9|MSSA ProDev|MSSA Professional Development|---|---|Kirsty McConville
