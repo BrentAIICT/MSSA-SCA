@@ -62,7 +62,7 @@ Date|Day|Week|Course|Title|Modules|Labs|Instructor
 2Mar|Wed|12|AZ-900|[Azure Fundamentals](https://skillpipe.com)|3, 4|[Labs](https://ddls.learnondemand.net/)|Melvin Porter
 3Mar|Thu|12|AZ-900|[Azure Fundamentals](https://skillpipe.com)|5, 6|[Labs](https://ddls.learnondemand.net/)|Melvin Porter
 4Mar|Fri|12|MSSA ProDev|MSSA Professional Development|---|---|Kirsty McConville
-7Mar|Mon|13|Q&A/Custom|Linux Administration Fundamentals|1|Labs|David Van Gemert 
+7Mar|Mon|13|Custom|Linux Administration Fundamentals|1|Labs|David Van Gemert 
 8Mar|Tue|13|Custom|Linux Administration Fundamentals|2|Labs|David Van Gemert 
 9Mar|Wed|13|Custom|Linux Administration Fundamentals|3|Labs|David Van Gemert 
 10Mar|Thu|13|Custom|Windows and Linux Administration Challenge|n/a|Labs|David Van Gemert 
