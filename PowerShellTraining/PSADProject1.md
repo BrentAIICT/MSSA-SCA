@@ -47,7 +47,7 @@
   - Save the function as a module in an autoloading directory ($env:PSModulePath will list the correct directories to choose from) 
   - Test the new PowerShell command you have created
 
-## After you run your function you have created use the following command to see if any users are in the contrators group:
+## Test if your function worked by running:
    
 ```
 Get-ADGroupMember -Identity Contractors
