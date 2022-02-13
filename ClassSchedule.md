@@ -11,12 +11,12 @@ Date|Day|Week|Course|Title|Modules|Labs|Instructor
 7Dec|Tue|2|20-740|[Installation, Storage and Compute with Windows Server 2016](https://skillpipe.com)|2,3|[Labs](https://ddls.learnondemand.net/)|Brent Denny
 8Dec|Wed|2|20-740|[Installation, Storage and Compute with Windows Server 2016](https://skillpipe.com)|4|[Labs](https://ddls.learnondemand.net/)|Brent Denny
 9Dec|Thu|2|20-740|[Installation, Storage and Compute with Windows Server 2016](https://skillpipe.com)|5,6|[Labs](https://ddls.learnondemand.net/)|Brent Denny
-10Dec|Fri|2|MSSA ProDev|MSSA Professional Development|---|---|Kirsty McConville
+**10Dec**|**Fri**|**2**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**
 13Dec|Mon|3|20-740|[Installation, Storage and Compute with Windows Server 2016](https://skillpipe.com)|7,8|[Labs](https://ddls.learnondemand.net/)|Brent Denny
 14Dec|Tue|3|20-740|[Installation, Storage and Compute with Windows Server 2016](https://skillpipe.com)|8,9|[Labs](https://ddls.learnondemand.net/)|Brent Denny
 15Dec|Wed|3|20-740|[Installation, Storage and Compute with Windows Server 2016](https://skillpipe.com)|9, 10|[Labs](https://ddls.learnondemand.net/)|Brent Denny
 16Dec|Thu|3|20-740|[Installation, Storage and Compute with Windows Server 2016](https://skillpipe.com)|11|[Labs](https://ddls.learnondemand.net/)|Brent Denny
-17Dec|Fri|3|MSSA ProDev|MSSA Professional Development|---|---|Kirsty McConville
+**17Dec**|**Fri**|**3**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**
 20Dec|Mon|4|20-740|[Installation, Storage and Compute with Windows Server 2016](https://skillpipe.com)|12|[Labs](https://ddls.learnondemand.net/)|Brent Denny
 21Dec|Tue|4|Custom|[Introduction to Networking](https://skillpipe.com)|---|[Labs](https://ddls.learnondemand.net/)|Brent Denny
 22Dec|Wed|4|AZ-040|[Automating Administration with Windows PowerShell](https://skillpipe.com)|5|[Labs](https://ddls.learnondemand.net/)|Brent Denny
@@ -26,27 +26,27 @@ Date|Day|Week|Course|Title|Modules|Labs|Instructor
 11Jan|Tue|5|20-741|[Networking with Windows Server 2016](https://skillpipe.com)|2,3|[Labs](https://ddls.learnondemand.net/)|Brent Denny
 12Jan|Wed|5|20-741|[Networking with Windows Server 2016](https://skillpipe.com)|3,4|[Labs](https://ddls.learnondemand.net/)|Brent Denny
 13Jan|Thu|5|20-741|[Networking with Windows Server 2016](https://skillpipe.com)|4|[Labs](https://ddls.learnondemand.net/)|Brent Denny
-14Jan|Fri|5|MSSA ProDev|MSSA Professional Development|---|---|Kirsty McConville
+**14Jan**|**Fri**|**5**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**
 17Jan|Mon|6|Q&A/20-741|[Networking with Windows Server 2016](https://skillpipe.com)|5,6|[Labs](https://ddls.learnondemand.net/)|Brent Denny
 18Jan|Tue|6|20-741|[Networking with Windows Server 2016](https://skillpipe.com)|7,8|[Labs](https://ddls.learnondemand.net/)|Brent Denny
 19Jan|Wed|6|20-741|[Networking with Windows Server 2016](https://skillpipe.com)|8,9|[Labs](https://ddls.learnondemand.net/)|Brent Denny
 20Jan|Thu|6|20-741|[Networking with Windows Server 2016](https://skillpipe.com)|10,11|[Labs](https://ddls.learnondemand.net/)|Brent Denny
-21Jan|Fri|6|MSSA ProDev|MSSA Professional Development|---|---|Kirsty McConville
+**21Jan**|**Fri**|**6**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**
 24Jan|Mon|7|Q&A/AZ-040|[Automating Administration with Windows PowerShell](https://skillpipe.com)|7|[Labs](https://ddls.learnondemand.net/)|Brent Denny
 25Jan|Tue|7|AZ-040|[Automating Administration with Windows PowerShell](https://skillpipe.com)|Coding challenge|[Labs](https://ddls.learnondemand.net/)|Brent Denny
 26Jan|Wed|7|---|Holiday-Australia Day|--|---|---
 27Jan|Thu|7|20-742|[Identity with Windows Server 2016](https://skillpipe.com)|1|[Labs](https://ddls.learnondemand.net/)|Brent Denny
-28Jan|Fri|7|MSSA ProDev|MSSA Professional Development|---|---|Kirsty McConville
+**28Jan**|**Fri**|**7**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**
 31Jan|Mon|8|Q&A/20-742|[Identity with Windows Server 2016](https://skillpipe.com)|2|[Labs](https://ddls.learnondemand.net/)|Brent Denny
 1Feb|Tue|8|20-742|[Identity with Windows Server 2016](https://skillpipe.com)|3, 4|[Labs](https://ddls.learnondemand.net/)|Brent Denny
 2Feb|Wed|8|20-742|[Identity with Windows Server 2016](https://skillpipe.com)|4, 5|[Labs](https://ddls.learnondemand.net/)|Brent Denny
 3Feb|Thu|8|20-742|[Identity with Windows Server 2016](https://skillpipe.com)|5, 6|[Labs](https://ddls.learnondemand.net/)|Brent Denny
-4Feb|Fri|8|MSSA ProDev|MSSA Professional Development|---|---|Kirsty McConville
-7Feb|Mon|9|MSSA ProDev|MSSA Professional Development|---|---|Kirsty McConville
-8Feb|Tue|9|MSSA ProDev|MSSA Professional Development|---|---|Kirsty McConville
-9Feb|Wed|9|MSSA ProDev|MSSA Professional Development|---|---|Kirsty McConville
-10Feb|Thu|9|MSSA ProDev|MSSA Professional Development|---|---|Kirsty McConville
-11Feb|Fri|9|MSSA ProDev|MSSA Professional Development|---|---|Kirsty McConville
+**4Feb**|**Fri**|**8**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**
+**7Feb**|**Mon**|**9**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**
+**8Feb**|**Tue|**9**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**
+**9Feb**|**Wed**|**9**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**
+**10Feb**|**Thu**|**9**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**
+**11Feb**|**Fri**|**9**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**
 14Feb|Mon|10|Q&A/20-742|[Identity with Windows Server 2016](https://skillpipe.com)|7, 8|[Labs](https://ddls.learnondemand.net/)|Brent Denny
 15Feb|Tue|10|20-742|[Identity with Windows Server 2016](https://skillpipe.com)|9, 10|[Labs](https://ddls.learnondemand.net/)|Brent Denny
 16Feb|Wed|10|20-742|[Identity with Windows Server 2016](https://skillpipe.com)|11,12|[Labs](https://ddls.learnondemand.net/)|Brent Denny
