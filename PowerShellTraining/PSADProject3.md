@@ -72,9 +72,7 @@
   - Save the function in the same module you created for Project 1 
   - Test the new PowerShell command you have created
 
-## Test the results by running your function:
-   
-- Run your new function with the SamAccountName of **"Jasper"** and then **"Ada"**
+
 
 
 ## What must the PowerShell function achieve
@@ -92,6 +90,11 @@
 Get-ADPrincipalGroupMembership 
 
 ```
+
+## Test the results by running your function:
+   
+- Run your new function with the SamAccountName of **"Jasper"** and then **"Ada"**
+
 ### This solution provides the basic answer
 
 <details><summary>Click to see the answer</summary><Strong> 
