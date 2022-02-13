@@ -50,6 +50,7 @@
 ## Test if your function worked by running:
    
 ```
+# If your function worked this will show users withing the contractors group
 Get-ADGroupMember -Identity Contractors
 ```
 
