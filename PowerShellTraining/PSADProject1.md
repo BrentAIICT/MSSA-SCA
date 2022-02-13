@@ -47,13 +47,6 @@
   - Save the function as a module in an autoloading directory ($env:PSModulePath will list the correct directories to choose from) 
   - Test the new PowerShell command you have created
 
-## Test if your function worked by running:
-   
-```
-# If your function worked this will show users within the contractors group
-Get-ADGroupMember -Identity Contractors
-```
-
 ## What must the PowerShell function achieve
 
 - Use the NewHires.csv file to create the new employees Active Directory
@@ -71,6 +64,14 @@ Get-ADGroupMember -Identity Contractors
     - Have the AD Property called "Name" created which consists of "FirstName LastName"
       - for example "FirstName = Ben, LastName =  Smith", 
       - you will need to use an AD property called, **"Name"** that have the value **"Ben Smith"**   
+
+## Test if your function worked by running:
+   
+```
+# If your function worked this will show users within the contractors group
+Get-ADGroupMember -Identity Contractors
+```
+
 
 <br>
 
