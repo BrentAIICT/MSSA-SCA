@@ -49,9 +49,9 @@
 
 ## Test the results by running your function:
    
-    ```
-    Get-ADGroupMember -Identity Contractors
-    ```
+```
+Get-ADGroupMember -Identity Contractors
+```
 
 ## What must the PowerShell function achieve
 
