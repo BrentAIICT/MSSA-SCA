@@ -53,11 +53,6 @@
   - use Out-Griview to list the deleted AD users and have the ability to selct one or more deleted user
   - Save the function in the module you created in Project 1
 
-## Test the results by running your function:
-   
- - Run your function and select one or more users from the GridView windows
- - Make sure the user/s have been restored   
-
 ## What must the PowerShell function achieve
 
 - Recover deleted user from Domain Controller Recycle-Bin
