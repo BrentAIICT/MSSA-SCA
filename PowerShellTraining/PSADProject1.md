@@ -21,11 +21,11 @@
   - From LON-CL1 
     - Launch PowerShell 7 (pwsh.exe)
       - *If you wish to run this from ISE you will get prompted to install a new version of NuGet*
-    - Run the following command 
+    - Run this command to install a new module from PowerShell Gallery to download files from GitHub 
     ```
     Install-Module GitHubToolsBD -Force
     ```
-    - Run this command
+    - Run this command to download the CSV file needed for this project
     ```
     Get-FilesFromRepo -GitHubUserName brentaiict -Repository MSSA-SCA -PathInRepo PowerShellTraining -FilesToRetrieve NewHires.csv -Destination E:\ 
     ```
