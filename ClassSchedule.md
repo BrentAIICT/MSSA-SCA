@@ -47,10 +47,10 @@ Date|Day|Week|Course|Title|Modules|Labs|Instructor
 **9Feb**|**Wed**|**9**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**
 **10Feb**|**Thu**|**9**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**
 **11Feb**|**Fri**|**9**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**
-14Feb|Mon|10|Q&A/20-742|[Identity with Windows Server 2016](https://skillpipe.com)|7, 8|[Labs](https://ddls.learnondemand.net/)|Brent Denny
-15Feb|Tue|10|20-742|[Identity with Windows Server 2016](https://skillpipe.com)|9, 10|[Labs](https://ddls.learnondemand.net/)|Brent Denny
-16Feb|Wed|10|20-742|[Identity with Windows Server 2016](https://skillpipe.com)|11,12|[Labs](https://ddls.learnondemand.net/)|Brent Denny
-17Feb|Thu|10|20-742|[Identity with Windows Server 2016](https://skillpipe.com)|13|[Labs](https://ddls.learnondemand.net/)|Brent Denny
+14Feb|Mon|10|Q&A/20-742|[Identity with Windows Server 2016](https://skillpipe.com)|7|[Labs](https://ddls.learnondemand.net/)|Brent Denny
+15Feb|Tue|10|20-742|[Identity with Windows Server 2016](https://skillpipe.com)|8, 9|[Labs](https://ddls.learnondemand.net/)|Brent Denny
+16Feb|Wed|10|20-742|[Identity with Windows Server 2016](https://skillpipe.com)|10, 11|[Labs](https://ddls.learnondemand.net/)|Brent Denny
+17Feb|Thu|10|20-742|[Identity with Windows Server 2016](https://skillpipe.com)|12, 13|[Labs](https://ddls.learnondemand.net/)|Brent Denny
 **18Feb**|**Fri**|**10**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**
 21Feb|Mon|11|Q&A/WS-011|[Upgrade your skills to Windows Server 2019](https://skillpipe.com)|1|[Labs](https://ddls.learnondemand.net/)|Melvin Porter Brent Denny
 22Feb|Tue|11|WS-011|[Upgrade your skills to Windows Server 2019](https://skillpipe.com)|5|[Labs](https://ddls.learnondemand.net/)|Melvin Porter
