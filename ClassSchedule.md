@@ -53,19 +53,19 @@ Date|Day|Week|Course|Title|Modules|Labs|Instructor|Course Survey
 17Feb|Thu|10|20-742|[Identity with Windows Server 2016](https://skillpipe.com)|12, 13|[Labs](https://ddls.learnondemand.net/)|Brent Denny|[Survey](https://www.metricsthatmatter.com/url/u.aspx?C4D0B78B2177751446)
 **18Feb**|**Fri**|**10**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|--
 21Feb|Mon|11|Q&A/WS-011|[Upgrade your skills to Windows Server 2019](https://skillpipe.com)|1|[Labs](https://ddls.learnondemand.net/)|Melvin Porter Brent Denny|--
-22Feb|Tue|11|WS-011|[Upgrade your skills to Windows Server 2019](https://skillpipe.com)|5|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|--
+22Feb|Tue|11|WS-011|[Upgrade your skills to Windows Server 2019](https://skillpipe.com)|5|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|[Survey]()
 23Feb|Wed|11|AZ-040|[Automating Administration with Windows PowerShell](https://skillpipe.com)|8,9|[Labs](https://ddls.learnondemand.net/)|Brent Denny|--
-24Feb|Thu|11|AZ-040|[Automating Administration with Windows PowerShell](https://skillpipe.com)|2,10,11|[Labs](https://ddls.learnondemand.net/)|Brent Denny|--
+24Feb|Thu|11|AZ-040|[Automating Administration with Windows PowerShell](https://skillpipe.com)|2,10,11|[Labs](https://ddls.learnondemand.net/)|Brent Denny|[Survey]()
 **25Feb**|**Fri**|**11**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|--
 28Feb|Mon|12|Q&A/AZ-040|[Automating Administration with Windows PowerShell](https://skillpipe.com)|Coding Challenge|Custom|Brent Denny|--
 1Mar|Tue|12|AZ-900|[Azure Fundamentals](https://skillpipe.com)|1, 2|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|--
 2Mar|Wed|12|AZ-900|[Azure Fundamentals](https://skillpipe.com)|3, 4|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|--
-3Mar|Thu|12|AZ-900|[Azure Fundamentals](https://skillpipe.com)|5, 6|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|--
+3Mar|Thu|12|AZ-900|[Azure Fundamentals](https://skillpipe.com)|5, 6|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|[Survey]()
 **4Mar**|**Fri**|**12**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|--
 7Mar|Mon|13|Custom|Linux Administration Fundamentals|1|Labs|David Van Gemert |--
 8Mar|Tue|13|Custom|Linux Administration Fundamentals|2|Labs|David Van Gemert |--
 9Mar|Wed|13|Custom|Linux Administration Fundamentals|3|Labs|David Van Gemert |--
-10Mar|Thu|13|Custom|Windows and Linux Administration Challenge|n/a|Labs|David Van Gemert |--
+10Mar|Thu|13|Custom|Windows and Linux Administration Challenge|n/a|Labs|David Van Gemert |[Survey]()
 **11Mar**|**Fri**|**13**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|--
 14Mar|Mon|14|Q&A/AZ-104|[Azure Administration](https://skillpipe.com)|1|[Labs](https://ddls.learnondemand.net/)|Brent Denny|--
 15Mar|Tue|14|AZ-104|[Azure Administration](https://skillpipe.com)|2|[Labs](https://ddls.learnondemand.net/)|Brent Denny|--
@@ -80,10 +80,10 @@ Date|Day|Week|Course|Title|Modules|Labs|Instructor|Course Survey
 28Mar|Mon|16|Q&A/AZ-104|[Azure Administration](https://skillpipe.com)|8|[Labs](https://ddls.learnondemand.net/)|Brent Denny|--
 29Mar|Tue|16|Custom|Azure Challenge - Azure Infrastructure Fundamentals|n/a|[Labs](https://ddls.learnondemand.net/)|Brent Denny|--
 30Mar|Wed|16|AZ-104|[Azure Administration](https://skillpipe.com)|9, 10|[Labs](https://ddls.learnondemand.net/)|Brent Denny|--
-31Mar|Thu|16|Q&A/AZ-104|[Azure Administration](https://skillpipe.com)|10, 11|[Labs](https://ddls.learnondemand.net/)|Brent Denny|--
+31Mar|Thu|16|Q&A/AZ-104|[Azure Administration](https://skillpipe.com)|10, 11|[Labs](https://ddls.learnondemand.net/)|Brent Denny|[Survey]()
 **1Apr**|**Fri**|**16**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|--
 4Apr|Mon|17|WS-050T00|[Migrating Application Workloads to Azure](https://skillpipe.com)|1, 2|[Labs](https://ddls.learnondemand.net/)|Chris Duffy|--
-5Apr|Tue|17|WS-050T00|[Migrating Application Workloads to Azure](https://skillpipe.com)|3, 4|[Labs](https://ddls.learnondemand.net/)|Chris Duffy|--
+5Apr|Tue|17|WS-050T00|[Migrating Application Workloads to Azure](https://skillpipe.com)|3, 4|[Labs](https://ddls.learnondemand.net/)|Chris Duffy|[Survey]()
 6Apr|Wed|17|Cloud Workshop|LOB Migration - WDS and Lab|n/a|[Labs](https://ddls.learnondemand.net/)|Chris Duffy|--
 7Apr|Thu|17|n/a|Wrap Up - Q&A|---|---|Brent Denny|--
 8Apr|Fri|17|Graduation|---|---|---|---|--
