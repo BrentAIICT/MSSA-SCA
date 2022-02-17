@@ -30,7 +30,7 @@ Date|Day|Week|Course|Title|Modules|Labs|Instructor|Course Survey
 17Jan|Mon|6|Q&A/20-741|[Networking with Windows Server 2016](https://skillpipe.com)|5,6|[Labs](https://ddls.learnondemand.net/)|Brent Denny|--
 18Jan|Tue|6|20-741|[Networking with Windows Server 2016](https://skillpipe.com)|7,8|[Labs](https://ddls.learnondemand.net/)|Brent Denny|--
 19Jan|Wed|6|20-741|[Networking with Windows Server 2016](https://skillpipe.com)|8,9|[Labs](https://ddls.learnondemand.net/)|Brent Denny|--
-20Jan|Thu|6|20-741|[Networking with Windows Server 2016](https://skillpipe.com)|10,11|[Labs](https://ddls.learnondemand.net/)|Brent Denny|[20741-Survey](https://www.metricsthatmatter.com/url/u.aspx?D87B27915177751440)
+20Jan|Thu|6|20-741|[Networking with Windows Server 2016](https://skillpipe.com)|10,11|[Labs](https://ddls.learnondemand.net/)|Brent Denny|[Survey](https://www.metricsthatmatter.com/url/u.aspx?D87B27915177751440)
 **21Jan**|**Fri**|**6**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|--
 24Jan|Mon|7|Q&A/AZ-040|[Automating Administration with Windows PowerShell](https://skillpipe.com)|7|[Labs](https://ddls.learnondemand.net/)|Brent Denny|--
 25Jan|Tue|7|AZ-040|[Automating Administration with Windows PowerShell](https://skillpipe.com)|Coding challenge|[Labs](https://ddls.learnondemand.net/)|Brent Denny|--
