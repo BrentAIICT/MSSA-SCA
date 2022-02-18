@@ -34,7 +34,7 @@ Date|Day|Week|Course|Title|Modules|Labs|Instructor|Course Survey
 **21Jan**|**Fri**|**6**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|--
 24Jan|Mon|7|Q&A/AZ-040|[Automating Administration with Windows PowerShell](https://skillpipe.com)|7|[Labs](https://ddls.learnondemand.net/)|Brent Denny|--
 25Jan|Tue|7|AZ-040|[Automating Administration with Windows PowerShell](https://skillpipe.com)|Coding challenge|[Labs](https://ddls.learnondemand.net/)|Brent Denny|--
-26Jan|Wed|7|---|Holiday-Australia Day|--|---|---|--
+26Jan|Wed|7|---|Holiday-Australia Day|---|---|---|--
 27Jan|Thu|7|20-742|[Identity with Windows Server 2016](https://skillpipe.com)|1|[Labs](https://ddls.learnondemand.net/)|Brent Denny|--
 **28Jan**|**Fri**|**7**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|--
 31Jan|Mon|8|Q&A/20-742|[Identity with Windows Server 2016](https://skillpipe.com)|2|[Labs](https://ddls.learnondemand.net/)|Brent Denny|--
