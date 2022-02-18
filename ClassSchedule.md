@@ -6,7 +6,7 @@ Date|Day|Week|Course|Title|Modules|Labs|Instructor|Course Survey
 30Nov|Tue|1|Custom/Learn|Windows Server Administrator Fundamentals|1|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
 1Dec|Wed|1|AZ-040|[Automating Administration with Windows PowerShell](https://skillpipe.com)|1, 3|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
 2Dec|Thu|1|AZ-040|[Automating Administration with Windows PowerShell](https://skillpipe.com)|3|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
-**3Dec**|**Fri**|**1**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|--
+**3Dec**|**Fri**|**1**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|---
 6Dec|Mon|2|AZ-040/20-740|[Installation, Storage and Compute with Windows Server 2016](https://skillpipe.com)|4, 1|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
 7Dec|Tue|2|20-740|[Installation, Storage and Compute with Windows Server 2016](https://skillpipe.com)|2,3|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
 8Dec|Wed|2|20-740|[Installation, Storage and Compute with Windows Server 2016](https://skillpipe.com)|4|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
