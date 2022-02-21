@@ -50,8 +50,7 @@ For this lab, you'll use the available virtual machine environment. Before you b
 1. Open **LON-DC1** and sign in as **Adatum\\Administrator** with the password **Pa55w.rd**.
 1. Repeat step 1 for **LON-CL1**.
 
-## Exercise 1: Signing into the Azure cloud slicing subscription 
-## Exercise 2: Installing the PowerShell Az module
+## Exercise 1: Signing into the Azure cloud slicing subscription and Installing the PowerShell Az module
 
 ### Scenario 1
 
@@ -162,18 +161,20 @@ The main task for this exercise is:
 - Use Azure Cloud Shell to create a resource group.
 
 ### Task 1: Use Azure Cloud Shell to create a resource group
+> This could be achieved with the AZ modules you have installed, however this next sction shows how you can 
+> Run the Az PowerShell commands without installing them
 
 1. Check your Azure tenant in the Azure portal to ensure that no Azure VMs or storage accounts exist.
     <details><summary>Click for hint</summary><Strong> 
 
     ``` 
-    Get-Co
+    Get-Command *ResourceGroup*
     ```
     </Strong></details> 
     <details><summary>Click to see the answer</summary><Strong> 
     
     ```
-    ANSWER
+    Get-AzResourceGroup
     ```
     </Strong></details> 
 3. Start the Azure Cloud Shell environment.
