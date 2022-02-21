@@ -256,10 +256,12 @@ mstsc.exe /v $PublicIP.IPAddress
 > When prompted, sign in with the credentials you provided for this VM. Ensure that you're connected to the Windows Server 2016 VM. Check the VM functionality and then shut it down.
 
 ### Task 2: Add a disk to the Azure VM by using PowerShell
-1. Switch to the Microsoft Edge window, where you have the Azure portal open. Select Virtual Machines.
-2. Ensure that TestVM1 is listed. Select it.
-3. On the Overview page, check the parameters of the VM you created. Select Disk. Ensure that only one disk is created (Os disk).
-4. To create a data disk for the existing VM, in the Windows PowerShell window, enter the following commands, and select Enter after each:
+1. Switch to the Microsoft Edge window, where you have the Azure portal open. 
+2. From the Search bar type Virtual Machines, and select Virtual Machines from the menu.
+3. Ensure that TestVM1 is listed. If not refresh the Virtual Machines page
+4. Select the virtual machine listed.
+5. On the Overview page, check the parameters of the VM you created. Select Disk. Ensure that only one disk is created (Os disk).
+6. To create a data disk for the existing VM, in the Windows PowerShell window, enter the following commands, and select Enter after each:
 
 ```powershell
 $VirtualMachine = Get-AzVM -ResourceGroupName "ResourceGroup1" -Name "TestVM1"
