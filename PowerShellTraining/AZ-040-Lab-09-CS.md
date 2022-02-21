@@ -230,7 +230,11 @@ $newVM1 = New-AzVM @vmParams
 
 ```powershell
 $NewVM1
+```
+```powershell
 $newVM1.OSProfile | Select-Object ComputerName,AdminUserName
+```
+```powershell
 $newVM1 | Get-AzNetworkInterface | Select-Object -ExpandProperty IpConfigurations | Select-Object Name,PrivateIpAddress
 ```
 
