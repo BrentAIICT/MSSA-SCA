@@ -71,7 +71,7 @@ The main tasks for this exercise are:
     
 3. Use the Username and Password in the Resources tab of the lab instructions
    - The username will be very long and be similar format to: User1-21764458@LODSPRODMCA.onmicrosoft.com
-4. In the Azure portal choose "Maybe Later" on the Guided tour dialog box
+4. In the Azure portal choose "Maybe Later" on the "Welcome to Microsoft Azure dialog box"
 5. In the search bar at the top of the portal type "Subscriptions"
 6. Choose Subscriptions from the drop down menu
 7. Check to see if the MOC Subscription has been activated yet (This subscription takes some time to be created and activated)
