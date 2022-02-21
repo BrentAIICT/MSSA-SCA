@@ -121,6 +121,7 @@ The main tasks for this exercise are:
     ```
     </Strong></details> 
 7. From the PowerShell Gallery, install the Az module for the current user by using the **Install-Module** command.
+> This will take some time to install, wait until the installation of all of the AZ modules have fininshed
     <details><summary>Click for hint</summary><Strong> 
 
     ``` 
