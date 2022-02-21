@@ -242,8 +242,6 @@ $newVM1 | Get-AzNetworkInterface | Select-Object -ExpandProperty IpConfiguration
 
 ```powershell
 $publicIp = Get-AzPublicIpAddress -Name TestPublicIp -ResourceGroupName ResourceGroup1
-```
-```powershell
 $publicIp | Select-Object Name,IpAddress,@{label='FQDN';expression={$_.DnsSettings.Fqdn}}
 ```
 
