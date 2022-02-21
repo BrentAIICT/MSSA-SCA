@@ -250,7 +250,7 @@ $publicIp | Select-Object Name,IpAddress,@{label='FQDN';expression={$_.DnsSettin
 6. Enter the following command, and then select Enter to connect to the VM:
 
 ```powershell
-mstsc.exe /v <PUBLIC_IP_ADDRESS>
+mstsc.exe /v $PublicIP.IPAddress
 ```
 
 > When prompted, sign in with the credentials you provided for this VM. Ensure that you're connected to the Windows Server 2016 VM. Check the VM functionality and then shut it down.
