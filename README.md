@@ -14,9 +14,11 @@
 [GitHub Lab 4 - Cloning a GitHub Repo](GitTraining/CloneRepo.md#clone-a-github-repo)<br>
 [GitHub Lab 5 - Managing the Repositories](GitTraining/ManagingGitRepo.md#managing-a-local-git-repo)<br>
 
+### PowerShell Labs
+[PowerShell Labs Rewitten](PowerShellTraining)<br>
+
 ### PowerShell Training
 [Sample Administration How-To-Guides](https://docs.microsoft.com/en-us/powershell/scripting/samples/sample-scripts-for-administration?view=powershell-7.2)<br>
-[PowerShell Labs Rewitten](PowerShellTraining)<br>
 [Docker Lab](DockerLab#readme)<br>
 [PowerShell Objects/Properties & Pipelines](PowerShellTraining/Practical%20PowerShell%20Pipelines%20using%20cars.pdf)<br>
 [Basic PowerShell Scripting Quiz](PowerShellTraining/PowerShell-Quiz.md#powershell-quiz)<br>
