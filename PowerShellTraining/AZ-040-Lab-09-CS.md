@@ -50,15 +50,36 @@ For this lab, you'll use the available virtual machine environment. Before you b
 1. Open **LON-DC1** and sign in as **Adatum\\Administrator** with the password **Pa55w.rd**.
 1. Repeat step 1 for **LON-CL1**.
 
-## Exercise 1: Signing into the Azure subscription and installing the PowerShell Az module
+## Exercise 1: Signing into the Azure cloud slicing subscription 
+## Exercise 2: Installing the PowerShell Az module
 
 ### Scenario 1
 
 The main tasks for this exercise are:
 
-1. Install the Azure Az module for PowerShell.
+1. Sign in to the Azure portal.
+1. Install the Azure Az module for PowerShell. 
 
-### Task 1: Install the Azure Az module for PowerShell
+### Task 1: Sign into Azure portal and activate the cloud slicing subscription
+
+1. On **LON-CL1**, open Microsoft Edge browser.
+3. In the address bar type the following:
+
+    ``` 
+    https://portal.azure.com
+    ```
+    
+3. Use the Username and Password in the Resources tab of the lab instructions
+   - The username will be very long and be similar format to: User1-21764458@LODSPRODMCA.onmicrosoft.com
+4. In the Azure portal choose "Maybe Later" on the Guided tour dialog box
+5. In the search bar at the top of the portal type "Subscriptions"
+6. Choose Subscriptions from the drop down menu
+7. Check to see if the MOC Subscription has been activated yet (This subscription takes some time to be created and activated)
+
+ > Do not wait for this to appear, continue on with the rest of the lab and the subscription will appear later.
+
+
+### Task 2: Install the Azure Az module for PowerShell
 
 1. On **LON-CL1**, start the PowerShell 7.1 environment.
     <details><summary>Click for hint</summary><Strong> 
@@ -141,12 +162,83 @@ The main task for this exercise is:
 ### Task 1: Use Azure Cloud Shell to create a resource group
 
 1. Check your Azure tenant in the Azure portal to ensure that no Azure VMs or storage accounts exist.
-1. Start the Azure Cloud Shell environment.
-1. Check your subscription by using the **Get-AzSubscription** command.
-1. Use the **Get-AzResourceGroup** command to verify that no resource groups exist.
-1. Switch to the **Bash** environment in Azure Cloud Shell and then use **az account list** and **az resource list** to check subscriptions and resource groups. Switch back to the PowerShell environment in Azure Cloud Shell.
-1. Use the **New-AzResourceGroup** command to create a new resource group in the West Europe region. Name the resource group Mod9Lab.
+    <details><summary>Click for hint</summary><Strong> 
 
+    ``` 
+    Get-Co
+    ```
+    </Strong></details> 
+    <details><summary>Click to see the answer</summary><Strong> 
+    
+    ```
+    ANSWER
+    ```
+    </Strong></details> 
+3. Start the Azure Cloud Shell environment.
+    <details><summary>Click for hint</summary><Strong> 
+
+    ``` 
+    HINT
+    ```
+    </Strong></details> 
+    <details><summary>Click to see the answer</summary><Strong> 
+    
+    ```
+    ANSWER
+    ```
+    </Strong></details> 
+5. Check your subscription by using the **Get-AzSubscription** command.
+    <details><summary>Click for hint</summary><Strong> 
+
+    ``` 
+    HINT
+    ```
+    </Strong></details> 
+    <details><summary>Click to see the answer</summary><Strong> 
+    
+    ```
+    ANSWER
+    ```
+    </Strong></details> 
+7. Use the **Get-AzResourceGroup** command to verify that no resource groups exist.
+    <details><summary>Click for hint</summary><Strong> 
+
+    ``` 
+    HINT
+    ```
+    </Strong></details> 
+    <details><summary>Click to see the answer</summary><Strong> 
+    
+    ```
+    ANSWER
+    ```
+    </Strong></details> 
+9. Switch to the **Bash** environment in Azure Cloud Shell and then use **az account list** and **az resource list** to check subscriptions and resource groups. Switch back to the PowerShell environment in Azure Cloud Shell.
+    <details><summary>Click for hint</summary><Strong> 
+
+    ``` 
+    HINT
+    ```
+    </Strong></details> 
+    <details><summary>Click to see the answer</summary><Strong> 
+    
+    ```
+    ANSWER
+    ```
+    </Strong></details> 
+11. Use the **New-AzResourceGroup** command to create a new resource group in the West Europe region. Name the resource group Mod9Lab.
+    <details><summary>Click for hint</summary><Strong> 
+
+    ``` 
+    HINT
+    ```
+    </Strong></details> 
+    <details><summary>Click to see the answer</summary><Strong> 
+    
+    ```
+    ANSWER
+    ```
+    </Strong></details> 
 ## Exercise 3: Managing Azure resources with Azure PowerShell
 
 After you create the Azure subscription and resource group, you want to use PowerShell to create an Azure VM based on a Windows Server 2016 image.
