@@ -145,8 +145,8 @@ The main tasks for this exercise are:
     <details><summary>Click to see the answer</summary><Strong> 
     
     ```
-    # When you run this command it will show a GUI
-    # Sign in to the GUI with your Username and Password found in the Resourses tab of the lab instructions
+    # When you run this command it will show website asking you to sign in
+    # Sign in with your Username you found in the Resourses tab of the lab instructions
     Connect-AzAccount
     ```
     </Strong></details> 
