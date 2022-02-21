@@ -50,31 +50,83 @@ For this lab, you'll use the available virtual machine environment. Before you b
 1. Open **LON-DC1** and sign in as **Adatum\\Administrator** with the password **Pa55w.rd**.
 1. Repeat step 1 for **LON-CL1**.
 
-## Exercise 1: Activating the Azure subscription and installing the PowerShell Az module
+## Exercise 1: Signing into the Azure subscription and installing the PowerShell Az module
 
 ### Scenario 1
 
-You need to make sure that you activate your trial Azure subscription and install the Az module for Windows PowerShell.
-
 The main tasks for this exercise are:
 
-1. Activate your Azure subscription by using the Azure pass voucher.
 1. Install the Azure Az module for PowerShell.
 
-### Task 1: Activate your Azure subscription by using Azure pass voucher
-
-1. On **LON-CL1**, open the Microsoft Edge browser and navigate to **https://www.microsoftazurepass.com/**.
-1. Sign in with the Microsoft account that you want to use for your trial Azure subscription.
-1. Use the Azure pass code provided by your instructor or lab hosting provider.
-1. Ensure that the **Subscriptions** page displays **Azure Pass - Sponsorship** with an **Active** status and that you have a balance of 50 USD.
-
-### Task 2: Install the Azure Az module for PowerShell
+### Task 1: Install the Azure Az module for PowerShell
 
 1. On **LON-CL1**, start the PowerShell 7.1 environment.
-1. Check your version of PowerShell by using `$PSVersionTable.PSVersion`.
-1. Set the execution policy to **RemoteSigned** for the current user.
-1. From the PowerShell Gallery, install the Az module for the current user by using the **Install-Module** command.
-1. Use **Connect-AzAccount** to sign in to your Azure subscription.
+    <details><summary>Click for hint</summary><Strong> 
+
+    ``` 
+    # this is powershell 7 not Windows PowerShell
+    ```
+    </Strong></details> 
+    <details><summary>Click to see the answer</summary><Strong> 
+    
+    ```
+    pwsh.exe
+    ```
+    </Strong></details> 
+3. Check your version of PowerShell by using `$PSVersionTable.PSVersion`.
+    <details><summary>Click for hint</summary><Strong> 
+
+    ``` 
+    $PSVersionTable
+    ```
+    </Strong></details> 
+    <details><summary>Click to see the answer</summary><Strong> 
+    
+    ```
+    $PSVersionTable.PSVersion
+    ```
+    </Strong></details> 
+5. Set the execution policy to **RemoteSigned** for the current user.
+    <details><summary>Click for hint</summary><Strong> 
+
+    ``` 
+    Get-Help Set-ExecutionPolicy -ShowWindow
+    ```
+    </Strong></details> 
+    <details><summary>Click to see the answer</summary><Strong> 
+    
+    ```
+    Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
+    ```
+    </Strong></details> 
+7. From the PowerShell Gallery, install the Az module for the current user by using the **Install-Module** command.
+    <details><summary>Click for hint</summary><Strong> 
+
+    ``` 
+    Get-Help Install-Module -ShowWindow
+    ```
+    </Strong></details> 
+    <details><summary>Click to see the answer</summary><Strong> 
+    
+    ```
+    Install-Module AZ -Verbose -Force
+    ```
+    </Strong></details> 
+9. Use **Connect-AzAccount** to sign in to your Azure subscription.
+    <details><summary>Click for hint</summary><Strong> 
+
+    ``` 
+    Get-Help Connect-AzAccount -ShowWindow
+    ```
+    </Strong></details> 
+    <details><summary>Click to see the answer</summary><Strong> 
+    
+    ```
+    # When you run this command it will show a GUI
+    # Sign in to the GUI with your Username and Password found in the Resourses tab of the lab instructions
+    Connect-AzAccount
+    ```
+    </Strong></details> 
 
 ## Exercise 2: Using Azure Cloud Shell
 
