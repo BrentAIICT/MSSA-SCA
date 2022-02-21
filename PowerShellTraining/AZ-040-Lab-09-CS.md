@@ -265,12 +265,11 @@ mstsc.exe /v $PublicIP.IPAddress
 
 ```powershell
 $VirtualMachine = Get-AzVM -ResourceGroupName "ResourceGroup1" -Name "TestVM1"
-```
-```powershell
+
 Add-AzVMDataDisk -VM $VirtualMachine -Name "disk1" -LUN 0 -Caching ReadOnly -DiskSizeinGB 1 -CreateOption Empty
-```
-```powershell
+
 Update-AzVM -ResourceGroupName "ResourceGroup1" -VM $VirtualMachine
+
 ```
 
 5. Switch to the Azure portal and refresh the Disks page. You should be able to notice a new disk called disk1 in the Data disks section.
