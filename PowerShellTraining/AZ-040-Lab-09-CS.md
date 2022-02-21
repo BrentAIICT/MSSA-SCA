@@ -242,7 +242,8 @@ $newVM1 | Get-AzNetworkInterface | Select-Object -ExpandProperty IpConfiguration
 
 ```powershell
 $publicIp = Get-AzPublicIpAddress -Name TestPublicIp -ResourceGroupName ResourceGroup1
-
+```
+```powershell
 $publicIp | Select-Object Name,IpAddress,@{label='FQDN';expression={$_.DnsSettings.Fqdn}}
 ```
 
@@ -264,7 +265,11 @@ mstsc.exe /v <PUBLIC_IP_ADDRESS>
 
 ```powershell
 $VirtualMachine = Get-AzVM -ResourceGroupName "ResourceGroup1" -Name "TestVM1"
+```
+```powershell
 Add-AzVMDataDisk -VM $VirtualMachine -Name "disk1" -LUN 0 -Caching ReadOnly -DiskSizeinGB 1 -CreateOption Empty
+```
+```powershell
 Update-AzVM -ResourceGroupName "ResourceGroup1" -VM $VirtualMachine
 ```
 
