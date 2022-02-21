@@ -161,6 +161,125 @@ The main task for this exercise is:
 - Use Azure Cloud Shell to create a resource group.
 
 ### Task 1: Use Azure Cloud Shell to create a resource group
+
+1. On the AZ-040T00A-LON-CL1 computer, open the Edge browser window and go to 
+  
+  ```
+  portal.azure.com
+  ```
+
+1. On the Microsoft Azure portal click the hamburger menu on the top left of the portal to find the following:
+2. One the menu choose Virtual Machines and ensure that no virtual machines (VMs) are created. 
+3. Again from the menu select Storage Accounts. Ensure that no storage accounts are created. 
+3. On the Microsoft Azure top blue bar, select the Cloud Shell icon, (hover over each icon with the mounse to find the Cloud Shell Icon >_)
+3. In the Welcome to Azure Cloud Shell window, select PowerShell.
+3. On the You have no storage mounted page, review the note about the missing storage account that's needed for Cloud Shell to run. Verify that in the Subscription field, your MOC subscription is selected, and then select Create storage. Wait until the storage account is created.
+
+   > When your storage account is created, the Cloud Shell console should open, and you should get a prompt in the format PS /home/user1-21764973>.
+
+3. At the PowerShell prompt, Enter Get-AzSubscription, and then select Enter to review your subscriptions.
+3. Enter Get-AzResourceGroup to review the resource group information.
+3. On the Cloud Shell window Use the drop-down list to switch from PowerShell to the Bash shell and confirm your choice.
+3. At the Bash shell prompt, Enter 
+  ```
+  az account list
+  ```
+  
+3. Enter az resource list to review the resource group information.
+
+    > Switch back to the PowerShell interface.
+
+3. In the PowerShell console, enter the following command to create a new Resource Group
+  ```
+  New-AzResourceGroup -Name ResourceGroup1 -Location eastus
+  ```
+
+### Task 1: Use Azure Cloud Shell to create a Virtual Machine
+
+1. In the Windows PowerShell window, enter the following command to define the admin credentials for the VM you want to create in Azure:
+
+```powershell
+$cred = Get-Credential -Message "Enter a username and password for the virtual machine."
+```
+
+> When prompted, choose the username and password that you want to use as admin credentials for the new VM. Do not use name Admin for administrator.
+
+2. In the Windows PowerShell window, enter the following command to define the VM parameters, and then select Enter. Replace yourname with your real name:
+
+```powershell
+$vmParams = @{
+ ResourceGroupName = 'ResourceGroup1'
+ Name = 'TestVM1'
+ Location = 'eastus'
+ ImageName = 'Win2016Datacenter'
+ PublicIpAddressName = 'TestPublicIp'
+ Credential = $cred
+ OpenPorts = 3389
+}
+```
+
+3. To create a new VM based on these parameters and store it in the newVM1 variable, enter the following command, and then select Enter:
+
+```powershell
+$newVM1 = New-AzVM @vmParams
+```
+
+> Note: Wait until the Azure VM is created.
+
+4. To check the parameters on the new VM, enter the following commands, and then select Enter:
+
+```powershell
+$NewVM1
+$newVM1.OSProfile | Select-Object ComputerName,AdminUserName
+$newVM1 | Get-AzNetworkInterface | Select-Object -ExpandProperty IpConfigurations | Select-Object Name,PrivateIpAddress
+```
+
+5. To find a public IP address on the Azure VM you created so you can connect to it, enter the following commands, and then select Enter:
+
+```powershell
+$publicIp = Get-AzPublicIpAddress -Name TestPublicIp -ResourceGroupName ResourceGroup1
+
+$publicIp | Select-Object Name,IpAddress,@{label='FQDN';expression={$_.DnsSettings.Fqdn}}
+```
+
+> Note the value of IPAddress in the table output.
+
+6. Enter the following command, and then select Enter to connect to the VM:
+
+```powershell
+mstsc.exe /v <PUBLIC_IP_ADDRESS>
+```
+
+> When prompted, sign in with the credentials you provided for this VM. Ensure that you're connected to the Windows Server 2016 VM. Check the VM functionality and then shut it down.
+
+### Task 2: Add a disk to the Azure VM by using PowerShell
+1. Switch to the Microsoft Edge window, where you have the Azure portal open. Select Virtual Machines.
+2. Ensure that TestVM1 is listed. Select it.
+3. On the Overview page, check the parameters of the VM you created. Select Disk. Ensure that only one disk is created (Os disk).
+4. To create a data disk for the existing VM, in the Windows PowerShell window, enter the following commands, and select Enter after each:
+
+```powershell
+$VirtualMachine = Get-AzVM -ResourceGroupName "ResourceGroup1" -Name "TestVM1"
+Add-AzVMDataDisk -VM $VirtualMachine -Name "disk1" -LUN 0 -Caching ReadOnly -DiskSizeinGB 1 -CreateOption Empty
+Update-AzVM -ResourceGroupName "ResourceGroup1" -VM $VirtualMachine
+```
+
+5. Switch to the Azure portal and refresh the Disks page. You should be able to notice a new disk called disk1 in the Data disks section.
+
+> You have successfully completed this Lab. Click End to end the lab.
+
+
+
+
+
+
+
+
+
+
+
+
+
 > This could be achieved with the AZ modules you have installed, however this next sction shows how you can 
 > Run the Az PowerShell commands without installing them
 
