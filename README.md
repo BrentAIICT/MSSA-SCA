@@ -15,7 +15,7 @@
 [GitHub Lab 5 - Managing the Repositories](GitTraining/ManagingGitRepo.md#managing-a-local-git-repo)<br>
 
 ### PowerShell Labs
-[PowerShell Labs Rewitten](PowerShellTraining)<br>
+[PowerShell Labs Rewitten](PowerShellTraining/Labs)<br>
 
 ### PowerShell Training
 [Sample Administration How-To-Guides](https://docs.microsoft.com/en-us/powershell/scripting/samples/sample-scripts-for-administration?view=powershell-7.2)<br>
