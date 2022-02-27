@@ -102,7 +102,7 @@ function Restore-DeletedADObject {
 
 ## Project 3 - Find all groups related to an AD user
 
-### This solution provides the basic answer
+### This solution provides the basic solution
     
 ```
 function Find-AssociatedGroupMembership {
