@@ -8,7 +8,7 @@
 - You need to make sure that there is Comment-Based-Help provided for each of the functions
 - You need to complete at least on of these projects today.
 
-## Hints
+## Hint[s](PowerShellTraining/PSADProjectSolutions.md#solutions-for-the-ps-projects)
 
 - Get-Command 
   - This will help you find the command you need based on its name of module
