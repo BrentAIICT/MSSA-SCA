@@ -2,8 +2,8 @@
 
 ## What is required
 
-- You need to run these projects from the AZ-040 Modules 1-8 Lab
-- You need to create a PowerShell module per project
+- You need to run these projects from the **"AZ-040T00 Automating Administration with Windows PowerShell [No Azure Pass Required], Labs 1-8"**
+- You need to create a new PowerShell module per project
 - You need to make the modules load automatically when you go to launch the function that you have built
 - You need to make sure that there is Comment-Based-Help provided for each of the functions
 - You need to complete at least on of these projects today.
