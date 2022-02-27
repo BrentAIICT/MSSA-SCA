@@ -53,8 +53,18 @@ function Add-NewUser {
  
 ## Project 2
 
-
-
+```
+function Restore-DeletedADObject {
+  # Find all of the deleted objects in AD  
+  $DeletedObjects = Get-ADObject -LDAPFilter:"(msDS-LastKnownRDN=*)" -IncludeDeletedObjects | Where-Object {$_.Deleted -eq $true}
+  $ADObjectsChosen = $DeletedObjects | Out-GridView -OutputMode Multiple  # Choose which objects to restore
+  $ADObjectsChosen | Restore-ADObject -confirm:$false # This restores the chosen object
+  # this finds the restored objects in AD  
+  $RestoredObjects = Get-ADObject -Filter * | Where-Object {$_.ObjectGuid -in $ADObjectsChosen.ObjectGuid}  
+  return $RestoredObjects   # Show the restored objects on the screen (this is the optional requirement)
+}
+    
+```
 
 ## Project 3
 
