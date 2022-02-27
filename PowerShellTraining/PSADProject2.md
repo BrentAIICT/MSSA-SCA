@@ -63,7 +63,7 @@
   - Show the restored AD object on screen to prove restoration was successful 
   - Add this function to the previous module from Project 1
 
-## HINTS (You will need these commands to complete your task)
+## HINTS (You will need these commands to complete your task)[.](PSADProjectSolutions.md#solutions-for-the-ps-projects)
 ```
 # This command finds deleted objects
 Get-ADObject -LDAPFilter:"(msDS-LastKnownRDN=*)" -IncludeDeletedObjects | Where-Object {$_.Deleted -eq $true}
