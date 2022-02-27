@@ -80,6 +80,7 @@ Out-Gridview
  - Run your function and select one or more users from the GridView windows
  - Make sure the user/s have been restored   
 <br>
+<!--
 
 <details><summary>Click to see the answer</summary><Strong> 
     
@@ -98,4 +99,5 @@ function Restore-DeletedADObject {
 
 </Strong></details> 
 
+-->
 [Try the next Project](PSADProject3.md)
