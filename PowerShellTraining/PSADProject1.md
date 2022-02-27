@@ -74,7 +74,7 @@ Get-ADGroupMember -Identity Contractors
 
 
 <br>
-
+<!--
 <details><summary>Click to see the answer</summary><Strong>  
 
 ```
@@ -127,5 +127,8 @@ function Add-NewUser {
 ```
     
 </Strong></details> 
-  
+-->
+<!--
+-->
+
 [Try the next Project](PSADProject2.md)
