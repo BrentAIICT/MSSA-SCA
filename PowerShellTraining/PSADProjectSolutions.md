@@ -4,6 +4,26 @@
 
 ```
 function Add-NewUser {
+  <#
+  .SYNOPSIS
+    This command will create AD users based on a specific CSV file format
+  .DESCRIPTION
+    This command will create AD users based on a specific CSV file format. 
+    The CSV file must have the following format:
+      "firstname","lastname","upn","department","streetaddress","city","mobilephone","password","officename"
+      "Binky","Cavanagh","Binky.Cavanagh@adatum.com","Marketing","653 Oak Valley Parkway","London","0488071773","xZhwF@t?qm","Lon-100"
+      "Ilsa","Eykel","Ilsa.Eykel@adatum.com","Marketing","06392 Linden Park","Toronto","0413669454","@dwtuM!xVb","Tor-200"
+      "Abram","Filipyev","Abram.Filipyev@adatum.com","HR","43885 8th Street","Toronto","0441239058","cMmyG?je#n","Tor-300"
+  .PARAMETER CSVFilePath 
+    This is the path to the CSV file. The contents of this file will be used to create the new AD users
+  .EXAMPLE
+    Add-NewUser -CSVFilePath e:\NewHires.csv
+    This will create all of the users that are decribed in the CSV file as AD Users.
+  .NOTES
+    General notes
+      Created By: Brent Denny
+      Created On: 01-Feb-2022
+  #>
   [cmdletBinding()]
   Param($CSVFilePath = 'E:\NewHires.csv')
 
@@ -55,6 +75,20 @@ function Add-NewUser {
 
 ```
 function Restore-DeletedADObject {
+  <#
+  .SYNOPSIS
+    This command will restore AD users from the AD Recycle bin
+  .DESCRIPTION
+    This command will check for all deleted users and list them in a GUI, allowing the users that 
+    need to be restored to be slected and then automatically restored to AD
+  .EXAMPLE
+    Restore-DeletedADObject
+    This will present a list of deleted users for selection to resore them to AD
+  .NOTES
+    General notes
+      Created By: Brent Denny
+      Created On: 01-Feb-2022
+  #>
   # Find all of the deleted objects in AD  
   $DeletedObjects = Get-ADObject -LDAPFilter:"(msDS-LastKnownRDN=*)" -IncludeDeletedObjects | Where-Object {$_.Deleted -eq $true}
   $ADObjectsChosen = $DeletedObjects | Out-GridView -OutputMode Multiple  # Choose which objects to restore
@@ -72,6 +106,24 @@ function Restore-DeletedADObject {
     
 ```
 function Find-AssociatedGroupMembership {
+  <#
+  .SYNOPSIS
+    This command will find all related groups given a users samaccountname
+  .DESCRIPTION
+    This command will find all of the groups a user is a member of and then
+    will located all groups that those groups are a member of and repeat this 
+    until no more memberships can be found. These groups will then be displayed
+    as output
+  .EXAMPLE
+    Find-AssociatedGroupMembership
+    This command will find all related groups given a users samaccountname
+  .PARAMETER SamAccountName
+    This is the SamAccountName that is associated with the use in question  
+  .NOTES
+    General notes
+      Created By: Brent Denny
+      Created On: 01-Feb-2022
+  #>
   Param ($SamAccountName)
   function Get-MemberOf {
     Param($ADObject)
@@ -94,6 +146,24 @@ function Find-AssociatedGroupMembership {
 
 ```
 function Find-AssociatedGroupMembership {
+  <#
+  .SYNOPSIS
+    This command will find all related groups given a users samaccountname
+  .DESCRIPTION
+    This command will find all of the groups a user is a member of and then
+    will located all groups that those groups are a member of and repeat this 
+    until no more memberships can be found. These groups will then be displayed
+    as output
+  .EXAMPLE
+    Find-AssociatedGroupMembership
+    This command will find all related groups given a users samaccountname
+  .PARAMETER SamAccountName
+    This is the SamAccountName that is associated with the use in question  
+  .NOTES
+    General notes
+      Created By: Brent Denny
+      Created On: 01-Feb-2022
+  #>
   Param ($SamAccountName)
   function Get-MemberOf {
     Param($ADObject)
