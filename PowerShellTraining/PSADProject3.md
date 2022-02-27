@@ -95,6 +95,9 @@ Get-ADPrincipalGroupMembership
    
 - Run your new function with the SamAccountName of **"Jasper"** and then **"Ada"**
 
+<!--
+
+
 ### This solution provides the basic answer
 
 <details><summary>Click to see the answer</summary><Strong> 
@@ -116,7 +119,7 @@ function Find-AssociatedGroupMembership {
     
 ```
     
-<!--
+
 </Strong></details> 
 
 <br>
