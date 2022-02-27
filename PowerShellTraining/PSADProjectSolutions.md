@@ -1,6 +1,6 @@
 # Solutions for the PS projects
 
-## Project 1
+## Project 1 - Creating users from a CSV file
 
 ```
 function Add-NewUser {
@@ -51,7 +51,7 @@ function Add-NewUser {
 }
 ```
  
-## Project 2
+## Project 2 - Restoring deleted AD users from the AD recycle bin
 
 ```
 function Restore-DeletedADObject {
@@ -66,10 +66,9 @@ function Restore-DeletedADObject {
     
 ```
 
-## Project 3
+## Project 3 - Find all groups related to an AD user
 
 ### This solution provides the basic answer
-
     
 ```
 function Find-AssociatedGroupMembership {
