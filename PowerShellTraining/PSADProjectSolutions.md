@@ -142,7 +142,7 @@ function Find-AssociatedGroupMembership {
 
 <br>
 
-### This solution provides a better answer
+### This solution provides a better solution
 
 ```
 function Find-AssociatedGroupMembership {
