@@ -23,6 +23,6 @@
 - if   
   - Will allow code to execute only if a condition is $true
 
-(Go to Project 1)[]
-(Go to Project 2)[]
-(Go to Project 3)[]
+(Go to Project 1)[<br>]<br>
+(Go to Project 2)[]<br>
+(Go to Project 3)[]<br>
