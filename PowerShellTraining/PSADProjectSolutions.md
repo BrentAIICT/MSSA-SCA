@@ -1,6 +1,6 @@
 # Solutions for the PS projects
 
-## Project 1
+## Project 3
 
 ### This solution provides the basic answer
 
