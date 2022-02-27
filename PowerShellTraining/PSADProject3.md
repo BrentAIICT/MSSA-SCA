@@ -81,7 +81,7 @@
   *Nested Groups are groups placed inside other groups* 
   - Find all of the groups that the **user is a member of**
   - For **each of these groups**, **find all the groups they are members of** , and **repeat this** until you have found all of the nested groups.
-  - **Display the Name and Scope** of each group on screen
+  - **Display the Name and Scope** of each group on screen[.](PSADProjectSolutions.md#solutions-for-the-ps-projects)
 
 ## HINTS
 ```
@@ -93,7 +93,7 @@ Get-ADPrincipalGroupMembership
 
 ## Test the results by running your function:
    
-- Run your new function with the SamAccountName of **"Jasper"** and then **"Ada"**[.](PSADProjectSolutions.md#solutions-for-the-ps-projects)
+- Run your new function with the SamAccountName of **"Jasper"** and then **"Ada"**
 
 <!--
 
