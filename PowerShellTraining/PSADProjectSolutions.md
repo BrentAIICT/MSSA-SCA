@@ -1,5 +1,61 @@
 # Solutions for the PS projects
 
+## Project 1
+
+```
+function Add-NewUser {
+  [cmdletBinding()]
+  Param($CSVFilePath = 'E:\NewHires.csv')
+
+  $Users = Import-Csv -Path $CSVFilePath
+  $DepartmentNames = $Users.Department | Select-Object -Unique # Get an array of all of the Departments that are needed
+  $CurrentOUNames = (Get-ADOrganizationalUnit -Filter *).Name # Get an array of OU names
+  $CurrentGroupNames = (Get-ADGroup -Filter *).Name # Get an array of Group names
+  foreach ($DepartmentName in $DepartmentNames) { # Checking to see if the OUs and Groups are already created
+    if ($DepartmentName -notin $CurrentOUNames) {
+      New-ADOrganizationalUnit -Name $DepartmentName -Path 'dc=adatum,dc=com'
+    }
+    if ($DepartmentName -notin $CurrentGroupNames) {
+      New-ADGroup -GroupScope Global -Name $DepartmentName -Path "ou=$DepartmentName,dc=adatum,dc=com"
+    }
+  }
+  $UserTotalCount = $Users.Count
+  $CurrentUserCount = 0  
+  foreach ($User in $Users) {
+    $CurrentUserCount++
+    Write-Progress -Activity "Creating Users" -PercentComplete ($CurrentUserCount/$UserTotalCount*100) -CurrentOperation  "Creating User: $($User.FirstName + ' ' + $User.LastName)"
+    # Creating all of the information needed to create the user
+    $Name = $User.firstname + ' ' + $User.lastname
+    $OU = 'OU=' + $User.department + ',DC=adatum,DC=com'
+    $secPwd = $User.password | ConvertTo-SecureString -AsPlainText -Force
+    $SamAccountName = $User.firstname.SubString(0,1) + $User.lastname
+    
+    $Parameters = @{ # Splatting the paramaters for New-ADUser, instead of listing parameters on one line after the command
+      Name=$Name
+      Path=$OU
+      GivenName=$User.firstname
+      Surname=$User.lastname
+      SamAccountName=$SamAccountName
+      AccountPassword=$secPwd 
+      Department=$User.department 
+      Office=$User.officename 
+      UserPrincipalName=$user.upn 
+      MobilePhone=$User.mobilephone 
+      City=$User.city 
+      StreetAddress=$User.streetaddress
+    }
+    New-ADUser @Parameters # Creating the new user
+    $NewUser = Get-ADUser -Identity $SamAccountName
+    Add-ADGroupMember -Identity $User.department -Members $NewUser  # Adding the new user to the relevant group
+  }
+}
+```
+ 
+## Project 2
+
+
+
+
 ## Project 3
 
 ### This solution provides the basic answer
