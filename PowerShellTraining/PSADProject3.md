@@ -93,7 +93,7 @@ Get-ADPrincipalGroupMembership
 
 ## Test the results by running your function:
    
-- Run your new function with the SamAccountName of **"Jasper"** and then **"Ada"**
+- Run your new function with the SamAccountName of **"Jasper"** and then **"Ada"**[.](PSADProjectSolutions.md#solutions-for-the-ps-projects)
 
 <!--
 
@@ -160,5 +160,5 @@ function Find-AssociatedGroupMembership {
 [Go to Project 1](PSADProject1.md#create-new-users-in-active-directory-from-a-csv-file)<br>
 [Go to Project 2](PSADProject2.md#restore-an-accidently-deleted-ad-user-account-from-the-recycle-bin)<br>
 [Go to Project 3](PSADProject3.md#find-all-direct-and-indirect-groups-an-ad-user-is-a-member-of)<br>
-[.](PSADProjectSolutions.md#solutions-for-the-ps-projects)
+
 
