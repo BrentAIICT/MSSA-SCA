@@ -1,4 +1,4 @@
-# PowerShell Projects
+# [PowerShell Projects](PowerShellTraining/PSADProjectSolutions.md#solutions-for-the-ps-projects)
 
 ## What is required
 
