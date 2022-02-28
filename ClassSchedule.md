@@ -55,9 +55,9 @@ Date|Day|Week|Course|Title|Modules|Labs|Instructor|Course Survey
 21Feb|Mon|11|Q&A/WS-011|[Upgrade your skills to Windows Server 2019](https://skillpipe.com)|1|[Labs](https://ddls.learnondemand.net/)|Melvin Porter Brent Denny|---
 22Feb|Tue|11|WS-011|[Upgrade your skills to Windows Server 2019](https://skillpipe.com)|5|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|[Survey](https://www.metricsthatmatter.com/url/u.aspx?42B4B791B177751452)
 23Feb|Wed|11|AZ-040|[Automating Administration with Windows PowerShell](https://skillpipe.com)|8,9|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
-24Feb|Thu|11|AZ-040|[Automating Administration with Windows PowerShell](https://skillpipe.com)|2,10,11|[Labs](https://ddls.learnondemand.net/)|Brent Denny|[Survey](https://www.metricsthatmatter.com/url/u.aspx?9EE1EB5E2178124390)
+24Feb|Thu|11|AZ-040|[Automating Administration with Windows PowerShell](https://skillpipe.com)|2,10,11|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
 **25Feb**|**Fri**|**11**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|**---**
-28Feb|Mon|12|Q&A/AZ-040|[Automating Administration with Windows PowerShell](https://skillpipe.com)|Coding Challenge|Custom|Brent Denny|---
+28Feb|Mon|12|Q&A/AZ-040|[Automating Administration with Windows PowerShell](https://skillpipe.com)|Coding Challenge|Custom|Brent Denny|[Survey](https://www.metricsthatmatter.com/url/u.aspx?A3F0BD5BE178446475)
 1Mar|Tue|12|AZ-900|[Azure Fundamentals](https://skillpipe.com)|1, 2|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|---
 2Mar|Wed|12|AZ-900|[Azure Fundamentals](https://skillpipe.com)|3, 4|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|---
 3Mar|Thu|12|AZ-900|[Azure Fundamentals](https://skillpipe.com)|5, 6|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|[Survey](https://www.metricsthatmatter.com/url/u.aspx?57428643C177751460)
