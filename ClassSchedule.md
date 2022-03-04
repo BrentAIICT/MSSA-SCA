@@ -4,13 +4,13 @@ Date|Day|Week|Course|Title|Modules|Labs|Instructor|Course Survey
 ---|---|---|---|---|---|---|---|--
 29Nov|Mon|1|Custom/Learn|Technical Foundations|1|[Labs](GitTraining/GettingStartedGitHub.md#setup-your-own-github-site)|Brent Denny|---
 30Nov|Tue|1|Custom/Learn|Windows Server Administrator Fundamentals|1|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
-1Dec|Wed|1|AZ-040|[Automating Administration with Windows PowerShell](https://skillpipe.com)|1, 3|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
-2Dec|Thu|1|AZ-040|[Automating Administration with Windows PowerShell](https://skillpipe.com)|3|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
-**3Dec**|**Fri**|**1**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|**---**
-6Dec|Mon|2|AZ-040/20-740|[Installation, Storage and Compute with Windows Server 2016](https://skillpipe.com)|4, 1|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
-7Dec|Tue|2|20-740|[Installation, Storage and Compute with Windows Server 2016](https://skillpipe.com)|2,3|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
-8Dec|Wed|2|20-740|[Installation, Storage and Compute with Windows Server 2016](https://skillpipe.com)|4|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
-9Dec|Thu|2|20-740|[Installation, Storage and Compute with Windows Server 2016](https://skillpipe.com)|5,6|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
+01Dec|Wed|1|AZ-040|[Automating Administration with Windows PowerShell](https://skillpipe.com)|1, 3|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
+02Dec|Thu|1|AZ-040|[Automating Administration with Windows PowerShell](https://skillpipe.com)|3|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
+**03Dec**|**Fri**|**1**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|**---**
+06Dec|Mon|2|AZ-040/20-740|[Installation, Storage and Compute with Windows Server 2016](https://skillpipe.com)|4, 1|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
+07Dec|Tue|2|20-740|[Installation, Storage and Compute with Windows Server 2016](https://skillpipe.com)|2,3|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
+08Dec|Wed|2|20-740|[Installation, Storage and Compute with Windows Server 2016](https://skillpipe.com)|4|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
+09Dec|Thu|2|20-740|[Installation, Storage and Compute with Windows Server 2016](https://skillpipe.com)|5,6|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
 **10Dec**|**Fri**|**2**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|**---**
 13Dec|Mon|3|20-740|[Installation, Storage and Compute with Windows Server 2016](https://skillpipe.com)|7,8|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
 14Dec|Tue|3|20-740|[Installation, Storage and Compute with Windows Server 2016](https://skillpipe.com)|8,9|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
@@ -38,13 +38,13 @@ Date|Day|Week|Course|Title|Modules|Labs|Instructor|Course Survey
 27Jan|Thu|7|20-742|[Identity with Windows Server 2016](https://skillpipe.com)|1|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
 **28Jan**|**Fri**|**7**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|**---**
 31Jan|Mon|8|Q&A/20-742|[Identity with Windows Server 2016](https://skillpipe.com)|2|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
-1Feb|Tue|8|20-742|[Identity with Windows Server 2016](https://skillpipe.com)|3, 4|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
-2Feb|Wed|8|20-742|[Identity with Windows Server 2016](https://skillpipe.com)|4, 5|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
-3Feb|Thu|8|20-742|[Identity with Windows Server 2016](https://skillpipe.com)|5, 6|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
-**4Feb**|**Fri**|**8**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|**---**
-**7Feb**|**Mon**|**9**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|**---**
-**8Feb**|**Tue**|**9**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|**---**
-**9Feb**|**Wed**|**9**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|**---**
+01Feb|Tue|8|20-742|[Identity with Windows Server 2016](https://skillpipe.com)|3, 4|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
+02Feb|Wed|8|20-742|[Identity with Windows Server 2016](https://skillpipe.com)|4, 5|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
+03Feb|Thu|8|20-742|[Identity with Windows Server 2016](https://skillpipe.com)|5, 6|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
+**04Feb**|**Fri**|**8**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|**---**
+**07Feb**|**Mon**|**9**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|**---**
+**08Feb**|**Tue**|**9**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|**---**
+**09Feb**|**Wed**|**9**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|**---**
 **10Feb**|**Thu**|**9**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|**---**
 **11Feb**|**Fri**|**9**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|**---**
 14Feb|Mon|10|Q&A/20-742|[Identity with Windows Server 2016](https://skillpipe.com)|7|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
@@ -58,14 +58,14 @@ Date|Day|Week|Course|Title|Modules|Labs|Instructor|Course Survey
 24Feb|Thu|11|AZ-040|[Automating Administration with Windows PowerShell](https://skillpipe.com)|2,10,11|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
 **25Feb**|**Fri**|**11**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|**---**
 28Feb|Mon|12|Q&A/AZ-040|[Automating Administration with Windows PowerShell](https://skillpipe.com)|Coding Challenge|Custom|Brent Denny|[Survey](https://www.metricsthatmatter.com/url/u.aspx?A3F0BD5BE178446475)
-1Mar|Tue|12|AZ-900|[Azure Fundamentals](https://skillpipe.com)|1, 2|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|---
-2Mar|Wed|12|AZ-900|[Azure Fundamentals](https://skillpipe.com)|3, 4|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|---
-3Mar|Thu|12|AZ-900|[Azure Fundamentals](https://skillpipe.com)|5, 6|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|[Survey](https://www.metricsthatmatter.com/url/u.aspx?57428643C177751460)
-**4Mar**|**Fri**|**12**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|**---**
-7Mar|Mon|13|Custom|Linux Administration Fundamentals|1|Labs|David Van Gemert |---
-8Mar|Tue|13|Custom|Linux Administration Fundamentals|2|Labs|David Van Gemert |---
-9Mar|Wed|13|Custom|Linux Administration Fundamentals|3|Labs|David Van Gemert |---
-10Mar|Thu|13|Custom|Windows and Linux Administration Challenge|n/a|Labs|David Van Gemert |[Survey?]()
+01Mar|Tue|12|AZ-900|[Azure Fundamentals](https://skillpipe.com)|1, 2|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|---
+02Mar|Wed|12|AZ-900|[Azure Fundamentals](https://skillpipe.com)|3, 4|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|---
+03Mar|Thu|12|AZ-900|[Azure Fundamentals](https://skillpipe.com)|5, 6|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|[Survey](https://www.metricsthatmatter.com/url/u.aspx?57428643C177751460)
+**04Mar**|**Fri**|**12**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|**---**
+07Mar|Mon|13|Custom|Linux Administration Fundamentals|---|Labs|David Van Gemert |---
+08Mar|Tue|13|Custom|Linux Administration Fundamentals|---|Labs|David Van Gemert |---
+09Mar|Wed|13|Custom|Linux Administration Fundamentals|---|Labs|David Van Gemert |---
+10Mar|Thu|13|Custom|Linux Administration Fundamentals|---|Labs|David Van Gemert |n/a|Labs|David Van Gemert |[Survey?]()
 **11Mar**|**Fri**|**13**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|**---**
 14Mar|Mon|14|Q&A/AZ-104|[Azure Administration](https://skillpipe.com)|1|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
 15Mar|Tue|14|AZ-104|[Azure Administration](https://skillpipe.com)|2|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
@@ -81,9 +81,9 @@ Date|Day|Week|Course|Title|Modules|Labs|Instructor|Course Survey
 29Mar|Tue|16|Custom|Azure Challenge - Azure Infrastructure Fundamentals|n/a|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
 30Mar|Wed|16|AZ-104|[Azure Administration](https://skillpipe.com)|9, 10|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
 31Mar|Thu|16|Q&A/AZ-104|[Azure Administration](https://skillpipe.com)|10, 11|[Labs](https://ddls.learnondemand.net/)|Brent Denny|[Survey](https://www.metricsthatmatter.com/url/u.aspx?37CDA6863177751466)
-**1Apr**|**Fri**|**16**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|**---**
-4Apr|Mon|17|WS-050T00|[Migrating Application Workloads to Azure](https://skillpipe.com)|1, 2|[Labs](https://ddls.learnondemand.net/)|Chris Duffy|---
-5Apr|Tue|17|WS-050T00|[Migrating Application Workloads to Azure](https://skillpipe.com)|3, 4|[Labs](https://ddls.learnondemand.net/)|Chris Duffy|[Survey](https://www.metricsthatmatter.com/url/u.aspx?C2A2C6371177751472)
-6Apr|Wed|17|Cloud Workshop|LOB Migration - WDS and Lab|n/a|[Labs](https://ddls.learnondemand.net/)|Chris Duffy|---
-7Apr|Thu|17|n/a|Wrap Up - Q&A|---|---|Brent Denny|---
+**01Apr**|**Fri**|**16**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|**---**
+04Apr|Mon|17|WS-050T00|[Migrating Application Workloads to Azure](https://skillpipe.com)|1, 2|[Labs](https://ddls.learnondemand.net/)|Chris Duffy|---
+05Apr|Tue|17|WS-050T00|[Migrating Application Workloads to Azure](https://skillpipe.com)|3, 4|[Labs](https://ddls.learnondemand.net/)|Chris Duffy|[Survey](https://www.metricsthatmatter.com/url/u.aspx?C2A2C6371177751472)
+06Apr|Wed|17|Cloud Workshop|LOB Migration - WDS and Lab|n/a|[Labs](https://ddls.learnondemand.net/)|Chris Duffy|---
+07Apr|Thu|17|n/a|Wrap Up - Q&A|---|---|Brent Denny|---
 **8Apr**|**Fri**|**17**|**Graduation**|**---**|**---**|**---**|**---**|**---**
