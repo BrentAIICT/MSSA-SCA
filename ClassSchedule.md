@@ -62,10 +62,10 @@ Date|Day|Week|Course|Title|Modules|Labs|Instructor|Course Survey
 02Mar|Wed|12|AZ-900|[Azure Fundamentals](https://skillpipe.com)|3, 4|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|---
 03Mar|Thu|12|AZ-900|[Azure Fundamentals](https://skillpipe.com)|5, 6|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|[Survey](https://www.metricsthatmatter.com/url/u.aspx?57428643C177751460)
 **04Mar**|**Fri**|**12**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|**---**
-07Mar|Mon|13|Custom|Linux Administration Fundamentals|---|Labs|David Van Gemert |---
-08Mar|Tue|13|Custom|Linux Administration Fundamentals|---|Labs|David Van Gemert |---
-09Mar|Wed|13|Custom|Linux Administration Fundamentals|---|Labs|David Van Gemert |---
-10Mar|Thu|13|Custom|Linux Administration Fundamentals|---|Labs|David Van Gemert |[Survey?]()
+07Mar|Mon|13|Custom|[Linux Administration Fundamentals]()|---|[Labs]()|David Van Gemert |---
+08Mar|Tue|13|Custom|[Linux Administration Fundamentals]()|---|[Labs]()|David Van Gemert |---
+09Mar|Wed|13|Custom|[Linux Administration Fundamentals]()|---|[Labs]()|David Van Gemert |---
+10Mar|Thu|13|Custom|[Linux Administration Fundamentals]()|---|[Labs]()|David Van Gemert |[Survey]()
 **11Mar**|**Fri**|**13**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|**---**
 14Mar|Mon|14|Q&A/AZ-104|[Azure Administration](https://skillpipe.com)|1|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
 15Mar|Tue|14|AZ-104|[Azure Administration](https://skillpipe.com)|2|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
