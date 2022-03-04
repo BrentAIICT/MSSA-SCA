@@ -65,7 +65,7 @@ Date|Day|Week|Course|Title|Modules|Labs|Instructor|Course Survey
 07Mar|Mon|13|Custom|Linux Administration Fundamentals|---|Labs|David Van Gemert |---
 08Mar|Tue|13|Custom|Linux Administration Fundamentals|---|Labs|David Van Gemert |---
 09Mar|Wed|13|Custom|Linux Administration Fundamentals|---|Labs|David Van Gemert |---
-10Mar|Thu|13|Custom|Linux Administration Fundamentals|---|Labs|David Van Gemert |n/a|Labs|David Van Gemert |[Survey?]()
+10Mar|Thu|13|Custom|Linux Administration Fundamentals|---|Labs|David Van Gemert |[Survey?]()
 **11Mar**|**Fri**|**13**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|**---**
 14Mar|Mon|14|Q&A/AZ-104|[Azure Administration](https://skillpipe.com)|1|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
 15Mar|Tue|14|AZ-104|[Azure Administration](https://skillpipe.com)|2|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
