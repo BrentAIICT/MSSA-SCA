@@ -21,7 +21,7 @@ Date|Day|Week|Course|Title|Modules|Labs|Instructor|Course Survey
 28Jun|Tue|4|Custom|[Introduction to Networking](https://skillpipe.com)|---|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
 29Jun|Wed|4|AZ-040|[Automating Administration with Windows PowerShell](https://skillpipe.com)|5|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
 30Jun|Thu|4|AZ-040|[Automating Administration with Windows PowerShell](https://skillpipe.com)|6|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
-01Jul|Fri|4|
+01Jul|Fri|4||||||
 04Jul|Mon|5|Q&A/20-741|[Networking with Windows Server 2016](https://skillpipe.com)|1|[Labs](https://ddls.learnondemand.net/)|Lewis Knight|---
 05Jul|Tue|5|20-741|[Networking with Windows Server 2016](https://skillpipe.com)|2,3|[Labs](https://ddls.learnondemand.net/)|Lewis Knight|---
 06Jul|Wed|5|20-741|[Networking with Windows Server 2016](https://skillpipe.com)|3,4|[Labs](https://ddls.learnondemand.net/)|Lewis Knight|---
@@ -34,7 +34,7 @@ Date|Day|Week|Course|Title|Modules|Labs|Instructor|Course Survey
 **15Jul**|**Fri**|**6**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|**---**
 18Jul|Mon|7|Q&A/AZ-040|[Automating Administration with Windows PowerShell](https://skillpipe.com)|7|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
 19Jul|Tue|7|AZ-040|[Automating Administration with Windows PowerShell](https://skillpipe.com)|Coding challenge|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
-20Jul|Wed|7|
+20Jul|Wed|7||||||
 21Jul|Thu|7|20-742|[Identity with Windows Server 2016](https://skillpipe.com)|1|[Labs](https://ddls.learnondemand.net/)|Lewis Knight|---
 **22Jul**|**Fri**|**7**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|**---**
 25Jul|Mon|8|Q&A/20-742|[Identity with Windows Server 2016](https://skillpipe.com)|2|[Labs](https://ddls.learnondemand.net/)|Lewis Knight|---
