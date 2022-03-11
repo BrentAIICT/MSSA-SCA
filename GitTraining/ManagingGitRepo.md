@@ -131,14 +131,14 @@
 
 ### 17. Copy The Token
 - Click the **two boxes icon**, to the right of the token, to copy the token
-- You will need to record this token and place it in a safe place 
+- You will need to record this token and store it in a safe place
   - you will never be able to display this again from GitHub
 
 ![GitHub Signup page](../Pics/mng17.jpg)
 ---
 
 ### 18. Complete Sign in
-- Got back to the Sign in window *from step 11*
+- Go back to the Sign in window *from step 11*
 - Paste in the token 
 - Click **Sign In** button
 
