@@ -46,12 +46,12 @@
 ![InstallVSCode](../Pics/vsg06.jpg)
 ---
 
-## Make a chnage to the new script and commit and sync the changes
+## Make a change to the new script and commit and sync the changes
 
 ### 1. Locate the files in VSCode 
 - Click on the **Explorer** icon in VSCode
 
-![InstallVSCode](../Pics/ivc08.jpg)
+![InstallVSCode](../Pics/vsg08.jpg)
 ---
 
 ### 2. Open TestScript.ps1
