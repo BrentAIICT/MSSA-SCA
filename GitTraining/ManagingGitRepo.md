@@ -212,4 +212,5 @@ git push --all
 
 <br>
 <br>
+
 [Use the VSCode editor for git/GitHub](InstallVsCode.md#install-vscode-editor)
