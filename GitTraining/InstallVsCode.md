@@ -147,21 +147,21 @@
 - type **TestScript.ps1** in the blue box
 - Hit **ENTER**
 
-![InstallVSCode](../Pics/iv21.jpg)
+![InstallVSCode](../Pics/ivc21.jpg)
 ---
 
 
 ### 21. Install the recommended extension 
 - Click **Install** in the blue box
 
-![InstallVSCode](../Pics/iv22.jpg)
+![InstallVSCode](../Pics/ivc22.jpg)
 ---
 
 
 ### 22. PowerShell extension installs
 - Wait for the extension to complete
 
-![InstallVSCode](../Pics/iv23.jpg)
+![InstallVSCode](../Pics/ivc23.jpg)
 ---
 
 
