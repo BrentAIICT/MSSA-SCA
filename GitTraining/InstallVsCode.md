@@ -64,21 +64,21 @@
 ---
 
 
-### 9. Ready to Install
+### 10. Ready to Install
 - Click **Next >** to Install VSCode
 
 ![InstallVSCode](../Pics/ivc10.jpg)
 ---
 
 
-### 9. Installing
+### 11. Installing
 - Wait for the installation to complete
 
 ![InstallVSCode](../Pics/ivc11.jpg)
 ---
 
 
-### 9. Installation Complete
+### 12. Installation Complete
 - Untick the **Launch Visual Studio Code** check box
 - Click **Finish**
 
@@ -86,14 +86,14 @@
 ---
 
 
-### 9. Close the web browser
+### 13. Close the web browser
 - Click the **X** on the top right of the web browser to clode it
 
 ![InstallVSCode](../Pics/ivc13.jpg)
 ---
 
 
-### 9. Start VSCode
+### 14. Start VSCode
 - Type **VSCode** in the "Type here to search" box
 - Click **Visual Studio Code**
 
@@ -101,57 +101,130 @@
 ---
 
 
-### 9. Enter Code
-- Check your email inbox (*This is the email that you used to sign up for GitHub*)
-- Find the email that was sent from Github and make note of the **code** that they sent you
+### 15. Open a Folder Within VSCode
+- Click on the **File** menu
+- Click **Open Folder**
 - Back in the GitHub web site, enter the **code** in the following screen
 
-![InstallVSCode](../Pics/ivc.jpg)
+![InstallVSCode](../Pics/ivc16.jpg)
 ---
 
 
-### 9. Enter Code
-- Check your email inbox (*This is the email that you used to sign up for GitHub*)
-- Find the email that was sent from Github and make note of the **code** that they sent you
-- Back in the GitHub web site, enter the **code** in the following screen
+### 16. Open Folder
+- Click **Documents**
+- Click **GitHome**
+- Click **Select Folder**
 
-![InstallVSCode](../Pics/ivc.jpg)
+![InstallVSCode](../Pics/ivc17.jpg)
 ---
 
 
-### 9. Enter Code
-- Check your email inbox (*This is the email that you used to sign up for GitHub*)
-- Find the email that was sent from Github and make note of the **code** that they sent you
-- Back in the GitHub web site, enter the **code** in the following screen
+### 17. Trust Authors
+- Click **Yes, I trust the authors** box
 
-![InstallVSCode](../Pics/ivc.jpg)
+![InstallVSCode](../Pics/ivc18.jpg)
 ---
 
 
-### 9. Enter Code
-- Check your email inbox (*This is the email that you used to sign up for GitHub*)
-- Find the email that was sent from Github and make note of the **code** that they sent you
-- Back in the GitHub web site, enter the **code** in the following screen
+### 18. Show contents of FirstRepo
+- Click **FirstRepo** to display its contents
+  - *Your list of files will be different to the ones shown here*
 
-![InstallVSCode](../Pics/ivc.jpg)
+![InstallVSCode](../Pics/ivc19.jpg)
 ---
 
 
-### 9. Enter Code
-- Check your email inbox (*This is the email that you used to sign up for GitHub*)
-- Find the email that was sent from Github and make note of the **code** that they sent you
-- Back in the GitHub web site, enter the **code** in the following screen
+### 19. Create a new file
+- Right Click on **FirstRepo**
+- Click **New File**
 
-![InstallVSCode](../Pics/ivc.jpg)
+![InstallVSCode](../Pics/ivc20.jpg)
 ---
 
 
-### 9. Enter Code
-- Check your email inbox (*This is the email that you used to sign up for GitHub*)
-- Find the email that was sent from Github and make note of the **code** that they sent you
-- Back in the GitHub web site, enter the **code** in the following screen
+### 20. Name the new file
+- type **TestScript.ps1** in the blue box
+- Hit **ENTER**
 
-![InstallVSCode](../Pics/ivc.jpg)
+![InstallVSCode](../Pics/iv21.jpg)
+---
+
+
+### 21. Install the recommended extension 
+- Click **Install** in the blue box
+
+![InstallVSCode](../Pics/iv22.jpg)
+---
+
+
+### 22. PowerShell extension installs
+- Wait for the extension to complete
+
+![InstallVSCode](../Pics/iv23.jpg)
+---
+
+
+### 9. Name the new file
+- type **TestScript.ps1** in the blue box
+- Hit **ENTER**
+
+![InstallVSCode](../Pics/iv21.jpg)
+---
+
+
+### 9. Name the new file
+- type **TestScript.ps1** in the blue box
+- Hit **ENTER**
+
+![InstallVSCode](../Pics/iv21.jpg)
+---
+
+
+### 9. Name the new file
+- type **TestScript.ps1** in the blue box
+- Hit **ENTER**
+
+![InstallVSCode](../Pics/iv21.jpg)
+---
+
+
+### 9. Name the new file
+- type **TestScript.ps1** in the blue box
+- Hit **ENTER**
+
+![InstallVSCode](../Pics/iv21.jpg)
+---
+
+
+### 9. Name the new file
+- type **TestScript.ps1** in the blue box
+- Hit **ENTER**
+
+![InstallVSCode](../Pics/iv21.jpg)
+---
+
+
+### 9. Name the new file
+- type **TestScript.ps1** in the blue box
+- Hit **ENTER**
+
+![InstallVSCode](../Pics/iv21.jpg)
+---
+
+
+### 9. Name the new file
+- type **TestScript.ps1** in the blue box
+- Hit **ENTER**
+
+![InstallVSCode](../Pics/iv21.jpg)
+---
+
+
+### 9. Name the new file
+- type **TestScript.ps1** in the blue box
+- Hit **ENTER**
+
+![InstallVSCode](../Pics/iv21.jpg)
 ---
 
 
