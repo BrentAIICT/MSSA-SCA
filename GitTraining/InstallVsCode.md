@@ -114,6 +114,7 @@
 - Click **Documents**
 - Click **GitHome**
 - Click **Select Folder**
+- Locate **githome** under the Documents folder
 
 ![InstallVSCode](../Pics/ivc17.jpg)
 ---
@@ -164,67 +165,4 @@
 ---
 
 
-### 9. Name the new file
-- type **TestScript.ps1** in the blue box
-- Hit **ENTER**
-
-![InstallVSCode](../Pics/iv21.jpg)
----
-
-
-### 9. Name the new file
-- type **TestScript.ps1** in the blue box
-- Hit **ENTER**
-
-![InstallVSCode](../Pics/iv21.jpg)
----
-
-
-### 9. Name the new file
-- type **TestScript.ps1** in the blue box
-- Hit **ENTER**
-
-![InstallVSCode](../Pics/iv21.jpg)
----
-
-
-### 9. Name the new file
-- type **TestScript.ps1** in the blue box
-- Hit **ENTER**
-
-![InstallVSCode](../Pics/iv21.jpg)
----
-
-
-### 9. Name the new file
-- type **TestScript.ps1** in the blue box
-- Hit **ENTER**
-
-![InstallVSCode](../Pics/iv21.jpg)
----
-
-
-### 9. Name the new file
-- type **TestScript.ps1** in the blue box
-- Hit **ENTER**
-
-![InstallVSCode](../Pics/iv21.jpg)
----
-
-
-### 9. Name the new file
-- type **TestScript.ps1** in the blue box
-- Hit **ENTER**
-
-![InstallVSCode](../Pics/iv21.jpg)
----
-
-
-### 9. Name the new file
-- type **TestScript.ps1** in the blue box
-- Hit **ENTER**
-
-![InstallVSCode](../Pics/iv21.jpg)
----
-
-
+[Go to the next lesson Git in VSCode]()
