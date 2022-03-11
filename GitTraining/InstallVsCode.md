@@ -165,4 +165,4 @@
 ---
 
 
-[Go to the next lesson Git in VSCode]()
+[Commit changes to a file with VSCode]()
