@@ -130,7 +130,9 @@
 ---
 
 ### 17. Copy The Token
-- Click the **two boxes icon** to copy the token
+- Click the **two boxes icon**, to the right of the token, to copy the token
+- You will need to record this token and place it in a safe place 
+  - you will never be able to display this again from GitHub
 
 ![GitHub Signup page](../Pics/mng17.jpg)
 ---
