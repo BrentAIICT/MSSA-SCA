@@ -1,6 +1,6 @@
-# VSCode Makes git Easier
+# Git is easy to use from VSCode
 
-## These steps will only be entered once when you first set up VSCode 
+## These first set of steps are entered once when you first set up VSCode 
 
 ### 1. Click on Source Control icon
 - Within VSCode click on the **Source Control** icon on the left
