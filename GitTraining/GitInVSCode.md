@@ -52,7 +52,7 @@
 
 ## Normal git/GitHub workflow from VSCode
 
-*After the initial entering of the access token, these steps are from now on* 
+*These steps are the normal git workflow, you will not have to repeat some of the previous steps* 
 
 ### 1. Locate the files in VSCode 
 - Click on the **Explorer** icon in VSCode
