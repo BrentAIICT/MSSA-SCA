@@ -46,13 +46,11 @@
 ![InstallVSCode](../Pics/vsg06.jpg)
 ---
 
----
-
 <br><br>
 
-# This last part of this lab shows the normal workflow for git/GitHub 
+# Normal git/GitHub workflow 
 
-## From now on these are the steps you need to perform whenever you change the files in your git repository 
+## These are the steps you need to perform whenever you change the files in your git repository 
 
 ### 1. Locate the files in VSCode 
 - Click on the **Explorer** icon in VSCode
