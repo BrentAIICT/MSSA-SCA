@@ -47,8 +47,10 @@
 ---
 
 ---
+
 <br><br>
-# This last part of this lab show the normal workflow for git/GitHub 
+
+# This last part of this lab shows the normal workflow for git/GitHub 
 
 ## From now on these are the steps you need to perform whenever you change the files in your git repository 
 
