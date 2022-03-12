@@ -6,13 +6,15 @@
 [Daily Class Schedule](ClassSchedule.md#mssa-sca-course-schdule)<br>
 [Course Intro](MSSA-SCA-Intro.md#getting-started-with-your-mssa-sca-course)<br>
 
-### GitHub Lab
+### GitHub/VSCode Labs
 
 [GitHub Lab 1 - Getting Started with GitHub](GitTraining/GettingStartedGitHub.md#setup-your-own-github-site)<br>
 [GitHub Lab 2 - Exploring the Repository](GitTraining/ExploreRepo.md#lets-explore-the-repository)<br>
 [GitHub Lab 3 - Installing Git](GitTraining/InstallLocalGit.md#installing-and-configuring-git-on-your-local-computer)<br>
 [GitHub Lab 4 - Cloning a GitHub Repo](GitTraining/CloneRepo.md#clone-a-github-repo)<br>
 [GitHub Lab 5 - Managing the Repositories](GitTraining/ManagingGitRepo.md#managing-a-local-git-repo)<br>
+[GitHub Lab 6 - Installing and setting up VSCode](/GitTraining/InstallVsCode.md#install-vscode-editor)<br>
+[GitHub Lab 7 - Using the VSCode GUI to manage git/GitHub](GitTraining/GitInVSCode.md#vscode-makes-git-easier)<br>
 
 ### PowerShell Labs
 [PowerShell Labs Rewritten](PowerShellTraining/Labs)<br>
