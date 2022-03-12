@@ -50,7 +50,9 @@
 
 # Normal git/GitHub workflow 
 
-## These are the steps you need to perform whenever you change the files in your git repository 
+## Normal git/GitHub workflow from VSCode
+
+*After the initial entering of the access token, these steps are from now on* 
 
 ### 1. Locate the files in VSCode 
 - Click on the **Explorer** icon in VSCode
