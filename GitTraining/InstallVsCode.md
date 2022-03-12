@@ -114,7 +114,6 @@
 - Click **Documents**
 - Click **GitHome**
 - Click **Select Folder**
-- Locate **githome** under the Documents folder
 
 ![InstallVSCode](../Pics/ivc17.jpg)
 ---
