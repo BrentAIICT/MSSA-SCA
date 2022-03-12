@@ -46,7 +46,11 @@
 ![InstallVSCode](../Pics/vsg06.jpg)
 ---
 
-## Make a change to the new script and commit and sync the changes
+---
+<br><br>
+# This last part of this lab show the normal workflow for git/GitHub 
+
+## From now on these are the steps you need to perform whenever you change the files in your git repository 
 
 ### 1. Locate the files in VSCode 
 - Click on the **Explorer** icon in VSCode
