@@ -111,5 +111,5 @@
 ![InstallVSCode](../Pics/vsg04.jpg)
 ---
 
-## You have now successfully made changes to the repository and syncronised Git and GitHub using VSCode
+*You have now successfully made changes to the repository and syncronised Git and GitHub using VSCode*
 
