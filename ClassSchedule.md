@@ -72,15 +72,15 @@ Date|Day|Week|Course|Title|Modules|Labs|Instructor|Course Survey
 16Mar|Wed|14|AZ-104|[Azure Administration](https://skillpipe.com)|3,4|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
 17Mar|Thu|14|AZ-104|[Azure Administration](https://skillpipe.com)|4,5|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
 **18Mar**|**Fri**|**14**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|**---**
-21Mar|Mon|15|Q&A/AZ-104|[Azure Administration](https://skillpipe.com)|5|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
-22Mar|Tue|15|AZ-104|[Azure Administration](https://skillpipe.com)|6|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
+21Mar|Mon|15|Q&A/AZ-104|[Azure Administration](https://skillpipe.com)|5,6|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
+22Mar|Tue|15|AZ-104|[Azure Administration](https://skillpipe.com)|7,8|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
 23Mar|Wed|15|Custom|[Azure Challenge - Azure Networking](https://skillpipe.com)|n/a|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
-24Mar|Thu|15|AZ-104|[Azure Administration](https://skillpipe.com)|7|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
+24Mar|Thu|15|AZ-104|[Azure Administration](https://skillpipe.com)|8,9|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
 **25Mar**|**Fri**|**15**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|**---**
-28Mar|Mon|16|Q&A/AZ-104|[Azure Administration](https://skillpipe.com)|8|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
+28Mar|Mon|16|Q&A/AZ-104|[Azure Administration](https://skillpipe.com)|10|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
 29Mar|Tue|16|Custom|Azure Challenge - Azure Infrastructure Fundamentals|n/a|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
-30Mar|Wed|16|AZ-104|[Azure Administration](https://skillpipe.com)|9, 10|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
-31Mar|Thu|16|Q&A/AZ-104|[Azure Administration](https://skillpipe.com)|10, 11|[Labs](https://ddls.learnondemand.net/)|Brent Denny|[Survey](https://www.metricsthatmatter.com/url/u.aspx?37CDA6863177751466)
+30Mar|Wed|16|AZ-104|[Azure Administration](https://skillpipe.com)|11|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
+31Mar|Thu|16|Q&A/AZ-104|[Azure Administration](https://skillpipe.com)|Review|[Labs](https://ddls.learnondemand.net/)|Brent Denny|[Survey](https://www.metricsthatmatter.com/url/u.aspx?37CDA6863177751466)
 **01Apr**|**Fri**|**16**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|**---**
 04Apr|Mon|17|WS-050T00|[Migrating Application Workloads to Azure](https://skillpipe.com)|1, 2|[Labs](https://ddls.learnondemand.net/)|Chris Duffy|---
 05Apr|Tue|17|WS-050T00|[Migrating Application Workloads to Azure](https://skillpipe.com)|3, 4|[Labs](https://ddls.learnondemand.net/)|Chris Duffy|[Survey](https://www.metricsthatmatter.com/url/u.aspx?C2A2C6371177751472)
