@@ -18,6 +18,7 @@
 
 - Create four Virtual Networks (VNet01, VNet02, VNet03)
 - Create the required Virtual Network peerings
+- (Optional) Set up an Internal DNS Service and to allow the VM1 and VM2 machines to be accessed by name
 - VNet01
   - IPAddress: 10.1.0.0/16
   - Subnet1: 10.1.0.0/24
