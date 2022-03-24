@@ -12,7 +12,7 @@
     ```
     </Strong></details> 
 -->
-# Azure Network Securty Challenge
+# Azure Network Security Challenge
 
 # Use following brief to complete this project via PowerShell
 
@@ -67,7 +67,7 @@
 
 ## Test if your Azure security
 
-- After crating the infrastucure 
+- After creating the infrastructure 
   - Open a web browser on VM3 and VM4 and try to access the VM1 and VM2 websites
   - VM3 should be able to access both VM1 and VM2
   - VM4 should only be able to access VM2
