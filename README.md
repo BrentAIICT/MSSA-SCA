@@ -31,7 +31,7 @@
 [Advanced PowerShell Active Directory Projects](PowerShellTraining/PSADProjectHeading.MD#powershell-projects)<br>
 
 ### Azure Project
-[PowerShell Labs Rewritten](AzureProject/Labs)<br>
+[Azure Project 1](AzureProjects/AzureProject1.md#azure-network-security-challenge)<br>
 
 ### Networking Introduction
 [Introduction to Networking](NetworkingIntro/Network%20Intro%20MSSA.pdf)<br>
