@@ -65,7 +65,7 @@
 - Create the routing infrastructure needed to communicate VNet to VNet
 - NSG rules to allow only the allowed machine access 
 
-## Test if your Azure security:
+## Test if your Azure security
 
 - After crating the infrastucure 
   - Open a web browser on VM3 and VM4 and try to access the VM1 and VM2 websites
