@@ -14,6 +14,8 @@
 -->
 # Azure Network Security Challenge
 
+![AzureInfrstructure](../Pics/AzureProject1.jpg)
+
 # Use following brief to complete this project via PowerShell
 
 - Create four Virtual Networks (VNet01, VNet02, VNet03)
