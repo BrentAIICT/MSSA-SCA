@@ -19,6 +19,8 @@
 ### PowerShell Labs
 [PowerShell Labs Rewritten](PowerShellTraining/Labs)<br>
 
+
+
 ### PowerShell Training
 [Sample Administration How-To-Guides](https://docs.microsoft.com/en-us/powershell/scripting/samples/sample-scripts-for-administration?view=powershell-7.2)<br>
 [Docker Lab](DockerLab#readme)<br>
@@ -27,6 +29,9 @@
 ### PowerShell Projects
 [Basic PowerShell Scripting Quiz](PowerShellTraining/PowerShell-Quiz.md#powershell-quiz)<br>
 [Advanced PowerShell Active Directory Projects](PowerShellTraining/PSADProjectHeading.MD#powershell-projects)<br>
+
+### Azure Project
+[PowerShell Labs Rewritten](AzureProject/Labs)<br>
 
 ### Networking Introduction
 [Introduction to Networking](NetworkingIntro/Network%20Intro%20MSSA.pdf)<br>
