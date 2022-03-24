@@ -12,7 +12,7 @@
     ```
     </Strong></details> 
 -->
-# Network Challenge
+# Azure Network Securty Challenge
 
 # Use following brief to complete this project via PowerShell
 
