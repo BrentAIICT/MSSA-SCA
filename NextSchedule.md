@@ -13,7 +13,7 @@ Date|Day|Week|Course|Title|Modules|Labs|Instructor|Course Survey
 16Jun|Thu|2|20-740|[Installation, Storage and Compute with Windows Server 2016](https://skillpipe.com)|4,5|[Labs](https://ddls.learnondemand.net/)|Lewis Knight|---
 **17Jun**|**Fri**|**2**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|**---**
 20Jun|Mon|3|Q&A/20-740|[Installation, Storage and Compute with Windows Server 2016](https://skillpipe.com)|6,7|[Labs](https://ddls.learnondemand.net/)|Lewis Knight|---
-21Jun|Tue|3|20-740|[Installation, Storage and Compute with Windows Server 2016](https://skillpipe.com)|9,10|[Labs](https://ddls.learnondemand.net/)|Lewis Knight|---
+21Jun|Tue|3|20-740|[Installation, Storage and Compute with Windows Server 2016](https://skillpipe.com)|8,9|[Labs](https://ddls.learnondemand.net/)|Lewis Knight|---
 22Jun|Wed|3|20-740|[Installation, Storage and Compute with Windows Server 2016](https://skillpipe.com)|10,11|[Labs](https://ddls.learnondemand.net/)|Lewis Knight|---
 23Jun|Thu|3|20-740|[Installation, Storage and Compute with Windows Server 2016](https://skillpipe.com)|11,12|[Labs](https://ddls.learnondemand.net/)|Lewis Knight|[Survey]()
 **24Jun**|**Fri**|**3**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|**---**
