@@ -85,5 +85,5 @@ Date|Day|Week|Course|Title|Modules|Labs|Instructor|Course Survey
 24Sep|Mon|17|Q&A/---|---|---|[Labs](https://ddls.learnondemand.net/)||---
 25Sep|Tue|17|---|---|---|[Labs](https://ddls.learnondemand.net/)||---
 26Sep|Wed|17|---|---|---|[Labs](https://ddls.learnondemand.net/)||---
-27Sep|Thu|17|n/a|Wrap Up - Q&A|---|---|Brent Denny|---
+27Sep|Thu|17|---|---|---|---|---|---
 **28Sep**|**Fri**|**17**|**Graduation**|**---**|**---**|**---**|**---**|**---**
