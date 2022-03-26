@@ -55,7 +55,7 @@ Date|Day|Week|Course|Title|Modules|Labs|Instructor|Course Survey
 15Aug|Mon|11|AZ-900|[Azure Fundamentals](https://skillpipe.com)|1,2|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|---
 16Aug|Tue|11|AZ-900|[Azure Fundamentals](https://skillpipe.com)|2,3|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|---
 17Aug|Wed|11|AZ-900|[Azure Fundamentals](https://skillpipe.com)|3,4|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|---
-18Aug|Thu|11|AZ-900|[Azure Fundamentals](https://skillpipe.com)|5,6|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|[Survey]
+18Aug|Thu|11|AZ-900|[Azure Fundamentals](https://skillpipe.com)|5,6|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|[Survey]()
 **19Aug**|**Fri**|**11**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|**---**
 22Aug|Mon|12|AZ-040|[Automating Administration with Windows PowerShell](https://skillpipe.com)|2,11|[Labs](https://ddls.learnondemand.net/)|Brent Denny|[Survey]()
 23Aug|Tue|12|AZ-040|PowerShell Challenges|---|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
