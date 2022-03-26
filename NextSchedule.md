@@ -7,7 +7,7 @@ Date|Day|Week|Course|Title|Modules|Labs|Instructor|Course Survey
 08Jun|Wed|1|AZ-040|[Automating Administration with Windows PowerShell](https://skillpipe.com)|1, 3|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
 09Jun|Thu|1|AZ-040|[Automating Administration with Windows PowerShell](https://skillpipe.com)|3|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
 **10Jun**|**Fri**|**1**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|**---**
-13Jun|Mon|2|Holiday|(AU) Queens Birthday|---|---|---|---
+*#13Jun#*|Mon|2|Holiday|(AU) Queens Birthday|---|---|---|---
 14Jun|Tue|2|20-740|[Installation, Storage and Compute with Windows Server 2016](https://skillpipe.com)|1,2|[Labs](https://ddls.learnondemand.net/)|Lewis Knight|---
 15Jun|Wed|2|20-740|[Installation, Storage and Compute with Windows Server 2016](https://skillpipe.com)|3,4|[Labs](https://ddls.learnondemand.net/)|Lewis Knight|---
 16Jun|Thu|2|20-740|[Installation, Storage and Compute with Windows Server 2016](https://skillpipe.com)|4,5|[Labs](https://ddls.learnondemand.net/)|Lewis Knight|---
