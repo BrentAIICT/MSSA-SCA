@@ -48,3 +48,7 @@
 - After creating the structure above
   - Make sure you can create a VM in the Sales Resource Group
   - Make sure you cannot create a VM in the Marketing Resource Group
+
+## Clean up 
+- Remove all the Resource Groups that you have created 
+   
