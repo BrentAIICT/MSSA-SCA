@@ -21,7 +21,7 @@
 
 
 
-### PowerShell Training
+### PowerShell Tools
 [Sample Administration How-To-Guides](https://docs.microsoft.com/en-us/powershell/scripting/samples/sample-scripts-for-administration?view=powershell-7.2)<br>
 [Docker Lab](DockerLab#readme)<br>
 [PowerShell Objects/Properties & Pipelines](PowerShellTraining/Practical%20PowerShell%20Pipelines%20using%20cars.pdf)<br>
