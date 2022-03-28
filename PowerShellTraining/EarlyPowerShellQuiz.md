@@ -56,5 +56,20 @@
     ```
     </Strong></details> 
     
+- Q1.3 Write a pipeline that shows the four most recent System event log entries and only shows the following
+  - The EventID and how long ago the entries were geneated in minutes
 
+    <details><summary>Click for hint</summary><Strong> 
 
+    ``` 
+    Consider:
+    - How do I find a command that shows event logs
+    - How do I show a property that I have to calculate 
+    ```
+    </Strong></details> 
+    <details><summary>Click to see the answer</summary><Strong> 
+    
+    ```
+    Get-EventLog -LogName System -Newest 4 | Select-Object -Property EventID,@{n='MinutesAgo';e={((Get-Date) - $_.TimeGenerated).Minutes}}
+    ```
+    </Strong></details> 
