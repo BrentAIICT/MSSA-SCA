@@ -14,7 +14,7 @@
 -->
 # Azure Role Based Access Project
 
-![AzureInfrstructure](../Pics/AzureProject1.jpg)
+![AzureInfrstructure](../Pics/AzureProject2.jpg)
 
 # Use following outline to complete this project
 
