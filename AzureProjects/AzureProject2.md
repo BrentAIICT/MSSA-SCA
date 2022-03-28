@@ -32,7 +32,7 @@
 - In the Sales Resource Group
   - add the following to the Role Based Access Control
     - Add Mary Green as a Contributor 
-  - Do not modify the Marketing Resource Group 
+- Do not modify the Marketing Resource Group 
 - Logout and then login as Mary Green
   - Attempt to create a Virtual Machine in the Sales Resource Group
   - Attempt to create a Virtual Machine in the Marketing Resource Group
