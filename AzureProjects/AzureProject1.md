@@ -18,7 +18,7 @@
 
 # Use following brief to complete this project
 
-- Create four Virtual Networks (VNet01, VNet02, VNet03)
+- Create three Virtual Networks (VNet01, VNet02, VNet03)
 - Create the inter-VNet infrastructure to allow the required routes below to succeed 
 - *(Optional) Set up an Private DNS Service and to allow the VM1 and VM2 machines to be accessed by name*
 - VNet01
