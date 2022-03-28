@@ -16,7 +16,7 @@
 
 ![AzureInfrstructure](../Pics/AzureProject1.jpg)
 
-# Use following brief to complete this project via PowerShell
+# Use following brief to complete this project
 
 - Create four Virtual Networks (VNet01, VNet02, VNet03)
 - Create the inter-VNet infrastructure to allow the required routes below to succeed 
@@ -75,4 +75,7 @@
   - VM3 should be able to access both VM1 and VM2
   - VM4 should only be able to access VM2
   - VM1 and VM2 should not be able to contact each others website
+
+## Clean up 
+- Remove all the Resource Groups that you have created 
    
