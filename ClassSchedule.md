@@ -78,7 +78,7 @@ Date|Day|Week|Course|Title|Modules|Labs|Instructor|Course Survey
 24Mar|Thu|15|AZ-104|[Azure Administration](https://skillpipe.com)|9,10|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
 **25Mar**|**Fri**|**15**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|**---**
 28Mar|Mon|16|Q&A/AZ-104|[Azure Administration](https://skillpipe.com)|11|[Labs](https://ddls.learnondemand.net/)|Brent Denny|[Survey](https://www.metricsthatmatter.com/url/u.aspx?37CDA6863177751466)
-29Mar|Tue|16|AZ-104|[Azure Administration](https://skillpipe.com)|Review|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
+29Mar|Tue|16|AZ-104|[Azure Administration](https://skillpipe.com)|Azure Challenges / Review|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
 30Mar|Wed|16|AZ-104|[Azure Administration](https://skillpipe.com)|Review|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
 31Mar|Thu|16|Q&A/AZ-104|[Azure Administration](https://skillpipe.com)|Review|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
 **01Apr**|**Fri**|**16**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|**---**
