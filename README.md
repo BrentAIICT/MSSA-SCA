@@ -27,7 +27,8 @@
 [PowerShell Objects/Properties & Pipelines](PowerShellTraining/Practical%20PowerShell%20Pipelines%20using%20cars.pdf)<br>
 
 ### PowerShell Projects
-[Basic PowerShell Scripting Quiz](PowerShellTraining/PowerShell-Quiz.md#powershell-quiz)<br>
+[Basic PowerShell Scripting Quiz](PowerShellTraining/EarlyPowerShellQuiz.md#entry-level-powershell-quiz)<br>
+[Intermediate PowerShell Scripting Quiz](PowerShellTraining/PowerShell-Quiz.md#powershell-quiz)<br>
 [Advanced PowerShell Active Directory Projects](PowerShellTraining/PSADProjectHeading.MD#powershell-projects)<br>
 
 ### Azure Project
