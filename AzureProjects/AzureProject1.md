@@ -19,7 +19,7 @@
 # Use following brief to complete this project via PowerShell
 
 - Create four Virtual Networks (VNet01, VNet02, VNet03)
-- Create the required Virtual Network peerings
+- Create the inter-VNet infrastructure to allow the required routes below to succeed 
 - *(Optional) Set up an Private DNS Service and to allow the VM1 and VM2 machines to be accessed by name*
 - VNet01
   - IPAddress: 10.1.0.0/16
