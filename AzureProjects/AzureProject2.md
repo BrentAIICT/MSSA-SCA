@@ -42,7 +42,7 @@
 
 - Creation of two Resource Groups
 - Adding a new user in Azure AD
-- Giving rights to the new user to add a VM  
+- Giving rights to the new user to add a VNet  
 
 ## Test if your Azure security
 
