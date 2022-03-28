@@ -34,6 +34,7 @@
 ### Azure Project
 [Azure Project 1](AzureProjects/AzureProject1.md#azure-network-security-challenge)<br>
 [Azure Project 2](AzureProjects/AzureProject2.md#azure-role-based-access-project)<br>
+[Azure Project 3](AzureProjects/AzureProject3.md#azure-access-to-storage-account-via-a-service-endpoint)<br>
 
 ### Networking Introduction
 [Introduction to Networking](NetworkingIntro/Network%20Intro%20MSSA.pdf)<br>
