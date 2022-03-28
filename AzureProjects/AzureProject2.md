@@ -34,8 +34,9 @@
     - Add Mary Green as a Contributor 
 - Do not modify the Marketing Resource Group 
 - Logout and then login as Mary Green
-  - Attempt to create a Virtual Machine in the Sales Resource Group
-  - Attempt to create a Virtual Machine in the Marketing Resource Group
+  - Attempt to create a Virtual Network in the Sales Resource Group 
+    - Choose any settings you like for the VNet
+  - Attempt to create a Virtual Network in the Marketing Resource Group
 
 ## What must the lab achieve
 
