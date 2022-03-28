@@ -13,7 +13,7 @@
     </Strong></details> 
 -->
 
-# PowerShell Quiz
+# Entry Level PowerShell Quiz
 
 ## 1 Using pipelines
 
