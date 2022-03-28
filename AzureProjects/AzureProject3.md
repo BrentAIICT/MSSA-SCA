@@ -20,27 +20,53 @@
 
 - Create a Virtual Network
   - Choose the VNet address range yourself
-  - Make sure there is two subnets in the Vnet
+  - Create two subnets in the Vnet
   - Subnet 1
     - From the first subnet create a service endpoint to Storage Account services
-    - Create a Windows VM within the first subnet (you can choose which settings to apply)
+    - Create a Windows VM within the first subnet 
   - Subnet 2
     - From the second subnet DO NOT create a service endpoint to Storage Account services
-    - Create a Windows VM within the second subnet (you can choose which settings to apply)
+    - Create a Windows VM within the second subnet 
 - Create a Storare Account (configure it as follows)
-  - Make sure the Storage Accounts network settings only allows access from Subnet 1
   - Create a Blob storage (Container) 
   - Add a file to the blob storage
-  - Create a SAS token to gain access to the blob store
-    - Make sure the SAS token only allows access from the first subnet
-- On the VM in subnet 1 attempt to use the SAS token URL to access the file that was uploaded to the blob store
-- On the VM in subnet 1 attempt to use the SAS token URL to access the file that was uploaded to the blob store
+  - Make sure the Storage Accounts network settings only allows access from Subnet 1 of the above VNet
+- On the VM in subnet 1 
+  - Run this code on the VM to disable the enhanced browser security 
+  ```PowerShell
+  function Disable-InternetExplorerESC {
+    $AdminKey = "HKLM:\SOFTWARE\Microsoft\Active Setup\Installed Components\{A509B1A7-37EF-4b3f-8CFC-4F3A74704073}"
+    $UserKey = "HKLM:\SOFTWARE\Microsoft\Active Setup\Installed Components\{A509B1A8-37EF-4b3f-8CFC-4F3A74704073}"
+    Set-ItemProperty -Path $AdminKey -Name "IsInstalled" -Value 0 -Force
+    Set-ItemProperty -Path $UserKey -Name "IsInstalled" -Value 0 -Force
+    Stop-Process -Name Explorer -Force
+    Write-Host "IE Enhanced Security Configuration (ESC) has been disabled." -ForegroundColor Green
+  }
+
+  Disable-InternetExplorerESC
+  ```
+  - Attempt to use the URL to access the file that was uploaded to the blob store
+- On the VM in subnet 2 
+  - Run this code on the VM to disable the enhanced browser security 
+  ```PowerShell
+  function Disable-InternetExplorerESC {
+    $AdminKey = "HKLM:\SOFTWARE\Microsoft\Active Setup\Installed Components\{A509B1A7-37EF-4b3f-8CFC-4F3A74704073}"
+    $UserKey = "HKLM:\SOFTWARE\Microsoft\Active Setup\Installed Components\{A509B1A8-37EF-4b3f-8CFC-4F3A74704073}"
+    Set-ItemProperty -Path $AdminKey -Name "IsInstalled" -Value 0 -Force
+    Set-ItemProperty -Path $UserKey -Name "IsInstalled" -Value 0 -Force
+    Stop-Process -Name Explorer -Force
+    Write-Host "IE Enhanced Security Configuration (ESC) has been disabled." -ForegroundColor Green
+  }
+
+  Disable-InternetExplorerESC
+  ```
+  - Attempt to use the URL to access the file that was uploaded to the blob store
 
 ## What must the lab achieve
 
 - One Vnet
 - Two Subnets
-- First subnet to have a service enpoint configured
+- First subnet has a service enpoint configured to Storage Accounts
 - Storage Account configured with a blob storage and configured to restrict access
 
 ## Test if your Azure security
