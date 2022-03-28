@@ -32,7 +32,7 @@
   - Add a file to the blob storage
   - Make sure the Storage Accounts network settings only allows access from Subnet 1 of the above VNet
 - On the VM in subnet 1 
-  - Run this code on the VM to disable the enhanced browser security 
+  - Run this code on the VM to disable the enhanced browser security (Run PowerShell as Administrator)
   ```PowerShell
   function Disable-InternetExplorerESC {
     $AdminKey = "HKLM:\SOFTWARE\Microsoft\Active Setup\Installed Components\{A509B1A7-37EF-4b3f-8CFC-4F3A74704073}"
@@ -47,7 +47,7 @@
   ```
   - Attempt to use the URL to access the file that was uploaded to the blob store
 - On the VM in subnet 2 
-  - Run this code on the VM to disable the enhanced browser security 
+  - Run this code on the VM to disable the enhanced browser security (Run PowerShell as Administrator)
   ```PowerShell
   function Disable-InternetExplorerESC {
     $AdminKey = "HKLM:\SOFTWARE\Microsoft\Active Setup\Installed Components\{A509B1A7-37EF-4b3f-8CFC-4F3A74704073}"
