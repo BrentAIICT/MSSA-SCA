@@ -54,7 +54,7 @@
   - Subnet1: 197.10.0.0/24
   - One Virtual Machine (VM4)
     - Add VM4 to subnet1
-  - VM3
+  - VM4
     - OS: Windows 2019 Server
     - IP: Dynamic IP address 
     - Feature Installed: None
