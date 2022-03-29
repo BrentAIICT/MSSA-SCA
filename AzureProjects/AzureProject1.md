@@ -71,10 +71,10 @@
 ## Test if your Azure security
 
 - After creating the infrastructure 
-  - Open a web browser on VM3 and VM4 and try to access the VM1 and VM2 websites
-  - VM3 should be able to access both VM1 and VM2
-  - VM4 should only be able to access VM2
-  - VM1 and VM2 should not be able to contact each others website
+  - Open a web browser on VM3 and VM4 and try to access the VM1 and VM2 websites using the private IP addresses
+  - VM3 should be able to access both VM1 and VM2 private IP addresses
+  - VM4 should only be able to access VM2 private IP address
+  - VM1 and VM2 should not be able to contact each others website using the private IP addresses
 - Optional - access the VM1 and VM2 via their names (Private DNS)
 
 ## Clean up 
