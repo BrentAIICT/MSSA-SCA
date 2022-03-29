@@ -29,6 +29,7 @@
     - Create a Windows VM within the second subnet 
 - Create a Storare Account (configure it as follows)
   - Create a Blob storage (Container) 
+  - Do not allow anonymous access
   - Add a file to the blob storage
   - Make sure the Storage Accounts network settings only allows access from Subnet 1 of the above VNet
   - Generate a SAS token for the uploaded file and use the SAS token URL when testing access below 
