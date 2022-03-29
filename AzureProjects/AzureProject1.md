@@ -47,8 +47,6 @@
     - OS: Windows 2019 Server
     - IP: Dynamic IP address 
     - Feature Installed: None
-  - NSGs
-    - None
 - VNet03
   - IPAddress: 197.10.0.0/16
   - Subnet1: 197.10.0.0/24
@@ -58,9 +56,7 @@
     - OS: Windows 2019 Server
     - IP: Dynamic IP address 
     - Feature Installed: None
-  - NSGs
-    - none
-
+    
 ## What must the lab achieve
 
 - Creation of the network infrastructure 
