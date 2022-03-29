@@ -31,6 +31,7 @@
   - Create a Blob storage (Container) 
   - Add a file to the blob storage
   - Make sure the Storage Accounts network settings only allows access from Subnet 1 of the above VNet
+  - Generate a SAS token for the uploaded file and use the SAS token URL when testing access below 
 - On the VM in subnet 1 
   - Run this code on the VM to disable the enhanced browser security (Run PowerShell as Administrator)
   ```PowerShell
