@@ -24,7 +24,10 @@
 - VNet01
   - IPAddress: 10.1.0.0/16
   - Subnet1: 10.1.0.0/24
+    - Create NSG rule that allows web traffic from VM4 to VM1 and VM2 for http traffic
+    - Create NSG rule that allows web traffic from VM3 to VM2 for http traffic
   - Subnet2: 10.1.1.0/24
+    - Create NSG rule that allows web traffic from VM4 to VM1 and VM2 for http traffic
   - Two Virtual Machines (VM1, VM2)
     - join VM1 to subnet1
     - join VM2 to subnet2
@@ -36,9 +39,6 @@
     - OS: Windows 2019 Server
     - IP: Fixed IP address 10.1.1.20/24
     - Feature Installed: Web Server
-  - NSGs
-    - Create NSG rule that allows web traffic from VM4 to VM1 and VM2 for http traffic
-    - Create NSG rule that allows web traffic from VM3 to VM2 for http traffic (but not to VM1)
 - VNet02
   - IPAddress: 131.107.0.0/16
   - Subnet1:  131.107.0.0/24
