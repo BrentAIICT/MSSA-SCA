@@ -183,7 +183,7 @@
         
 ## 3 Discovering what is the output/result of running a cmdlet using Get-Member
 
-- Find what object is created when you run the Get-Service cmdlet
+### Find what object is created when you run the Get-Service cmdlet
 
   - Q3.1 What is the name of the object that is the result/output of the cmdlet 
  
