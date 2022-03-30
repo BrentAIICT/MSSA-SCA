@@ -25,7 +25,7 @@
 [Intermediate PowerShell Scripting Quiz](PowerShellTraining/PowerShell-Quiz.md#powershell-quiz)<br>
 [Advanced PowerShell Active Directory Projects](PowerShellTraining/PSADProjectHeading.MD#powershell-projects)<br>
 
-### Azure Project
+### Azure Projects
 [Azure Project 1](AzureProjects/AzureProject1.md#azure-network-security-challenge)<br>
 [Azure Project 2](AzureProjects/AzureProject2.md#azure-role-based-access-project)<br>
 [Azure Project 3](AzureProjects/AzureProject3.md#azure-access-to-storage-account-via-a-service-endpoint)<br>
