@@ -8,15 +8,7 @@
 
 ### GitHub/VSCode Labs
 
-[Git-GitHub Labs](GitTraining/GitTrainingMain.md#git--github--vscode-training)
-
-[GitHub/VSCode Lab 1 - Getting Started with GitHub](GitTraining/GettingStartedGitHub.md#setup-your-own-github-site)<br>
-[GitHub/VSCode Lab 2 - Exploring the Repository](GitTraining/ExploreRepo.md#lets-explore-the-repository)<br>
-[GitHub/VSCode Lab 3 - Installing Git](GitTraining/InstallLocalGit.md#installing-and-configuring-git-on-your-local-computer)<br>
-[GitHub/VSCode Lab 4 - Cloning a GitHub Repo](GitTraining/CloneRepo.md#clone-a-github-repo)<br>
-[GitHub/VSCode Lab 5 - Managing the Repositories](GitTraining/ManagingGitRepo.md#managing-a-local-git-repo)<br>
-[GitHub/VSCode Lab 6 - Installing and setting up VSCode](/GitTraining/InstallVsCode.md#install-vscode-editor)<br>
-[GitHub/VSCode Lab 7 - Using the VSCode GUI to manage git/GitHub](GitTraining/GitInVSCode.md#vscode-makes-git-easier)<br>
+[Git-GitHub Labs](GitTraining/GitTrainingMain.md#git--github--vscode-training)<br>
 
 ### PowerShell Labs
 [PowerShell Labs Rewritten](PowerShellTraining/Labs)<br>
