@@ -73,3 +73,88 @@
     Get-EventLog -LogName System -Newest 4 | Select-Object -Property EventID,@{n='MinutesAgo';e={((Get-Date) - $_.TimeGenerated).Minutes}}
     ```
     </Strong></details> 
+
+
+## 2 Using Help
+
+- Open the full help page for the cmdlet Get-Process
+  - determine what type of object can the ComputerName parameter accept
+ 
+    <details><summary>Click for hint</summary><Strong> 
+
+    ```PowerShell
+    Get-Help -Full Get-Process
+    # Or you could use the following
+    Get-Help -ShowWindow Get-Process
+    ```
+    </Strong></details> 
+    <details><summary>Click to see the answer</summary><Strong> 
+    
+    ```PowerShell
+    # Look for the information directly after the Parameter name "ComputerName" 
+    -ComputerName <System.String[]>
+    # String is the answer, also note that String has a [] at the end which menas that 
+    # This parameter can accept many strings as an array of strings
+    ```
+    </Strong></details>    
+ 
+  - determine which parameters can accept pipeline input and take note of the pipeline method  
+    
+    <details><summary>Click for hint</summary><Strong> 
+
+    ```PowerShell
+    Get-Help -Full Get-Process
+    # Or you could use the following
+    Get-Help -ShowWindow Get-Process
+    ```
+    </Strong></details> 
+    <details><summary>Click to see the answer</summary><Strong> 
+    
+    ```PowerShell
+    # Inspect all of the parameters for those that report "True" for "Accept pipeline input"?
+    # For Example:
+    # -ComputerName <System.String[]>
+    #    Specifies the computers for which this cmdlet gets active processes. The default is the local computer.
+    #    
+    #    Required?                    false
+    #    Position?                    named
+    #    Default value                Local computer
+    #    Accept pipeline input?       True (ByPropertyName)
+    #    Accept wildcard characters?  false    
+    #
+    # This is one of the parameters that can "Accept pipeline input"
+    # and it can do so "ByPropertyName"    
+    ```
+    </Strong></details>   
+ 
+  - determine how many different ways this cmdlet can be run we call it "parameter sets"
+
+    <details><summary>Click for hint</summary><Strong> 
+
+    ```PowerShell
+    Get-Help -Full Get-Process
+    # Or you could use the following
+    Get-Help -ShowWindow Get-Process
+    ```
+    </Strong></details> 
+    <details><summary>Click to see the answer</summary><Strong> 
+    
+    ```PowerShell
+    # Look for the "Syntax" section and count the number of ways this cmdlet can be run
+    # For Example:
+    # Syntax
+    #  Get-Process [[-Name] <System.String[]>] [-ComputerName <System.String[]>] [-FileVersionInfo ] [-Module ] [<CommonParameters>]
+    #
+    # Get-Process [-ComputerName <System.String[]>] [-FileVersionInfo ] -Id <System.Int32[]> [-Module ] [<CommonParameters>]
+    # 
+    # Get-Process [-ComputerName <System.String[]>] [-FileVersionInfo ] -InputObject <System.Diagnostics.Process[]> [-Module ] [<CommonParameters>]
+    #
+    # Get-Process -Id <System.Int32[]> -IncludeUserName  [<CommonParameters>]
+    # 
+    # Get-Process [[-Name] <System.String[]>] -IncludeUserName  [<CommonParameters>]
+    # 
+    # Get-Process -IncludeUserName  -InputObject <System.Diagnostics.Process[]> [<CommonParameters>]   
+    #
+    # The answer is: there are six different ways of running this cmdlet with different parameters     
+    ```
+    </Strong></details>         
