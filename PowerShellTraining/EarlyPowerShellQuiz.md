@@ -37,7 +37,6 @@
     ```
     </Strong></details> 
 
-
 - Q1.2 Write a pipeline that will show the some properties of the BIOS information using a CimInstance command
   - Show the following properties: BIOSVersion,ReleaseDate
 
@@ -100,7 +99,7 @@
     ```
     </Strong></details>    
  
-  - Q2.2 determine which parameters can accept pipeline input and take note of the pipeline method  
+- Q2.2 determine which parameters can accept pipeline input and take note of the pipeline method  
     
     <details><summary>Click for hint</summary><Strong> 
 
@@ -129,7 +128,7 @@
     ```
     </Strong></details>   
  
-  - Q2.3 determine how many different ways this cmdlet can be run we call it "parameter sets"
+- Q2.3 determine how many different ways this cmdlet can be run we call it "parameter sets"
 
     <details><summary>Click for hint</summary><Strong> 
 
@@ -157,7 +156,7 @@
     ```
     </Strong></details>         
 
-  - Q2.4 Find an example in the help that shows processes with a working set greater than a specified size 
+- Q2.4 Find an example in the help that shows processes with a working set greater than a specified size 
 
     
     <details><summary>Click for hint</summary><Strong> 
