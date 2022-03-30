@@ -23,6 +23,8 @@
 - if   
   - Will allow code to execute only if a condition is $true
 
+## Links to the Projects
+
 [Go to Project 1](PSADProject1.md#create-new-users-in-active-directory-from-a-csv-file)<br>
 [Go to Project 2](PSADProject2.md#restore-an-accidently-deleted-ad-user-account-from-the-recycle-bin)<br>
 [Go to Project 3](PSADProject3.md#find-all-direct-and-indirect-groups-an-ad-user-is-a-member-of)<br>
