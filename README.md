@@ -8,6 +8,8 @@
 
 ### GitHub/VSCode Labs
 
+[Git-GitHub Labs](GitTraining/GitTrainingMain.md#git--github--vscode-training)
+
 [GitHub/VSCode Lab 1 - Getting Started with GitHub](GitTraining/GettingStartedGitHub.md#setup-your-own-github-site)<br>
 [GitHub/VSCode Lab 2 - Exploring the Repository](GitTraining/ExploreRepo.md#lets-explore-the-repository)<br>
 [GitHub/VSCode Lab 3 - Installing Git](GitTraining/InstallLocalGit.md#installing-and-configuring-git-on-your-local-computer)<br>
