@@ -31,7 +31,7 @@
     </Strong></details> 
     <details><summary>Click to see the answer</summary><Strong> 
     
-    ```
+    ```PowerShell
     Get-Service | Where-Object {$_.Status -eq 'Running'} | Sort-Object -Property StartType,Name | Select-Object -Property Status,StartType,Name,DisplayName
 
     ```
@@ -51,7 +51,7 @@
     </Strong></details> 
     <details><summary>Click to see the answer</summary><Strong> 
     
-    ```
+    ```PowerShell
     Get-CimInstance -ClassName Win32_BIOS | Select-Object -Property BIOSVersion,ReleaseDate
     ```
     </Strong></details> 
@@ -69,7 +69,7 @@
     </Strong></details> 
     <details><summary>Click to see the answer</summary><Strong> 
     
-    ```
+    ```PowerShell
     Get-EventLog -LogName System -Newest 4 | Select-Object -Property EventID,@{n='MinutesAgo';e={((Get-Date) - $_.TimeGenerated).Minutes}}
     ```
     </Strong></details> 
@@ -90,11 +90,13 @@
     </Strong></details> 
     <details><summary>Click to see the answer</summary><Strong> 
     
-    ```PowerShell
-    # Look for the information directly after the Parameter name "ComputerName" 
+    ```
+    Look for the information directly after the Parameter name "ComputerName" 
+    
     -ComputerName <System.String[]>
-    # String is the answer, also note that String has a [] at the end which menas that 
-    # This parameter can accept many strings as an array of strings
+    
+    "String" is the answer, also note that String has "[]" at the end which menas that 
+    This parameter can accept one or more strings as an array of strings
     ```
     </Strong></details>    
  
@@ -110,20 +112,20 @@
     </Strong></details> 
     <details><summary>Click to see the answer</summary><Strong> 
     
-    ```PowerShell
-    # Inspect all of the parameters for those that report "True" for "Accept pipeline input"?
-    # For Example:
-    # -ComputerName <System.String[]>
-    #    Specifies the computers for which this cmdlet gets active processes. The default is the local computer.
-    #    
-    #    Required?                    false
-    #    Position?                    named
-    #    Default value                Local computer
-    #    Accept pipeline input?       True (ByPropertyName)
-    #    Accept wildcard characters?  false    
-    #
-    # This is one of the parameters that can "Accept pipeline input"
-    # and it can do so "ByPropertyName"    
+    ```
+    Inspect all of the parameters for those that report "True" for "Accept pipeline input"?
+    For Example:
+    -ComputerName <System.String[]>
+       Specifies the computers for which this cmdlet gets active processes. The default is the local computer.
+       
+       Required?                    false
+       Position?                    named
+       Default value                Local computer
+       Accept pipeline input?       True (ByPropertyName)
+       Accept wildcard characters?  false    
+    
+    This is one of the parameters that can "Accept pipeline input"
+    and it does so by the "ByPropertyName" procedure    
     ```
     </Strong></details>   
  
@@ -154,3 +156,28 @@
     The answer is: there are six different ways of running this cmdlet with different parameters     
     ```
     </Strong></details>         
+
+  - Find an example in the help that shows processes with a working set greater than a specified size 
+
+    
+    <details><summary>Click for hint</summary><Strong> 
+
+    ```PowerShell
+    Get-Help -Full Get-Process
+    # Or you could use the following
+    Get-Help -ShowWindow Get-Process
+    ```
+    </Strong></details> 
+    <details><summary>Click to see the answer</summary><Strong> 
+    
+    ```
+    Look throught the help until you find the examples and then look for the specific example 
+    For Example:
+    Example 3: Get all processes with a working set greater than a specified size
+    Get-Process | Where-Object {$_.WorkingSet -gt 20000000}
+    
+    Read the comments associated with this example
+    ```
+    </Strong></details>           
+
+        
