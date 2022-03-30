@@ -6,7 +6,7 @@
 [Daily Class Schedule](ClassSchedule.md#mssa-sca-course-schdule)<br>
 [Course Intro](MSSA-SCA-Intro.md#getting-started-with-your-mssa-sca-course)<br>
 
-### GitHub/VSCode Labs
+### git/GitHub/VSCode Labs
 
 [Git-GitHub Labs](GitTraining/GitTrainingMain.md#git--github--vscode-training)<br>
 
