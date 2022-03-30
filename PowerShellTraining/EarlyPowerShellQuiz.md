@@ -140,21 +140,17 @@
     <details><summary>Click to see the answer</summary><Strong> 
     
     ```PowerShell
-    # Look for the "Syntax" section and count the number of ways this cmdlet can be run
-    # For Example:
-    # Syntax
-    #  Get-Process [[-Name] <System.String[]>] [-ComputerName <System.String[]>] [-FileVersionInfo ] [-Module ] [<CommonParameters>]
-    #
-    # Get-Process [-ComputerName <System.String[]>] [-FileVersionInfo ] -Id <System.Int32[]> [-Module ] [<CommonParameters>]
-    # 
-    # Get-Process [-ComputerName <System.String[]>] [-FileVersionInfo ] -InputObject <System.Diagnostics.Process[]> [-Module ] [<CommonParameters>]
-    #
-    # Get-Process -Id <System.Int32[]> -IncludeUserName  [<CommonParameters>]
-    # 
-    # Get-Process [[-Name] <System.String[]>] -IncludeUserName  [<CommonParameters>]
-    # 
-    # Get-Process -IncludeUserName  -InputObject <System.Diagnostics.Process[]> [<CommonParameters>]   
-    #
-    # The answer is: there are six different ways of running this cmdlet with different parameters     
+    Look for the "Syntax" section and count the number of ways this cmdlet can be run
+    For Example:
+    
+    Syntax
+        Get-Process [[-Name] <System.String[]>] [-ComputerName <System.String[]>] [-FileVersionInfo ] [-Module ] [<CommonParameters>]
+        Get-Process [-ComputerName <System.String[]>] [-FileVersionInfo ] -Id <System.Int32[]> [-Module ] [<CommonParameters>]
+        Get-Process [-ComputerName <System.String[]>] [-FileVersionInfo ] -InputObject <System.Diagnostics.Process[]> [-Module ] [<CommonParameters>]
+        Get-Process -Id <System.Int32[]> -IncludeUserName  [<CommonParameters>]
+        Get-Process [[-Name] <System.String[]>] -IncludeUserName  [<CommonParameters>] 
+        Get-Process -IncludeUserName  -InputObject <System.Diagnostics.Process[]> [<CommonParameters>]   
+    
+    The answer is: there are six different ways of running this cmdlet with different parameters     
     ```
     </Strong></details>         
