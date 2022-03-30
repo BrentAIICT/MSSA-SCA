@@ -16,7 +16,7 @@
 
 ## Complete the following before starting this project
 
-- Launch the PowerShell lab virtual machines (AZ-040) Modules 1-8
+- Launch the PowerShell lab virtual machines (AZ-040) 
 - Logon to LON-CL1 as the ADATUM\Administrator
   - From LON-CL1 
     - Launch PowerShell 7 (pwsh.exe)
