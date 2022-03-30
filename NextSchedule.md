@@ -8,7 +8,7 @@ Date|Day|Week|Course|Title|Modules|Labs|Instructor|Course Survey
 09Jun|Thu|1|AZ-040|[Automating Administration with Windows PowerShell](https://skillpipe.com)|3|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
 **10Jun**|**Fri**|**1**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|**---**
 *#13Jun#*|Mon|2|Holiday|(AU) Queens Birthday|---|---|---|---
-14Jun|Tue|2|20-740|[Installation, Storage and Compute with Windows Server 2016](https://skillpipe.com)|1,2|[Labs](https://ddls.learnondemand.net/)|Lewis Knight|---
+14Jun|Tue|2|Q&A/20-740|[Installation, Storage and Compute with Windows Server 2016](https://skillpipe.com)|1,2|[Labs](https://ddls.learnondemand.net/)|Lewis Knight|---
 15Jun|Wed|2|20-740|[Installation, Storage and Compute with Windows Server 2016](https://skillpipe.com)|3,4|[Labs](https://ddls.learnondemand.net/)|Lewis Knight|---
 16Jun|Thu|2|20-740|[Installation, Storage and Compute with Windows Server 2016](https://skillpipe.com)|4,5|[Labs](https://ddls.learnondemand.net/)|Lewis Knight|---
 **17Jun**|**Fri**|**2**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|**---**
@@ -23,7 +23,7 @@ Date|Day|Week|Course|Title|Modules|Labs|Instructor|Course Survey
 30Jun|Thu|4|AZ-040|[Automating Administration with Windows PowerShell](https://skillpipe.com)|-|Powershell Projects|Brent Denny|---
 **01Jul**|**Fri**|**4**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|**---**
 *#04Jul#*|Mon|5|Holiday|(USA) Independance Day|---|---|---|---
-05Jul|Tue|5|20-741|[Networking with Windows Server 2016](https://skillpipe.com)|1,2|[Labs](https://ddls.learnondemand.net/)|Lewis Knight|---
+05Jul|Tue|5|Q&A/20-741|[Networking with Windows Server 2016](https://skillpipe.com)|1,2|[Labs](https://ddls.learnondemand.net/)|Lewis Knight|---
 06Jul|Wed|5|20-741|[Networking with Windows Server 2016](https://skillpipe.com)|3,4|[Labs](https://ddls.learnondemand.net/)|Lewis Knight|---
 07Jul|Thu|5|20-741|[Networking with Windows Server 2016](https://skillpipe.com)|4|[Labs](https://ddls.learnondemand.net/)|Lewis Knight|---
 **08Jul**|**Fri**|**5**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|**---**
@@ -52,7 +52,7 @@ Date|Day|Week|Course|Title|Modules|Labs|Instructor|Course Survey
 10Aug|Wed|10|20-742|[Identity with Windows Server 2016](https://skillpipe.com)|10,11|[Labs](https://ddls.learnondemand.net/)|Lewis Knight|---
 11Aug|Thu|10|20-742|[Identity with Windows Server 2016](https://skillpipe.com)|12,13|[Labs](https://ddls.learnondemand.net/)|Lewis Knight|[Survey]()
 **12Aug**|**Fri**|**10**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|**---**
-15Aug|Mon|11|AZ-900|[Azure Fundamentals](https://skillpipe.com)|1,2|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|---
+15Aug|Mon|11|Q&A/AZ-900|[Azure Fundamentals](https://skillpipe.com)|1,2|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|---
 16Aug|Tue|11|AZ-900|[Azure Fundamentals](https://skillpipe.com)|2,3|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|---
 17Aug|Wed|11|AZ-900|[Azure Fundamentals](https://skillpipe.com)|3,4|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|---
 18Aug|Thu|11|AZ-900|[Azure Fundamentals](https://skillpipe.com)|5,6|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|[Survey]()
@@ -69,7 +69,7 @@ Date|Day|Week|Course|Title|Modules|Labs|Instructor|Course Survey
 **02Sep**|**Fri**|**13**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|**---**
 *#05Sep#*|Mon|14|holiday|(USA) Labour Day|---|---|---|---
 *#06Sep#*|Tue|14|Holiday|(USA) Labour Day|---|---|---|---
-07Sep|Wed|14|AZ-104|[Azure Administration](https://skillpipe.com)|1,2|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|---
+07Sep|Wed|14|Q&A/AZ-104|[Azure Administration](https://skillpipe.com)|1,2|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|---
 08Sep|Thu|14|AZ-104|[Azure Administration](https://skillpipe.com)|2,3|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|---
 **09Sep**|**Fri**|**14**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|**---**
 12Sep|Mon|15|Q&A/AZ-104|[Azure Administration](https://skillpipe.com)|3,4|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|---
@@ -78,9 +78,9 @@ Date|Day|Week|Course|Title|Modules|Labs|Instructor|Course Survey
 15Sep|Thu|15|AZ-104|[Azure Administration](https://skillpipe.com)|6,7|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|---
 **16Sep**|**Fri**|**15**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|**---**
 19Sep|Mon|16|Q&A/AZ-104|[Azure Administration](https://skillpipe.com)|8,9|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|---
-20Sep|Mon|16|Q&A/AZ-104|[Azure Administration](https://skillpipe.com)|9,10|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|---
-21Sep|Wed|16|Q&A/AZ-104|[Azure Administration](https://skillpipe.com)|11|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|[Survey]()
-22Sep|Thu|16|Q&A/AZ-104|[Azure Challenge](https://skillpipe.com)|---|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|---
+20Sep|Mon|16|AZ-104|[Azure Administration](https://skillpipe.com)|9,10|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|---
+21Sep|Wed|16|AZ-104|[Azure Administration](https://skillpipe.com)|11|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|[Survey]()
+22Sep|Thu|16|AZ-104|[Azure Challenge](https://skillpipe.com)|---|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|---
 **23Sep**|**Fri**|**16**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|**---**
 24Sep|Mon|17|Q&A/---|---|---|[Labs](https://ddls.learnondemand.net/)||---
 25Sep|Tue|17|---|---|---|[Labs](https://ddls.learnondemand.net/)||---
