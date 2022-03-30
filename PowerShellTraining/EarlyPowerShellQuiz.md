@@ -139,7 +139,7 @@
     </Strong></details> 
     <details><summary>Click to see the answer</summary><Strong> 
     
-    ```PowerShell
+    ```
     Look for the "Syntax" section and count the number of ways this cmdlet can be run
     For Example:
     
