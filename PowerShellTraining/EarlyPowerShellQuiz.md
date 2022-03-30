@@ -299,11 +299,11 @@
     
     The Answer is:
       Name is an Alias Property so we follow the alias, Name -> ServiceName 
-        and find that ServiceName contains a "string" type of object
-        therefore Name contains a "String" type of object
-      CanStop contains a "Boolean" type of object
-      DisplayName contains a "String" type of object
-      Status contains a "System.ServiceProcess.ServiceControllerStatus" type   
+        and find that ServiceName contains a "string" object
+        therefore Name contains a "String" object
+      CanStop contains a "Boolean" object
+      DisplayName contains a "String" object
+      Status contains a "System.ServiceProcess.ServiceControllerStatus" object   
         
     ```
     </Strong></details>   
