@@ -298,7 +298,8 @@
     Status      Property      System.ServiceProcess.ServiceControllerStatus Status {get;}
     
     The Answer is:
-      Name is an Alias Property so we follow the alias Name -> ServiceName and ServiceName contains a "string" type of object
+      Name is an Alias Property so we follow the alias, Name -> ServiceName and find that ServiceName contains a "string" type of object
+        therefore Name contains a "String" type of object
       CanStop contains a "Boolean" type of object
       DisplayName contains a "String" type of object
       Status contains a "System.ServiceProcess.ServiceControllerStatus" type   
