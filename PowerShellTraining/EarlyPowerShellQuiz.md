@@ -78,7 +78,7 @@
 
 - Open the full help page for the cmdlet Get-Process to answer the following questions
 
-- Q2.1 determine what type of object can the ComputerName parameter accept
+  - Q2.1 determine what type of object can the ComputerName parameter accept
  
     <details><summary>Click for hint</summary><Strong> 
 
@@ -100,7 +100,7 @@
     ```
     </Strong></details>    
  
-- Q2.2 determine which parameters can accept pipeline input and take note of the pipeline method  
+  - Q2.2 determine which parameters can accept pipeline input and take note of the pipeline method  
     
     <details><summary>Click for hint</summary><Strong> 
 
@@ -129,7 +129,7 @@
     ```
     </Strong></details>   
  
-- Q2.3 determine how many different ways this cmdlet can be run we call it "parameter sets"
+  - Q2.3 determine how many different ways this cmdlet can be run we call it "parameter sets"
 
     <details><summary>Click for hint</summary><Strong> 
 
@@ -157,7 +157,7 @@
     ```
     </Strong></details>         
 
-- Q2.4 Find an example in the help that shows processes with a working set greater than a specified size 
+  - Q2.4 Find an example in the help that shows processes with a working set greater than a specified size 
 
     
     <details><summary>Click for hint</summary><Strong> 
