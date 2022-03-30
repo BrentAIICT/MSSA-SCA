@@ -57,33 +57,33 @@ Date|Day|Week|Course|Title|Modules|Labs|Instructor|Course Survey
 17Aug|Wed|11|AZ-900|[Azure Fundamentals](https://skillpipe.com)|3,4|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|---
 18Aug|Thu|11|AZ-900|[Azure Fundamentals](https://skillpipe.com)|5,6|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|[Survey]()
 **19Aug**|**Fri**|**11**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|**---**
-22Aug|Mon|12|Q&A/AZ-040|[Automating Administration with Windows PowerShell](https://skillpipe.com)|2,11|[Labs](https://ddls.learnondemand.net/)|Brent Denny|[Survey]()
-23Aug|Tue|12|AZ-040|[PowerShell Challenges]()|---|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
-24Aug|Wed|12|---|---|---|---|---|---
-25Aug|Thu|12|---|---|---|---|---|---
+22Aug|Mon|12|Q&A/AZ-104|[Azure Administration](https://skillpipe.com)|1,2|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|---
+23Aug|Tue|12|AZ-104|[Azure Administration](https://skillpipe.com)|2,3|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|---
+24Aug|Wed|12|AZ-104|[Azure Administration](https://skillpipe.com)|3,4|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|---
+25Aug|Thu|12|AZ-104|[Azure Administration](https://skillpipe.com)|4,5|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|---
 **26Aug**|**Fri**|**12**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|**---**
-29Aug|Mon|13|Q&A/Custom|[Linux Administration Fundamentals]()|---|[Labs]()|David Van Gemert |---
-30Aug|Tue|13|Custom|[Linux Administration Fundamentals]()|---|[Labs]()|David Van Gemert |---
-31Aug|Wed|13|Custom|[Linux Administration Fundamentals]()|---|[Labs]()|David Van Gemert |---
-01Sep|Thu|13|Custom|[Linux Administration Fundamentals]()|---|[Labs]()|David Van Gemert |[Survey]()
+29Aug|Mon|13|AZ-104|[Azure Administration](https://skillpipe.com)|5,6|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|---
+30Aug|Tue|13|[Azure Administration](https://skillpipe.com)|6,7|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|---
+31Aug|Wed|13|AZ-104|[Azure Administration](https://skillpipe.com)|8,9|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|---
+01Sep|Thu|13|AZ-104|[Azure Administration](https://skillpipe.com)|9,10|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|---
 **02Sep**|**Fri**|**13**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|**---**
 *#05Sep#*|Mon|14|holiday|(USA) Labour Day|---|---|---|---
 *#06Sep#*|Tue|14|Holiday|(USA) Labour Day|---|---|---|---
-07Sep|Wed|14|Q&A/AZ-104|[Azure Administration](https://skillpipe.com)|1,2|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|---
-08Sep|Thu|14|AZ-104|[Azure Administration](https://skillpipe.com)|2,3|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|---
+07Sep|Wed|14|AZ-104|[Azure Administration](https://skillpipe.com)|11|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|[Survey]()
+08Sep|Thu|14|AZ-104|[Azure Challenge](https://skillpipe.com)|---|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|---
 **09Sep**|**Fri**|**14**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|**---**
-12Sep|Mon|15|Q&A/AZ-104|[Azure Administration](https://skillpipe.com)|3,4|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|---
-13Sep|Tue|15|AZ-104|[Azure Administration](https://skillpipe.com)|4,5|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|---
-14Sep|Wed|15|AZ-104|[Azure Administration](https://skillpipe.com)|5,6|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|---
-15Sep|Thu|15|AZ-104|[Azure Administration](https://skillpipe.com)|6,7|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|---
+12Sep|Mon|15|Q&A/AZ-040|[Automating Administration with Windows PowerShell](https://skillpipe.com)|2,11|[Labs](https://ddls.learnondemand.net/)|Brent Denny|[Survey]()
+13Sep|Tue|15|AZ-040|[PowerShell Challenges]()|---|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
+14Sep|Wed|15|---|---|---|---|---|---
+15Sep|Thu|15|---|---|---|---|---|---
 **16Sep**|**Fri**|**15**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|**---**
-19Sep|Mon|16|Q&A/AZ-104|[Azure Administration](https://skillpipe.com)|8,9|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|---
-20Sep|Mon|16|AZ-104|[Azure Administration](https://skillpipe.com)|9,10|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|---
-21Sep|Wed|16|AZ-104|[Azure Administration](https://skillpipe.com)|11|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|[Survey]()
-22Sep|Thu|16|AZ-104|[Azure Challenge](https://skillpipe.com)|---|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|---
+19Sep|Mon|16|---|---|---|---|---|---
+20Sep|Mon|16|---|---|---|---|---|---
+21Sep|Wed|16|---|---|---|---|---|---
+22Sep|Thu|16|---|---|---|---|---|---
 **23Sep**|**Fri**|**16**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|**---**
-24Sep|Mon|17|Q&A/---|---|---|[Labs](https://ddls.learnondemand.net/)||---
-25Sep|Tue|17|---|---|---|[Labs](https://ddls.learnondemand.net/)||---
-26Sep|Wed|17|---|---|---|[Labs](https://ddls.learnondemand.net/)||---
-27Sep|Thu|17|---|---|---|---|---|---
+24Sep|Mon|17|Q&A/Custom|[Linux Administration Fundamentals]()|---|[Labs]()|David Van Gemert |---
+25Sep|Tue|17|Custom|[Linux Administration Fundamentals]()|---|[Labs]()|David Van Gemert |---
+26Sep|Wed|17|Custom|[Linux Administration Fundamentals]()|---|[Labs]()|David Van Gemert |---
+27Sep|Thu|17|Custom|[Linux Administration Fundamentals]()|---|[Labs]()|David Van Gemert |[Survey]()
 **28Sep**|**Fri**|**17**|**Graduation**|**---**|**---**|**---**|**---**|**---**
