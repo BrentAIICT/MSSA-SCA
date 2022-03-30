@@ -74,13 +74,13 @@ Date|Day|Week|Course|Title|Modules|Labs|Instructor|Course Survey
 **09Sep**|**Fri**|**14**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|**---**
 12Sep|Mon|15|Q&A/AZ-040|[Automating Administration with Windows PowerShell](https://skillpipe.com)|2,11|[Labs](https://ddls.learnondemand.net/)|Brent Denny|[Survey]()
 13Sep|Tue|15|AZ-040|[PowerShell Challenges]()|---|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
-14Sep|Wed|15|---|---|---|---|---|---
-15Sep|Thu|15|---|---|---|---|---|---
+14Sep|Wed|15|AZ-800|---|---|---|---|---
+15Sep|Thu|15|AZ-800|---|---|---|---|---
 **16Sep**|**Fri**|**15**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|**---**
-19Sep|Mon|16|---|---|---|---|---|---
-20Sep|Mon|16|---|---|---|---|---|---
-21Sep|Wed|16|---|---|---|---|---|---
-22Sep|Thu|16|---|---|---|---|---|---
+19Sep|Mon|16|AZ-800|---|---|---|---|---
+20Sep|Mon|16|AZ-801|---|---|---|---|---
+21Sep|Wed|16|AZ-801|---|---|---|---|---
+22Sep|Thu|16|AZ-801|---|---|---|---|---
 **23Sep**|**Fri**|**16**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|**---**
 24Sep|Mon|17|Q&A/Custom|[Linux Administration Fundamentals]()|---|[Labs]()|David Van Gemert |---
 25Sep|Tue|17|Custom|[Linux Administration Fundamentals]()|---|[Labs]()|David Van Gemert |---
