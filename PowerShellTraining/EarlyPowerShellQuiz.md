@@ -76,7 +76,7 @@
 
 ## 2 Using Help
 
-- Open the full help page for the cmdlet Get-Process to answer the following questions
+### Open the full help page for the cmdlet Get-Process to answer the following questions
 
   - Q2.1 Determine what type of object can the ComputerName parameter accept
  
