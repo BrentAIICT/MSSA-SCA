@@ -77,7 +77,7 @@ Date|Day|Week|Course|Title|Modules|Labs|Instructor|Course Survey
 14Sep|Wed|15|AZ-800|---|---|---|---|---
 15Sep|Thu|15|AZ-800|---|---|---|---|---
 **16Sep**|**Fri**|**15**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|**---**
-19Sep|Mon|16|AZ-800|---|---|---|---|---
+19Sep|Mon|16|AZ-801|---|---|---|---|---
 20Sep|Mon|16|AZ-801|---|---|---|---|---
 21Sep|Wed|16|Review|---|---|---|---|---
 22Sep|Thu|16|Review|---|---|---|---|---
