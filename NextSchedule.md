@@ -86,4 +86,4 @@ Date|Day|Week|Course|Title|Modules|Labs|Instructor|Course Survey
 25Sep|Tue|17|Custom|[Linux Administration Fundamentals]()|---|[Labs]()|David Van Gemert |---
 26Sep|Wed|17|Custom|[Linux Administration Fundamentals]()|---|[Labs]()|David Van Gemert |---
 27Sep|Thu|17|Custom|[Linux Administration Fundamentals]()|---|[Labs]()|David Van Gemert |[Survey]()
-**28Sep**|**Fri**|**17**|**Graduation**|**---**|**---**|**---**|**---**|**---**
+**TBA**|**Fri**|**17**|**Graduation**|**---**|**---**|**---**|**---**|**---**
