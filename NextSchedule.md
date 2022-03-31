@@ -79,8 +79,8 @@ Date|Day|Week|Course|Title|Modules|Labs|Instructor|Course Survey
 **16Sep**|**Fri**|**15**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|**---**
 19Sep|Mon|16|AZ-800|---|---|---|---|---
 20Sep|Mon|16|AZ-801|---|---|---|---|---
-21Sep|Wed|16|AZ-801|---|---|---|---|---
-22Sep|Thu|16|AZ-801|---|---|---|---|---
+21Sep|Wed|16|Review|---|---|---|---|---
+22Sep|Thu|16|Review|---|---|---|---|---
 **23Sep**|**Fri**|**16**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|**---**
 24Sep|Mon|17|Q&A/Custom|[Linux Administration Fundamentals]()|---|[Labs]()|David Van Gemert |---
 25Sep|Tue|17|Custom|[Linux Administration Fundamentals]()|---|[Labs]()|David Van Gemert |---
