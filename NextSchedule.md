@@ -57,18 +57,18 @@ Date|Day|Week|Course|Title|Modules|Labs|Instructor|Course Survey
 17Aug|Wed|11|AZ-900|[Azure Fundamentals](https://skillpipe.com)|3,4|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|---
 18Aug|Thu|11|AZ-900|[Azure Fundamentals](https://skillpipe.com)|5,6|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|[Survey]()
 **19Aug**|**Fri**|**11**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|**---**
-22Aug|Mon|12|Q&A/AZ-104|[Azure Administration](https://skillpipe.com)|1,2|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|---
+22Aug|Mon|12|Q&A/AZ-104|[Azure Administration](https://skillpipe.com)|1|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|---
 23Aug|Tue|12|AZ-104|[Azure Administration](https://skillpipe.com)|2,3|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|---
 24Aug|Wed|12|AZ-104|[Azure Administration](https://skillpipe.com)|3,4|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|---
 25Aug|Thu|12|AZ-104|[Azure Administration](https://skillpipe.com)|4,5|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|---
 **26Aug**|**Fri**|**12**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|**---**
 29Aug|Mon|13|AZ-104|[Azure Administration](https://skillpipe.com)|5,6|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|---
 30Aug|Tue|13|AZ-104|[Azure Administration](https://skillpipe.com)|6,7|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|---
-31Aug|Wed|13|AZ-104|[Azure Administration](https://skillpipe.com)|8,9|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|---
-01Sep|Thu|13|AZ-104|[Azure Administration](https://skillpipe.com)|9,10|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|---
+31Aug|Wed|13|AZ-104|[Azure Administration](https://skillpipe.com)|7,8|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|---
+01Sep|Thu|13|AZ-104|[Azure Administration](https://skillpipe.com)|8,9|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|---
 **02Sep**|**Fri**|**13**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|**---**
 *#05Sep#*|Mon|14|holiday|(USA) Labour Day|---|---|---|---
-06Sep|Tue|14|---|---|---|---|---|---
+06Sep|Tue|14|AZ-104|[Azure Administration](https://skillpipe.com)|9,10|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|---
 07Sep|Wed|14|AZ-104|[Azure Administration](https://skillpipe.com)|11|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|[Survey]()
 08Sep|Thu|14|AZ-104|[Azure Challenge](https://skillpipe.com)|---|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|---
 **09Sep**|**Fri**|**14**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|**---**
