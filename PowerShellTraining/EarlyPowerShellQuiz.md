@@ -308,4 +308,77 @@
     ```
     </Strong></details>   
  
-       
+ ## 4 Discovering Modules
+
+
+  - Q4.1 List all of the modules that are available  
+ 
+    <details><summary>Click for hint</summary><Strong> 
+
+    ```PowerShell
+    Get-Command *module*
+    # Get the full help for the command you have found to show all the modules that are available    
+    
+    ```
+    </Strong></details> 
+    <details><summary>Click to see the answer</summary><Strong> 
+    
+    ```PowerShell
+    Get-Module -ListAvailable 
+    
+    # Look for the TypeName information
+    # The Answer is:
+    #   System.ServiceProcess.ServiceController 
+    # The last name is important when learning how to use PowerShell: 
+    #   ServiceController 
+    ```
+    </Strong></details>    
+ 
+  - Q4.2 From the results of the previous command what folders are the modules found in   
+    
+    <details><summary>Click for hint</summary><Strong> 
+
+    ```
+    Look at the results of the Get-Module -ListAvailable to find the folder locations
+    on the computer where modules are stored     
+        
+    ```
+    </Strong></details> 
+    <details><summary>Click to see the answer</summary><Strong> 
+    
+    ```
+    The answers will differ depending on whether you are using PowerShell 7 and PowerShell 5
+    PowerShell 7 
+       C:\Users\<USERNAME>\Documents\PowerShell\Modules
+       C:\Program Files\PowerShell\Modules
+       c:\program files\powershell\7\Modules
+       C:\Program Files\WindowsPowerShell\Modules
+       C:\Windows\system32\WindowsPowerShell\v1.0\Modules   
+        
+    PowerShell 5    
+      C:\Users\<USERNAME>\Documents\WindowsPowerShell\Modules
+      C:\Program Files\WindowsPowerShell\Modules
+      C:\Windows\system32\WindowsPowerShell\v1.0\Modules    
+        
+    ```
+    </Strong></details>   
+ 
+  - Q4.3 What command would you use to install the module "SubnetTools" from the PowerShell Gallery  
+    
+    <details><summary>Click for hint</summary><Strong> 
+
+    ```
+    Look for commands that come from the PowerShellGet module
+        
+    ```
+    </Strong></details> 
+    <details><summary>Click to see the answer</summary><Strong> 
+    
+    ```
+    Answer is :
+      Install-Module -Name SubnetTools
+        
+    ```
+    </Strong></details>   
+ 
+
