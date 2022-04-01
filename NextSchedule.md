@@ -1,5 +1,5 @@
 # MSSA SCA Course Schdule
-## Each week a 1 hour Q&A component that allows the students to ask any questions they like
+## Each week has a 1 hour Q&A component (allows students to ask questions)
 
 Date|Day|Week|Course|Title|Modules|Labs|Instructor|Course Survey
 ---|---|---|---|---|---|---|---|--
