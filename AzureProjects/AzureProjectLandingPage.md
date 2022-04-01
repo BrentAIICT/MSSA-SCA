@@ -6,6 +6,6 @@
 
 ## Projects
 
-[Project1]()<br>
-[Project1]()<br>
-[Project1]()<br>
+[Project 1](https://github.com/BrentAIICT/MSSA-SCA/blob/main/AzureProjects/AzureProject1.md#azure-network-security-challenge)<br>
+[Project 2](https://github.com/BrentAIICT/MSSA-SCA/blob/main/AzureProjects/AzureProject2.md#azure-role-based-access-project)<br>
+[Project 3](https://github.com/BrentAIICT/MSSA-SCA/blob/main/AzureProjects/AzureProject3.md#azure-access-to-storage-account-via-a-service-endpoint)<br>
