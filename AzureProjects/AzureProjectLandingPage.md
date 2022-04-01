@@ -2,8 +2,9 @@
 
 ## There are several projects that you could attempt 
 
-*** Please use your Azure account for these projects***<br>
-*** Remember also that after each project is finished, delete all of the Azure resources that you have created***<br>
+***Please use your Azure account for these projects***
+<br>
+***Remember also that after each project is finished, delete all of the Azure resources that you have created***<br>
 
 ## Projects
 
