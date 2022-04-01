@@ -1,4 +1,5 @@
 # MSSA SCA Course Schdule
+## Mondays have a Q&A component that allows the students to ask any questions they like
 
 Date|Day|Week|Course|Title|Modules|Labs|Instructor|Course Survey
 ---|---|---|---|---|---|---|---|--
@@ -62,12 +63,12 @@ Date|Day|Week|Course|Title|Modules|Labs|Instructor|Course Survey
 24Aug|Wed|12|AZ-104|[Azure Administration](https://skillpipe.com)|3,4|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|---
 25Aug|Thu|12|AZ-104|[Azure Administration](https://skillpipe.com)|4,5|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|---
 **26Aug**|**Fri**|**12**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|**---**
-29Aug|Mon|13|AZ-104|[Azure Administration](https://skillpipe.com)|5,6|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|---
+29Aug|Mon|13|Q&A/AZ-104|[Azure Administration](https://skillpipe.com)|5,6|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|---
 30Aug|Tue|13|AZ-104|[Azure Administration](https://skillpipe.com)|6,7|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|---
 31Aug|Wed|13|AZ-104|[Azure Administration](https://skillpipe.com)|7,8|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|---
 01Sep|Thu|13|AZ-104|[Azure Administration](https://skillpipe.com)|8,9|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|---
 **02Sep**|**Fri**|**13**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|**---**
-05Sep|Mon|14|AZ-104|[Azure Administration](https://skillpipe.com)|9,10|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|---
+05Sep|Mon|14|Q&A/AZ-104|[Azure Administration](https://skillpipe.com)|9,10|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|---
 *###-06Sep*|Tue|14|holiday|(USA) Labour Day|###|###|###|###
 07Sep|Wed|14|AZ-104|[Azure Administration](https://skillpipe.com)|11|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|[Survey]()
 08Sep|Thu|14|AZ-104|[Azure Challenge](https://skillpipe.com)|---|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|---
@@ -77,7 +78,7 @@ Date|Day|Week|Course|Title|Modules|Labs|Instructor|Course Survey
 14Sep|Wed|15|AZ-800|---|---|---|Lewis Knight|---
 15Sep|Thu|15|AZ-800|---|---|---|Lewis Knight|---
 **16Sep**|**Fri**|**15**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|**---**
-19Sep|Mon|16|AZ-801|---|---|---|Lewis Knight|---
+19Sep|Mon|16|Q&A/AZ-801|---|---|---|Lewis Knight|---
 20Sep|Mon|16|AZ-801|---|---|---|Lewis Knight|---
 21Sep|Wed|16|Review|Re-run labs/Finish challenges|---|---|Lewis Knight|---
 22Sep|Thu|16|Review|Re-run labs/Finish challenges|---|---|Lewis Knight|---
