@@ -18,7 +18,7 @@
 ### PowerShell Tools
 [Sample Administration How-To-Guides](https://docs.microsoft.com/en-us/powershell/scripting/samples/sample-scripts-for-administration?view=powershell-7.2)<br>
 [Docker Lab](DockerLab#readme)<br>
-[PowerShell Objects/Properties & Pipelines](PowerShellTraining/Practical%20PowerShell%20Pipelines%20using%20cars.pdf)<br>
+[PowerShell Objects/Properties & Pipelines](PowerShellTraining/PSPipelineCarBoat.pdf)<br>
 
 ### PowerShell Projects
 [Basic PowerShell Scripting Quiz](PowerShellTraining/EarlyPowerShellQuiz.md#entry-level-powershell-quiz)<br>
