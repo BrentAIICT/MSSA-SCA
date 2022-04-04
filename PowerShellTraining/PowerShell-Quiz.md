@@ -31,7 +31,7 @@
     </Strong></details> 
     <details><summary>Click to see the answer</summary><Strong> 
     
-    ```
+    ```PowerShell
     function ReverseCase {
       Param ([string]$InitialString)
       [string]$RevCaseString = ''
@@ -59,7 +59,7 @@
     </Strong></details> 
     <details><summary>Click to see the answer</summary><Strong> 
     
-    ```
+    ```PowerShell
     function CompareFirstLast {
       param ([string[]]$TwoWords)
       if ($TwoWords[0][0] -eq $TwoWords[1][-1]) {$Result = $true}
@@ -89,7 +89,7 @@
     </Strong></details> 
     <details><summary>Click to see the answer</summary><Strong> 
     
-    ```
+    ```PowerShell
     function Get-AgeInDays {
       Param ([datetime]$DateOfBirth)
       $Now = Get-Date
@@ -116,7 +116,7 @@
     </Strong></details> 
     <details><summary>Click to see the answer</summary><Strong> 
     
-    ```
+    ```PowerShell
     function Get-Smallest {
       Param ([int[]]$IntArray)
       $SortedArray = $IntArray | Sort-Object 
@@ -139,7 +139,7 @@
     </Strong></details> 
     <details><summary>Click to see the answer</summary><Strong> 
     
-    ```
+    ```PowerShell
     function ConsonantsVowels {
       Param ([string]$Word)
       $Consonants = 0
@@ -171,7 +171,7 @@
     </Strong></details> 
     <details><summary>Click to see the answer</summary><Strong> 
     
-    ```
+    ```PowerShell
     function Get-Proc {
       Param ([string]$StartingLetter = 'w')
       $Processes = Get-Process | 
@@ -186,7 +186,12 @@
     
 ## 5 Using .Net Classes
 
-- Q5.1 Using the .Net class WebClient and the URL of http://www.mieliestronk.com/wordlist.html/corncob_lowercase.txt download the list of words to a file called e:\words.txt
+- Q5.1 Create a function that builds a new PowerShell Object based on the .Net class "WebClient" 
+  - Use this new PowerShell object to download a file from the internet. 
+  - Make sure the function has a parameter that allows you to enter a URL and set this URL as the default value:
+    - http://www.mieliestronk.com/wordlist.html/corncob_lowercase.txt 
+  - Download the internet file to a local file called e:\words.txt
+  - After runnung your function make sure the local file has a list of words in it
 
     <details><summary>Click for hint</summary><Strong> 
 
@@ -198,19 +203,20 @@
     </Strong></details> 
     <details><summary>Click to see the answer</summary><Strong> 
     
-    ```
+    ```PowerShell
     function Get-WebFile {
       Param ([string]$URL = 'http://www.mieliestronk.com/corncob_lowercase.txt')
       $WebClient = [System.Net.WebClient]::DownloadFile($URL,'E:\words.txt')
     }
 
     Get-WebFile
+    Get-Content E:\words.txt
     ```
     </Strong></details> 
 
 ## 6 Using Comment Based Help
 
-- Q6.1 Using the script you built for 2.1, build "Comment Based Help" to show others how to use your function
+- Q6.1 Using the function you built for exercise 2.1, build "Comment Based Help" to show others how to use your function
 
     <details><summary>Click for hint</summary><Strong> 
 
