@@ -66,7 +66,8 @@
 
 # Use following brief to complete this project via PowerShell
 
-- Create a PowerShell function within **PowerShell ISE**
+- Create a PowerShell function within **PowerShell ISE** or **VSCode**
+  - Include Comment Based Help
   - use a parameter for the SamAccountName of the user, 
     - make sure the parameter has a default value of "Jasper"
   - Save the function in the same module you created for Project 1 
