@@ -48,7 +48,8 @@
 
 # Use following brief to complete this project via PowerShell
 
-- Create a PowerShell function within **PowerShell ISE**
+- Create a PowerShell function within **PowerShell ISE** or **VSCode**
+  - Include Comment Based Help
   - do not use parameters for this function 
   - use Out-Griview to list the deleted AD users and have the ability to selct one or more deleted user
   - Save the function in the module you created in Project 1
