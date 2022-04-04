@@ -164,4 +164,4 @@
 ---
 
 
-[Commit changes to a file with VSCode](GitInVSCode.md#vscode-makes-git-easier)
+[Commit changes to a file with VSCode](7-GitInVSCode.md#vscode-makes-git-easier)
