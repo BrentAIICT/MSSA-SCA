@@ -22,7 +22,7 @@
 
 ### git/GitHub/VSCode Labs
 
-[Git-GitHub Labs](GitTraining/GitTrainingMain.md#git--github--vscode-training)<br>
+[Git-GitHub Labs](GitTraining/0-GitTrainingMain.md#git--github--vscode-training)<br>
 
 
 
