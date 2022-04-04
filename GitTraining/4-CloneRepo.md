@@ -115,5 +115,5 @@
 ---
 
 
-[Next Lab - Managing the Repositories](ManagingGitRepo.md#managing-a-local-git-repo)
+[Next Lab - Managing the Repositories](5-ManagingGitRepo.md#managing-a-local-git-repo)
 
