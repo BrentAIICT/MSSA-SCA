@@ -62,7 +62,7 @@
       - you will need to use an AD property called, **"SamAccountName"** that have the value **"bsmith"**    
     - Have the AD Property called "Name" created which consists of "FirstName LastName"
       - for example "FirstName = Ben, LastName =  Smith", 
-      - you will need to use an AD property called, **"Name"** that have the value **"Ben Smith"**[.](PSADProjectSolutions.md#solutions-for-the-ps-projects)   
+      - you will need to use an AD property called, **"Name"** that have the value **"Ben Smith"**[...](PSADProjectSolutions.md#solutions-for-the-ps-projects)   
 
 ## Test if your function worked by running:
    
