@@ -2,7 +2,7 @@
 
 ## This set of labs will take you through the basics of git, GitHub.com and the VSCode editor
 
-## There is a series of seven labs that will help you understand how to work with Git, GitHub and VSCode
+### There is a series of seven labs that will help you understand how to work with Git, GitHub and VSCode
 
 [Start the labs from the beginning](1-GettingStartedGitHub.md#setup-your-own-github-site)
 
