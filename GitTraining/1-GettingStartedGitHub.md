@@ -127,4 +127,4 @@
 ---
 
 
-[Next Lab - Explore your Repo](ExploreRepo.md#lets-explore-the-repository)
+[Next Lab - Explore your Repo](2-ExploreRepo.md#lets-explore-the-repository)
