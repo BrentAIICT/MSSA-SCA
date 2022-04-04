@@ -164,4 +164,4 @@
 ---
 
 
-[Commit changes to a file with VSCode](7-GitInVSCode.md#git-is-easy-to-use-from-vscode)
+[Next Lab - Commit changes to a file with VSCode](7-GitInVSCode.md#git-is-easy-to-use-from-vscode)
