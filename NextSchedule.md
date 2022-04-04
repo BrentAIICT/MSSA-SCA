@@ -21,7 +21,7 @@ Date|Day|Week|Course|Title|Modules|Labs|Instructor|Course Survey
 27Jun|Mon|4|Q&A/Custom|[Introduction to Networking](https://skillpipe.com)|---|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
 28Jun|Tue|4|AZ-040|[Automating Administration with Windows PowerShell](https://skillpipe.com)|4,5|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
 29Jun|Wed|4|AZ-040|[Automating Administration with Windows PowerShell](https://skillpipe.com)|5,6|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
-30Jun|Thu|4|AZ-040|[PowerShell Project](https://github.com/BrentAIICT/MSSA-SCA/blob/main/PowerShellTraining/EarlyPowerShellQuiz.md#entry-level-powershell-quiz)|---|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
+30Jun|Thu|4|AZ-040|[***PowerShell Quiz***](https://github.com/BrentAIICT/MSSA-SCA/blob/main/PowerShellTraining/EarlyPowerShellQuiz.md#entry-level-powershell-quiz)|---|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
 **01Jul**|**Fri**|**4**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|**---**
 04Jul|Mon|5|Q&A/20-741|[Networking with Windows Server 2016](https://skillpipe.com)|1,2|[Labs](https://ddls.learnondemand.net/)|Lewis Knight|---
 *###-05Jul*|Tue|5|Holiday|(USA) Independance Day|###|###|###|###
@@ -34,7 +34,7 @@ Date|Day|Week|Course|Title|Modules|Labs|Instructor|Course Survey
 14Jul|Thu|6|20-741|[Networking with Windows Server 2016](https://skillpipe.com)|10,11|[Labs](https://ddls.learnondemand.net/)|Lewis Knight|[Survey]()
 **15Jul**|**Fri**|**6**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|**---**
 18Jul|Mon|7|Q&A/AZ-040|[Automating Administration with Windows PowerShell](https://skillpipe.com)|7|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
-19Jul|Tue|7|AZ-040|[PowerShell Scripting Workshop](https://github.com/BrentAIICT/MSSA-SCA/blob/main/PowerShellTraining/PowerShell-Quiz.md#powershell-quiz)|---|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
+19Jul|Tue|7|AZ-040|[***PowerShell Scripting Workshop***](https://github.com/BrentAIICT/MSSA-SCA/blob/main/PowerShellTraining/PowerShell-Quiz.md#powershell-quiz)|---|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
 20Jul|Wed|7|AZ-040|[Automating Administration with Windows PowerShell](https://skillpipe.com)|8|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
 21Jul|Thu|7|AZ-040|[Automating Administration with Windows PowerShell](https://skillpipe.com)|9,10|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
 **22Jul**|**Fri**|**7**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|**---**
@@ -71,10 +71,10 @@ Date|Day|Week|Course|Title|Modules|Labs|Instructor|Course Survey
 05Sep|Mon|14|Q&A/AZ-104|[Azure Administration](https://skillpipe.com)|9,10|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|---
 *###-06Sep*|Tue|14|holiday|(USA) Labour Day|###|###|###|###
 07Sep|Wed|14|AZ-104|[Azure Administration](https://skillpipe.com)|11|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|[Survey]()
-08Sep|Thu|14|AZ-104|[Azure Challenge](https://github.com/BrentAIICT/MSSA-SCA/blob/main/AzureProjects/AzureProjectLandingPage.md#azure-projects)|---|[Labs](https://portal.azure.com/)|Melvin Porter|---
+08Sep|Thu|14|AZ-104|[***Azure Challenge***](https://github.com/BrentAIICT/MSSA-SCA/blob/main/AzureProjects/AzureProjectLandingPage.md#azure-projects)|---|[Labs](https://portal.azure.com/)|Melvin Porter|---
 **09Sep**|**Fri**|**14**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|**---**
 12Sep|Mon|15|Q&A/AZ-040|[Automating Administration with Windows PowerShell](https://skillpipe.com)|2,11|[Labs](https://ddls.learnondemand.net/)|Brent Denny|[Survey]()
-13Sep|Tue|15|AZ-040|[PowerShell Challenges](https://github.com/BrentAIICT/MSSA-SCA/blob/main/PowerShellTraining/PSADProjectHeading.MD#powershell-projects)|---|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
+13Sep|Tue|15|AZ-040|[***PowerShell Challenges***](https://github.com/BrentAIICT/MSSA-SCA/blob/main/PowerShellTraining/PSADProjectHeading.MD#powershell-projects)|---|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
 14Sep|Wed|15|AZ-800|[Administering Windows Server Hybrid Core Infrastructure](https://skillpipe.com)|TBA|[Labs](https://ddls.learnondemand.net/)|Lewis Knight|---
 15Sep|Thu|15|AZ-800|[Administering Windows Server Hybrid Core Infrastructure](https://skillpipe.com)|TBA|[Labs](https://ddls.learnondemand.net/)|Lewis Knight|---
 **16Sep**|**Fri**|**15**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|**---**
