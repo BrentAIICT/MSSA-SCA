@@ -213,4 +213,4 @@ git push --all
 <br>
 <br>
 
-[Use the VSCode editor for git/GitHub](InstallVsCode.md#install-vscode-editor)
+[Use the VSCode editor for git/GitHub](6-InstallVsCode.md#install-vscode-editor)
