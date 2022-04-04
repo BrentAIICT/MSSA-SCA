@@ -39,7 +39,8 @@
 
 # Use following brief to complete this project via PowerShell
 
-- Create a PowerShell function within **PowerShell ISE**
+- Create a PowerShell function within **PowerShell ISE** or **VSCode**
+  - Include Comment Based Help
   - only use Parameters for information input, the function must run without interruption 
   - use a parameter for the CSV file, 
     - make sure the parameter has a default value for the path to the "e:\NewHires.csv" file 
