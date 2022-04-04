@@ -29,8 +29,6 @@ Get-Help -ShowWindow -Name Stop-Service
 # To complete the second part of the proof find the object that is produced by the Get-Service
 Get-Service -Name bits | Get-Member 
 
-Get-Service -Name bits | Get-Member 
-
 
 ###       TypeName: System.ServiceProcess.ServiceController
 ###    

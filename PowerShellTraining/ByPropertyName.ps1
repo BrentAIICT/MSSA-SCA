@@ -1,9 +1,17 @@
-﻿# PowerShell pipelines always tries ByValue pipeline first.
-# If ByValue is not possible then it tries to send information across the pipeline ByPropertyName
+﻿# ByPropertyName pipelines 
+# The output of the first cmdlet it broken down into it individual properties
+# The second cmdlet dictates which properties can be consumed by matching 
+#   - the spelling of the property from the first cmdlet and associated parameter from the second cmdlet 
+#   - the object types must also match
 
-# Pipeline that does not work:
-# For this to succeed the Stop-Service cmdlet must be able to consume individual properties of the object produced by Get-Service
+# The best way to see how the ByPropertyName piple line works is by seeing when it fails
+
+# ByPropertyName Pipeline example that does not work:
+# For some reason the computer information built by Get-ADCompter is not piping to the Get-Service cmdlet
 Get-ADComputer -Filter * | Get-Service -Name Spooler
+
+# Just a quick note about ByPropertyName pipeline
+# The second cmdlet cannot consume a pipeline property if it is uses that corresponding parameter on the command line
 
 # To find out why this did not work we will get the help for the Get-Service command
 # Looking for every parameter that can pipeline ByPropertyName
@@ -33,23 +41,33 @@ Get-Help -ShowWindow -Name Get-Service
 ###    
 ###    
 
-# Name is out because we are using that in the command line 
-# So ComputerName is the only parameter left 
+# Name is out because we are using that in the command line in the second cmdlet
+# So the ComputerName paramter is the only left 
 
 # Now lets find out why the pipeline is not working
 # To do so we need to look at the properties produced by Get-ADComputer -Filter *
-Get-ADComputer -Filter * | Get-Member 
+Get-ADComputer -Filter * | Select-Object -Property *
 
+###    DistinguishedName  : CN=LON-DC1,CN=Computers,DC=Adatum,DC=com
+###    DNSHostName        : LON-DC1.Adatum.com
+###    Enabled            : True
+###    Name               : LON-DC1
+###    ObjectClass        : computer
+###    ObjectGUID         : ae50fd8d-6034-4a1c-b33d-26a399fb82d8
+###    SamAccountName     : LON-DC1$
+###    SID                : S-1-5-21-913749354-169946239-1665692169-3103
+###    UserPrincipalName  : 
+###    PropertyNames      : {DistinguishedName, DNSHostName, Enabled, Name...}
+###    AddedProperties    : {}
+###    RemovedProperties  : {}
+###    ModifiedProperties : {}
+###    PropertyCount      : 9
+###            
 
+# DNSHostName has the full DNS name of the computer, the Get-Service cmdlet was expecting ComputerName 
+# ComputerName does not exist in the list of properties, so we will build it instead.
 
-
-###       TypeName: System.ServiceProcess.ServiceController
-###    
-###    Name                      MemberType    Definition                                                                                                                      
-###    ----                      ----------    ----------                                                                                                                      
-###    Name                      AliasProperty Name = ServiceName                                                                                                              
-###    RequiredServices          AliasProperty RequiredServices = ServicesDependedOn                                                                                           
-###    Disposed                  Event         System.EventHandler Disposed(System.Object, System.EventArgs)                                                                   
-###    Close                     Method        void Close()     
-
-# The second command can consume the entire object created by running Get-Service then the pipeline will use ByValue                 
+Get-ADComputer -Filter * | 
+Select-Object -Property @{n='ComputerName';e={$_.DNSHostName}} |
+Get-Service -Name Spooler |
+Select-Object Status,Name,DisplayName,MachineName
