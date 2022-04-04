@@ -191,28 +191,28 @@
   - Make sure the function has a parameter that allows you to enter a URL and set this URL as the default value:
     - http://www.mieliestronk.com/wordlist.html/corncob_lowercase.txt 
   - Download the internet file to a local file called e:\words.txt
-  - After runnung your function make sure the local file has a list of words in it
+  - After running your function make sure the local file has a list of words in it
 
-    <details><summary>Click for hint</summary><Strong> 
+  <details><summary>Click for hint</summary><Strong> 
 
-    ``` 
-    Think about:
-    - How do we instantiate a .Net WebClient Object in PowerShell
-    - What method in the object will help us achieve the desired outcome
-    ```
-    </Strong></details> 
-    <details><summary>Click to see the answer</summary><Strong> 
-    
-    ```PowerShell
-    function Get-WebFile {
-      Param ([string]$URL = 'http://www.mieliestronk.com/corncob_lowercase.txt')
-      $WebClient = [System.Net.WebClient]::DownloadFile($URL,'E:\words.txt')
-    }
+  ``` 
+  Think about:
+  - How do we instantiate a .Net WebClient Object in PowerShell
+  - What method in the object will help us achieve the desired outcome
+  ```
+  </Strong></details> 
+  <details><summary>Click to see the answer</summary><Strong> 
+  
+  ```PowerShell
+  function Get-WebFile {
+    Param ([string]$URL = 'http://www.mieliestronk.com/corncob_lowercase.txt')
+    $WebClient = [System.Net.WebClient]::DownloadFile($URL,'E:\words.txt')
+  }
 
-    Get-WebFile
-    Get-Content E:\words.txt
-    ```
-    </Strong></details> 
+  Get-WebFile
+  Get-Content E:\words.txt
+  ```
+  </Strong></details> 
 
 ## 6 Using Comment Based Help
 
