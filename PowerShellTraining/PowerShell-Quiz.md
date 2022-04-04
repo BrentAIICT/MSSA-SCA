@@ -90,14 +90,14 @@
     <details><summary>Click to see the answer</summary><Strong> 
     
     ```
-    function AgeInDays {
+    function Get-AgeInDays {
       Param ([datetime]$DateOfBirth)
       $Now = Get-Date
       $Age = $Now - $DateOfBirth
       return $Age.Days
     }
 
-    AgeInDays -DateOfBirth "5 sep 1990"
+    Get-AgeInDays -DateOfBirth "15-sep-1990"
     ```
     </Strong></details> 
 
@@ -207,3 +207,46 @@
     Get-WebFile
     ```
     </Strong></details> 
+
+## 6 Using Comment Based Help
+
+- Q6.1 Using the script you built for 2.1, build "Comment Based Help" to show others how to use your function
+
+    <details><summary>Click for hint</summary><Strong> 
+
+    ``` 
+    To understand how to build Comment Based Help run the following command:
+    Get-Help About_Comment_Based_Help and read the help page to help you learn how to produce the help content
+    Make sure the Help content that you build has the following sections filled in:
+    - Synopsis 
+    - Description 
+    - Parameter 
+    - Example
+    ```
+    </Strong></details> 
+    <details><summary>Click to see the answer</summary><Strong> 
+    
+    ```PowerShell
+    function Get-AgeInDays { 
+      <#
+        .Synopsis
+           Takes your birthdate and calculates your age in days
+        .DESCRIPTION
+           This script accepts a parameter as a datetime object and using the current date
+           calculates how old you are in days
+        .EXAMPLE
+           Get-AgeInDays -DateOfBirth '20-Jun-1979'
+        .Parameter DateOfBirth
+           This must be your date of birth entered in this format '20-Jun-1979' it will then use
+           this date to discover how old you are in days 
+      #>
+      Param ([datetime]$DateOfBirth)
+      $Now = Get-Date
+      $Age = $Now - $DateOfBirth
+      return $Age.Days
+    }
+    
+    # Now to test the help
+    Get-Help -Full Get-AgeInDays 
+    ```
+    </Strong></details>
