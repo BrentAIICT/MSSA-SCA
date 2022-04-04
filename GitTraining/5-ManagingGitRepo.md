@@ -208,7 +208,7 @@ git push --all
 <br>
 <br>
 
-  [Reference: A few Git commands](GitCommands.md#git-commands)
+- [Reference: A few Git commands](GitCommands.md#git-commands)
 
 <br>
 <br>
