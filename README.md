@@ -32,17 +32,17 @@
 
 ### PowerShell Labs
 - PowerShell Labs (Rewritten)
-  [PowerShell Lab  1](PowerShellTraining/Labs/PowerShell-Lab-01.md)
-  [PowerShell Lab  3](PowerShellTraining/Labs/PowerShell-Lab-03.md)
-  [PowerShell Lab  4](PowerShellTraining/Labs/PowerShell-Lab-04.md)
-  [PowerShell Lab  5](PowerShellTraining/Labs/PowerShell-Lab-05.md)
-  [PowerShell Lab  6](PowerShellTraining/Labs/PowerShell-Lab-06.md)
-  [PowerShell Lab  7](PowerShellTraining/Labs/PowerShell-Lab-07.md)
-  [PowerShell Lab  8](PowerShellTraining/Labs/PowerShell-Lab-08.md)
-  [PowerShell Lab  9](PowerShellTraining/Labs/PowerShell-Lab-09.md)
-  [PowerShell Lab 10](PowerShellTraining/Labs/PowerShell-Lab-10.md)
-  [PowerShell Lab  2](PowerShellTraining/Labs/PowerShell-Lab-02.md)
-  [PowerShell Lab 11](PowerShellTraining/Labs/PowerShell-Lab-11.md)
+  [PowerShell Lab  1](PowerShellTraining/Labs/PowerShell-Lab-01.md)<br>
+  [PowerShell Lab  3](PowerShellTraining/Labs/PowerShell-Lab-03.md)<br>
+  [PowerShell Lab  4](PowerShellTraining/Labs/PowerShell-Lab-04.md)<br>
+  [PowerShell Lab  5](PowerShellTraining/Labs/PowerShell-Lab-05.md)<br>
+  [PowerShell Lab  6](PowerShellTraining/Labs/PowerShell-Lab-06.md)<br>
+  [PowerShell Lab  7](PowerShellTraining/Labs/PowerShell-Lab-07.md)<br>
+  [PowerShell Lab  8](PowerShellTraining/Labs/PowerShell-Lab-08.md)<br>
+  [PowerShell Lab  9](PowerShellTraining/Labs/PowerShell-Lab-09.md)<br>
+  [PowerShell Lab 10](PowerShellTraining/Labs/PowerShell-Lab-10.md)<br>
+  [PowerShell Lab  2](PowerShellTraining/Labs/PowerShell-Lab-02.md)<br>
+  [PowerShell Lab 11](PowerShellTraining/Labs/PowerShell-Lab-11.md)<br>
 
 
 
