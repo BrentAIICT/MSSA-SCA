@@ -32,6 +32,7 @@
 
 ### PowerShell Labs
 - PowerShell Labs (Rewritten)
+
   [PowerShell Lab  1](PowerShellTraining/Labs/PowerShell-Lab-01.md)<br>
   [PowerShell Lab  3](PowerShellTraining/Labs/PowerShell-Lab-03.md)<br>
   [PowerShell Lab  4](PowerShellTraining/Labs/PowerShell-Lab-04.md)<br>
