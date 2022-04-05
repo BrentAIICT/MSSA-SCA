@@ -41,6 +41,7 @@ Restart-Computer -Force
 
 ## From LON-SVR1 - Set the TLS version to be 1.2
 - You will need to log on to the LON-SVR1 machine after the restart
+- After logging in to the LON-SVR1, Set the TLS version to 1.2
 ```PowerShell
 # Set the TLS version used by the PowerShell client to TLS 1.2.
 [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.SecurityProtocolType]::Tls12;
@@ -53,7 +54,7 @@ Restart-Computer -Force
 ```PowerShell
 docker pull mcr.microsoft.com/windows/servercore/iis
 ```
-> This will probably take 10-15 minutes to complete
+> This will probably take 10-15 minutes to complete, this is a good time to take a quick break
 
 ## From LON-SVR1 - Querying your local docker image repository
 
