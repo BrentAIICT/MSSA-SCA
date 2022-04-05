@@ -17,6 +17,8 @@
 
 # Find all direct and indirect groups an AD user is a member of  
 
+  > Make sure all of these functions get saved in your GitHub Repository 
+ 
 ## Complete the following before starting this project
 
 - Create groups and group memberships for this project
