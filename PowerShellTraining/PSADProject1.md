@@ -14,6 +14,8 @@
 -->
 # Create new users in Active Directory from a CSV file
 
+  > Make sure all of these functions get saved in your GitHub Repository 
+
 ## Complete the following before starting this project
 
 - Logon to LON-CL1 as the ADATUM\Administrator
