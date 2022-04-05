@@ -46,33 +46,32 @@
     ```
     </Strong></details> 
 
-
-- Q1.2 Create a function that takes two strings in an array and compares the first character of the first word with the last character of the second word if they are the same return $true in not return $false
+- Q1.2 Create a function that takes a three word sentence as a string parameter and only return th middle word
+  - For this challenge use the methods .IndexOf() to find the location of the spaces and .Substring() to extract the middle word 
 
     <details><summary>Click for hint</summary><Strong> 
 
     ``` 
-    Consider:
-    - How to get the first and last characters of two words
-    - How to compare string values
-    - When entering an array of strings for this function use this format 
-      - "FirstWord","SecondWord"   NOT "FirstWord,SecondWord"
+    If your parameter value was "Three Blind Mice"
+    How can you return just the word "Blind" 
     ```
     </Strong></details> 
     <details><summary>Click to see the answer</summary><Strong> 
     
     ```PowerShell
-    function CompareFirstLast {
-      param ([string[]]$TwoWords)
-      if ($TwoWords[0][0] -eq $TwoWords[1][-1]) {$Result = $true}
-      else {$Result = $false}
-      return $Result
+    function Find-MiddleWord {
+      Param ([string]$Sentence = 'Three Blind Mice' )
+      
+      $IndexMidWord = $Sentence.IndexOf(' ') + 1
+      $IndexEndMidWord = $Sentence.IndexOf(' ',$IndexMidWord)
+      $WordLength = $IndexEndMidWord - $IndexMidWord
+      $MiddleWord = $Sentence.Substring($IndexMidWord,$WordLength)
+      Return $MiddleWord
     }
+    Find-MiddleWord -Sentence "Three Blind Mice"
 
-    CompareFirstLast -TwoWords bill,lob
     ```
     </Strong></details> 
-    
 
     
 ## 2 Testing the use of Properties
@@ -158,6 +157,34 @@
     ConsonantsVowels -Word "Thisisastring"
     ```
     </Strong></details> 
+    
+- Q3.3 Create a function that takes two strings in an array and compares the first character of the first word with the last character of the second word if they are the same return $true in not return $false
+
+    <details><summary>Click for hint</summary><Strong> 
+
+    ``` 
+    Consider:
+    - How to get the first and last characters of two words
+    - How to compare string values
+    - When entering an array of strings for this function use this format 
+      - "FirstWord","SecondWord"   NOT "FirstWord,SecondWord"
+    ```
+    </Strong></details> 
+    <details><summary>Click to see the answer</summary><Strong> 
+    
+    ```PowerShell
+    function CompareFirstLast {
+      param ([string[]]$TwoWords)
+      if ($TwoWords[0][0] -eq $TwoWords[1][-1]) {$Result = $true}
+      else {$Result = $false}
+      return $Result
+    }
+
+    CompareFirstLast -TwoWords bill,lob
+    ```
+    </Strong></details> 
+    
+    
 
 ## 4 Testing Maniplulation of objects
 
@@ -213,6 +240,38 @@
 
   Get-WebFile
   Get-Content E:\words.txt
+  ```
+  </Strong></details> 
+  
+  - Q5.2 Create a function that uses the \[Math] class 
+    - Write a function that has two parameters that are [int] types 
+    - Have the function divide the first number by the second number
+    - Return the result rounded to two decimal places
+    - http://www.mieliestronk.com/wordlist.html/corncob_lowercase.txt 
+
+  <details><summary>Click for hint</summary><Strong> 
+
+  ``` 
+  Think about:
+  - How do you get help about .net classes
+  - What method in the object will help us achieve the desired outcome
+  ```
+  </Strong></details> 
+  <details><summary>Click to see the answer</summary><Strong> 
+  
+  ```PowerShell
+  function Divide {
+    Param (
+      [int]$Number1, 
+      [int]$Number2
+    )
+    
+    $Result = $Number1 / $Number2
+    $Rounded = [math]::Round($Result,2)
+    return $Rounded
+  }
+  
+  Divide -Number1 2341 -Number2 113  
   ```
   </Strong></details> 
 
