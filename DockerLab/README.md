@@ -103,4 +103,7 @@ Docker stop $ContainerID
 > Open a web browser and type the ipaddress of the container into the address bar <br>
 > The browser will **fail** to locate the web site now
 
+> If the same web site is still visible, close the web browser completely <br>
+> wait a few moments and then try again
+
 ## Congratulations you have successfully deployed a container!
