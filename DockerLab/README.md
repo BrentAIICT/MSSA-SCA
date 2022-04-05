@@ -93,7 +93,6 @@ docker inspect -f "{{ .NetworkSettings.Networks.nat.IPAddress }}" $ContainerID
 
 ## From LON-SVR1 - Stop the container 
 
-> when typing this next command remember to replace ContinerID with the 6 characters recorded earlier
 ```PowerShell
 Docker stop $ContainerID
 ```
