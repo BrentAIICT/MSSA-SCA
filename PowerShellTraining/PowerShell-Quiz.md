@@ -83,7 +83,7 @@
 
     ``` 
     Create a function that:
-    - takes your date of bith as a parameter
+    - takes your date of bith as a parameter, enter the date like this "15-Sep-1990"
     - convert the date string into a [datetime] object
     - calculate your age
     - convert age into days
