@@ -1,6 +1,6 @@
 ---
 lab:
-  title: 'Lab: Performing local system administration with PowerShell'
+  [title](): 'Lab: Performing local system administration with PowerShell'
   module: 'Module 2: Windows PowerShell for local systems administration'
 ---
 
