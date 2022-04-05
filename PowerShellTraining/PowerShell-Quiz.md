@@ -15,6 +15,8 @@
  
 # PowerShell Quiz
 
+  > Make sure all of these functions get saved in your GitHub Repository 
+
 ## 1 Testing the use of methods
 
 - Q1.1 Create a function that takes a string as a parameter and reverses the case, upper case changed to lower case and lower case changed to upper case
@@ -317,3 +319,5 @@
     Get-Help -Full Get-AgeInDays 
     ```
     </Strong></details>
+    
+- Q6.2 If you have finished each of these add comment based help to all of your functions created here    
