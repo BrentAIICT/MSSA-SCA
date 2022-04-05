@@ -56,7 +56,7 @@
     - How to get the first and last characters of two words
     - How to compare string values
     - When entering an array of strings for this function use this format 
-      - "FirstWord","SecondWord"   ***NOT "FirstWord,SecondWord"***
+      - "FirstWord","SecondWord"   NOT "FirstWord,SecondWord"
     ```
     </Strong></details> 
     <details><summary>Click to see the answer</summary><Strong> 
