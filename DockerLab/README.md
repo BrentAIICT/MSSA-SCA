@@ -41,6 +41,7 @@ Restart-Computer -Force
 
 ## From LON-SVR1 - Set the TLS version to be 1.2
 - You will need to log on to the LON-SVR1 machine after the restart
+- After logging in to the LON-SVR1, Set the TLS version to 1.2
 ```PowerShell
 # Set the TLS version used by the PowerShell client to TLS 1.2.
 [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.SecurityProtocolType]::Tls12;
@@ -53,7 +54,7 @@ Restart-Computer -Force
 ```PowerShell
 docker pull mcr.microsoft.com/windows/servercore/iis
 ```
-> This will probably take 10-15 minutes to complete
+> This will probably take 10-15 minutes to complete, this is a good time to take a quick break
 
 ## From LON-SVR1 - Querying your local docker image repository
 
@@ -68,8 +69,7 @@ docker images
 ```PowerShell
 $ContainerID = docker run -dit -p 80:80 mcr.microsoft.com/windows/servercore/iis
 ```
-
-> *Record the first six characters of the running container, called the container ID*
+  > Each Container has a unique ID, this ID is now stored in $ContainerID
 
 ## From LON-SVR1 - Check the container is running
 - Check to see if the container is running
@@ -79,7 +79,7 @@ docker ps
 
 ## From LON-SVR1 - Find the IP to access the container
 - This next command finds the NAT IP address that the docker container uses to alloe access to the container
-> when typing this next command remember to replace ContinerID with the 6 characters recorded earlier
+
 ```PowerShell
 docker inspect -f "{{ .NetworkSettings.Networks.nat.IPAddress }}" $ContainerID
 ```
@@ -93,7 +93,6 @@ docker inspect -f "{{ .NetworkSettings.Networks.nat.IPAddress }}" $ContainerID
 
 ## From LON-SVR1 - Stop the container 
 
-> when typing this next command remember to replace ContinerID with the 6 characters recorded earlier
 ```PowerShell
 Docker stop $ContainerID
 ```
@@ -103,5 +102,8 @@ Docker stop $ContainerID
 - This should no longer work as we have stopped the container from running
 > Open a web browser and type the ipaddress of the container into the address bar <br>
 > The browser will **fail** to locate the web site now
+
+> If the same web site is still visible, close the web browser completely <br>
+> wait a few moments and then try again
 
 ## Congratulations you have successfully deployed a container!

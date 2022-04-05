@@ -16,7 +16,7 @@
 [Microsoft Course Manuals (SkillPipe)](https://skillpipe.com)<br>
 [Microsoft Labs (LearnOnDemand)](https://ddls.learnondemand.net/)<br> 
 [Register for SkillPipe Manuals and LearnOnDemand Labs](Course-and-Manuals.md#course-setup)<br>
-[SSL primer](https://github.com/brentd09/Documents/blob/main/Encryption/SSL%20Explained.pdf)<br>
+
 
 ### Docker Lab
 [Docker Lab](DockerLab#readme)<br>
@@ -25,7 +25,7 @@
 
 [Git-GitHub Labs](GitTraining/0-GitTrainingMain.md#git--github--vscode-training)<br>
 
-### Networking Introduction
+### Networking & DNS Introduction 
 [Introduction to Networking](NetworkingIntro/Network%20Intro%20MSSA.pdf)<br>
 [Subnet Quiz](NetworkingIntro/SubnettingQuiz.md)<br>
 [DNS Intro](DNS/DNS%20Intro.pdf)<br>
@@ -38,10 +38,12 @@
 [Intermediate PowerShell Scripting Quiz](PowerShellTraining/PowerShell-Quiz.md#powershell-quiz)<br>
 [Advanced PowerShell Active Directory Projects](PowerShellTraining/PSADProjectHeading.MD#powershell-projects)<br>
 
-
 ### PowerShell Tools
 [Sample Administration How-To-Guides](https://docs.microsoft.com/en-us/powershell/scripting/samples/sample-scripts-for-administration?view=powershell-7.2)<br>
 [PowerShell Objects/Properties & Pipelines](PowerShellTraining/PSPipelineCarBoat.pdf)<br>
+
+### SSL / TLS Primer - This will help you understand how web security works
+[SSL primer](https://github.com/brentd09/Documents/blob/main/Encryption/SSL%20Explained.pdf)<br>
 
 ### Teams Meeting
 
