@@ -17,6 +17,8 @@
 
 #  Restore an accidently deleted AD user account from the recycle bin 
 
+  > Make sure all of these functions get saved in your GitHub Repository 
+
 ## Complete the following before starting this project
 
 ## Turn on the AD Recycle Bin
