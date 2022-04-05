@@ -69,8 +69,6 @@ docker images
 $ContainerID = docker run -dit -p 80:80 mcr.microsoft.com/windows/servercore/iis
 ```
 
-> *Record the first six characters of the running container, called the container ID*
-
 ## From LON-SVR1 - Check the container is running
 - Check to see if the container is running
 ```PowerShell
