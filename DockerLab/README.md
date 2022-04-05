@@ -78,7 +78,7 @@ docker ps
 
 ## From LON-SVR1 - Find the IP to access the container
 - This next command finds the NAT IP address that the docker container uses to alloe access to the container
-> when typing this next command remember to replace ContinerID with the 6 characters recorded earlier
+
 ```PowerShell
 docker inspect -f "{{ .NetworkSettings.Networks.nat.IPAddress }}" $ContainerID
 ```
