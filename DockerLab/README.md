@@ -71,7 +71,7 @@ docker images
 - With port 80 on the local machine mapped to port 80 in the container
 - Windows uses a NAT IP address to connect to the container
 ```PowerShell
-docker run -dit -p 80:80 mcr.microsoft.com/windows/servercore/iis
+$ContainerID = docker run -dit -p 80:80 mcr.microsoft.com/windows/servercore/iis
 ```
 
 > *Record the first six characters of the running container, called the container ID*
@@ -86,7 +86,7 @@ docker ps
 - This next command finds the NAT IP address that the docker container uses to alloe access to the container
 > when typing this next command remember to replace ContinerID with the 6 characters recorded earlier
 ```PowerShell
-docker inspect -f "{{ .NetworkSettings.Networks.nat.IPAddress }}" ContainerID
+docker inspect -f "{{ .NetworkSettings.Networks.nat.IPAddress }}" $ContainerID
 ```
 
 >*Take note of the IP Address of the container*
@@ -100,7 +100,7 @@ docker inspect -f "{{ .NetworkSettings.Networks.nat.IPAddress }}" ContainerID
 
 > when typing this next command remember to replace ContinerID with the 6 characters recorded earlier
 ```PowerShell
-Docker stop ContainerID
+Docker stop $ContainerID
 ```
 
 ## From LON-SRV1 - Try accessing the web site again
