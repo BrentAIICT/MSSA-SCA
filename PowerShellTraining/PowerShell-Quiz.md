@@ -49,29 +49,29 @@
 - Q1.2 Create a function that takes a three word sentence as a string parameter and only return th middle word
   - For this challenge use the methods .IndexOf() to find the location of the spaces and .Substring() to extract the middle word 
 
-    <details><summary>Click for hint</summary><Strong> 
+  <details><summary>Click for hint</summary><Strong> 
 
-    ``` 
-    If your parameter value was "Three Blind Mice"
-    How can you return just the word "Blind" 
-    ```
-    </Strong></details> 
-    <details><summary>Click to see the answer</summary><Strong> 
+  ``` 
+  If your parameter value was "Three Blind Mice"
+  How can you return just the word "Blind" 
+  ```
+  </Strong></details> 
+  <details><summary>Click to see the answer</summary><Strong> 
     
-    ```PowerShell
-    function Find-MiddleWord {
-      Param ([string]$Sentence = 'Three Blind Mice' )
+  ```PowerShell
+  function Find-MiddleWord {
+    Param ([string]$Sentence = 'Three Blind Mice' )
       
-      $IndexMidWord = $Sentence.IndexOf(' ') + 1
-      $IndexEndMidWord = $Sentence.IndexOf(' ',$IndexMidWord)
-      $WordLength = $IndexEndMidWord - $IndexMidWord
-      $MiddleWord = $Sentence.Substring($IndexMidWord,$WordLength)
-      Return $MiddleWord
-    }
-    Find-MiddleWord -Sentence "Three Blind Mice"
+    $IndexMidWord = $Sentence.IndexOf(' ') + 1
+    $IndexEndMidWord = $Sentence.IndexOf(' ',$IndexMidWord)
+    $WordLength = $IndexEndMidWord - $IndexMidWord
+    $MiddleWord = $Sentence.Substring($IndexMidWord,$WordLength)
+    Return $MiddleWord
+  }
+  Find-MiddleWord -Sentence "Three Blind Mice"
 
-    ```
-    </Strong></details> 
+  ```
+  </Strong></details> 
 
     
 ## 2 Testing the use of Properties
