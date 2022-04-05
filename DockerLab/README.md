@@ -69,6 +69,7 @@ docker images
 ```PowerShell
 $ContainerID = docker run -dit -p 80:80 mcr.microsoft.com/windows/servercore/iis
 ```
+  > Each Container has a unique ID, this ID is now stored in $ContainerID
 
 ## From LON-SVR1 - Check the container is running
 - Check to see if the container is running
