@@ -1,5 +1,3 @@
-
-
 ---
 lab:
   title: 'Lab: Performing local system administration with PowerShell'
