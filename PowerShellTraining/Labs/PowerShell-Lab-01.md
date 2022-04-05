@@ -386,4 +386,4 @@ The main task for this exercise is:
 
 After completing this exercise, you'll have demonstrated your ability to locate help content in **About** files.
 
-[Go to next lab](AZ-040-Lab-02.md#_)
+[Go to next lab](PowerShell-Lab-02.md#lab-performing-local-system-administration-with-powershell)
