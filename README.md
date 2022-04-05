@@ -25,7 +25,7 @@
 
 [Git-GitHub Labs](GitTraining/0-GitTrainingMain.md#git--github--vscode-training)<br>
 
-### Networking Introduction
+### Networking & DNS Introduction 
 [Introduction to Networking](NetworkingIntro/Network%20Intro%20MSSA.pdf)<br>
 [Subnet Quiz](NetworkingIntro/SubnettingQuiz.md)<br>
 [DNS Intro](DNS/DNS%20Intro.pdf)<br>
