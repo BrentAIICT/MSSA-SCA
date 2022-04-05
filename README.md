@@ -11,8 +11,6 @@
 [Azure Project 2](AzureProjects/AzureProject2.md#azure-role-based-access-project)<br>
 [Azure Project 3](AzureProjects/AzureProject3.md#azure-access-to-storage-account-via-a-service-endpoint)<br>
 
-
-
 ### Classroom Resources
 
 [Microsoft Course Manuals (SkillPipe)](https://skillpipe.com)<br>
@@ -20,21 +18,20 @@
 [Register for SkillPipe Manuals and LearnOnDemand Labs](Course-and-Manuals.md#course-setup)<br>
 [SSL primer](https://github.com/brentd09/Documents/blob/main/Encryption/SSL%20Explained.pdf)<br>
 
-### git/GitHub/VSCode Labs
+### Docker Lab
+[Docker Lab](DockerLab#readme)<br>
+
+### Git/GitHub/VSCode Labs
 
 [Git-GitHub Labs](GitTraining/0-GitTrainingMain.md#git--github--vscode-training)<br>
-
-
 
 ### Networking Introduction
 [Introduction to Networking](NetworkingIntro/Network%20Intro%20MSSA.pdf)<br>
 [Subnet Quiz](NetworkingIntro/SubnettingQuiz.md)<br>
 [DNS Intro](DNS/DNS%20Intro.pdf)<br>
 
-
 ### PowerShell Labs
 [PowerShell Labs Rewritten](PowerShellTraining/Labs)<br>
-
 
 ### PowerShell Projects
 [Basic PowerShell Scripting Quiz](PowerShellTraining/EarlyPowerShellQuiz.md#entry-level-powershell-quiz)<br>
@@ -44,10 +41,7 @@
 
 ### PowerShell Tools
 [Sample Administration How-To-Guides](https://docs.microsoft.com/en-us/powershell/scripting/samples/sample-scripts-for-administration?view=powershell-7.2)<br>
-[Docker Lab](DockerLab#readme)<br>
 [PowerShell Objects/Properties & Pipelines](PowerShellTraining/PSPipelineCarBoat.pdf)<br>
-
-
 
 ### Teams Meeting
 
