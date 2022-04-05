@@ -6,16 +6,11 @@
 - Answer **Y** to and prompts to proceed for any of these steps
 <br>
 <!--
-This lab was written with help from these sites
-
-https://docs.microsoft.com/en-us/virtualization/windowscontainers/quick-start/set-up-environment?tabs=Windows-Server#install-docker
-
-https://docs.microsoft.com/en-us/virtualization/windowscontainers/quick-start/set-up-environment?tabs=Windows-Server
-
-https://docs.microsoft.com/en-us/virtualization/windowscontainers/quick-start/run-your-first-container
-
-https://hub.docker.com/_/microsoft-windows-servercore-iis
-
+  This lab was written with help from these sites
+  https://docs.microsoft.com/en-us/virtualization/windowscontainers/quick-start/set-up-environment?tabs=Windows-Server#install-docker
+  https://docs.microsoft.com/en-us/virtualization/windowscontainers/quick-start/set-up-environment?tabs=Windows-Server
+  https://docs.microsoft.com/en-us/virtualization/windowscontainers/quick-start/run-your-first-container
+  https://hub.docker.com/_/microsoft-windows-servercore-iis
 -->
 
 ## From LON-SVR1 - Set the TLS version to be 1.2
