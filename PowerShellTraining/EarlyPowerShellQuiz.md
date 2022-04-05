@@ -15,6 +15,8 @@
 
 # Entry Level PowerShell Quiz
 
+  > Make sure all of these functions get saved in your GitHub Repository 
+
 ## 1 Using pipelines
 
 - Q1.1 Write a pipeline that displays all running services and show the following properties sorted by the StartType and then by Name
