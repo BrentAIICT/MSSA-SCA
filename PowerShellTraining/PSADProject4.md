@@ -49,9 +49,7 @@
     - Move the diabled account to the OU called "DisabledUsers"
     - Change the password to a random password with 1 number, 7 lowercase, 3 uppercase characters
     - Modify the Users "Info" attribute to include which OU the user was moved from
-      - User was moved from "OU=Sales,DC=Adatum,DC=com" on 6-4-2022 
-
-
+      - "CN=Brian Ferry,OU=Sales,DC=Adatum,DC=com was the original DN"  
 
 
 ## What must the PowerShell function achieve
