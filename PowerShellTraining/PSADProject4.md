@@ -58,9 +58,7 @@
 
 ## HINTS
 ```
-# You will need this command for the project, it lists all of the groups that an AD object is a member of
-
-Get-ADPrincipalGroupMembership 
+# Use your PowerShell skills to research what commands will be neded
 
 ```
 
@@ -69,9 +67,9 @@ Get-ADPrincipalGroupMembership
 - Check in the Disabled Users OU for the users
 - Try to login to one of the user accounts
 - Enable that account
-- Try again to login to one of the user accounts
+- Try again to login to that account using the default password "Pa55w.rd"
 
-  > All login attempts should fail
+  > All login attempts should fail!
    
 <!--
 
