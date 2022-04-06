@@ -2,7 +2,7 @@
 
 ## Project 1 - Creating users from a CSV file
 
-```
+```PowerShell
 function Add-NewUser {
   <#
   .SYNOPSIS
@@ -73,7 +73,7 @@ function Add-NewUser {
  
 ## Project 2 - Restoring deleted AD users from the AD recycle bin
 
-```
+```PowerShell
 function Restore-DeletedADObject {
   <#
   .SYNOPSIS
@@ -104,7 +104,7 @@ function Restore-DeletedADObject {
 
 ### This solution provides the basic solution
     
-```
+```PowerShell
 function Find-AssociatedGroupMembership {
   <#
   .SYNOPSIS
@@ -144,7 +144,7 @@ function Find-AssociatedGroupMembership {
 
 ### This solution provides a better solution
 
-```
+```PowerShell
 function Find-AssociatedGroupMembership {
   <#
   .SYNOPSIS
@@ -188,3 +188,64 @@ function Find-AssociatedGroupMembership {
     
 ```
 
+## Project 4 - Disable a list of users
+
+```PowerShell
+function Disable-ListedUsers {
+  <#
+  .SYNOPSIS
+    Disables users from a CSV list
+  .DESCRIPTION
+    Disables users from a CSV list, it also changes teach user password 
+    to a random one and lists in the Notes (info) the old DN and then
+    moves the user to the DisabledUsersOU
+  .EXAMPLE
+    Disable-ListedUsers -FileName E:\DisableList.csv
+    Disables users from this file, it also changes teach user password 
+    to a random one and lists in the Notes (info) the old DN and then
+    moves the user to the DisabledUsersOU
+  .PARAMETER FileName
+    This is the list of users to disable and needs to be in this format: 
+      "Name","Department"
+      "Demetrius Trudeau","Sales"
+      "Grigorijs Kaneps","Sales"
+      "Jackie Walsh","Sales"
+      "Malinda de Boer","Sales"
+      "Lucy Davey","Sales"
+  .NOTES
+    General notes
+  #>
+  Param ([string]$FileName)
+
+  function Build-RandomPassword {
+    $Letters = 'abcdefghijklmonpqrstuvwxyz'
+    $Number = '1','2','3','4','5','6','7','8','9','0' | Get-Random
+    $Lower = 1..7 | ForEach-Object {
+      $Index = 0..25 | Get-Random
+      $Letters[$Index]  
+    }
+    $Upper = 1..3 | ForEach-Object {
+      $Index = 0..25 | Get-Random
+      $Letters[$Index].ToString().ToUpper()  
+    }
+    $PasswordArray = $Lower + $Upper + $Number
+    $ShuffledArray = $PasswordArray | Sort-Object {Get-Random}
+    return ($ShuffledArray -join '')
+  }
+
+  $UsersToDisable = Import-Csv -Path $FileName
+  Foreach ($User in $UsersToDisable) {
+    $UserObj = Get-ADUser -Filter * -Properties Department | Where-Object {
+      $_.Department -eq $User.Department -and $_.Name -eq $User.Name 
+    }
+    $CurrentDN = $UserObj.DistinguishedName
+    $NewPassword = Build-RandomPassword | ConvertTo-SecureString -AsPlainText -Force
+    Set-ADUser -Identity $UserObj -Replace @{info = "$CurrentDN was the original DN"}
+    Set-ADAccountPassword -Identity $UserObj -Reset -NewPassword $NewPassword 
+    Disable-ADAccount -Identity $UserObj
+    Move-ADObject -Identity $UserObj -TargetPath "OU=DisabledUsers,DC=Adatum,DC=com"
+  }
+}
+
+Disable-ListedUsers -FileName E:\DisableList.csv
+```
