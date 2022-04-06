@@ -23,8 +23,13 @@
 
 
   ```PowerShell
-  $SalsesUsers = Get-ADUser -filter {Department -eq Sales}
+  $SalesUsers = Get-ADUser -filter {Department -eq 'Sales'} -Properties Department
+  $ADDisabledOU = New-ADOrganizationalUnit -Path 'DC=adatum,DC=com' -Name DisabledUsers 
   $UsersToDisable = $SalesUsers | Get-Random -Count 5
+  $UsersToDisable | 
+     Select-Object -Property Name, Department | 
+     ConvertTo-Csv -NoTypeInformation |
+     Out-File e:\DisableList.csv
 
   ```
 
@@ -38,21 +43,20 @@
 
 - Create a PowerShell function within **PowerShell ISE** or **VSCode**
   - Include Comment Based Help
-  - use a parameter for the SamAccountName of the user, 
-    - make sure the parameter has a default value of "Jasper"
-  - Save the function in the same module you created for Project 1 
-  - Test the new PowerShell command you have created
+  - Use the E:\DisableList.csv to find and diable the users in the list
+  - When disabling the users do all of the following:
+    - Disable the Account
+    - Move the diabled account to the OU called "DisabledUsers"
+    - Change the password to a random password with 1 number, 7 lowercase, 3 uppercase characters
+    - Modify the Users "Info" attribute to include which OU the user was moved from
+      - User was moved from "OU=Sales,DC=Adatum,DC=com" on 6-4-2022 
 
 
 
 
 ## What must the PowerShell function achieve
 
-- Given a user's SamAccountName, list all their related groups (immediate and nested groups)<br>
-  *Nested Groups are groups placed inside other groups* 
-  - Find all of the groups that the **user is a member of**
-  - For **each of these groups**, **find all the groups they are members of** , and **repeat this** until you have found all of the nested groups.
-  - **Display the Name and Scope** of each group on screen[...](PSADProjectSolutions.md#solutions-for-the-ps-projects)
+- Disable and move users that are to be disabled so they cannot be accidently accessed
 
 ## HINTS
 ```
@@ -64,8 +68,13 @@ Get-ADPrincipalGroupMembership
 
 ## Test the results by running your function:
    
-- Run your new function with the SamAccountName of **"Jasper"** and then **"Ada"**
+- Check in the Disabled Users OU for the users
+- Try to login to one of the user accounts
+- Enable that account
+- Try again to login to one of the user accounts
 
+  > All login attempts should fail
+   
 <!--
 
 
