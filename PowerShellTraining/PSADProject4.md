@@ -45,12 +45,11 @@
   - Include Comment Based Help
   - Use the E:\DisableList.csv to find and diable the users in the list
   - When disabling the users do all of the following:
-    - Disable the Account
-    - Move the diabled account to the OU called "DisabledUsers"
-    - Change the password to a random password with 1 number, 7 lowercase, 3 uppercase characters
     - Modify the Users "Info" attribute to include the original DN of the user
       - "CN=Brian Ferry,OU=Sales,DC=Adatum,DC=com was the original DN"  
-
+    - Disable the Account
+    - Change the password to a random password with 1 number, 7 lowercase, 3 uppercase characters
+    - Move the diabled account to the OU called "DisabledUsers"
 
 ## What must the PowerShell function achieve
 
