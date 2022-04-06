@@ -24,13 +24,13 @@
 
   ```PowerShell
   $SalesUsers = Get-ADUser -filter {Department -eq 'Sales'} -Properties Department
-  $ADDisabledOU = New-ADOrganizationalUnit -Path 'DC=adatum,DC=com' -Name DisabledUsers 
+  $ADDisabledOU = if (-not (Test-Path 'AD:\OU=DisabledUsers,DC=Adatum,DC=com')) {New-ADOrganizationalUnit   -Path 'DC=adatum,DC=com' -Name DisabledUsers} 
   $UsersToDisable = $SalesUsers | Get-Random -Count 5
   $UsersToDisable | 
      Select-Object -Property Name, Department | 
      ConvertTo-Csv -NoTypeInformation |
-     Out-File e:\DisableList.csv
-
+     Out-File e:\DisableList.csv -Force
+  
   ```
 
 <br>
