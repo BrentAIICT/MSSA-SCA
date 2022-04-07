@@ -61,7 +61,7 @@
 
 ```
 
-## Test the results by running your function:
+## Test the results by doing the following, after running your function:
    
 - Check in the Disabled Users OU for the users
 - Try to login to one of the user accounts
