@@ -53,7 +53,7 @@
 
 ## What must the PowerShell function achieve
 
-- Disable and move users that are to be disabled so they cannot be accidently accessed
+- Disable and move users that are to be disabled so they cannot be accidently accessed[...](PSADProjectSolutions.md#solutions-for-the-ps-projects)
 
 ## HINTS
 ```
