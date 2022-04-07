@@ -1,4 +1,4 @@
-# MSSA SCA Course Schdule
+# Cohort 1 - MSSA SCA Course Schdule
 
 Date|Day|Week|Course|Title|Modules|Labs|Instructor|Course Survey
 ---|---|---|---|---|---|---|---|--
