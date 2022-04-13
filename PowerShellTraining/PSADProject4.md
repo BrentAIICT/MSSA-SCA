@@ -45,35 +45,30 @@
   - Include Comment Based Help
   - Use the E:\DisableList.csv to find and diable the users in the list
   - When disabling the users do all of the following:
+    - Modify the Users "Info" attribute to include the original DN of the user
+      - "CN=Brian Ferry,OU=Sales,DC=Adatum,DC=com was the original DN"  
     - Disable the Account
-    - Move the diabled account to the OU called "DisabledUsers"
     - Change the password to a random password with 1 number, 7 lowercase, 3 uppercase characters
-    - Modify the Users "Info" attribute to include which OU the user was moved from
-      - User was moved from "OU=Sales,DC=Adatum,DC=com" on 6-4-2022 
-
-
-
+    - Move the diabled account to the OU called "DisabledUsers"
 
 ## What must the PowerShell function achieve
 
-- Disable and move users that are to be disabled so they cannot be accidently accessed
+- Disable and move users that are to be disabled so they cannot be accidently accessed[...](PSADProjectSolutions.md#solutions-for-the-ps-projects)
 
 ## HINTS
 ```
-# You will need this command for the project, it lists all of the groups that an AD object is a member of
-
-Get-ADPrincipalGroupMembership 
+# Use your PowerShell skills to research what commands will be neded
 
 ```
 
-## Test the results by running your function:
+## Test the results by doing the following, after running your function:
    
 - Check in the Disabled Users OU for the users
 - Try to login to one of the user accounts
 - Enable that account
-- Try again to login to one of the user accounts
+- Try again to login to that account using the default password "Pa55w.rd"
 
-  > All login attempts should fail
+  > All login attempts should fail!
    
 <!--
 
@@ -143,4 +138,4 @@ function Find-AssociatedGroupMembership {
 [Go to Project 1](PSADProject1.md#create-new-users-in-active-directory-from-a-csv-file)<br>
 [Go to Project 2](PSADProject2.md#restore-an-accidently-deleted-ad-user-account-from-the-recycle-bin)<br>
 [Go to Project 3](PSADProject3.md#find-all-direct-and-indirect-groups-an-ad-user-is-a-member-of)<br>
-
+[Go to Project 4](PSADProject4.md#disable-ad-users)<br>
