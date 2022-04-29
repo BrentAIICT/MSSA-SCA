@@ -87,4 +87,5 @@ Date|Day|Week|Course|Title|Modules|Labs|Instructor|Course Survey
 27Sep|Tue|17|Custom|[Linux Administration Fundamentals]()|---|[Labs]()|David Van Gemert |---
 28Sep|Wed|17|Custom|[Linux Administration Fundamentals]()|---|[Labs]()|David Van Gemert |---
 29Sep|Thu|17|Custom|[Linux Administration Fundamentals]()|---|[Labs]()|David Van Gemert |[Survey]()
-**30Sep**|**Fri**|**17**|**Graduation**|**---**|**---**|**---**|**---**|**---**
+**30Sep**|**Fri**|**17**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|**---**
+**TBA**|**TBA**|**18**|**Graduation**|**---**|**---**|**---**|**---**|**---**
