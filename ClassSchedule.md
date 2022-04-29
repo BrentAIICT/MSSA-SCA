@@ -83,8 +83,8 @@ Date|Day|Week|Course|Title|Modules|Labs|Instructor|Course Survey
 21Sep|Wed|16|Review|Re-run labs/Finish challenges|---|[Labs](https://ddls.learnondemand.net/)|Lewis Knight|---
 22Sep|Thu|16|Review|Re-run labs/Finish challenges|---|[Labs](https://ddls.learnondemand.net/)|Lewis Knight|---
 **23Sep**|**Fri**|**16**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|**---**
-24Sep|Mon|17|Q&A/Custom|[Linux Administration Fundamentals]()|---|[Labs]()|David Van Gemert |---
-25Sep|Tue|17|Custom|[Linux Administration Fundamentals]()|---|[Labs]()|David Van Gemert |---
-26Sep|Wed|17|Custom|[Linux Administration Fundamentals]()|---|[Labs]()|David Van Gemert |---
-27Sep|Thu|17|Custom|[Linux Administration Fundamentals]()|---|[Labs]()|David Van Gemert |[Survey]()
-**TBA**|**TBA**|**TBA**|**Graduation**|**---**|**---**|**---**|**---**|**---**
+26Sep|Mon|17|Q&A/Custom|[Linux Administration Fundamentals]()|---|[Labs]()|David Van Gemert |---
+27Sep|Tue|17|Custom|[Linux Administration Fundamentals]()|---|[Labs]()|David Van Gemert |---
+28Sep|Wed|17|Custom|[Linux Administration Fundamentals]()|---|[Labs]()|David Van Gemert |---
+29Sep|Thu|17|Custom|[Linux Administration Fundamentals]()|---|[Labs]()|David Van Gemert |[Survey]()
+**30Sep**|**Fri**|**17**|**Graduation**|**---**|**---**|**---**|**---**|**---**
