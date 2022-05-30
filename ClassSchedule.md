@@ -9,14 +9,14 @@ Date|Day|Week|Course|Title|Modules|Labs|Instructor|Course Survey
 09Jun|Thu|1|AZ-040|[Automating Administration with Windows PowerShell](https://skillpipe.com)|3|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
 **10Jun**|**Fri**|**1**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|**---**
 *###-13Jun*|Mon|2|Holiday|(AU) Queens Birthday|###|###|###|###
-14Jun|Tue|2|Q&A/20-740|[Installation, Storage and Compute with Windows Server 2016](https://skillpipe.com)|1,2|[Labs](https://ddls.learnondemand.net/)|Lewis Knight|---
-15Jun|Wed|2|20-740|[Installation, Storage and Compute with Windows Server 2016](https://skillpipe.com)|3,4|[Labs](https://ddls.learnondemand.net/)|Lewis Knight|---
-16Jun|Thu|2|20-740|[Installation, Storage and Compute with Windows Server 2016](https://skillpipe.com)|4,5|[Labs](https://ddls.learnondemand.net/)|Lewis Knight|---
+14Jun|Tue|2|Q&A/20-740|[Installation, Storage and Compute with Windows Server 2016](https://www.studyspot.com.au/login/index.php)|1,2|[Labs](https://ddls.learnondemand.net/)|Lewis Knight|---
+15Jun|Wed|2|20-740|[Installation, Storage and Compute with Windows Server 2016](https://www.studyspot.com.au/login/index.php)|3,4|[Labs](https://ddls.learnondemand.net/)|Lewis Knight|---
+16Jun|Thu|2|20-740|[Installation, Storage and Compute with Windows Server 2016](https://www.studyspot.com.au/login/index.php)|4,5|[Labs](https://ddls.learnondemand.net/)|Lewis Knight|---
 **17Jun**|**Fri**|**2**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|**---**
-20Jun|Mon|3|Q&A/20-740|[Installation, Storage and Compute with Windows Server 2016](https://skillpipe.com)|6,7|[Labs](https://ddls.learnondemand.net/)|Lewis Knight|---
-21Jun|Tue|3|20-740|[Installation, Storage and Compute with Windows Server 2016](https://skillpipe.com)|8,9|[Labs](https://ddls.learnondemand.net/)|Lewis Knight|---
-22Jun|Wed|3|20-740|[Installation, Storage and Compute with Windows Server 2016](https://skillpipe.com)|10,11|[Labs](https://ddls.learnondemand.net/)|Lewis Knight|---
-23Jun|Thu|3|20-740|[Installation, Storage and Compute with Windows Server 2016](https://skillpipe.com)|11,12|[Labs](https://ddls.learnondemand.net/)|Lewis Knight|[Survey](https://www.metricsthatmatter.com/url/u.aspx?FD20C0864183907068)
+20Jun|Mon|3|Q&A/20-740|[Installation, Storage and Compute with Windows Server 2016](https://www.studyspot.com.au/login/index.php)|6,7|[Labs](https://ddls.learnondemand.net/)|Lewis Knight|---
+21Jun|Tue|3|20-740|[Installation, Storage and Compute with Windows Server 2016](https://www.studyspot.com.au/login/index.php)|8,9|[Labs](https://ddls.learnondemand.net/)|Lewis Knight|---
+22Jun|Wed|3|20-740|[Installation, Storage and Compute with Windows Server 2016](https://www.studyspot.com.au/login/index.php)|10,11|[Labs](https://ddls.learnondemand.net/)|Lewis Knight|---
+23Jun|Thu|3|20-740|[Installation, Storage and Compute with Windows Server 2016](https://www.studyspot.com.au/login/index.php)|11,12|[Labs](https://ddls.learnondemand.net/)|Lewis Knight|[Survey](https://www.metricsthatmatter.com/url/u.aspx?FD20C0864183907068)
 **24Jun**|**Fri**|**3**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|**---**
 27Jun|Mon|4|Q&A/Custom|[Introduction to Networking](https://skillpipe.com)|---|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
 28Jun|Tue|4|AZ-040|[Automating Administration with Windows PowerShell](https://skillpipe.com)|4,5|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
@@ -24,34 +24,34 @@ Date|Day|Week|Course|Title|Modules|Labs|Instructor|Course Survey
 30Jun|Thu|4|AZ-040|[***PowerShell Quiz***](https://github.com/BrentAIICT/MSSA-SCA/blob/main/PowerShellTraining/EarlyPowerShellQuiz.md#entry-level-powershell-quiz)|---|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
 **01Jul**|**Fri**|**4**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|**---**
 *###-04Jul*|Mon|5|Holiday|(USA) Independence Day|###|###|###|###
-05Jul|Tue|5|Q&A/20-741|[Networking with Windows Server 2016](https://skillpipe.com)|1,2|[Labs](https://ddls.learnondemand.net/)|Lewis Knight|---
-06Jul|Wed|5|20-741|[Networking with Windows Server 2016](https://skillpipe.com)|3,4|[Labs](https://ddls.learnondemand.net/)|Lewis Knight|---
-07Jul|Thu|5|20-741|[Networking with Windows Server 2016](https://skillpipe.com)|4|[Labs](https://ddls.learnondemand.net/)|Lewis Knight|---
+05Jul|Tue|5|Q&A/20-741|[Networking with Windows Server 2016](https://www.studyspot.com.au/login/index.php)|1,2|[Labs](https://ddls.learnondemand.net/)|Lewis Knight|---
+06Jul|Wed|5|20-741|[Networking with Windows Server 2016](https://www.studyspot.com.au/login/index.php)|3,4|[Labs](https://ddls.learnondemand.net/)|Lewis Knight|---
+07Jul|Thu|5|20-741|[Networking with Windows Server 2016](https://www.studyspot.com.au/login/index.php)|4|[Labs](https://ddls.learnondemand.net/)|Lewis Knight|---
 **08Jul**|**Fri**|**5**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|**---**
 11Jul|Mon|6|Q&A/20-741|[Networking with Windows Server 2016](https://skillpipe.com)|5,6|[Labs](https://ddls.learnondemand.net/)|Lewis Knight|---
-12Jul|Tue|6|20-741|[Networking with Windows Server 2016](https://skillpipe.com)|7,8|[Labs](https://ddls.learnondemand.net/)|Lewis Knight|---
-13Jul|Wed|6|20-741|[Networking with Windows Server 2016](https://skillpipe.com)|8,9|[Labs](https://ddls.learnondemand.net/)|Lewis Knight|---
-14Jul|Thu|6|20-741|[Networking with Windows Server 2016](https://skillpipe.com)|10,11|[Labs](https://ddls.learnondemand.net/)|Lewis Knight|[Survey]( https://www.metricsthatmatter.com/url/u.aspx?D5916F73C183907074)
+12Jul|Tue|6|20-741|[Networking with Windows Server 2016](https://www.studyspot.com.au/login/index.php)|7,8|[Labs](https://ddls.learnondemand.net/)|Lewis Knight|---
+13Jul|Wed|6|20-741|[Networking with Windows Server 2016](https://www.studyspot.com.au/login/index.php)|8,9|[Labs](https://ddls.learnondemand.net/)|Lewis Knight|---
+14Jul|Thu|6|20-741|[Networking with Windows Server 2016](https://www.studyspot.com.au/login/index.php)|10,11|[Labs](https://ddls.learnondemand.net/)|Lewis Knight|[Survey]( https://www.metricsthatmatter.com/url/u.aspx?D5916F73C183907074)
 **15Jul**|**Fri**|**6**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|**---**
 18Jul|Mon|7|Q&A/AZ-040|[Automating Administration with Windows PowerShell](https://skillpipe.com)|7|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
 19Jul|Tue|7|AZ-040|[***PowerShell Scripting Workshop***](https://github.com/BrentAIICT/MSSA-SCA/blob/main/PowerShellTraining/PowerShell-Quiz.md#powershell-quiz)|---|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
 20Jul|Wed|7|AZ-040|[Automating Administration with Windows PowerShell](https://skillpipe.com)|8|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
 21Jul|Thu|7|AZ-040|[Automating Administration with Windows PowerShell](https://skillpipe.com)|9,10|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
 **22Jul**|**Fri**|**7**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|**---**
-25Jul|Mon|8|Q&A/20-742|[Identity with Windows Server 2016](https://skillpipe.com)|1|[Labs](https://ddls.learnondemand.net/)|Lewis Knight|---
-26Jul|Tue|8|20-742|[Identity with Windows Server 2016](https://skillpipe.com)|2|[Labs](https://ddls.learnondemand.net/)|Lewis Knight|---
-27Jul|Wed|8|20-742|[Identity with Windows Server 2016](https://skillpipe.com)|3,4|[Labs](https://ddls.learnondemand.net/)|Lewis Knight|---
-28Jul|Thu|8|20-742|[Identity with Windows Server 2016](https://skillpipe.com)|5,6|[Labs](https://ddls.learnondemand.net/)|Lewis Knight|---
+25Jul|Mon|8|Q&A/20-742|[Identity with Windows Server 2016](https://www.studyspot.com.au/login/index.php)|1|[Labs](https://ddls.learnondemand.net/)|Lewis Knight|---
+26Jul|Tue|8|20-742|[Identity with Windows Server 2016](https://www.studyspot.com.au/login/index.php)|2|[Labs](https://ddls.learnondemand.net/)|Lewis Knight|---
+27Jul|Wed|8|20-742|[Identity with Windows Server 2016](https://www.studyspot.com.au/login/index.php)|3,4|[Labs](https://ddls.learnondemand.net/)|Lewis Knight|---
+28Jul|Thu|8|20-742|[Identity with Windows Server 2016](https://www.studyspot.com.au/login/index.php)|5,6|[Labs](https://ddls.learnondemand.net/)|Lewis Knight|---
 **29Jul**|**Fri**|**8**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|**---**
 **01Aug**|**Mon**|**9**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|**---**
 **02Aug**|**Tue**|**9**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|**---**
 **03Aug**|**Wed**|**9**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|**---**
 **04Aug**|**Thu**|**9**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|**---**
 **05Aug**|**Fri**|**9**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|**---**
-08Aug|Mon|10|Q&A/20-742|[Identity with Windows Server 2016](https://skillpipe.com)|7|[Labs](https://ddls.learnondemand.net/)|Lewis Knight|---
-09Aug|Tue|10|20-742|[Identity with Windows Server 2016](https://skillpipe.com)|8,9|[Labs](https://ddls.learnondemand.net/)|Lewis Knight|---
-10Aug|Wed|10|20-742|[Identity with Windows Server 2016](https://skillpipe.com)|10,11|[Labs](https://ddls.learnondemand.net/)|Lewis Knight|---
-11Aug|Thu|10|20-742|[Identity with Windows Server 2016](https://skillpipe.com)|12,13|[Labs](https://ddls.learnondemand.net/)|Lewis Knight|[Survey]( https://www.metricsthatmatter.com/url/u.aspx?4E1E01420183907082)
+08Aug|Mon|10|Q&A/20-742|[Identity with Windows Server 2016](https://www.studyspot.com.au/login/index.php)|7|[Labs](https://ddls.learnondemand.net/)|Lewis Knight|---
+09Aug|Tue|10|20-742|[Identity with Windows Server 2016](https://www.studyspot.com.au/login/index.php)|8,9|[Labs](https://ddls.learnondemand.net/)|Lewis Knight|---
+10Aug|Wed|10|20-742|[Identity with Windows Server 2016](https://www.studyspot.com.au/login/index.php)|10,11|[Labs](https://ddls.learnondemand.net/)|Lewis Knight|---
+11Aug|Thu|10|20-742|[Identity with Windows Server 2016](https://www.studyspot.com.au/login/index.php)|12,13|[Labs](https://ddls.learnondemand.net/)|Lewis Knight|[Survey]( https://www.metricsthatmatter.com/url/u.aspx?4E1E01420183907082)
 **12Aug**|**Fri**|**10**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|**---**
 15Aug|Mon|11|Q&A/AZ-900|[Azure Fundamentals](https://skillpipe.com)|1,2|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|---
 16Aug|Tue|11|AZ-900|[Azure Fundamentals](https://skillpipe.com)|2,3|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|---
