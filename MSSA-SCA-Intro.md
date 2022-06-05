@@ -15,7 +15,7 @@
 - **Mics off** unless you have something to say (asking / answering questions, group discussions, etc.)
 
 
-## Please Talk about each of these aspects of your life
+## Please talk about each of these aspects of your life
 
 - How do we pronounce your name correctly - Do you prefer another name or shortened name?
 - What experience have you gained while in the Defence Force?
