@@ -244,7 +244,7 @@ Remember that the bits you are subtracting must:
 - Hosts per subnet: 6
 
 ## Please create for the client:
-- Display the six subnets ranges showing the following for each subnet:
+- Display the first six subnets ranges showing the following for each subnet:
   - Subnet address
   - Usable addresses
   - Broadcast address
