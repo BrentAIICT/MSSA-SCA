@@ -18,7 +18,7 @@ Date|Day|Week|Course|Title|Modules|Labs|Instructor|Course Survey
 22Jun|Wed|3|20-740|[Installation, Storage and Compute with Windows Server 2016](https://www.studyspot.com.au/login/index.php)|10,11|[Labs](https://ddls.learnondemand.net/)|Lewis Knight|---
 23Jun|Thu|3|20-740|[Installation, Storage and Compute with Windows Server 2016](https://www.studyspot.com.au/login/index.php)|11,12|[Labs](https://ddls.learnondemand.net/)|Lewis Knight|[Survey](https://www.metricsthatmatter.com/url/u.aspx?FD20C0864183907068)
 **24Jun**|**Fri**|**3**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|**---**
-27Jun|Mon|4|Q&A/Custom|[Introduction to Networking](https://skillpipe.com)|---|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
+27Jun|Mon|4|Q&A/Custom|[Introduction to Networking](https://skillpipe.com)|---|[Labs]([https://ddls.learnondemand.net/](https://github.com/BrentAIICT/MSSA-SCA/blob/main/NetworkingIntro/SubnettingQuiz.md))|Brent Denny|---
 28Jun|Tue|4|AZ-040|[Automating Administration with Windows PowerShell](https://skillpipe.com)|4,5|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
 29Jun|Wed|4|AZ-040|[Automating Administration with Windows PowerShell](https://skillpipe.com)|5,6|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
 30Jun|Thu|4|AZ-040|[***PowerShell Quiz***](https://github.com/BrentAIICT/MSSA-SCA/blob/main/PowerShellTraining/EarlyPowerShellQuiz.md#entry-level-powershell-quiz)|---|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
