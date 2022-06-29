@@ -243,7 +243,7 @@
     ```
     </Strong></details>   
  
-  - Q3.3 What Properties are available in the Object produced by this cmdlet  
+  - Q3.3 What methods are available in the Object produced by this cmdlet  
     
     <details><summary>Click for hint</summary><Strong> 
 
