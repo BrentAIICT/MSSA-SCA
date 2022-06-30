@@ -391,7 +391,7 @@
     - List all Active Directory Users that are in the Sales Department, that live in London
     - Store these user objects in a variable of your choice
     - Change all of their passwords to a different random password per user
-    - store the usename and password of each user in a file called NewPasswords.txt
+    - store the usename and newly created password of each user in a file called NewPasswords.txt
     
     <details><summary>Click for hint</summary><Strong> 
 
