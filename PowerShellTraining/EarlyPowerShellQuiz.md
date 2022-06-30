@@ -384,3 +384,25 @@
     </Strong></details>   
  
 
+  - BONUS QUIZ
+    - List all Active Directory Users that are in the Sales Department, that live in London
+    - Store these user objects in a variable of your choice
+    - Change all of their passwords to a different random password per user
+    - store the usename and password of each user in a file called NewPasswords.txt
+    <details><summary>Click for hint</summary><Strong> 
+
+    ```
+    Find out how to create a random password that contains upper and lower case letters and numbers and a special character
+    Read the help for Set-ADUser    
+        
+    ```
+    </Strong></details> 
+    <details><summary>Click to see the answer</summary><Strong> 
+    
+    ```
+   
+        
+    ```
+    </Strong></details>           
+        
+        
