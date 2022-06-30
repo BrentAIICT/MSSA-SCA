@@ -385,6 +385,7 @@
  
 
 ## BONUS QUIZ
+        
     - List all Active Directory Users that are in the Sales Department, that live in London
     - Store these user objects in a variable of your choice
     - Change all of their passwords to a different random password per user
