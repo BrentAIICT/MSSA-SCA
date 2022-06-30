@@ -397,7 +397,7 @@
 
     ```
     Find out how to create a random password that contains upper and lower case letters and numbers and a special character
-    Read the help for Set-ADUser    
+    Read the help for Set-ADAccountPassword
         
     ```
     </Strong></details> 
