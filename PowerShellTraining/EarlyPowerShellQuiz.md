@@ -385,7 +385,9 @@
  
 
 ## BONUS QUIZ
+### There has been a security breach in London among the sales department, your job is to reset all of the Londaon, Sales employees' passwords
         
+- Active Directory Changes        
     - List all Active Directory Users that are in the Sales Department, that live in London
     - Store these user objects in a variable of your choice
     - Change all of their passwords to a different random password per user
