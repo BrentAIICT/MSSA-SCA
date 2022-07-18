@@ -249,7 +249,7 @@
   - Write a function that has two parameters that are [int] types 
   - Have the function divide the first number by the second number
   - Return the result rounded to two decimal places
-  - http://www.mieliestronk.com/wordlist.html/corncob_lowercase.txt 
+  - 
 
   <details><summary>Click for hint</summary><Strong> 
 
