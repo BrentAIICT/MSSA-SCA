@@ -236,7 +236,8 @@
   ```PowerShell
   function Get-WebFile {
     Param ([string]$URL = 'http://www.mieliestronk.com/corncob_lowercase.txt')
-    $WebClient = [System.Net.WebClient]::DownloadFile($URL,'E:\words.txt')
+    $WebClient = [System.Net.WebClient]::New()
+    $WebClient.DownloadFile($URL,'E:\words.txt')
   }
 
   Get-WebFile
