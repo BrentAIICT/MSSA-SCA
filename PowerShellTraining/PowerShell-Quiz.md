@@ -321,4 +321,4 @@
     ```
     </Strong></details>
     
-- Q6.2 If you have finished each of these add comment based help to all of your functions created here    
+- Q6.2 If you have finished each of these add comment based help to all of your previos functions created in this quiz    
