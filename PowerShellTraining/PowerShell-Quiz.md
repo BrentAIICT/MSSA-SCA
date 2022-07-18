@@ -285,7 +285,8 @@
 
     ``` 
     To understand how to build Comment Based Help run the following command:
-    Get-Help About_Comment_Based_Help and read the help page to help you learn how to produce the help content
+      Get-Help About_Comment_Based_Help 
+    read the help page to help you learn how to produce the help content
     Make sure the Help content that you build has the following sections filled in:
     - Synopsis 
     - Description 
