@@ -48,7 +48,7 @@
     ```
     </Strong></details> 
 
-- Q1.2 Create a function that takes a three word sentence as a string parameter and only return th middle word
+- Q1.2 Create a function that takes a three word sentence as a string parameter and only return th middle word <br>
   For this challenge use the methods .IndexOf() to find the location of the spaces and .Substring() to extract the middle word 
 
   <details><summary>Click for hint</summary><Strong> 
