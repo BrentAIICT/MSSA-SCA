@@ -332,7 +332,7 @@
 
 ## 7 Create Modules
 
-- Q7.1 Using the function you built for exercise 2, create a module that contains the three functions <br>
+- Q7.1 Using the function you built for exercise 3, create a module that contains the three functions <br>
        Save the module into one of the special locations that will allow the Module to auto load when a function within it is executed
 
     <details><summary>Click for hint</summary><Strong> 
