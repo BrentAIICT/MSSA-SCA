@@ -106,7 +106,8 @@
 
 ## 3 Testing your ability to use arrays
 
-- Q3.1 Write a function that will take an array of integers and will return the value of the smallest and largest added together
+- Q3.1 Write a function that will take an array of integers and will return the value of the smallest and largest added together <br>
+       Keep these functions as you will need then for later exercises.
 
     <details><summary>Click for hint</summary><Strong> 
 
@@ -277,9 +278,10 @@
   ```
   </Strong></details> 
 
+
 ## 6 Using Comment Based Help
 
-- Q6.1 Using the function you built for exercise 2.1, build "Comment Based Help" to show others how to use your function
+- Q6.1 Using the functions you built for exercise 3, build "Comment Based Help" to show others how to use your function
 
     <details><summary>Click for hint</summary><Strong> 
 
@@ -292,6 +294,53 @@
     - Description 
     - Parameter 
     - Example
+    ```
+    </Strong></details> 
+    <details><summary>Click to see the answer</summary><Strong> 
+    
+    ```PowerShell
+
+    function Get-Smallest {
+      Param ([int[]]$IntArray)
+      $SortedArray = $IntArray | Sort-Object 
+      return ($SortedArray[0] + $SortedArray[-1])
+    }
+    
+    function ConsonantsVowels {
+      Param ([string]$Word)
+      $Consonants = 0
+      $Vowels = 0
+      $ConList = 'b','c','d','f','g','h','j','k','l','m','n','p','q','r','s','t','v','w','x','y','z'
+      $VowList = 'a','e','i','o','u'
+      $Word.ToCharArray() | ForEach-Object {
+        if ($_ -in $VowList) {$Vowels++}
+        elseif ($_ -in $ConList) {$Consonants++} 
+      }
+      return "Consonants = $Consonants, Vowels = $Vowels"
+    }
+    
+    function CompareFirstLast {
+      param ([string[]]$TwoWords)
+      if ($TwoWords[0][0] -eq $TwoWords[1][-1]) {$Result = $true}
+      else {$Result = $false}
+      return $Result
+    }
+
+    ```
+    </Strong></details>
+    
+
+## 7 Create Modules
+
+- Q7.1 Using the function you built for exercise 2, create a module that contains the three functions <br>
+       Save the module into one of the special locations that will allow the Module to auto load when a function within it is executed
+
+    <details><summary>Click for hint</summary><Strong> 
+
+    ``` 
+    A PowerShell module is just a collection of functions in a library file called a Module and has the extension .psm1
+    Remember not to call a function when it is in a Module file
+    You can have your functions automatically load if they are saved in the correct location    
     ```
     </Strong></details> 
     <details><summary>Click to see the answer</summary><Strong> 
@@ -320,5 +369,5 @@
     Get-Help -Full Get-AgeInDays 
     ```
     </Strong></details>
-    
-- Q6.2 If you have finished each of these add comment based help to all of your previos functions created in this quiz    
+
+        
