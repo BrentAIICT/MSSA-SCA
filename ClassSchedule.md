@@ -36,7 +36,7 @@ Date|Day|Week|Course|Title|Modules|Labs|Instructor|Course Survey
 18Jul|Mon|7|Q&A/AZ-040|[Automating Administration with Windows PowerShell](https://skillpipe.com)|7|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
 19Jul|Tue|7|AZ-040|[***PowerShell Scripting Workshop***](https://github.com/BrentAIICT/MSSA-SCA/blob/main/PowerShellTraining/PowerShell-Quiz.md#powershell-quiz)|---|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
 20Jul|Wed|7|AZ-040|[Automating Administration with Windows PowerShell](https://skillpipe.com)|8|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
-21Jul|Thu|7|AZ-040|[Automating Administration with Windows PowerShell](https://skillpipe.com)|9,10|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
+21Jul|Thu|7|AZ-040|[Automating Administration with Windows PowerShell](https://skillpipe.com)|2,11|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
 **22Jul**|**Fri**|**7**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|**---**
 25Jul|Mon|8|Q&A/20-742|[Identity with Windows Server 2016](https://www.studyspot.com.au/login/index.php)|1|[Labs](https://ddls.learnondemand.net/)|Lewis Knight|---
 26Jul|Tue|8|20-742|[Identity with Windows Server 2016](https://www.studyspot.com.au/login/index.php)|2|[Labs](https://ddls.learnondemand.net/)|Lewis Knight|---
@@ -73,7 +73,7 @@ Date|Day|Week|Course|Title|Modules|Labs|Instructor|Course Survey
 07Sep|Wed|14|AZ-104|[Azure Administration](https://skillpipe.com)|11|[Labs](https://ddls.learnondemand.net/)|Melvin Porter|[Survey](https://www.metricsthatmatter.com/url/u.aspx?9F834657A183907124)
 08Sep|Thu|14|AZ-104|[***Azure Challenge***](https://github.com/BrentAIICT/MSSA-SCA/blob/main/AzureProjects/AzureProjectLandingPage.md#azure-projects)|---|[Labs](https://portal.azure.com/)|Melvin Porter|---
 **09Sep**|**Fri**|**14**|**MSSA ProDev**|**MSSA Professional Development**|**---**|**---**|**Kirsty McConville**|**---**
-12Sep|Mon|15|Q&A/AZ-040|[Automating Administration with Windows PowerShell](https://skillpipe.com)|2,11|[Labs](https://ddls.learnondemand.net/)|Brent Denny|[Survey]( https://www.metricsthatmatter.com/url/u.aspx?E148DAC6B183907062)
+12Sep|Mon|15|Q&A/AZ-040|[Automating Administration with Windows PowerShell](https://skillpipe.com)|9,10|[Labs](https://ddls.learnondemand.net/)|Brent Denny|[Survey]( https://www.metricsthatmatter.com/url/u.aspx?E148DAC6B183907062)
 13Sep|Tue|15|AZ-040|[***PowerShell Challenges***](https://github.com/BrentAIICT/MSSA-SCA/blob/main/PowerShellTraining/PSADProjectHeading.MD#powershell-projects)|---|[Labs](https://ddls.learnondemand.net/)|Brent Denny|---
 14Sep|Wed|15|AZ-801|[Administering Windows Server Hybrid Core Infrastructure](https://skillpipe.com)|1|[Labs](https://ddls.learnondemand.net/)|Lewis Knight|---
 15Sep|Thu|15|AZ-801|[Administering Windows Server Hybrid Core Infrastructure](https://skillpipe.com)|1,6|[Labs](https://ddls.learnondemand.net/)|Lewis Knight|---
